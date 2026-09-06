@@ -1,0 +1,21 @@
+{
+  "name": "lego-robotter-og-programmering",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "validate": "node scripts/validate-content.mjs",
+    "lint": "node --check src/content.js && node --check src/app.js && node --check scripts/dev-server.mjs && node --check scripts/validate-content.mjs && node --check scripts/build.mjs && node --check scripts/browser-smoke.mjs && node --check scripts/convert-build-guides.mjs",
+    "test": "node --test",
+    "test:browser": "node scripts/browser-smoke.mjs",
+    "content:analyze": "node scripts/convert-build-guides.mjs --project breakdancer --analyze-only",
+    "content:build": "node scripts/convert-build-guides.mjs --project breakdancer",
+    "build": "npm run validate && node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^5.11.1",
+    "fflate": "^0.8.3",
+    "sharp": "^0.35.4"
+  }
+}
