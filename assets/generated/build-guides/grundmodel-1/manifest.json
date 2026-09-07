@@ -1,0 +1,965 @@
+{
+  "schemaVersion": 1,
+  "id": "grundmodel-1",
+  "name": "Grundmodel 1",
+  "displayName": "Grundmodel 1",
+  "level": "let-oevet",
+  "buildKey": "21bdc9ec40f8b7a8e65a2b42d0d09d9b1f3872e4863258830e87a56603d24214",
+  "generatedAt": "2026-09-07T07:46:59.706Z",
+  "source": {
+    "type": "pptx",
+    "path": "Old Solution (Google Drive)/Differentieret Læring/2. Let Øvet/Grundmodel 1.pptx",
+    "bytes": 17973438,
+    "modifiedUtc": "2025-09-02T02:18:04.000Z",
+    "sha256": "a2a8d02bb1d5885bbf009add0ad9a6b40188bf803daef47950ef4f5ed79605d5",
+    "slideCount": 36,
+    "fileName": "Grundmodel 1.pptx",
+    "internalTitle": "Grundmodel 1"
+  },
+  "conversion": {
+    "pipelineVersion": 2,
+    "strategy": "extract-single-slide-image",
+    "maxWidth": 1600,
+    "maxHeight": 1200,
+    "format": "webp",
+    "quality": 90,
+    "alphaQuality": 100,
+    "effort": 6,
+    "nearLossless": true
+  },
+  "excludedSlides": [
+    {
+      "slide": 1,
+      "classification": "cover",
+      "reason": "Første slide er ét rasterbillede uden separate elementer."
+    },
+    {
+      "slide": 2,
+      "classification": "title",
+      "reason": "Tidlig projekttitel/introslide."
+    }
+  ],
+  "sequenceNotes": [
+    "Webrækkefølgen følger præsentationsrækkefølgen og nummereres fra 001."
+  ],
+  "projectSpecificCodeSource": null,
+  "slideAnalysis": [
+    {
+      "slide": 1,
+      "included": false,
+      "classification": "cover",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": []
+    },
+    {
+      "slide": 2,
+      "included": false,
+      "classification": "title",
+      "text": "Grundmodel 1",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 1,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "Teknologiskolen_logo 1.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "1.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "2.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "3.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "4.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "5.png"
+      ]
+    },
+    {
+      "slide": 8,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "6.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "7.png"
+      ]
+    },
+    {
+      "slide": 10,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "8.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "9.png"
+      ]
+    },
+    {
+      "slide": 12,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "10.png"
+      ]
+    },
+    {
+      "slide": 13,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "11.png"
+      ]
+    },
+    {
+      "slide": 14,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "12.png"
+      ]
+    },
+    {
+      "slide": 15,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "13.png"
+      ]
+    },
+    {
+      "slide": 16,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "14.png"
+      ]
+    },
+    {
+      "slide": 17,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "15.png"
+      ]
+    },
+    {
+      "slide": 18,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "16.png"
+      ]
+    },
+    {
+      "slide": 19,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "17.png"
+      ]
+    },
+    {
+      "slide": 20,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "18.png"
+      ]
+    },
+    {
+      "slide": 21,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "19.png"
+      ]
+    },
+    {
+      "slide": 22,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "20.png"
+      ]
+    },
+    {
+      "slide": 23,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "21.png"
+      ]
+    },
+    {
+      "slide": 24,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "22.png"
+      ]
+    },
+    {
+      "slide": 25,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "23.png"
+      ]
+    },
+    {
+      "slide": 26,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "24.png"
+      ]
+    },
+    {
+      "slide": 27,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "25.png"
+      ]
+    },
+    {
+      "slide": 28,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "26.png"
+      ]
+    },
+    {
+      "slide": 29,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "27.png"
+      ]
+    },
+    {
+      "slide": 30,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "28.png"
+      ]
+    },
+    {
+      "slide": 31,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "29.png"
+      ]
+    },
+    {
+      "slide": 32,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "30.png"
+      ]
+    },
+    {
+      "slide": 33,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "31.png"
+      ]
+    },
+    {
+      "slide": 34,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "32.png"
+      ]
+    },
+    {
+      "slide": 35,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "33.png"
+      ]
+    },
+    {
+      "slide": 36,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "34.png"
+      ]
+    }
+  ],
+  "buildSteps": [
+    "assets/generated/build-guides/grundmodel-1/001.webp",
+    "assets/generated/build-guides/grundmodel-1/002.webp",
+    "assets/generated/build-guides/grundmodel-1/003.webp",
+    "assets/generated/build-guides/grundmodel-1/004.webp",
+    "assets/generated/build-guides/grundmodel-1/005.webp",
+    "assets/generated/build-guides/grundmodel-1/006.webp",
+    "assets/generated/build-guides/grundmodel-1/007.webp",
+    "assets/generated/build-guides/grundmodel-1/008.webp",
+    "assets/generated/build-guides/grundmodel-1/009.webp",
+    "assets/generated/build-guides/grundmodel-1/010.webp",
+    "assets/generated/build-guides/grundmodel-1/011.webp",
+    "assets/generated/build-guides/grundmodel-1/012.webp",
+    "assets/generated/build-guides/grundmodel-1/013.webp",
+    "assets/generated/build-guides/grundmodel-1/014.webp",
+    "assets/generated/build-guides/grundmodel-1/015.webp",
+    "assets/generated/build-guides/grundmodel-1/016.webp",
+    "assets/generated/build-guides/grundmodel-1/017.webp",
+    "assets/generated/build-guides/grundmodel-1/018.webp",
+    "assets/generated/build-guides/grundmodel-1/019.webp",
+    "assets/generated/build-guides/grundmodel-1/020.webp",
+    "assets/generated/build-guides/grundmodel-1/021.webp",
+    "assets/generated/build-guides/grundmodel-1/022.webp",
+    "assets/generated/build-guides/grundmodel-1/023.webp",
+    "assets/generated/build-guides/grundmodel-1/024.webp",
+    "assets/generated/build-guides/grundmodel-1/025.webp",
+    "assets/generated/build-guides/grundmodel-1/026.webp",
+    "assets/generated/build-guides/grundmodel-1/027.webp",
+    "assets/generated/build-guides/grundmodel-1/028.webp",
+    "assets/generated/build-guides/grundmodel-1/029.webp",
+    "assets/generated/build-guides/grundmodel-1/030.webp",
+    "assets/generated/build-guides/grundmodel-1/031.webp",
+    "assets/generated/build-guides/grundmodel-1/032.webp",
+    "assets/generated/build-guides/grundmodel-1/033.webp",
+    "assets/generated/build-guides/grundmodel-1/034.webp"
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "sourceSlide": 3,
+      "sourceStepLabel": "1.png",
+      "sourceMedia": "ppt/media/image27.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/001.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 200498,
+      "sha256": "f6edb5f152349008b557c870ca65607ef263c5f7ad44e831efa544a0057ba93a"
+    },
+    {
+      "number": 2,
+      "sourceSlide": 4,
+      "sourceStepLabel": "2.png",
+      "sourceMedia": "ppt/media/image4.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/002.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 94834,
+      "sha256": "f66bbf50b03e664fcd3f086c0f7a1d222397ac7e8edc59969340527eacfabf6f"
+    },
+    {
+      "number": 3,
+      "sourceSlide": 5,
+      "sourceStepLabel": "3.png",
+      "sourceMedia": "ppt/media/image1.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/003.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 235748,
+      "sha256": "85867da841802e3d74790395a9382e581c8dfb0539bfc55a717d4410d7b9e537"
+    },
+    {
+      "number": 4,
+      "sourceSlide": 6,
+      "sourceStepLabel": "4.png",
+      "sourceMedia": "ppt/media/image11.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/004.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 205378,
+      "sha256": "02eff8c34766fad4cc2c7b2280937a7364a51565e999dae5ec1c8f39fd767220"
+    },
+    {
+      "number": 5,
+      "sourceSlide": 7,
+      "sourceStepLabel": "5.png",
+      "sourceMedia": "ppt/media/image3.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/005.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 198590,
+      "sha256": "6aaa408e8113d2da4aa7a90cd955ed60b158fd7c8a2b216f820b3aae8f8c3ead"
+    },
+    {
+      "number": 6,
+      "sourceSlide": 8,
+      "sourceStepLabel": "6.png",
+      "sourceMedia": "ppt/media/image24.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/006.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 181716,
+      "sha256": "552221499f0bb023bdc270ba1a92e81a69927144d1bbaca507b5deaa8206949b"
+    },
+    {
+      "number": 7,
+      "sourceSlide": 9,
+      "sourceStepLabel": "7.png",
+      "sourceMedia": "ppt/media/image13.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/007.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 52134,
+      "sha256": "5eae834b51ae2b3e09a247f564e2fedefdf114669e20198a242388db7c2b90f3"
+    },
+    {
+      "number": 8,
+      "sourceSlide": 10,
+      "sourceStepLabel": "8.png",
+      "sourceMedia": "ppt/media/image31.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/008.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 116178,
+      "sha256": "231d1cff65a0abae05f89dd77ed83ea91615768d4b743c1ceae251017399d365"
+    },
+    {
+      "number": 9,
+      "sourceSlide": 11,
+      "sourceStepLabel": "9.png",
+      "sourceMedia": "ppt/media/image10.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/009.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 164776,
+      "sha256": "37b279e163504aa378b1987c3c762014ab8e734dec892e0e789d6e7c8f8c1c9b"
+    },
+    {
+      "number": 10,
+      "sourceSlide": 12,
+      "sourceStepLabel": "10.png",
+      "sourceMedia": "ppt/media/image12.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/010.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 180606,
+      "sha256": "ecfc7a23cb5036b09665412a58cc819ba26b6fd7750992bf3ed9b2f8f18f0028"
+    },
+    {
+      "number": 11,
+      "sourceSlide": 13,
+      "sourceStepLabel": "11.png",
+      "sourceMedia": "ppt/media/image5.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/011.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 209116,
+      "sha256": "1a76629d4e6f4be33941a0ac4bd9161f8aec12669b765b62bf8119026bcd0f32"
+    },
+    {
+      "number": 12,
+      "sourceSlide": 14,
+      "sourceStepLabel": "12.png",
+      "sourceMedia": "ppt/media/image7.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/012.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 184586,
+      "sha256": "bcc815b8c11fc32284ed078298d21540bc86228405288b34b15c8d951a38592d"
+    },
+    {
+      "number": 13,
+      "sourceSlide": 15,
+      "sourceStepLabel": "13.png",
+      "sourceMedia": "ppt/media/image18.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/013.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 188156,
+      "sha256": "b59046604617d4016b1232583ee910d30a650fe7d36c8b813cc8d006d3c4dcd7"
+    },
+    {
+      "number": 14,
+      "sourceSlide": 16,
+      "sourceStepLabel": "14.png",
+      "sourceMedia": "ppt/media/image30.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/014.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 232072,
+      "sha256": "775f683262b725d43016b18c5eba7ee86207db10f8e7eb2f47efbee464572ed9"
+    },
+    {
+      "number": 15,
+      "sourceSlide": 17,
+      "sourceStepLabel": "15.png",
+      "sourceMedia": "ppt/media/image14.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/015.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 51630,
+      "sha256": "87ce3d2f93526930169f83fd200f0e507d6b7f00bfc5b9c239c27b097c4ca058"
+    },
+    {
+      "number": 16,
+      "sourceSlide": 18,
+      "sourceStepLabel": "16.png",
+      "sourceMedia": "ppt/media/image2.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/016.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 235182,
+      "sha256": "2d72004cf17fc9a5f90c74a1cf5cb3a1c616736c5e63b314e760443265b9f90d"
+    },
+    {
+      "number": 17,
+      "sourceSlide": 19,
+      "sourceStepLabel": "17.png",
+      "sourceMedia": "ppt/media/image21.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/017.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 241430,
+      "sha256": "80d35a52144e334fbc921de6a0ce6a6c20798e4bde1031195cc0ee7adf115d11"
+    },
+    {
+      "number": 18,
+      "sourceSlide": 20,
+      "sourceStepLabel": "18.png",
+      "sourceMedia": "ppt/media/image15.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/018.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 221744,
+      "sha256": "d6b3bc55fd50868a785f3548d2a3041d4323c66f43c7151132d51dfec68a2a4b"
+    },
+    {
+      "number": 19,
+      "sourceSlide": 21,
+      "sourceStepLabel": "19.png",
+      "sourceMedia": "ppt/media/image22.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/019.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 217040,
+      "sha256": "9948ebed3926944c823059f2a2b640a8a93af7000bf22008d1de9289cf4eb244"
+    },
+    {
+      "number": 20,
+      "sourceSlide": 22,
+      "sourceStepLabel": "20.png",
+      "sourceMedia": "ppt/media/image33.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/020.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 52258,
+      "sha256": "450724a34a702e85eeff794bfc33a539996e4ff00652d2d103482d1aa125c0f7"
+    },
+    {
+      "number": 21,
+      "sourceSlide": 23,
+      "sourceStepLabel": "21.png",
+      "sourceMedia": "ppt/media/image9.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/021.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 295388,
+      "sha256": "daa7080c16cbb481010446c860d54039ef2e822785fa2ee86e55db65606df33d"
+    },
+    {
+      "number": 22,
+      "sourceSlide": 24,
+      "sourceStepLabel": "22.png",
+      "sourceMedia": "ppt/media/image8.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/022.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 283648,
+      "sha256": "91020403b8b77fdb2a890f5795f4c3a9f1d85d7003a73f459a33fa7ecd1d8e4c"
+    },
+    {
+      "number": 23,
+      "sourceSlide": 25,
+      "sourceStepLabel": "23.png",
+      "sourceMedia": "ppt/media/image28.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/023.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 259706,
+      "sha256": "d7fffe97310fe4a8be91c7c31f47baf7653364c7b8443880b07404b35d9fe03a"
+    },
+    {
+      "number": 24,
+      "sourceSlide": 26,
+      "sourceStepLabel": "24.png",
+      "sourceMedia": "ppt/media/image20.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/024.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 267198,
+      "sha256": "d5f35c722d756e046914c0b4c93105c6e0b740acbe9cc4f6e1ded0aaa34df52c"
+    },
+    {
+      "number": 25,
+      "sourceSlide": 27,
+      "sourceStepLabel": "25.png",
+      "sourceMedia": "ppt/media/image16.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/025.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 268382,
+      "sha256": "d4e5669c644d857ba68a802ee898610b37ba0f38e3bf42e246b1af9630321424"
+    },
+    {
+      "number": 26,
+      "sourceSlide": 28,
+      "sourceStepLabel": "26.png",
+      "sourceMedia": "ppt/media/image23.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/026.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 245366,
+      "sha256": "b7f01f4743045c34259bf0072bd536f07f6ca0db6fc19a3d580ca446c713cfb7"
+    },
+    {
+      "number": 27,
+      "sourceSlide": 29,
+      "sourceStepLabel": "27.png",
+      "sourceMedia": "ppt/media/image26.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/027.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 212642,
+      "sha256": "96389a65f56e029ba46a6035a3cfb0082b99da5ec35f691fc0dbfff1dd5b2965"
+    },
+    {
+      "number": 28,
+      "sourceSlide": 30,
+      "sourceStepLabel": "28.png",
+      "sourceMedia": "ppt/media/image17.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/028.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 98090,
+      "sha256": "af0d08587fd431ee12511f3f54228c2761debc7327854e1d0fe1056effdf4989"
+    },
+    {
+      "number": 29,
+      "sourceSlide": 31,
+      "sourceStepLabel": "29.png",
+      "sourceMedia": "ppt/media/image35.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/029.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 59514,
+      "sha256": "e7e6f36d85385cca6bb88a48840b5a06d5eec028d291025059d1b67a40840ff1"
+    },
+    {
+      "number": 30,
+      "sourceSlide": 32,
+      "sourceStepLabel": "30.png",
+      "sourceMedia": "ppt/media/image32.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/030.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 40082,
+      "sha256": "082e31c95f2fc30f5b645ef8969b400e43edb181ac28da7807ab07351dd33eae"
+    },
+    {
+      "number": 31,
+      "sourceSlide": 33,
+      "sourceStepLabel": "31.png",
+      "sourceMedia": "ppt/media/image34.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/031.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 106528,
+      "sha256": "c444395af9b099cf49fa5b618918dfa3947277dba9d84a028b5fbf834972edd7"
+    },
+    {
+      "number": 32,
+      "sourceSlide": 34,
+      "sourceStepLabel": "32.png",
+      "sourceMedia": "ppt/media/image19.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/032.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 334754,
+      "sha256": "00e39eb209830ec999e0bca38432ca1a0032773affb1dafbb4f962acb837616f"
+    },
+    {
+      "number": 33,
+      "sourceSlide": 35,
+      "sourceStepLabel": "33.png",
+      "sourceMedia": "ppt/media/image29.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/033.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 304218,
+      "sha256": "1e9b27e527c2cbac2a3c75c21cd0e4c9a15138adcbd50f6ee9ac73d7b0567298"
+    },
+    {
+      "number": 34,
+      "sourceSlide": 36,
+      "sourceStepLabel": "34.png",
+      "sourceMedia": "ppt/media/image25.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/grundmodel-1/034.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 282956,
+      "sha256": "fa0e96e3712286ad47ab2cf9233fa88c13535896fff1abef157254ca2bf8b2b8"
+    }
+  ],
+  "output": {
+    "imageCount": 34,
+    "totalBytes": 6522144,
+    "sha256": "0d2530434613fe3fd9513064f4e80ba717fe5d7bce96e1bb2eb9725c2d9e28bc"
+  }
+}

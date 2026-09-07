@@ -1,0 +1,1511 @@
+{
+  "schemaVersion": 1,
+  "id": "fodboldspiller",
+  "name": "Fodboldspiller",
+  "displayName": "Fodboldspiller",
+  "level": "nybegynder",
+  "buildKey": "9b98d836c6016dcf9a573cd7516eea55a22a01f775ef5ca2442bcb138f9d93d9",
+  "generatedAt": "2026-09-07T07:42:46.479Z",
+  "source": {
+    "type": "pptx",
+    "path": "Old Solution (Google Drive)/Differentieret Læring/1. Nybegynder/Fodboldspiller.pptx",
+    "bytes": 13109552,
+    "modifiedUtc": "2025-09-09T21:56:50.000Z",
+    "sha256": "255d28c953927f0ff5a03b75f7cd4fedd2d4030b7920664c45ca8d3320476c92",
+    "slideCount": 57,
+    "fileName": "Fodboldspiller.pptx",
+    "internalTitle": "Fodboldspiller"
+  },
+  "conversion": {
+    "pipelineVersion": 2,
+    "strategy": "extract-single-slide-image",
+    "maxWidth": 1600,
+    "maxHeight": 1200,
+    "format": "webp",
+    "quality": 90,
+    "alphaQuality": 100,
+    "effort": 6,
+    "nearLossless": true
+  },
+  "excludedSlides": [
+    {
+      "slide": 1,
+      "classification": "cover",
+      "reason": "Første slide er ét rasterbillede uden separate elementer."
+    },
+    {
+      "slide": 2,
+      "classification": "title",
+      "reason": "Tidlig projekttitel/introslide."
+    }
+  ],
+  "sequenceNotes": [
+    "Webrækkefølgen følger præsentationsrækkefølgen og nummereres fra 001."
+  ],
+  "projectSpecificCodeSource": null,
+  "slideAnalysis": [
+    {
+      "slide": 1,
+      "included": false,
+      "classification": "cover",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": []
+    },
+    {
+      "slide": 2,
+      "included": false,
+      "classification": "title",
+      "text": "Fodboldspiller",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 1,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "Teknologiskolen_logo 1.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "1.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "2.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "3.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "4.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "5.png"
+      ]
+    },
+    {
+      "slide": 8,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "6.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "7.png"
+      ]
+    },
+    {
+      "slide": 10,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "8.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "9.png"
+      ]
+    },
+    {
+      "slide": 12,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "10.png"
+      ]
+    },
+    {
+      "slide": 13,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "11.png"
+      ]
+    },
+    {
+      "slide": 14,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "12.png"
+      ]
+    },
+    {
+      "slide": 15,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "13.png"
+      ]
+    },
+    {
+      "slide": 16,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "14.png"
+      ]
+    },
+    {
+      "slide": 17,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "15.png"
+      ]
+    },
+    {
+      "slide": 18,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "16.png"
+      ]
+    },
+    {
+      "slide": 19,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "17.png"
+      ]
+    },
+    {
+      "slide": 20,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "18.png"
+      ]
+    },
+    {
+      "slide": 21,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "19.png"
+      ]
+    },
+    {
+      "slide": 22,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "20.png"
+      ]
+    },
+    {
+      "slide": 23,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "21.png"
+      ]
+    },
+    {
+      "slide": 24,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "22.png"
+      ]
+    },
+    {
+      "slide": 25,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "23.png"
+      ]
+    },
+    {
+      "slide": 26,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "24.png"
+      ]
+    },
+    {
+      "slide": 27,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "25.png"
+      ]
+    },
+    {
+      "slide": 28,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "26.png"
+      ]
+    },
+    {
+      "slide": 29,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "27.png"
+      ]
+    },
+    {
+      "slide": 30,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "28.png"
+      ]
+    },
+    {
+      "slide": 31,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "29.png"
+      ]
+    },
+    {
+      "slide": 32,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "30.png"
+      ]
+    },
+    {
+      "slide": 33,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "31.png"
+      ]
+    },
+    {
+      "slide": 34,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "32.png"
+      ]
+    },
+    {
+      "slide": 35,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "33.png"
+      ]
+    },
+    {
+      "slide": 36,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "34.png"
+      ]
+    },
+    {
+      "slide": 37,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "35.png"
+      ]
+    },
+    {
+      "slide": 38,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "36.png"
+      ]
+    },
+    {
+      "slide": 39,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "37.png"
+      ]
+    },
+    {
+      "slide": 40,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "38.png"
+      ]
+    },
+    {
+      "slide": 41,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "39.png"
+      ]
+    },
+    {
+      "slide": 42,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "40.png"
+      ]
+    },
+    {
+      "slide": 43,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "41.png"
+      ]
+    },
+    {
+      "slide": 44,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "42.png"
+      ]
+    },
+    {
+      "slide": 45,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "43.png"
+      ]
+    },
+    {
+      "slide": 46,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "44.png"
+      ]
+    },
+    {
+      "slide": 47,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "45.png"
+      ]
+    },
+    {
+      "slide": 48,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "46.png"
+      ]
+    },
+    {
+      "slide": 49,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "47.png"
+      ]
+    },
+    {
+      "slide": 50,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "48.png"
+      ]
+    },
+    {
+      "slide": 51,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "49.png"
+      ]
+    },
+    {
+      "slide": 52,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "50.png"
+      ]
+    },
+    {
+      "slide": 53,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "51.png"
+      ]
+    },
+    {
+      "slide": 54,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "52.png"
+      ]
+    },
+    {
+      "slide": 55,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "53.png"
+      ]
+    },
+    {
+      "slide": 56,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "54.png"
+      ]
+    },
+    {
+      "slide": 57,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "55.png"
+      ]
+    }
+  ],
+  "buildSteps": [
+    "assets/generated/build-guides/fodboldspiller/001.webp",
+    "assets/generated/build-guides/fodboldspiller/002.webp",
+    "assets/generated/build-guides/fodboldspiller/003.webp",
+    "assets/generated/build-guides/fodboldspiller/004.webp",
+    "assets/generated/build-guides/fodboldspiller/005.webp",
+    "assets/generated/build-guides/fodboldspiller/006.webp",
+    "assets/generated/build-guides/fodboldspiller/007.webp",
+    "assets/generated/build-guides/fodboldspiller/008.webp",
+    "assets/generated/build-guides/fodboldspiller/009.webp",
+    "assets/generated/build-guides/fodboldspiller/010.webp",
+    "assets/generated/build-guides/fodboldspiller/011.webp",
+    "assets/generated/build-guides/fodboldspiller/012.webp",
+    "assets/generated/build-guides/fodboldspiller/013.webp",
+    "assets/generated/build-guides/fodboldspiller/014.webp",
+    "assets/generated/build-guides/fodboldspiller/015.webp",
+    "assets/generated/build-guides/fodboldspiller/016.webp",
+    "assets/generated/build-guides/fodboldspiller/017.webp",
+    "assets/generated/build-guides/fodboldspiller/018.webp",
+    "assets/generated/build-guides/fodboldspiller/019.webp",
+    "assets/generated/build-guides/fodboldspiller/020.webp",
+    "assets/generated/build-guides/fodboldspiller/021.webp",
+    "assets/generated/build-guides/fodboldspiller/022.webp",
+    "assets/generated/build-guides/fodboldspiller/023.webp",
+    "assets/generated/build-guides/fodboldspiller/024.webp",
+    "assets/generated/build-guides/fodboldspiller/025.webp",
+    "assets/generated/build-guides/fodboldspiller/026.webp",
+    "assets/generated/build-guides/fodboldspiller/027.webp",
+    "assets/generated/build-guides/fodboldspiller/028.webp",
+    "assets/generated/build-guides/fodboldspiller/029.webp",
+    "assets/generated/build-guides/fodboldspiller/030.webp",
+    "assets/generated/build-guides/fodboldspiller/031.webp",
+    "assets/generated/build-guides/fodboldspiller/032.webp",
+    "assets/generated/build-guides/fodboldspiller/033.webp",
+    "assets/generated/build-guides/fodboldspiller/034.webp",
+    "assets/generated/build-guides/fodboldspiller/035.webp",
+    "assets/generated/build-guides/fodboldspiller/036.webp",
+    "assets/generated/build-guides/fodboldspiller/037.webp",
+    "assets/generated/build-guides/fodboldspiller/038.webp",
+    "assets/generated/build-guides/fodboldspiller/039.webp",
+    "assets/generated/build-guides/fodboldspiller/040.webp",
+    "assets/generated/build-guides/fodboldspiller/041.webp",
+    "assets/generated/build-guides/fodboldspiller/042.webp",
+    "assets/generated/build-guides/fodboldspiller/043.webp",
+    "assets/generated/build-guides/fodboldspiller/044.webp",
+    "assets/generated/build-guides/fodboldspiller/045.webp",
+    "assets/generated/build-guides/fodboldspiller/046.webp",
+    "assets/generated/build-guides/fodboldspiller/047.webp",
+    "assets/generated/build-guides/fodboldspiller/048.webp",
+    "assets/generated/build-guides/fodboldspiller/049.webp",
+    "assets/generated/build-guides/fodboldspiller/050.webp",
+    "assets/generated/build-guides/fodboldspiller/051.webp",
+    "assets/generated/build-guides/fodboldspiller/052.webp",
+    "assets/generated/build-guides/fodboldspiller/053.webp",
+    "assets/generated/build-guides/fodboldspiller/054.webp",
+    "assets/generated/build-guides/fodboldspiller/055.webp"
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "sourceSlide": 3,
+      "sourceStepLabel": "1.png",
+      "sourceMedia": "ppt/media/image15.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/001.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 338520,
+      "sha256": "640e58699cef7d6db23c359d61798bf6173de1a6f0ac262016bee63b60752e21"
+    },
+    {
+      "number": 2,
+      "sourceSlide": 4,
+      "sourceStepLabel": "2.png",
+      "sourceMedia": "ppt/media/image22.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/002.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 668544,
+      "sha256": "ba374bfe3fe86066a5db9cf16b07cb25004d67685dd5469fc7c28f3a01d8d0ab"
+    },
+    {
+      "number": 3,
+      "sourceSlide": 5,
+      "sourceStepLabel": "3.png",
+      "sourceMedia": "ppt/media/image13.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/003.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 312010,
+      "sha256": "e5cbb04a04f1da0f237a25e9aac7b061bc3307127aba29d2a9a67b0f9aa243d6"
+    },
+    {
+      "number": 4,
+      "sourceSlide": 6,
+      "sourceStepLabel": "4.png",
+      "sourceMedia": "ppt/media/image16.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/004.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 563858,
+      "sha256": "f525079bc9487fc4fc681095b7aad3d191f88cbe48acb80b06a5c87590461086"
+    },
+    {
+      "number": 5,
+      "sourceSlide": 7,
+      "sourceStepLabel": "5.png",
+      "sourceMedia": "ppt/media/image7.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/005.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 566360,
+      "sha256": "f9e65e395184816cf55f48b1971a4c8c629ff22a64ec5600dd9f4c8fa47d0f5c"
+    },
+    {
+      "number": 6,
+      "sourceSlide": 8,
+      "sourceStepLabel": "6.png",
+      "sourceMedia": "ppt/media/image19.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/006.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 573060,
+      "sha256": "0ce87b0349dadce832e5a8b80e7eaf8bee791729105e885ab3808a03874a044e"
+    },
+    {
+      "number": 7,
+      "sourceSlide": 9,
+      "sourceStepLabel": "7.png",
+      "sourceMedia": "ppt/media/image5.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/007.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 269764,
+      "sha256": "c3e8c88a420c9af31f1a565c066402d76055077ac44f9c736648bbc8fdf684e2"
+    },
+    {
+      "number": 8,
+      "sourceSlide": 10,
+      "sourceStepLabel": "8.png",
+      "sourceMedia": "ppt/media/image11.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/008.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 575586,
+      "sha256": "a436f7e92ec536a60021906feb30477e965c0433e0f8bd6e48b777c93be3674e"
+    },
+    {
+      "number": 9,
+      "sourceSlide": 11,
+      "sourceStepLabel": "9.png",
+      "sourceMedia": "ppt/media/image24.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/009.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 819206,
+      "sha256": "43a7c2f4c5e7c884e14580fbd050ef58d3cddbe3c47baf3b3a432a530a3c97e4"
+    },
+    {
+      "number": 10,
+      "sourceSlide": 12,
+      "sourceStepLabel": "10.png",
+      "sourceMedia": "ppt/media/image10.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/010.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 149468,
+      "sha256": "d567739d9ef8ce23e188e9e9cda33c42cf44d676ef72c1d2ca319af0ce15c5dd"
+    },
+    {
+      "number": 11,
+      "sourceSlide": 13,
+      "sourceStepLabel": "11.png",
+      "sourceMedia": "ppt/media/image14.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/011.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 584474,
+      "sha256": "62cd543b96b222296c04937d4dee7c7ddba9882cd7354ebe52df59bad631b59a"
+    },
+    {
+      "number": 12,
+      "sourceSlide": 14,
+      "sourceStepLabel": "12.png",
+      "sourceMedia": "ppt/media/image18.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/012.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 656522,
+      "sha256": "c51c4885c0706a32130d1e843b25f99fbcd8f59c73d96673ff6fddb6ca25637d"
+    },
+    {
+      "number": 13,
+      "sourceSlide": 15,
+      "sourceStepLabel": "13.png",
+      "sourceMedia": "ppt/media/image4.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/013.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 198776,
+      "sha256": "55f9cf362931be503106209fdf17d59866d4b66b65a03e37befc8d8c4b76bfc7"
+    },
+    {
+      "number": 14,
+      "sourceSlide": 16,
+      "sourceStepLabel": "14.png",
+      "sourceMedia": "ppt/media/image9.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/014.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 156120,
+      "sha256": "16066c363e3f9cf3bdfb8b5631b9b594e19a51c77f4705640c590db03a7cf1f7"
+    },
+    {
+      "number": 15,
+      "sourceSlide": 17,
+      "sourceStepLabel": "15.png",
+      "sourceMedia": "ppt/media/image8.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/015.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 127202,
+      "sha256": "c5d2a0a4bab81e245f6d56456e6714edea3d99ba78c92322e0eb7b44dadeb12f"
+    },
+    {
+      "number": 16,
+      "sourceSlide": 18,
+      "sourceStepLabel": "16.png",
+      "sourceMedia": "ppt/media/image17.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/016.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 162034,
+      "sha256": "fa98e8fc9e167720a686f9d3f67c2f388a55f348e19950881fb11c53a30cffc1"
+    },
+    {
+      "number": 17,
+      "sourceSlide": 19,
+      "sourceStepLabel": "17.png",
+      "sourceMedia": "ppt/media/image21.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/017.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 151814,
+      "sha256": "8b5b14ce895adee23d19ca2140dea1f15a11ef4f0ef84330d139cd8a29d30b89"
+    },
+    {
+      "number": 18,
+      "sourceSlide": 20,
+      "sourceStepLabel": "18.png",
+      "sourceMedia": "ppt/media/image6.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/018.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 233144,
+      "sha256": "e08c1878c3209dcbbe3ab0330a95b5a299f0757942c8a32ec0c5ddf58517c226"
+    },
+    {
+      "number": 19,
+      "sourceSlide": 21,
+      "sourceStepLabel": "19.png",
+      "sourceMedia": "ppt/media/image3.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/019.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 175360,
+      "sha256": "7ffe13f170f642a76881f21c811b060e41c4e5071bff263706d03dddbf31d5b6"
+    },
+    {
+      "number": 20,
+      "sourceSlide": 22,
+      "sourceStepLabel": "20.png",
+      "sourceMedia": "ppt/media/image12.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/020.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 165824,
+      "sha256": "0fe8a791d5432e28cf05a31a1d1f294aa61cfd5ff71f494cb01960bd123572bf"
+    },
+    {
+      "number": 21,
+      "sourceSlide": 23,
+      "sourceStepLabel": "21.png",
+      "sourceMedia": "ppt/media/image20.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/021.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 129130,
+      "sha256": "d4bdbba417c2c916a53ce5a5266c9bcf1130ddb738156f0e5d72d02dc6f4e8bb"
+    },
+    {
+      "number": 22,
+      "sourceSlide": 24,
+      "sourceStepLabel": "22.png",
+      "sourceMedia": "ppt/media/image26.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/022.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 197238,
+      "sha256": "6ee1f5291dacc457601d034f0f8d1c4b7841b2bdd0ce1809c6dfcb05604fa096"
+    },
+    {
+      "number": 23,
+      "sourceSlide": 25,
+      "sourceStepLabel": "23.png",
+      "sourceMedia": "ppt/media/image30.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/023.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 173758,
+      "sha256": "3a6ae06ae52a7bae71db9a85b96fd4e77b1d8999347d0b0dc9d5b15a86302645"
+    },
+    {
+      "number": 24,
+      "sourceSlide": 26,
+      "sourceStepLabel": "24.png",
+      "sourceMedia": "ppt/media/image25.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/024.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 168038,
+      "sha256": "f61476514295b978c4ebc463b353efb3ab603fe31f1fea3e7781a21aa07cf7ce"
+    },
+    {
+      "number": 25,
+      "sourceSlide": 27,
+      "sourceStepLabel": "25.png",
+      "sourceMedia": "ppt/media/image27.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/025.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 245750,
+      "sha256": "ef31218c74847d5097ec14774d294e66ccd87f385442e80368961432068ca92f"
+    },
+    {
+      "number": 26,
+      "sourceSlide": 28,
+      "sourceStepLabel": "26.png",
+      "sourceMedia": "ppt/media/image23.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/026.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 208684,
+      "sha256": "aa019a72f11459f2037679f8ab22b5798e2d083db7202614c0622aa9d102bc39"
+    },
+    {
+      "number": 27,
+      "sourceSlide": 29,
+      "sourceStepLabel": "27.png",
+      "sourceMedia": "ppt/media/image29.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/027.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 173668,
+      "sha256": "13daf35f5ecf1d2a34c6c4f9712c97cae7f7d17e21fe294449d71ba810958ed2"
+    },
+    {
+      "number": 28,
+      "sourceSlide": 30,
+      "sourceStepLabel": "28.png",
+      "sourceMedia": "ppt/media/image33.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/028.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 165122,
+      "sha256": "802444299ef093ea654f66822d0f13ea4db5918c006bab5e9440bc08fb58f682"
+    },
+    {
+      "number": 29,
+      "sourceSlide": 31,
+      "sourceStepLabel": "29.png",
+      "sourceMedia": "ppt/media/image32.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/029.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 161604,
+      "sha256": "5f6364afdc1c6d954ff4a5ba208a55c8f4a7054fb046e86a267c9035a81e9d98"
+    },
+    {
+      "number": 30,
+      "sourceSlide": 32,
+      "sourceStepLabel": "30.png",
+      "sourceMedia": "ppt/media/image41.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/030.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 392934,
+      "sha256": "396a29617cf2a5b3a74577dc58fe7b88691837ecbc1be91c8ae0c87038bcfa1e"
+    },
+    {
+      "number": 31,
+      "sourceSlide": 33,
+      "sourceStepLabel": "31.png",
+      "sourceMedia": "ppt/media/image36.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/031.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 421540,
+      "sha256": "089bd843401d7f43f18194d997b533390d81e898325a3bc09bd556855c6ee9dd"
+    },
+    {
+      "number": 32,
+      "sourceSlide": 34,
+      "sourceStepLabel": "32.png",
+      "sourceMedia": "ppt/media/image28.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/032.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 135288,
+      "sha256": "c95fb736a0f176f8a1ad8628e66bc8c74f3240ff023771ccffefc2d49f4baca3"
+    },
+    {
+      "number": 33,
+      "sourceSlide": 35,
+      "sourceStepLabel": "33.png",
+      "sourceMedia": "ppt/media/image34.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/033.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 184364,
+      "sha256": "228733c627e261b1ab8c9fe04c7872d8146151c0870154474070a1a58d85bece"
+    },
+    {
+      "number": 34,
+      "sourceSlide": 36,
+      "sourceStepLabel": "34.png",
+      "sourceMedia": "ppt/media/image31.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/034.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 94852,
+      "sha256": "a4f229e2b47c6da7a348b04221d2c4cbb9a258d461e6452c10816f6cc8a4b986"
+    },
+    {
+      "number": 35,
+      "sourceSlide": 37,
+      "sourceStepLabel": "35.png",
+      "sourceMedia": "ppt/media/image35.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/035.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 162690,
+      "sha256": "403a10805ebc8519d0da12719995f1e32ebc61cd654051a00301a2b734e66722"
+    },
+    {
+      "number": 36,
+      "sourceSlide": 38,
+      "sourceStepLabel": "36.png",
+      "sourceMedia": "ppt/media/image38.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/036.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 166270,
+      "sha256": "7d2adf8cd7488f6fe01bc958b0c091a11274938272f56cc169974526bdd2b75c"
+    },
+    {
+      "number": 37,
+      "sourceSlide": 39,
+      "sourceStepLabel": "37.png",
+      "sourceMedia": "ppt/media/image40.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/037.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 151532,
+      "sha256": "60fca370151d4d81ceaf6e0db3f92614c1dcb34e240ca523ffb0ede124520d91"
+    },
+    {
+      "number": 38,
+      "sourceSlide": 40,
+      "sourceStepLabel": "38.png",
+      "sourceMedia": "ppt/media/image42.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/038.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 137514,
+      "sha256": "5edf46c82143a8715ddd5570cbd00d89b70dd6778192182551752434949fed6c"
+    },
+    {
+      "number": 39,
+      "sourceSlide": 41,
+      "sourceStepLabel": "39.png",
+      "sourceMedia": "ppt/media/image37.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/039.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 179328,
+      "sha256": "b94f7cffae7eefd9ee4adf7f7aced4f5b82acf195e8484bcd3d5ea216d4752fc"
+    },
+    {
+      "number": 40,
+      "sourceSlide": 42,
+      "sourceStepLabel": "40.png",
+      "sourceMedia": "ppt/media/image39.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/040.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 210118,
+      "sha256": "501cfde5bf615024e563f307e9827c2d7bba2bf637b080bb58097d5ab3844460"
+    },
+    {
+      "number": 41,
+      "sourceSlide": 43,
+      "sourceStepLabel": "41.png",
+      "sourceMedia": "ppt/media/image44.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/041.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 203142,
+      "sha256": "dbcfe95cbd6cf292fb65702c566b1887fc65233b178ddca7d022f790c91a40b4"
+    },
+    {
+      "number": 42,
+      "sourceSlide": 44,
+      "sourceStepLabel": "42.png",
+      "sourceMedia": "ppt/media/image49.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/042.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 238072,
+      "sha256": "f9c9b799cad1beb2a05780466c10a6c3454790342fa9d7c0152e3799d93ba9f9"
+    },
+    {
+      "number": 43,
+      "sourceSlide": 45,
+      "sourceStepLabel": "43.png",
+      "sourceMedia": "ppt/media/image45.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/043.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 138670,
+      "sha256": "759fccd12efb127a0b273336c466653515357dc2df070f6f82473fc766f98017"
+    },
+    {
+      "number": 44,
+      "sourceSlide": 46,
+      "sourceStepLabel": "44.png",
+      "sourceMedia": "ppt/media/image47.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/044.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 71836,
+      "sha256": "a6e6f4cec4a198c57bbc3629391c34a649465c72056b7b547eeb4b6d0cbdc2b1"
+    },
+    {
+      "number": 45,
+      "sourceSlide": 47,
+      "sourceStepLabel": "45.png",
+      "sourceMedia": "ppt/media/image43.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/045.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 71208,
+      "sha256": "1a43068b1fe84484c013fd61b64b36cead266b296a81384d89e93d14d96e813d"
+    },
+    {
+      "number": 46,
+      "sourceSlide": 48,
+      "sourceStepLabel": "46.png",
+      "sourceMedia": "ppt/media/image52.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/046.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 133078,
+      "sha256": "f6c48335e00b95e12f44dc732795717ebc7fa557d7583b19f6917a448ed01c93"
+    },
+    {
+      "number": 47,
+      "sourceSlide": 49,
+      "sourceStepLabel": "47.png",
+      "sourceMedia": "ppt/media/image48.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/047.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 138248,
+      "sha256": "a8e53013840df9b79c13d0bba87fc6ccbb1696a4b1a4a53557b6d07bee369be0"
+    },
+    {
+      "number": 48,
+      "sourceSlide": 50,
+      "sourceStepLabel": "48.png",
+      "sourceMedia": "ppt/media/image50.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/048.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 142078,
+      "sha256": "6c3892444d4fc2376a22ce918a4be85fdb525d0c4dbba9457aa86ce75c382f99"
+    },
+    {
+      "number": 49,
+      "sourceSlide": 51,
+      "sourceStepLabel": "49.png",
+      "sourceMedia": "ppt/media/image46.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/049.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 169724,
+      "sha256": "cea2114753439adabd4e5708ffee98200644c20f2baa8e745f6eea4cf712c6ab"
+    },
+    {
+      "number": 50,
+      "sourceSlide": 52,
+      "sourceStepLabel": "50.png",
+      "sourceMedia": "ppt/media/image53.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/050.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 153898,
+      "sha256": "d3c8fd894c75316eeec4b23667f24955f26461bc0041193ebd98798a7030ed40"
+    },
+    {
+      "number": 51,
+      "sourceSlide": 53,
+      "sourceStepLabel": "51.png",
+      "sourceMedia": "ppt/media/image54.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/051.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 174458,
+      "sha256": "8cd5a8ddcfeec3153fc3912836afa90de83e1ee15d19062731b3faf105b19847"
+    },
+    {
+      "number": 52,
+      "sourceSlide": 54,
+      "sourceStepLabel": "52.png",
+      "sourceMedia": "ppt/media/image51.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/052.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 169476,
+      "sha256": "bc1639b5444131386a686b44aded90eae6131abf55697f77d34aeb3083d06ec7"
+    },
+    {
+      "number": 53,
+      "sourceSlide": 55,
+      "sourceStepLabel": "53.png",
+      "sourceMedia": "ppt/media/image55.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/053.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 294620,
+      "sha256": "46d7f4c180b673865e7ca85305cc566f9f64467cb50013d09aad470bcf24b536"
+    },
+    {
+      "number": 54,
+      "sourceSlide": 56,
+      "sourceStepLabel": "54.png",
+      "sourceMedia": "ppt/media/image56.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/054.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 286290,
+      "sha256": "c3ec84c7e91f37dcb66aa3010a608251626a56865554676a18bf85ec6d499fe1"
+    },
+    {
+      "number": 55,
+      "sourceSlide": 57,
+      "sourceStepLabel": "55.png",
+      "sourceMedia": "ppt/media/image57.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/fodboldspiller/055.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 333972,
+      "sha256": "0927dbb1c12a3eebc263a004ce451a00758483a8c786ee287e126b7dfbe4ec7c"
+    }
+  ],
+  "output": {
+    "imageCount": 55,
+    "totalBytes": 14025838,
+    "sha256": "663358cc0d4c7b85e5c445cde7849b979178505de7a6a3444364f16cc97e8d40"
+  }
+}

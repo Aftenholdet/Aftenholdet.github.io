@@ -1,0 +1,4629 @@
+{
+  "schemaVersion": 1,
+  "id": "stor-robot-arm",
+  "name": "Stor Robot Arm",
+  "displayName": "Stor Robot Arm",
+  "level": "avanceret",
+  "buildKey": "474bc6e9d8c5ad0804df488223d062f854da9b9b485f42f38cfed242bdf2b479",
+  "generatedAt": "2026-09-07T07:58:52.902Z",
+  "source": {
+    "type": "pptx",
+    "path": "Old Solution (Google Drive)/Differentieret Læring/4. Avanceret/Stor Robot Arm.pptx",
+    "bytes": 70474336,
+    "modifiedUtc": "2025-09-23T05:36:12.000Z",
+    "sha256": "990b786ef8965dc1ac6b3a11f3b631642739c9a3798700f19204e34568ee5abe",
+    "slideCount": 177,
+    "fileName": "Stor Robot Arm.pptx",
+    "internalTitle": "Arm"
+  },
+  "conversion": {
+    "pipelineVersion": 2,
+    "strategy": "extract-single-slide-image",
+    "maxWidth": 1600,
+    "maxHeight": 1200,
+    "format": "webp",
+    "quality": 90,
+    "alphaQuality": 100,
+    "effort": 6,
+    "nearLossless": true
+  },
+  "excludedSlides": [
+    {
+      "slide": 1,
+      "classification": "cover",
+      "reason": "Første slide er ét rasterbillede uden separate elementer."
+    },
+    {
+      "slide": 2,
+      "classification": "title",
+      "reason": "Tidlig projekttitel/introslide."
+    }
+  ],
+  "sequenceNotes": [
+    "Webrækkefølgen følger præsentationsrækkefølgen og nummereres fra 001."
+  ],
+  "projectSpecificCodeSource": null,
+  "slideAnalysis": [
+    {
+      "slide": 1,
+      "included": false,
+      "classification": "cover",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "1_1x.png"
+      ]
+    },
+    {
+      "slide": 2,
+      "included": false,
+      "classification": "title",
+      "text": "Arm",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 1,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "Teknologiskolen_logo 1.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "2_1x.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "3_1x.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "4_1x.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "5_1x.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "6_1x.png"
+      ]
+    },
+    {
+      "slide": 8,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "7_1x.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "8_1x.png"
+      ]
+    },
+    {
+      "slide": 10,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "9_1x.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "10_1x.png"
+      ]
+    },
+    {
+      "slide": 12,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "11_1x.png"
+      ]
+    },
+    {
+      "slide": 13,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "12_1x.png"
+      ]
+    },
+    {
+      "slide": 14,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "13_1x.png"
+      ]
+    },
+    {
+      "slide": 15,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "14_1x.png"
+      ]
+    },
+    {
+      "slide": 16,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "15_1x.png"
+      ]
+    },
+    {
+      "slide": 17,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "16_1x.png"
+      ]
+    },
+    {
+      "slide": 18,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "17_1x.png"
+      ]
+    },
+    {
+      "slide": 19,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "18_1x.png"
+      ]
+    },
+    {
+      "slide": 20,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "19_1x.png"
+      ]
+    },
+    {
+      "slide": 21,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "20_1x.png"
+      ]
+    },
+    {
+      "slide": 22,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "21_1x.png"
+      ]
+    },
+    {
+      "slide": 23,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "22_1x.png"
+      ]
+    },
+    {
+      "slide": 24,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "23_1x.png"
+      ]
+    },
+    {
+      "slide": 25,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "24_1x.png"
+      ]
+    },
+    {
+      "slide": 26,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "25_1x.png"
+      ]
+    },
+    {
+      "slide": 27,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "26_1x.png"
+      ]
+    },
+    {
+      "slide": 28,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "27_1x.png"
+      ]
+    },
+    {
+      "slide": 29,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "28_1x.png"
+      ]
+    },
+    {
+      "slide": 30,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "29_1x.png"
+      ]
+    },
+    {
+      "slide": 31,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "30_1x.png"
+      ]
+    },
+    {
+      "slide": 32,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "31_1x.png"
+      ]
+    },
+    {
+      "slide": 33,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "32_1x.png"
+      ]
+    },
+    {
+      "slide": 34,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "33_1x.png"
+      ]
+    },
+    {
+      "slide": 35,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "34_1x.png"
+      ]
+    },
+    {
+      "slide": 36,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "35_1x.png"
+      ]
+    },
+    {
+      "slide": 37,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "36_1x.png"
+      ]
+    },
+    {
+      "slide": 38,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "37_1x.png"
+      ]
+    },
+    {
+      "slide": 39,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "38_1x.png"
+      ]
+    },
+    {
+      "slide": 40,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "39_1x.png"
+      ]
+    },
+    {
+      "slide": 41,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "40_1x.png"
+      ]
+    },
+    {
+      "slide": 42,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "41_1x.png"
+      ]
+    },
+    {
+      "slide": 43,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "42_1x.png"
+      ]
+    },
+    {
+      "slide": 44,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "43_1x.png"
+      ]
+    },
+    {
+      "slide": 45,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "44_1x.png"
+      ]
+    },
+    {
+      "slide": 46,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "45_1x.png"
+      ]
+    },
+    {
+      "slide": 47,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "46_1x.png"
+      ]
+    },
+    {
+      "slide": 48,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "47_1x.png"
+      ]
+    },
+    {
+      "slide": 49,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "48_1x.png"
+      ]
+    },
+    {
+      "slide": 50,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "49_1x.png"
+      ]
+    },
+    {
+      "slide": 51,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "50_1x.png"
+      ]
+    },
+    {
+      "slide": 52,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "51_1x.png"
+      ]
+    },
+    {
+      "slide": 53,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "52_1x.png"
+      ]
+    },
+    {
+      "slide": 54,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "53_1x.png"
+      ]
+    },
+    {
+      "slide": 55,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "54_1x.png"
+      ]
+    },
+    {
+      "slide": 56,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "55_1x.png"
+      ]
+    },
+    {
+      "slide": 57,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "56_1x.png"
+      ]
+    },
+    {
+      "slide": 58,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "57_1x.png"
+      ]
+    },
+    {
+      "slide": 59,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "58_1x.png"
+      ]
+    },
+    {
+      "slide": 60,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "59_1x.png"
+      ]
+    },
+    {
+      "slide": 61,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "60_1x.png"
+      ]
+    },
+    {
+      "slide": 62,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "61_1x.png"
+      ]
+    },
+    {
+      "slide": 63,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "62_1x.png"
+      ]
+    },
+    {
+      "slide": 64,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "63_1x.png"
+      ]
+    },
+    {
+      "slide": 65,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "64_1x.png"
+      ]
+    },
+    {
+      "slide": 66,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "65_1x.png"
+      ]
+    },
+    {
+      "slide": 67,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "66_1x.png"
+      ]
+    },
+    {
+      "slide": 68,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "67_1x.png"
+      ]
+    },
+    {
+      "slide": 69,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "68_1x.png"
+      ]
+    },
+    {
+      "slide": 70,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "69_1x.png"
+      ]
+    },
+    {
+      "slide": 71,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "70_1x.png"
+      ]
+    },
+    {
+      "slide": 72,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "71_1x.png"
+      ]
+    },
+    {
+      "slide": 73,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "72_1x.png"
+      ]
+    },
+    {
+      "slide": 74,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "73_1x.png"
+      ]
+    },
+    {
+      "slide": 75,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "74_1x.png"
+      ]
+    },
+    {
+      "slide": 76,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "75_1x.png"
+      ]
+    },
+    {
+      "slide": 77,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "76_1x.png"
+      ]
+    },
+    {
+      "slide": 78,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "77_1x.png"
+      ]
+    },
+    {
+      "slide": 79,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "78_1x.png"
+      ]
+    },
+    {
+      "slide": 80,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "79_1x.png"
+      ]
+    },
+    {
+      "slide": 81,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "80_1x.png"
+      ]
+    },
+    {
+      "slide": 82,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "81_1x.png"
+      ]
+    },
+    {
+      "slide": 83,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "82_1x.png"
+      ]
+    },
+    {
+      "slide": 84,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "83_1x.png"
+      ]
+    },
+    {
+      "slide": 85,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "84_1x.png"
+      ]
+    },
+    {
+      "slide": 86,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "85_1x.png"
+      ]
+    },
+    {
+      "slide": 87,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "86_1x.png"
+      ]
+    },
+    {
+      "slide": 88,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "87_1x.png"
+      ]
+    },
+    {
+      "slide": 89,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "88_1x.png"
+      ]
+    },
+    {
+      "slide": 90,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "89_1x.png"
+      ]
+    },
+    {
+      "slide": 91,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "90_1x.png"
+      ]
+    },
+    {
+      "slide": 92,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "91_1x.png"
+      ]
+    },
+    {
+      "slide": 93,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "92_1x.png"
+      ]
+    },
+    {
+      "slide": 94,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "93_1x.png"
+      ]
+    },
+    {
+      "slide": 95,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "94_1x.png"
+      ]
+    },
+    {
+      "slide": 96,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "95_1x.png"
+      ]
+    },
+    {
+      "slide": 97,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "96_1x.png"
+      ]
+    },
+    {
+      "slide": 98,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "97_1x.png"
+      ]
+    },
+    {
+      "slide": 99,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "98_1x.png"
+      ]
+    },
+    {
+      "slide": 100,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "99_1x.png"
+      ]
+    },
+    {
+      "slide": 101,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "100_1x.png"
+      ]
+    },
+    {
+      "slide": 102,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "101_1x.png"
+      ]
+    },
+    {
+      "slide": 103,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "102_1x.png"
+      ]
+    },
+    {
+      "slide": 104,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "103_1x.png"
+      ]
+    },
+    {
+      "slide": 105,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "104_1x.png"
+      ]
+    },
+    {
+      "slide": 106,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "105_1x.png"
+      ]
+    },
+    {
+      "slide": 107,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "106_1x.png"
+      ]
+    },
+    {
+      "slide": 108,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "107_1x.png"
+      ]
+    },
+    {
+      "slide": 109,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "108_1x.png"
+      ]
+    },
+    {
+      "slide": 110,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "109_1x.png"
+      ]
+    },
+    {
+      "slide": 111,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "110_1x.png"
+      ]
+    },
+    {
+      "slide": 112,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "111_1x.png"
+      ]
+    },
+    {
+      "slide": 113,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "112_1x.png"
+      ]
+    },
+    {
+      "slide": 114,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "113_1x.png"
+      ]
+    },
+    {
+      "slide": 115,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "114_1x.png"
+      ]
+    },
+    {
+      "slide": 116,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "115_1x.png"
+      ]
+    },
+    {
+      "slide": 117,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "116_1x.png"
+      ]
+    },
+    {
+      "slide": 118,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "117_1x.png"
+      ]
+    },
+    {
+      "slide": 119,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "118_1x.png"
+      ]
+    },
+    {
+      "slide": 120,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "119_1x.png"
+      ]
+    },
+    {
+      "slide": 121,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "120_1x.png"
+      ]
+    },
+    {
+      "slide": 122,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "121_1x.png"
+      ]
+    },
+    {
+      "slide": 123,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "122_1x.png"
+      ]
+    },
+    {
+      "slide": 124,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "123_1x.png"
+      ]
+    },
+    {
+      "slide": 125,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "124_1x.png"
+      ]
+    },
+    {
+      "slide": 126,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "125_1x.png"
+      ]
+    },
+    {
+      "slide": 127,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "126_1x.png"
+      ]
+    },
+    {
+      "slide": 128,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "127_1x.png"
+      ]
+    },
+    {
+      "slide": 129,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "128_1x.png"
+      ]
+    },
+    {
+      "slide": 130,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "129_1x.png"
+      ]
+    },
+    {
+      "slide": 131,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "130_1x.png"
+      ]
+    },
+    {
+      "slide": 132,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "131_1x.png"
+      ]
+    },
+    {
+      "slide": 133,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "132_1x.png"
+      ]
+    },
+    {
+      "slide": 134,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "133_1x.png"
+      ]
+    },
+    {
+      "slide": 135,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "134_1x.png"
+      ]
+    },
+    {
+      "slide": 136,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "135_1x.png"
+      ]
+    },
+    {
+      "slide": 137,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "136_1x.png"
+      ]
+    },
+    {
+      "slide": 138,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "137_1x.png"
+      ]
+    },
+    {
+      "slide": 139,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "138_1x.png"
+      ]
+    },
+    {
+      "slide": 140,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": []
+    },
+    {
+      "slide": 141,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "140_1x.png"
+      ]
+    },
+    {
+      "slide": 142,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "141_1x.png"
+      ]
+    },
+    {
+      "slide": 143,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "142_1x.png"
+      ]
+    },
+    {
+      "slide": 144,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "143_1x.png"
+      ]
+    },
+    {
+      "slide": 145,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "144_1x.png"
+      ]
+    },
+    {
+      "slide": 146,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "145_1x.png"
+      ]
+    },
+    {
+      "slide": 147,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "146_1x.png"
+      ]
+    },
+    {
+      "slide": 148,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "147_1x.png"
+      ]
+    },
+    {
+      "slide": 149,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "148_1x.png"
+      ]
+    },
+    {
+      "slide": 150,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "149_1x.png"
+      ]
+    },
+    {
+      "slide": 151,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "150_1x.png"
+      ]
+    },
+    {
+      "slide": 152,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "151_1x.png"
+      ]
+    },
+    {
+      "slide": 153,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "152_1x.png"
+      ]
+    },
+    {
+      "slide": 154,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "153_1x.png"
+      ]
+    },
+    {
+      "slide": 155,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "154_1x.png"
+      ]
+    },
+    {
+      "slide": 156,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "155_1x.png"
+      ]
+    },
+    {
+      "slide": 157,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "156_1x.png"
+      ]
+    },
+    {
+      "slide": 158,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "157_1x.png"
+      ]
+    },
+    {
+      "slide": 159,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": []
+    },
+    {
+      "slide": 160,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "159_1x.png"
+      ]
+    },
+    {
+      "slide": 161,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "160_1x.png"
+      ]
+    },
+    {
+      "slide": 162,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "161_1x.png"
+      ]
+    },
+    {
+      "slide": 163,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "162_1x.png"
+      ]
+    },
+    {
+      "slide": 164,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "163_1x.png"
+      ]
+    },
+    {
+      "slide": 165,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "164_1x.png"
+      ]
+    },
+    {
+      "slide": 166,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "165_1x.png"
+      ]
+    },
+    {
+      "slide": 167,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "166_1x.png"
+      ]
+    },
+    {
+      "slide": 168,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "167_1x.png"
+      ]
+    },
+    {
+      "slide": 169,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "168_1x.png"
+      ]
+    },
+    {
+      "slide": 170,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "169_1x.png"
+      ]
+    },
+    {
+      "slide": 171,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "170_1x.png"
+      ]
+    },
+    {
+      "slide": 172,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "171_1x.png"
+      ]
+    },
+    {
+      "slide": 173,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "172_1x.png"
+      ]
+    },
+    {
+      "slide": 174,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "173_1x.png"
+      ]
+    },
+    {
+      "slide": 175,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "174_1x.png"
+      ]
+    },
+    {
+      "slide": 176,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "175_1x.png"
+      ]
+    },
+    {
+      "slide": 177,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "176_1x.png"
+      ]
+    }
+  ],
+  "buildSteps": [
+    "assets/generated/build-guides/stor-robot-arm/001.webp",
+    "assets/generated/build-guides/stor-robot-arm/002.webp",
+    "assets/generated/build-guides/stor-robot-arm/003.webp",
+    "assets/generated/build-guides/stor-robot-arm/004.webp",
+    "assets/generated/build-guides/stor-robot-arm/005.webp",
+    "assets/generated/build-guides/stor-robot-arm/006.webp",
+    "assets/generated/build-guides/stor-robot-arm/007.webp",
+    "assets/generated/build-guides/stor-robot-arm/008.webp",
+    "assets/generated/build-guides/stor-robot-arm/009.webp",
+    "assets/generated/build-guides/stor-robot-arm/010.webp",
+    "assets/generated/build-guides/stor-robot-arm/011.webp",
+    "assets/generated/build-guides/stor-robot-arm/012.webp",
+    "assets/generated/build-guides/stor-robot-arm/013.webp",
+    "assets/generated/build-guides/stor-robot-arm/014.webp",
+    "assets/generated/build-guides/stor-robot-arm/015.webp",
+    "assets/generated/build-guides/stor-robot-arm/016.webp",
+    "assets/generated/build-guides/stor-robot-arm/017.webp",
+    "assets/generated/build-guides/stor-robot-arm/018.webp",
+    "assets/generated/build-guides/stor-robot-arm/019.webp",
+    "assets/generated/build-guides/stor-robot-arm/020.webp",
+    "assets/generated/build-guides/stor-robot-arm/021.webp",
+    "assets/generated/build-guides/stor-robot-arm/022.webp",
+    "assets/generated/build-guides/stor-robot-arm/023.webp",
+    "assets/generated/build-guides/stor-robot-arm/024.webp",
+    "assets/generated/build-guides/stor-robot-arm/025.webp",
+    "assets/generated/build-guides/stor-robot-arm/026.webp",
+    "assets/generated/build-guides/stor-robot-arm/027.webp",
+    "assets/generated/build-guides/stor-robot-arm/028.webp",
+    "assets/generated/build-guides/stor-robot-arm/029.webp",
+    "assets/generated/build-guides/stor-robot-arm/030.webp",
+    "assets/generated/build-guides/stor-robot-arm/031.webp",
+    "assets/generated/build-guides/stor-robot-arm/032.webp",
+    "assets/generated/build-guides/stor-robot-arm/033.webp",
+    "assets/generated/build-guides/stor-robot-arm/034.webp",
+    "assets/generated/build-guides/stor-robot-arm/035.webp",
+    "assets/generated/build-guides/stor-robot-arm/036.webp",
+    "assets/generated/build-guides/stor-robot-arm/037.webp",
+    "assets/generated/build-guides/stor-robot-arm/038.webp",
+    "assets/generated/build-guides/stor-robot-arm/039.webp",
+    "assets/generated/build-guides/stor-robot-arm/040.webp",
+    "assets/generated/build-guides/stor-robot-arm/041.webp",
+    "assets/generated/build-guides/stor-robot-arm/042.webp",
+    "assets/generated/build-guides/stor-robot-arm/043.webp",
+    "assets/generated/build-guides/stor-robot-arm/044.webp",
+    "assets/generated/build-guides/stor-robot-arm/045.webp",
+    "assets/generated/build-guides/stor-robot-arm/046.webp",
+    "assets/generated/build-guides/stor-robot-arm/047.webp",
+    "assets/generated/build-guides/stor-robot-arm/048.webp",
+    "assets/generated/build-guides/stor-robot-arm/049.webp",
+    "assets/generated/build-guides/stor-robot-arm/050.webp",
+    "assets/generated/build-guides/stor-robot-arm/051.webp",
+    "assets/generated/build-guides/stor-robot-arm/052.webp",
+    "assets/generated/build-guides/stor-robot-arm/053.webp",
+    "assets/generated/build-guides/stor-robot-arm/054.webp",
+    "assets/generated/build-guides/stor-robot-arm/055.webp",
+    "assets/generated/build-guides/stor-robot-arm/056.webp",
+    "assets/generated/build-guides/stor-robot-arm/057.webp",
+    "assets/generated/build-guides/stor-robot-arm/058.webp",
+    "assets/generated/build-guides/stor-robot-arm/059.webp",
+    "assets/generated/build-guides/stor-robot-arm/060.webp",
+    "assets/generated/build-guides/stor-robot-arm/061.webp",
+    "assets/generated/build-guides/stor-robot-arm/062.webp",
+    "assets/generated/build-guides/stor-robot-arm/063.webp",
+    "assets/generated/build-guides/stor-robot-arm/064.webp",
+    "assets/generated/build-guides/stor-robot-arm/065.webp",
+    "assets/generated/build-guides/stor-robot-arm/066.webp",
+    "assets/generated/build-guides/stor-robot-arm/067.webp",
+    "assets/generated/build-guides/stor-robot-arm/068.webp",
+    "assets/generated/build-guides/stor-robot-arm/069.webp",
+    "assets/generated/build-guides/stor-robot-arm/070.webp",
+    "assets/generated/build-guides/stor-robot-arm/071.webp",
+    "assets/generated/build-guides/stor-robot-arm/072.webp",
+    "assets/generated/build-guides/stor-robot-arm/073.webp",
+    "assets/generated/build-guides/stor-robot-arm/074.webp",
+    "assets/generated/build-guides/stor-robot-arm/075.webp",
+    "assets/generated/build-guides/stor-robot-arm/076.webp",
+    "assets/generated/build-guides/stor-robot-arm/077.webp",
+    "assets/generated/build-guides/stor-robot-arm/078.webp",
+    "assets/generated/build-guides/stor-robot-arm/079.webp",
+    "assets/generated/build-guides/stor-robot-arm/080.webp",
+    "assets/generated/build-guides/stor-robot-arm/081.webp",
+    "assets/generated/build-guides/stor-robot-arm/082.webp",
+    "assets/generated/build-guides/stor-robot-arm/083.webp",
+    "assets/generated/build-guides/stor-robot-arm/084.webp",
+    "assets/generated/build-guides/stor-robot-arm/085.webp",
+    "assets/generated/build-guides/stor-robot-arm/086.webp",
+    "assets/generated/build-guides/stor-robot-arm/087.webp",
+    "assets/generated/build-guides/stor-robot-arm/088.webp",
+    "assets/generated/build-guides/stor-robot-arm/089.webp",
+    "assets/generated/build-guides/stor-robot-arm/090.webp",
+    "assets/generated/build-guides/stor-robot-arm/091.webp",
+    "assets/generated/build-guides/stor-robot-arm/092.webp",
+    "assets/generated/build-guides/stor-robot-arm/093.webp",
+    "assets/generated/build-guides/stor-robot-arm/094.webp",
+    "assets/generated/build-guides/stor-robot-arm/095.webp",
+    "assets/generated/build-guides/stor-robot-arm/096.webp",
+    "assets/generated/build-guides/stor-robot-arm/097.webp",
+    "assets/generated/build-guides/stor-robot-arm/098.webp",
+    "assets/generated/build-guides/stor-robot-arm/099.webp",
+    "assets/generated/build-guides/stor-robot-arm/100.webp",
+    "assets/generated/build-guides/stor-robot-arm/101.webp",
+    "assets/generated/build-guides/stor-robot-arm/102.webp",
+    "assets/generated/build-guides/stor-robot-arm/103.webp",
+    "assets/generated/build-guides/stor-robot-arm/104.webp",
+    "assets/generated/build-guides/stor-robot-arm/105.webp",
+    "assets/generated/build-guides/stor-robot-arm/106.webp",
+    "assets/generated/build-guides/stor-robot-arm/107.webp",
+    "assets/generated/build-guides/stor-robot-arm/108.webp",
+    "assets/generated/build-guides/stor-robot-arm/109.webp",
+    "assets/generated/build-guides/stor-robot-arm/110.webp",
+    "assets/generated/build-guides/stor-robot-arm/111.webp",
+    "assets/generated/build-guides/stor-robot-arm/112.webp",
+    "assets/generated/build-guides/stor-robot-arm/113.webp",
+    "assets/generated/build-guides/stor-robot-arm/114.webp",
+    "assets/generated/build-guides/stor-robot-arm/115.webp",
+    "assets/generated/build-guides/stor-robot-arm/116.webp",
+    "assets/generated/build-guides/stor-robot-arm/117.webp",
+    "assets/generated/build-guides/stor-robot-arm/118.webp",
+    "assets/generated/build-guides/stor-robot-arm/119.webp",
+    "assets/generated/build-guides/stor-robot-arm/120.webp",
+    "assets/generated/build-guides/stor-robot-arm/121.webp",
+    "assets/generated/build-guides/stor-robot-arm/122.webp",
+    "assets/generated/build-guides/stor-robot-arm/123.webp",
+    "assets/generated/build-guides/stor-robot-arm/124.webp",
+    "assets/generated/build-guides/stor-robot-arm/125.webp",
+    "assets/generated/build-guides/stor-robot-arm/126.webp",
+    "assets/generated/build-guides/stor-robot-arm/127.webp",
+    "assets/generated/build-guides/stor-robot-arm/128.webp",
+    "assets/generated/build-guides/stor-robot-arm/129.webp",
+    "assets/generated/build-guides/stor-robot-arm/130.webp",
+    "assets/generated/build-guides/stor-robot-arm/131.webp",
+    "assets/generated/build-guides/stor-robot-arm/132.webp",
+    "assets/generated/build-guides/stor-robot-arm/133.webp",
+    "assets/generated/build-guides/stor-robot-arm/134.webp",
+    "assets/generated/build-guides/stor-robot-arm/135.webp",
+    "assets/generated/build-guides/stor-robot-arm/136.webp",
+    "assets/generated/build-guides/stor-robot-arm/137.webp",
+    "assets/generated/build-guides/stor-robot-arm/138.webp",
+    "assets/generated/build-guides/stor-robot-arm/139.webp",
+    "assets/generated/build-guides/stor-robot-arm/140.webp",
+    "assets/generated/build-guides/stor-robot-arm/141.webp",
+    "assets/generated/build-guides/stor-robot-arm/142.webp",
+    "assets/generated/build-guides/stor-robot-arm/143.webp",
+    "assets/generated/build-guides/stor-robot-arm/144.webp",
+    "assets/generated/build-guides/stor-robot-arm/145.webp",
+    "assets/generated/build-guides/stor-robot-arm/146.webp",
+    "assets/generated/build-guides/stor-robot-arm/147.webp",
+    "assets/generated/build-guides/stor-robot-arm/148.webp",
+    "assets/generated/build-guides/stor-robot-arm/149.webp",
+    "assets/generated/build-guides/stor-robot-arm/150.webp",
+    "assets/generated/build-guides/stor-robot-arm/151.webp",
+    "assets/generated/build-guides/stor-robot-arm/152.webp",
+    "assets/generated/build-guides/stor-robot-arm/153.webp",
+    "assets/generated/build-guides/stor-robot-arm/154.webp",
+    "assets/generated/build-guides/stor-robot-arm/155.webp",
+    "assets/generated/build-guides/stor-robot-arm/156.webp",
+    "assets/generated/build-guides/stor-robot-arm/157.webp",
+    "assets/generated/build-guides/stor-robot-arm/158.webp",
+    "assets/generated/build-guides/stor-robot-arm/159.webp",
+    "assets/generated/build-guides/stor-robot-arm/160.webp",
+    "assets/generated/build-guides/stor-robot-arm/161.webp",
+    "assets/generated/build-guides/stor-robot-arm/162.webp",
+    "assets/generated/build-guides/stor-robot-arm/163.webp",
+    "assets/generated/build-guides/stor-robot-arm/164.webp",
+    "assets/generated/build-guides/stor-robot-arm/165.webp",
+    "assets/generated/build-guides/stor-robot-arm/166.webp",
+    "assets/generated/build-guides/stor-robot-arm/167.webp",
+    "assets/generated/build-guides/stor-robot-arm/168.webp",
+    "assets/generated/build-guides/stor-robot-arm/169.webp",
+    "assets/generated/build-guides/stor-robot-arm/170.webp",
+    "assets/generated/build-guides/stor-robot-arm/171.webp",
+    "assets/generated/build-guides/stor-robot-arm/172.webp",
+    "assets/generated/build-guides/stor-robot-arm/173.webp",
+    "assets/generated/build-guides/stor-robot-arm/174.webp",
+    "assets/generated/build-guides/stor-robot-arm/175.webp"
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "sourceSlide": 3,
+      "sourceStepLabel": "2_1x.png",
+      "sourceMedia": "ppt/media/image6.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/001.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 350060,
+      "sha256": "cb970f6f52cf2bb4c088fea75098aa6a41cca950f6b69d9eece3777d2c4e1da7"
+    },
+    {
+      "number": 2,
+      "sourceSlide": 4,
+      "sourceStepLabel": "3_1x.png",
+      "sourceMedia": "ppt/media/image10.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/002.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 265326,
+      "sha256": "920fff35607ff2ac79997219ea8fe6cea192d23657baa9464cf94464795b8add"
+    },
+    {
+      "number": 3,
+      "sourceSlide": 5,
+      "sourceStepLabel": "4_1x.png",
+      "sourceMedia": "ppt/media/image18.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/003.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 328870,
+      "sha256": "e18477d558c5c886f178635276fd87d570e66de20243f2f3ee54673d1ea18735"
+    },
+    {
+      "number": 4,
+      "sourceSlide": 6,
+      "sourceStepLabel": "5_1x.png",
+      "sourceMedia": "ppt/media/image2.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/004.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 245522,
+      "sha256": "b69ae5f900c9976beaab2ead76d4cb1669bfa372347f627a8bae4d557915d34c"
+    },
+    {
+      "number": 5,
+      "sourceSlide": 7,
+      "sourceStepLabel": "6_1x.png",
+      "sourceMedia": "ppt/media/image8.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/005.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 240830,
+      "sha256": "c6503f94da84cb41cfec125670255f20979cd48ea3d37606c175b267c85e23c1"
+    },
+    {
+      "number": 6,
+      "sourceSlide": 8,
+      "sourceStepLabel": "7_1x.png",
+      "sourceMedia": "ppt/media/image13.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/006.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 202022,
+      "sha256": "a7872fa3d521e47a7f5a318ec3d124c9f72a3e238239b9113ae8c2db16f9c476"
+    },
+    {
+      "number": 7,
+      "sourceSlide": 9,
+      "sourceStepLabel": "8_1x.png",
+      "sourceMedia": "ppt/media/image11.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/007.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 203868,
+      "sha256": "87b9775f2ed8e0af95ddc54713b0340cf99a8b07411d8776f72011233dd30e30"
+    },
+    {
+      "number": 8,
+      "sourceSlide": 10,
+      "sourceStepLabel": "9_1x.png",
+      "sourceMedia": "ppt/media/image15.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/008.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 187102,
+      "sha256": "df989f8de6a8a89b38062d302387c2805476b9082fbc1695733e2bf150431da1"
+    },
+    {
+      "number": 9,
+      "sourceSlide": 11,
+      "sourceStepLabel": "10_1x.png",
+      "sourceMedia": "ppt/media/image5.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/009.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 192942,
+      "sha256": "07f016660ab4a167fc80d48e108186e04931ad52f26299829c20a2fa002a9d6b"
+    },
+    {
+      "number": 10,
+      "sourceSlide": 12,
+      "sourceStepLabel": "11_1x.png",
+      "sourceMedia": "ppt/media/image14.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/010.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 217784,
+      "sha256": "be307f44369e0564fe7e0a7f3827cb319dbbfcf44510a415011ee612ef2f916a"
+    },
+    {
+      "number": 11,
+      "sourceSlide": 13,
+      "sourceStepLabel": "12_1x.png",
+      "sourceMedia": "ppt/media/image21.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/011.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 181334,
+      "sha256": "51372f2e627d3b9beb0d7173cd73de7f3545739c04bc91eb33502c4a086089ae"
+    },
+    {
+      "number": 12,
+      "sourceSlide": 14,
+      "sourceStepLabel": "13_1x.png",
+      "sourceMedia": "ppt/media/image9.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/012.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 225368,
+      "sha256": "71123a25112b19e9421290faec406babd1643128f4e3ea352cc434fe7e9a0a10"
+    },
+    {
+      "number": 13,
+      "sourceSlide": 15,
+      "sourceStepLabel": "14_1x.png",
+      "sourceMedia": "ppt/media/image16.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/013.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 112184,
+      "sha256": "c349a46359188d552b22d32ebe10a6c5f87cdea8c29f82040bf4c5aba1de12fe"
+    },
+    {
+      "number": 14,
+      "sourceSlide": 16,
+      "sourceStepLabel": "15_1x.png",
+      "sourceMedia": "ppt/media/image4.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/014.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 95918,
+      "sha256": "f1792e49db68370ece88e48b545dd6574577a103fd91a3b95f26122f815e112e"
+    },
+    {
+      "number": 15,
+      "sourceSlide": 17,
+      "sourceStepLabel": "16_1x.png",
+      "sourceMedia": "ppt/media/image3.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/015.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 106052,
+      "sha256": "18e3ec7787bb3ae7bf5fb8a991a7d6768c21084ac1e36daeb1301fdccd703b23"
+    },
+    {
+      "number": 16,
+      "sourceSlide": 18,
+      "sourceStepLabel": "17_1x.png",
+      "sourceMedia": "ppt/media/image20.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/016.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 129034,
+      "sha256": "7b635c99019c05ebe780e5795215a218fbacf7aafd7e2142f410bb389048350d"
+    },
+    {
+      "number": 17,
+      "sourceSlide": 19,
+      "sourceStepLabel": "18_1x.png",
+      "sourceMedia": "ppt/media/image19.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/017.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 120616,
+      "sha256": "631955a96b8dff52bd941afcaa0b24f68b8b29128e1e7e52a457bd06a661530f"
+    },
+    {
+      "number": 18,
+      "sourceSlide": 20,
+      "sourceStepLabel": "19_1x.png",
+      "sourceMedia": "ppt/media/image30.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/018.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 126276,
+      "sha256": "2f4727c82773daab94ba8a10a21fc309e11a022e32fbfea2c2d53e849bab992d"
+    },
+    {
+      "number": 19,
+      "sourceSlide": 21,
+      "sourceStepLabel": "20_1x.png",
+      "sourceMedia": "ppt/media/image24.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/019.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 309458,
+      "sha256": "3822abb81e2ef2dabc40b35ab729d2916513c790f55b69cfc19180a7c505d277"
+    },
+    {
+      "number": 20,
+      "sourceSlide": 22,
+      "sourceStepLabel": "21_1x.png",
+      "sourceMedia": "ppt/media/image12.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/020.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 312516,
+      "sha256": "d211ad3f2778ec95bade231b08f59a6193e5a5879b784f4433aaf140e5b9cdfa"
+    },
+    {
+      "number": 21,
+      "sourceSlide": 23,
+      "sourceStepLabel": "22_1x.png",
+      "sourceMedia": "ppt/media/image17.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/021.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 321346,
+      "sha256": "5064e9719e4fe5204505a3d86fba5c7484c3ba43b546acd395d4e5d50189b8bd"
+    },
+    {
+      "number": 22,
+      "sourceSlide": 24,
+      "sourceStepLabel": "23_1x.png",
+      "sourceMedia": "ppt/media/image33.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/022.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 302354,
+      "sha256": "c7818c26c386e05f2e16a65b964293e272948174af4e1c42e820b3941d742949"
+    },
+    {
+      "number": 23,
+      "sourceSlide": 25,
+      "sourceStepLabel": "24_1x.png",
+      "sourceMedia": "ppt/media/image23.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/023.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 212428,
+      "sha256": "21e5bfeb87abd325625a3bf7ef5a7edc16ef8e0f306ab84fb9e107e5963b7a5a"
+    },
+    {
+      "number": 24,
+      "sourceSlide": 26,
+      "sourceStepLabel": "25_1x.png",
+      "sourceMedia": "ppt/media/image22.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/024.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 260252,
+      "sha256": "b5897c28ba84e2b10b38695c1a7b10b09ac19ff0f700ae74ce7c6c7790828fd5"
+    },
+    {
+      "number": 25,
+      "sourceSlide": 27,
+      "sourceStepLabel": "26_1x.png",
+      "sourceMedia": "ppt/media/image35.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/025.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 225418,
+      "sha256": "465f96df5c9c181903def0f160540192d7b3664006ea68ceb0040325ad518be2"
+    },
+    {
+      "number": 26,
+      "sourceSlide": 28,
+      "sourceStepLabel": "27_1x.png",
+      "sourceMedia": "ppt/media/image31.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/026.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 294098,
+      "sha256": "4e86508842de345f3179ecd6bea93b39e978b20e4c6f657686e113e51fad9677"
+    },
+    {
+      "number": 27,
+      "sourceSlide": 29,
+      "sourceStepLabel": "28_1x.png",
+      "sourceMedia": "ppt/media/image28.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/027.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 253598,
+      "sha256": "ba82ca20eaaa1601c455c55cb59fab3fd8cdcdcfee9a07db01ff9ee60c09a6d4"
+    },
+    {
+      "number": 28,
+      "sourceSlide": 30,
+      "sourceStepLabel": "29_1x.png",
+      "sourceMedia": "ppt/media/image27.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/028.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 269060,
+      "sha256": "b583b4be2bf400ad79c0a57d86d31e0b5e78fe638ae9df1858b7af96dec06e29"
+    },
+    {
+      "number": 29,
+      "sourceSlide": 31,
+      "sourceStepLabel": "30_1x.png",
+      "sourceMedia": "ppt/media/image25.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/029.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 258864,
+      "sha256": "0bdfb4f023ed502e4248f2629057a343ebeaa515417a7de26b5374789478cc92"
+    },
+    {
+      "number": 30,
+      "sourceSlide": 32,
+      "sourceStepLabel": "31_1x.png",
+      "sourceMedia": "ppt/media/image29.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/030.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 267174,
+      "sha256": "8a0c426a039280d4b78f49a23ab8828f977c7591ac8bf341f14b3a649e3f84f5"
+    },
+    {
+      "number": 31,
+      "sourceSlide": 33,
+      "sourceStepLabel": "32_1x.png",
+      "sourceMedia": "ppt/media/image34.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/031.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 281682,
+      "sha256": "da88246662c8142ad29ba0295127c539a2595cf53e9b52c3c6b5771f16a9f73e"
+    },
+    {
+      "number": 32,
+      "sourceSlide": 34,
+      "sourceStepLabel": "33_1x.png",
+      "sourceMedia": "ppt/media/image26.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/032.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 303460,
+      "sha256": "8383923c05d489a66ed6308e23ef8b855b74aff2a9e3d1839bab01c4cbc983d0"
+    },
+    {
+      "number": 33,
+      "sourceSlide": 35,
+      "sourceStepLabel": "34_1x.png",
+      "sourceMedia": "ppt/media/image32.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/033.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 296670,
+      "sha256": "6abf7546d6b146e6d5ca03b4872d815d8b376370a2da6a16ab72e9bf0f228156"
+    },
+    {
+      "number": 34,
+      "sourceSlide": 36,
+      "sourceStepLabel": "35_1x.png",
+      "sourceMedia": "ppt/media/image36.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/034.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 319970,
+      "sha256": "5a695ed4ba785d3d767930a734ebe80be1ab462c5bc0d075415dd95d707bb71e"
+    },
+    {
+      "number": 35,
+      "sourceSlide": 37,
+      "sourceStepLabel": "36_1x.png",
+      "sourceMedia": "ppt/media/image37.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/035.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 307388,
+      "sha256": "18c0eaec0bb439972e9ab728eb14082b30115de45268480f5a6e427df2e403bd"
+    },
+    {
+      "number": 36,
+      "sourceSlide": 38,
+      "sourceStepLabel": "37_1x.png",
+      "sourceMedia": "ppt/media/image38.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/036.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 312514,
+      "sha256": "d7a2c9884494bff278fe983db990b49a52b1a38f9a81e5cccca204f918ef454b"
+    },
+    {
+      "number": 37,
+      "sourceSlide": 39,
+      "sourceStepLabel": "38_1x.png",
+      "sourceMedia": "ppt/media/image44.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/037.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 314940,
+      "sha256": "17c67df851b8ad7a16fe62ab60024c8994314d25590c4cbcf013a391602548de"
+    },
+    {
+      "number": 38,
+      "sourceSlide": 40,
+      "sourceStepLabel": "39_1x.png",
+      "sourceMedia": "ppt/media/image39.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/038.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 331462,
+      "sha256": "8d8bc8604de73dbce80500314ac992240e52f93d240ffc24dcefa66ce59a6da0"
+    },
+    {
+      "number": 39,
+      "sourceSlide": 41,
+      "sourceStepLabel": "40_1x.png",
+      "sourceMedia": "ppt/media/image40.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/039.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 323656,
+      "sha256": "7c353cf9614e9d67debeeb9acebe003a2b0066c1d42567b9d8d165641888e3e6"
+    },
+    {
+      "number": 40,
+      "sourceSlide": 42,
+      "sourceStepLabel": "41_1x.png",
+      "sourceMedia": "ppt/media/image49.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/040.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 334706,
+      "sha256": "a94b14902e9e7e0b23c204a0f4a9234e8f04f8e391d51350c0dea144b16c0c31"
+    },
+    {
+      "number": 41,
+      "sourceSlide": 43,
+      "sourceStepLabel": "42_1x.png",
+      "sourceMedia": "ppt/media/image43.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/041.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 318368,
+      "sha256": "0be1699472d1d6ece79d7f267b4029b70a55fde2b4dcb08b7dbfb00bb0cb2c22"
+    },
+    {
+      "number": 42,
+      "sourceSlide": 44,
+      "sourceStepLabel": "43_1x.png",
+      "sourceMedia": "ppt/media/image47.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/042.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 346876,
+      "sha256": "1900e14469f9653e94377c0bd4bfa6ad8b747e21cd2e1a43d45da00a92b4cccf"
+    },
+    {
+      "number": 43,
+      "sourceSlide": 45,
+      "sourceStepLabel": "44_1x.png",
+      "sourceMedia": "ppt/media/image46.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/043.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 353676,
+      "sha256": "fa86407735d3cdbe0861764b9fa901a209025a3c65b939d15b2b69bb83a78a30"
+    },
+    {
+      "number": 44,
+      "sourceSlide": 46,
+      "sourceStepLabel": "45_1x.png",
+      "sourceMedia": "ppt/media/image51.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/044.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 428524,
+      "sha256": "8e5655dec774b5c2286a94b08c969b6ef0ece8bcc83df6f9e30c58488ac5a660"
+    },
+    {
+      "number": 45,
+      "sourceSlide": 47,
+      "sourceStepLabel": "46_1x.png",
+      "sourceMedia": "ppt/media/image41.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/045.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 448838,
+      "sha256": "27aaab9eb2e65456385b5cf3003eb25329410e0f5fc300e0b46a2a60e6149968"
+    },
+    {
+      "number": 46,
+      "sourceSlide": 48,
+      "sourceStepLabel": "47_1x.png",
+      "sourceMedia": "ppt/media/image50.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/046.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 469298,
+      "sha256": "749382941a84d2dc5d44748bf23ec465d5dd118e51e008f4ec22e735d55df65f"
+    },
+    {
+      "number": 47,
+      "sourceSlide": 49,
+      "sourceStepLabel": "48_1x.png",
+      "sourceMedia": "ppt/media/image45.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/047.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 455092,
+      "sha256": "9862ef766d01c4f5c6de9b7ad39f4ef057280a682f4ed9ae220b82db4df2ba15"
+    },
+    {
+      "number": 48,
+      "sourceSlide": 50,
+      "sourceStepLabel": "49_1x.png",
+      "sourceMedia": "ppt/media/image42.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/048.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 213078,
+      "sha256": "f418eacfb6de8d3f7a7b5ef0be383424c95c9bebe096898c744c66ffc594657d"
+    },
+    {
+      "number": 49,
+      "sourceSlide": 51,
+      "sourceStepLabel": "50_1x.png",
+      "sourceMedia": "ppt/media/image60.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/049.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 99388,
+      "sha256": "b938f5355db687114669c5a3032a359be4da3e6c24e6bf375ed768cfae977ca4"
+    },
+    {
+      "number": 50,
+      "sourceSlide": 52,
+      "sourceStepLabel": "51_1x.png",
+      "sourceMedia": "ppt/media/image59.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/050.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 103424,
+      "sha256": "19e8aededd58fc3a41ac0ce371d83a3d06c344a420993071178356e900310f17"
+    },
+    {
+      "number": 51,
+      "sourceSlide": 53,
+      "sourceStepLabel": "52_1x.png",
+      "sourceMedia": "ppt/media/image48.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/051.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 109556,
+      "sha256": "a23cdd45e3d7b41361038d02709abb3c6f0480e0672fa3eebbdf5f5593b16d1c"
+    },
+    {
+      "number": 52,
+      "sourceSlide": 54,
+      "sourceStepLabel": "53_1x.png",
+      "sourceMedia": "ppt/media/image57.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/052.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 138116,
+      "sha256": "4c93e20a96b5a3089c6be88e65fbbaf93d0699991c1fb2a72b01a41d9410a3f3"
+    },
+    {
+      "number": 53,
+      "sourceSlide": 55,
+      "sourceStepLabel": "54_1x.png",
+      "sourceMedia": "ppt/media/image53.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/053.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 124456,
+      "sha256": "6aed2ecb1dd58fb940159ea1804ad26a747160545d91d36158acbb9ae23b5bdf"
+    },
+    {
+      "number": 54,
+      "sourceSlide": 56,
+      "sourceStepLabel": "55_1x.png",
+      "sourceMedia": "ppt/media/image56.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/054.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 137142,
+      "sha256": "0e8185809eca1ecc223b2edc4c2627ee85115fdaa4fd3ea72a86ea8d319aa691"
+    },
+    {
+      "number": 55,
+      "sourceSlide": 57,
+      "sourceStepLabel": "56_1x.png",
+      "sourceMedia": "ppt/media/image58.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/055.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 134000,
+      "sha256": "a5f703b45a5a6a031103825c2745bfcc8efa2a1e3108d8d6349f2a631c2550b4"
+    },
+    {
+      "number": 56,
+      "sourceSlide": 58,
+      "sourceStepLabel": "57_1x.png",
+      "sourceMedia": "ppt/media/image61.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/056.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 476392,
+      "sha256": "206e669703a8615c9fe2a989cf35647202a757bb7fc79edb810ff9f2ab862fe7"
+    },
+    {
+      "number": 57,
+      "sourceSlide": 59,
+      "sourceStepLabel": "58_1x.png",
+      "sourceMedia": "ppt/media/image70.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/057.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 497394,
+      "sha256": "0d63542fbd4bf53728f4921c6861e2c3a4f0a12a5ecd5d1dcce9bc2e0780e546"
+    },
+    {
+      "number": 58,
+      "sourceSlide": 60,
+      "sourceStepLabel": "59_1x.png",
+      "sourceMedia": "ppt/media/image54.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/058.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 510216,
+      "sha256": "5434f097fb600d30aac19b0cbf1b884746e64a78e242ade8928c38413e12fd8e"
+    },
+    {
+      "number": 59,
+      "sourceSlide": 61,
+      "sourceStepLabel": "60_1x.png",
+      "sourceMedia": "ppt/media/image52.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/059.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 518892,
+      "sha256": "a4c401683a4beda71026b95eb5f10eefe8686a1781a54253ebe3aea4f0ef5654"
+    },
+    {
+      "number": 60,
+      "sourceSlide": 62,
+      "sourceStepLabel": "61_1x.png",
+      "sourceMedia": "ppt/media/image55.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/060.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 533580,
+      "sha256": "0960dcf5a17e68b7b51b928032ca5773273aa09446912fd1e37474690ca93058"
+    },
+    {
+      "number": 61,
+      "sourceSlide": 63,
+      "sourceStepLabel": "62_1x.png",
+      "sourceMedia": "ppt/media/image64.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/061.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 515072,
+      "sha256": "a1bf361120ea8616ee1fd0448c6f8117c734f7b3e7802dde4fe2e8b04c9591a9"
+    },
+    {
+      "number": 62,
+      "sourceSlide": 64,
+      "sourceStepLabel": "63_1x.png",
+      "sourceMedia": "ppt/media/image69.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/062.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 530040,
+      "sha256": "f089268a60d88d4b0285ea86fa2e90a81f0b4e79fc7ad3e204edb4bf3f105235"
+    },
+    {
+      "number": 63,
+      "sourceSlide": 65,
+      "sourceStepLabel": "64_1x.png",
+      "sourceMedia": "ppt/media/image63.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/063.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 549106,
+      "sha256": "089e507190b67247bcdd3ab412cc68cc6f89a6cb78108d7818c23230d2ef32da"
+    },
+    {
+      "number": 64,
+      "sourceSlide": 66,
+      "sourceStepLabel": "65_1x.png",
+      "sourceMedia": "ppt/media/image72.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/064.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 107944,
+      "sha256": "57a6be68fbcb1b29c1d3b3baedd3872ecf56b7d9268072b78316c32ab4a35cb8"
+    },
+    {
+      "number": 65,
+      "sourceSlide": 67,
+      "sourceStepLabel": "66_1x.png",
+      "sourceMedia": "ppt/media/image68.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/065.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 55498,
+      "sha256": "d46c243954c0a0d41855af222dc681d9e60db142b213a341d171348bc768fe3b"
+    },
+    {
+      "number": 66,
+      "sourceSlide": 68,
+      "sourceStepLabel": "67_1x.png",
+      "sourceMedia": "ppt/media/image77.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/066.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 92692,
+      "sha256": "e27e3d0ceb10f07c8d7a254b05adeda5f06ba39f34e785e109af25b94305af5d"
+    },
+    {
+      "number": 67,
+      "sourceSlide": 69,
+      "sourceStepLabel": "68_1x.png",
+      "sourceMedia": "ppt/media/image62.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/067.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 440304,
+      "sha256": "21e5bf07f02cfd6fca35bf2376df6babcf6bd88e2137b391cf9846f4603c0f7d"
+    },
+    {
+      "number": 68,
+      "sourceSlide": 70,
+      "sourceStepLabel": "69_1x.png",
+      "sourceMedia": "ppt/media/image66.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/068.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 179966,
+      "sha256": "2b147de16055a6fa5e94718e3c2c184ab76360d350e58bc19a0eb408f6e2074d"
+    },
+    {
+      "number": 69,
+      "sourceSlide": 71,
+      "sourceStepLabel": "70_1x.png",
+      "sourceMedia": "ppt/media/image74.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/069.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 85006,
+      "sha256": "aa855cfdcfe86b8e4e0bc6512f5a00cab1397c1b4c3b19759e46e706033622e8"
+    },
+    {
+      "number": 70,
+      "sourceSlide": 72,
+      "sourceStepLabel": "71_1x.png",
+      "sourceMedia": "ppt/media/image92.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/070.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 82726,
+      "sha256": "6d4becf955d5e7d12d352cb7adee251a90c6b2a491c57f7a2e19e530c8162b32"
+    },
+    {
+      "number": 71,
+      "sourceSlide": 73,
+      "sourceStepLabel": "72_1x.png",
+      "sourceMedia": "ppt/media/image67.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/071.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 127188,
+      "sha256": "8583440d8707a6f63d62e16d58e7c80b128739ed1489d394ac515edb33d48973"
+    },
+    {
+      "number": 72,
+      "sourceSlide": 74,
+      "sourceStepLabel": "73_1x.png",
+      "sourceMedia": "ppt/media/image71.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/072.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 151782,
+      "sha256": "60e76ddc8324dd21d181695ee6bac9f029e3206b41985ca73b3b7b92c8b95131"
+    },
+    {
+      "number": 73,
+      "sourceSlide": 75,
+      "sourceStepLabel": "74_1x.png",
+      "sourceMedia": "ppt/media/image73.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/073.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 222116,
+      "sha256": "9f27b81198a87f2a518c83d58f81c652cc6c5867414835ac835f5ec9546d088e"
+    },
+    {
+      "number": 74,
+      "sourceSlide": 76,
+      "sourceStepLabel": "75_1x.png",
+      "sourceMedia": "ppt/media/image87.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/074.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 185870,
+      "sha256": "11de1bb7ccd8ea3c0ba3a53bdef6314f5622aabe204303c40bd2437c574fc440"
+    },
+    {
+      "number": 75,
+      "sourceSlide": 77,
+      "sourceStepLabel": "76_1x.png",
+      "sourceMedia": "ppt/media/image65.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/075.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 254436,
+      "sha256": "b2583965d9aaa3d79ccafbc677d85dce6bed23799820098469a9ee5f3624db6f"
+    },
+    {
+      "number": 76,
+      "sourceSlide": 78,
+      "sourceStepLabel": "77_1x.png",
+      "sourceMedia": "ppt/media/image75.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/076.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 203788,
+      "sha256": "28704eee42682f3c2b9babd4b51e79ac6d42a278b0df0d26a9f0100e77c0db47"
+    },
+    {
+      "number": 77,
+      "sourceSlide": 79,
+      "sourceStepLabel": "78_1x.png",
+      "sourceMedia": "ppt/media/image76.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/077.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 64814,
+      "sha256": "7bda1629b1c6722bf9f17894517b04bf2fd6b3608aacfc4dc5e81c679df4433c"
+    },
+    {
+      "number": 78,
+      "sourceSlide": 80,
+      "sourceStepLabel": "79_1x.png",
+      "sourceMedia": "ppt/media/image79.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/078.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 191154,
+      "sha256": "dc56d3c8c9913eea286655f6e537536a5559a09e151379854e753e9363557ce7"
+    },
+    {
+      "number": 79,
+      "sourceSlide": 81,
+      "sourceStepLabel": "80_1x.png",
+      "sourceMedia": "ppt/media/image83.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/079.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 67230,
+      "sha256": "a928103994ab1bb0f431fb89053db96443d37502f6cd26de3972d233cd041fe6"
+    },
+    {
+      "number": 80,
+      "sourceSlide": 82,
+      "sourceStepLabel": "81_1x.png",
+      "sourceMedia": "ppt/media/image78.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/080.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 186336,
+      "sha256": "857598efade31955aeeeae9b72b8fa69b5d7896e8f97c16f7834c7e8f6ce787c"
+    },
+    {
+      "number": 81,
+      "sourceSlide": 83,
+      "sourceStepLabel": "82_1x.png",
+      "sourceMedia": "ppt/media/image81.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/081.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 207568,
+      "sha256": "ae61bc70309113577e9474df788e1d625804d59cceb53db0bb6c2cafb80e0862"
+    },
+    {
+      "number": 82,
+      "sourceSlide": 84,
+      "sourceStepLabel": "83_1x.png",
+      "sourceMedia": "ppt/media/image84.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/082.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 188634,
+      "sha256": "34d0f671a793dfbb2ea2fb0dc38fbf18e2010b58e7cf024fa1712bfd29490e08"
+    },
+    {
+      "number": 83,
+      "sourceSlide": 85,
+      "sourceStepLabel": "84_1x.png",
+      "sourceMedia": "ppt/media/image89.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/083.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 190646,
+      "sha256": "b72546bf9b144f61c8d8edee02eeb1c8730935c03dd875357437c19dfd329ef1"
+    },
+    {
+      "number": 84,
+      "sourceSlide": 86,
+      "sourceStepLabel": "85_1x.png",
+      "sourceMedia": "ppt/media/image102.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/084.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 125580,
+      "sha256": "b13cadca089ec6e68d8bd20e95d46810d8b6176e4f554fbc9b7cd0a44f81369e"
+    },
+    {
+      "number": 85,
+      "sourceSlide": 87,
+      "sourceStepLabel": "86_1x.png",
+      "sourceMedia": "ppt/media/image88.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/085.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 85604,
+      "sha256": "bfdfb17952bdd65b841f9a7818e6a15cfff071502e3a37adb95d0fa947074f1b"
+    },
+    {
+      "number": 86,
+      "sourceSlide": 88,
+      "sourceStepLabel": "87_1x.png",
+      "sourceMedia": "ppt/media/image85.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/086.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 210366,
+      "sha256": "5bda74958e88f9ea481605e3c47bf6b86a54401dd5b5f4eb6a4c09cf1d172f77"
+    },
+    {
+      "number": 87,
+      "sourceSlide": 89,
+      "sourceStepLabel": "88_1x.png",
+      "sourceMedia": "ppt/media/image82.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/087.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 482686,
+      "sha256": "8bd1295b7760218c03bb2067fe44e0736b408e0a7bf7c1c59136a04fbb18d5d4"
+    },
+    {
+      "number": 88,
+      "sourceSlide": 90,
+      "sourceStepLabel": "89_1x.png",
+      "sourceMedia": "ppt/media/image80.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/088.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 263804,
+      "sha256": "219513dc57404c566bf901e5706e5a3f5f33304b2731abcb8da3e2ae0fa5f964"
+    },
+    {
+      "number": 89,
+      "sourceSlide": 91,
+      "sourceStepLabel": "90_1x.png",
+      "sourceMedia": "ppt/media/image100.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/089.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 489770,
+      "sha256": "30300f00c383e0da455a79105f1c8c794b44735914b6ea7fef965a64d70f2c11"
+    },
+    {
+      "number": 90,
+      "sourceSlide": 92,
+      "sourceStepLabel": "91_1x.png",
+      "sourceMedia": "ppt/media/image86.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/090.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 568358,
+      "sha256": "ef02e6f65144275a3e22cf08006025231bfa0265a9e1647632f279dc1f5dc5f1"
+    },
+    {
+      "number": 91,
+      "sourceSlide": 93,
+      "sourceStepLabel": "92_1x.png",
+      "sourceMedia": "ppt/media/image90.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/091.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 147066,
+      "sha256": "2d0b52cf8be53db568e8c83a408c6defa7354d1eca624cc5fc327e3eae159260"
+    },
+    {
+      "number": 92,
+      "sourceSlide": 94,
+      "sourceStepLabel": "93_1x.png",
+      "sourceMedia": "ppt/media/image91.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/092.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 89824,
+      "sha256": "be2c8d5ca418a6367100c45c8bf503b8ee383884fb5c9896c2d96345278f4597"
+    },
+    {
+      "number": 93,
+      "sourceSlide": 95,
+      "sourceStepLabel": "94_1x.png",
+      "sourceMedia": "ppt/media/image101.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/093.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 85406,
+      "sha256": "80c52a6659f69ce92614cffd44ae02e77afbd21a51a9849263fe596f27eb46e6"
+    },
+    {
+      "number": 94,
+      "sourceSlide": 96,
+      "sourceStepLabel": "95_1x.png",
+      "sourceMedia": "ppt/media/image98.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/094.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 89518,
+      "sha256": "dd21643e2ce93a29ee5469796ad49fe593da707283afd73bfcc5f329f804352a"
+    },
+    {
+      "number": 95,
+      "sourceSlide": 97,
+      "sourceStepLabel": "96_1x.png",
+      "sourceMedia": "ppt/media/image103.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/095.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 124466,
+      "sha256": "97f6ec218af65eaba48ef3bc9691ffbed189e1320bfca81d3fa5920f16e66039"
+    },
+    {
+      "number": 96,
+      "sourceSlide": 98,
+      "sourceStepLabel": "97_1x.png",
+      "sourceMedia": "ppt/media/image96.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/096.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 118182,
+      "sha256": "d97c84c6cbbf0b36b252901c145863264632dda9f4c03a3f9a68394e53481ca0"
+    },
+    {
+      "number": 97,
+      "sourceSlide": 99,
+      "sourceStepLabel": "98_1x.png",
+      "sourceMedia": "ppt/media/image95.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/097.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 112976,
+      "sha256": "0141f55c80d20a3c837425bac80a4141e2d359eb93c1022507dcdc44c6d04fe0"
+    },
+    {
+      "number": 98,
+      "sourceSlide": 100,
+      "sourceStepLabel": "99_1x.png",
+      "sourceMedia": "ppt/media/image94.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/098.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 115728,
+      "sha256": "b8e11d50a928fbdcbf29b580300d23988efee75ddde6aba72de00166bf9979ad"
+    },
+    {
+      "number": 99,
+      "sourceSlide": 101,
+      "sourceStepLabel": "100_1x.png",
+      "sourceMedia": "ppt/media/image93.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/099.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 134530,
+      "sha256": "7106672c4430dff3dac928b7991a729081bd740c96a041837b9b96c33614ab69"
+    },
+    {
+      "number": 100,
+      "sourceSlide": 102,
+      "sourceStepLabel": "101_1x.png",
+      "sourceMedia": "ppt/media/image99.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/100.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 173280,
+      "sha256": "8116661fbb1fe4f93b73e211badc044e3bbd63f09b490829496c794897bd3d02"
+    },
+    {
+      "number": 101,
+      "sourceSlide": 103,
+      "sourceStepLabel": "102_1x.png",
+      "sourceMedia": "ppt/media/image115.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/101.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 145246,
+      "sha256": "79348defa3d650d6938658610be5edeaac31e590457afd3ffe852c0f992985c6"
+    },
+    {
+      "number": 102,
+      "sourceSlide": 104,
+      "sourceStepLabel": "103_1x.png",
+      "sourceMedia": "ppt/media/image106.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/102.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 183166,
+      "sha256": "586c9b220dec6d8cbef02ac74c5ff8b4c8e77986cf261e926bfad4c4c0a2d1fe"
+    },
+    {
+      "number": 103,
+      "sourceSlide": 105,
+      "sourceStepLabel": "104_1x.png",
+      "sourceMedia": "ppt/media/image113.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/103.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 179388,
+      "sha256": "7f0b933a37aa776373739106a645e51db77135647ff1fa03b2e6125e234efd1b"
+    },
+    {
+      "number": 104,
+      "sourceSlide": 106,
+      "sourceStepLabel": "105_1x.png",
+      "sourceMedia": "ppt/media/image97.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/104.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 164676,
+      "sha256": "50742edb636cc78878b78bccdc94dabf910074d6e3b49087c4a707ce4a0a32cf"
+    },
+    {
+      "number": 105,
+      "sourceSlide": 107,
+      "sourceStepLabel": "106_1x.png",
+      "sourceMedia": "ppt/media/image110.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/105.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 164846,
+      "sha256": "8926642879e219278e5b7ee427ae02e26344d2e34022ba1e2a6e9329a0d0c3d1"
+    },
+    {
+      "number": 106,
+      "sourceSlide": 108,
+      "sourceStepLabel": "107_1x.png",
+      "sourceMedia": "ppt/media/image108.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/106.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 173118,
+      "sha256": "e94e050270d5c7d5317a857cb5d280764544e511c748d6b431857ec94a86e2f4"
+    },
+    {
+      "number": 107,
+      "sourceSlide": 109,
+      "sourceStepLabel": "108_1x.png",
+      "sourceMedia": "ppt/media/image105.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/107.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 248312,
+      "sha256": "221e97202ca38f35216f27ae2c0b7de3e0667adb6132d5e27471ec1c7e84bf91"
+    },
+    {
+      "number": 108,
+      "sourceSlide": 110,
+      "sourceStepLabel": "109_1x.png",
+      "sourceMedia": "ppt/media/image114.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/108.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 209890,
+      "sha256": "e51a8a9d2169c2de01912990c98dcd18de3b811beb50f843c8f264780b353aa7"
+    },
+    {
+      "number": 109,
+      "sourceSlide": 111,
+      "sourceStepLabel": "110_1x.png",
+      "sourceMedia": "ppt/media/image109.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/109.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 242974,
+      "sha256": "7f406de39b058f5e97caeb5f1b8d5ef60915bb54e59f0ed742cc94fa11d6170f"
+    },
+    {
+      "number": 110,
+      "sourceSlide": 112,
+      "sourceStepLabel": "111_1x.png",
+      "sourceMedia": "ppt/media/image107.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/110.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 223334,
+      "sha256": "5bc4213b568ed16c8992a46eed6082d1ba437512dc258954a1f97595d570f4be"
+    },
+    {
+      "number": 111,
+      "sourceSlide": 113,
+      "sourceStepLabel": "112_1x.png",
+      "sourceMedia": "ppt/media/image112.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/111.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 89246,
+      "sha256": "0b5e20a2fcdac813709dfb12e6ecf6bb2af8ae6f43ed2ec9f1ffaea604080e5f"
+    },
+    {
+      "number": 112,
+      "sourceSlide": 114,
+      "sourceStepLabel": "113_1x.png",
+      "sourceMedia": "ppt/media/image104.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/112.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 83134,
+      "sha256": "22ed301805c1b8de27754988856bb8e025377e6cf2ccf7f9f00d02f00ebb10be"
+    },
+    {
+      "number": 113,
+      "sourceSlide": 115,
+      "sourceStepLabel": "114_1x.png",
+      "sourceMedia": "ppt/media/image123.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/113.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 63370,
+      "sha256": "efa5b436ad8b8dc9ebdacdbee5e399f528e9907ab5af7dfb31865bca612f33b3"
+    },
+    {
+      "number": 114,
+      "sourceSlide": 116,
+      "sourceStepLabel": "115_1x.png",
+      "sourceMedia": "ppt/media/image111.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/114.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 188412,
+      "sha256": "eb49398f51933bc34b417e3b2efeb4549062b74515d4fb4c3751055caf7b9a55"
+    },
+    {
+      "number": 115,
+      "sourceSlide": 117,
+      "sourceStepLabel": "116_1x.png",
+      "sourceMedia": "ppt/media/image127.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/115.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 252720,
+      "sha256": "6153852dd15041069f8935d751cae5c1378aa7c84003c4165d21a8e339c23d92"
+    },
+    {
+      "number": 116,
+      "sourceSlide": 118,
+      "sourceStepLabel": "117_1x.png",
+      "sourceMedia": "ppt/media/image117.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/116.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 258452,
+      "sha256": "a21323a988a5c9da80ac66a98c02adbc4310bae31e1785c28e91e6d21211fa90"
+    },
+    {
+      "number": 117,
+      "sourceSlide": 119,
+      "sourceStepLabel": "118_1x.png",
+      "sourceMedia": "ppt/media/image122.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/117.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 238160,
+      "sha256": "0a124ce72ea9dc4ced0f458e66164ad5c4d0c0ba633d486d93278e957374a1f2"
+    },
+    {
+      "number": 118,
+      "sourceSlide": 120,
+      "sourceStepLabel": "119_1x.png",
+      "sourceMedia": "ppt/media/image119.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/118.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 229900,
+      "sha256": "e7443f12b4f72f057a7a791aa645467a683e9e349c92eccd005d873337a3e294"
+    },
+    {
+      "number": 119,
+      "sourceSlide": 121,
+      "sourceStepLabel": "120_1x.png",
+      "sourceMedia": "ppt/media/image116.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/119.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 215584,
+      "sha256": "b5bda3edb50d5332185246fcb995da8df532d978753102a53866daa4fd8ad139"
+    },
+    {
+      "number": 120,
+      "sourceSlide": 122,
+      "sourceStepLabel": "121_1x.png",
+      "sourceMedia": "ppt/media/image132.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/120.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 226912,
+      "sha256": "aa4d4f0e58f8b46c1f09e1c66d34d279d0393372016e51a566ac8833fbcd560f"
+    },
+    {
+      "number": 121,
+      "sourceSlide": 123,
+      "sourceStepLabel": "122_1x.png",
+      "sourceMedia": "ppt/media/image124.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/121.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 258262,
+      "sha256": "c243467b0da484c9aecb9faf1b30ae9887f901c325a9f803159e72cb230bd2d9"
+    },
+    {
+      "number": 122,
+      "sourceSlide": 124,
+      "sourceStepLabel": "123_1x.png",
+      "sourceMedia": "ppt/media/image120.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/122.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 104780,
+      "sha256": "2c8350122f75b9b384c764c5509ce46ba41a13a814e15a0f41e3e96d9ed15d07"
+    },
+    {
+      "number": 123,
+      "sourceSlide": 125,
+      "sourceStepLabel": "124_1x.png",
+      "sourceMedia": "ppt/media/image138.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/123.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 55800,
+      "sha256": "6224b494ae038cd1059c6127a821edec6c2b16ccb57620f480875f3f67485c52"
+    },
+    {
+      "number": 124,
+      "sourceSlide": 126,
+      "sourceStepLabel": "125_1x.png",
+      "sourceMedia": "ppt/media/image121.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/124.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 97260,
+      "sha256": "a4053cd986d2e46c39c9316bf67204eaf83799afdb7738aaeaf474b767dbf1fb"
+    },
+    {
+      "number": 125,
+      "sourceSlide": 127,
+      "sourceStepLabel": "126_1x.png",
+      "sourceMedia": "ppt/media/image118.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/125.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 127760,
+      "sha256": "50a9462c35ce40ced00ef95aabad67314b3f0d3d1de360961d880c365fe13e78"
+    },
+    {
+      "number": 126,
+      "sourceSlide": 128,
+      "sourceStepLabel": "127_1x.png",
+      "sourceMedia": "ppt/media/image135.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/126.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 128462,
+      "sha256": "4924fb452001a97c44addc2c3677dde21a31d786906bb4967cff354cea925731"
+    },
+    {
+      "number": 127,
+      "sourceSlide": 129,
+      "sourceStepLabel": "128_1x.png",
+      "sourceMedia": "ppt/media/image137.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/127.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 125410,
+      "sha256": "4fd6e52e67492bb22c24e0b46350b27831b548e2528a7667b2e0a962df0c4e9f"
+    },
+    {
+      "number": 128,
+      "sourceSlide": 130,
+      "sourceStepLabel": "129_1x.png",
+      "sourceMedia": "ppt/media/image129.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/128.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 128604,
+      "sha256": "4e6feba2fa075716f9718fe419aca501befa060d465348301b0a35e269cace62"
+    },
+    {
+      "number": 129,
+      "sourceSlide": 131,
+      "sourceStepLabel": "130_1x.png",
+      "sourceMedia": "ppt/media/image126.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/129.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 159402,
+      "sha256": "05cf9d119d7ceca9681d33f23daceb12d7b96908eb88e5d0fae2ac1c87c2ae60"
+    },
+    {
+      "number": 130,
+      "sourceSlide": 132,
+      "sourceStepLabel": "131_1x.png",
+      "sourceMedia": "ppt/media/image125.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/130.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 180236,
+      "sha256": "470d2d58f251f7e35313ffe9ec1cb4187cb98a6622f3cea57cc5e6f5b301af6f"
+    },
+    {
+      "number": 131,
+      "sourceSlide": 133,
+      "sourceStepLabel": "132_1x.png",
+      "sourceMedia": "ppt/media/image136.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/131.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 172738,
+      "sha256": "6efdaf1c4829103158d53b039aa3cb5fc42e6074dce86e0f05874a3056a59f72"
+    },
+    {
+      "number": 132,
+      "sourceSlide": 134,
+      "sourceStepLabel": "133_1x.png",
+      "sourceMedia": "ppt/media/image128.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/132.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 178660,
+      "sha256": "9b7306f706fbdbb697cf9365f69c0b18b8294526162b0e7a45e6e948c4b08b5c"
+    },
+    {
+      "number": 133,
+      "sourceSlide": 135,
+      "sourceStepLabel": "134_1x.png",
+      "sourceMedia": "ppt/media/image131.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/133.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 212486,
+      "sha256": "5e6c387d3b9f8a59afb862ecbadb5f9defa1fc6ad3b357b4b2c6c047003b3988"
+    },
+    {
+      "number": 134,
+      "sourceSlide": 136,
+      "sourceStepLabel": "135_1x.png",
+      "sourceMedia": "ppt/media/image133.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/134.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 217542,
+      "sha256": "39249c715dde1bfce3306581d08840fbe65c9886711eb0e6cdc8fe18b02c26c9"
+    },
+    {
+      "number": 135,
+      "sourceSlide": 137,
+      "sourceStepLabel": "136_1x.png",
+      "sourceMedia": "ppt/media/image148.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/135.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 337224,
+      "sha256": "ef1cfd8226f2796f0db3109565efc8139cae1ae8e3741383f0bc94512166f043"
+    },
+    {
+      "number": 136,
+      "sourceSlide": 138,
+      "sourceStepLabel": "137_1x.png",
+      "sourceMedia": "ppt/media/image130.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/136.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 424462,
+      "sha256": "3c715dea08a456881d7bf6f4bf0a35d7653066309dca7dda53a09214cb8f31a6"
+    },
+    {
+      "number": 137,
+      "sourceSlide": 139,
+      "sourceStepLabel": "138_1x.png",
+      "sourceMedia": "ppt/media/image142.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/137.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 335978,
+      "sha256": "4514576c30d99545086c3c90502969395b5b65b70d1a4536b5712dc409ef90b5"
+    },
+    {
+      "number": 138,
+      "sourceSlide": 140,
+      "sourceStepLabel": null,
+      "sourceMedia": "ppt/media/image143.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/138.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 222612,
+      "sha256": "c7d96dd09442d84fb57d31dfc8d2da43c96c8e1fc98efef9e68e5f62632f1e8e"
+    },
+    {
+      "number": 139,
+      "sourceSlide": 141,
+      "sourceStepLabel": "140_1x.png",
+      "sourceMedia": "ppt/media/image151.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/139.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 274732,
+      "sha256": "0fd5ac566410c566b236bb7fbb24db4d53bcfc082c8a3101f88a3a4b61583df3"
+    },
+    {
+      "number": 140,
+      "sourceSlide": 142,
+      "sourceStepLabel": "141_1x.png",
+      "sourceMedia": "ppt/media/image134.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/140.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 447652,
+      "sha256": "573c098050b9445c6c395a578c56b19627eb557ff8e822d7c8666560d7bb6568"
+    },
+    {
+      "number": 141,
+      "sourceSlide": 143,
+      "sourceStepLabel": "142_1x.png",
+      "sourceMedia": "ppt/media/image139.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/141.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 402024,
+      "sha256": "78be4fb89f3dfb43dfe65913372693b2f0a8498005334895ef5a4e618b7fa899"
+    },
+    {
+      "number": 142,
+      "sourceSlide": 144,
+      "sourceStepLabel": "143_1x.png",
+      "sourceMedia": "ppt/media/image154.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/142.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 408370,
+      "sha256": "28e6d231a6899930c047aa414c8eccf2e4af02442d0d738f89dd06780ca1c67b"
+    },
+    {
+      "number": 143,
+      "sourceSlide": 145,
+      "sourceStepLabel": "144_1x.png",
+      "sourceMedia": "ppt/media/image140.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/143.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 397352,
+      "sha256": "e9abafadd78e72e0bb7f0f2f8b763eac3b658332cbf0430e28817459be1e5363"
+    },
+    {
+      "number": 144,
+      "sourceSlide": 146,
+      "sourceStepLabel": "145_1x.png",
+      "sourceMedia": "ppt/media/image165.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/144.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 402536,
+      "sha256": "9c44360aa038dea3c78ce791d069f91c95332d3a827521b21a8dc0b5cff5751d"
+    },
+    {
+      "number": 145,
+      "sourceSlide": 147,
+      "sourceStepLabel": "146_1x.png",
+      "sourceMedia": "ppt/media/image146.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/145.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 410752,
+      "sha256": "93112989f716bb9f3f0e0cff87a1d7d3a1ad8f96d1ea0f9689e7c764aec326bd"
+    },
+    {
+      "number": 146,
+      "sourceSlide": 148,
+      "sourceStepLabel": "147_1x.png",
+      "sourceMedia": "ppt/media/image141.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/146.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 406566,
+      "sha256": "59b0bbe10976635a8a5fd826d3a409553af2e7ab50f38085a6c833c574967a16"
+    },
+    {
+      "number": 147,
+      "sourceSlide": 149,
+      "sourceStepLabel": "148_1x.png",
+      "sourceMedia": "ppt/media/image164.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/147.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 395900,
+      "sha256": "5d886cceb6976f8013e151baae7831350909d42a3ad899f61cde033745c9b081"
+    },
+    {
+      "number": 148,
+      "sourceSlide": 150,
+      "sourceStepLabel": "149_1x.png",
+      "sourceMedia": "ppt/media/image144.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/148.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 405466,
+      "sha256": "3d6b57cd6a1d649da9c74006c5703844ecc5022dbb99dd30e3be7a02d3f316fc"
+    },
+    {
+      "number": 149,
+      "sourceSlide": 151,
+      "sourceStepLabel": "150_1x.png",
+      "sourceMedia": "ppt/media/image158.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/149.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 403760,
+      "sha256": "5380967f6a4f26a597009960835753de4b7c9ff9b3da5d6807359f825592281f"
+    },
+    {
+      "number": 150,
+      "sourceSlide": 152,
+      "sourceStepLabel": "151_1x.png",
+      "sourceMedia": "ppt/media/image147.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/150.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 71026,
+      "sha256": "8ba707031c71fc139b6e2c4524ff0a907e95da9693414dc9e10a54cf0db3c1eb"
+    },
+    {
+      "number": 151,
+      "sourceSlide": 153,
+      "sourceStepLabel": "152_1x.png",
+      "sourceMedia": "ppt/media/image153.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/151.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 113626,
+      "sha256": "5bc216386e194e39dcf1596aae1dfd2f0ab689008a593427f9b64e03a2127ed6"
+    },
+    {
+      "number": 152,
+      "sourceSlide": 154,
+      "sourceStepLabel": "153_1x.png",
+      "sourceMedia": "ppt/media/image157.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/152.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 83736,
+      "sha256": "4cd137e12f3b79abda54f75f3a4855e5e4a5f69bac87ae4d60e4d5c42c4014da"
+    },
+    {
+      "number": 153,
+      "sourceSlide": 155,
+      "sourceStepLabel": "154_1x.png",
+      "sourceMedia": "ppt/media/image145.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/153.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 80598,
+      "sha256": "609edbef435461eddc73ed16aa68f31e144029668aa19924791cfaab13ddc7d0"
+    },
+    {
+      "number": 154,
+      "sourceSlide": 156,
+      "sourceStepLabel": "155_1x.png",
+      "sourceMedia": "ppt/media/image156.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/154.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 448640,
+      "sha256": "8086ae98c40c8a17cb219145646aab9a4e367b74e9b8ea69db30086db8e1224b"
+    },
+    {
+      "number": 155,
+      "sourceSlide": 157,
+      "sourceStepLabel": "156_1x.png",
+      "sourceMedia": "ppt/media/image160.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/155.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 188046,
+      "sha256": "5ebe11663f82bd07f84f3b99a3fc1c54ecb371c11c05f63b32be4f19a5a8e450"
+    },
+    {
+      "number": 156,
+      "sourceSlide": 158,
+      "sourceStepLabel": "157_1x.png",
+      "sourceMedia": "ppt/media/image149.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/156.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 524744,
+      "sha256": "6f6d10de3d2742891d93430fb9a21b78f8cc551f4a96fb16db01271793d21596"
+    },
+    {
+      "number": 157,
+      "sourceSlide": 159,
+      "sourceStepLabel": null,
+      "sourceMedia": "ppt/media/image150.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/157.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 600424,
+      "sha256": "ee67bbd20c94873fe99bee3d273b6b45c08c4c8176e8ed38357b641ed3843fa0"
+    },
+    {
+      "number": 158,
+      "sourceSlide": 160,
+      "sourceStepLabel": "159_1x.png",
+      "sourceMedia": "ppt/media/image152.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/158.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 131866,
+      "sha256": "9702b4bc08429cdc4e0a942574318dff02c3c8c36a607658c1abf2a04d198407"
+    },
+    {
+      "number": 159,
+      "sourceSlide": 161,
+      "sourceStepLabel": "160_1x.png",
+      "sourceMedia": "ppt/media/image163.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/159.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 121528,
+      "sha256": "c808a9730e057995ffebeb7544bf608c64944755604b81b5a4e9990815301687"
+    },
+    {
+      "number": 160,
+      "sourceSlide": 162,
+      "sourceStepLabel": "161_1x.png",
+      "sourceMedia": "ppt/media/image155.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/160.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 131966,
+      "sha256": "f312cbeaabc50fdcd667775c107ea1b1ea7cf6b25b2003b8c1e2c4f5e9c537b4"
+    },
+    {
+      "number": 161,
+      "sourceSlide": 163,
+      "sourceStepLabel": "162_1x.png",
+      "sourceMedia": "ppt/media/image166.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/161.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 165122,
+      "sha256": "dd6402257d8cfb79c6891f92c06a2ec828b6ab31fe263a194ff0d9a206a4d460"
+    },
+    {
+      "number": 162,
+      "sourceSlide": 164,
+      "sourceStepLabel": "163_1x.png",
+      "sourceMedia": "ppt/media/image159.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/162.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 261740,
+      "sha256": "f51c0b17187c8f240dc827b6fa20be375156becfa372288f909674670e838eb5"
+    },
+    {
+      "number": 163,
+      "sourceSlide": 165,
+      "sourceStepLabel": "164_1x.png",
+      "sourceMedia": "ppt/media/image162.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/163.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 133698,
+      "sha256": "b5caabd45ceeab10cfbf384afe6a2ad835cdb1f8a6537cd8921b6e0afdba99b3"
+    },
+    {
+      "number": 164,
+      "sourceSlide": 166,
+      "sourceStepLabel": "165_1x.png",
+      "sourceMedia": "ppt/media/image170.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/164.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 231936,
+      "sha256": "aa2483daf70917e02ca52ca1cfdb89b096092bcd1b8ad0fedce82be844bb5f07"
+    },
+    {
+      "number": 165,
+      "sourceSlide": 167,
+      "sourceStepLabel": "166_1x.png",
+      "sourceMedia": "ppt/media/image171.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/165.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 215224,
+      "sha256": "9a1fd42077d4fa7631efb8ebad6d4b5932994feb5fd845aa35e13b8885900132"
+    },
+    {
+      "number": 166,
+      "sourceSlide": 168,
+      "sourceStepLabel": "167_1x.png",
+      "sourceMedia": "ppt/media/image161.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/166.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 193790,
+      "sha256": "3e752a7178135aba3ac83021e53dde1c4223cde1a218a8eefad1a37045725996"
+    },
+    {
+      "number": 167,
+      "sourceSlide": 169,
+      "sourceStepLabel": "168_1x.png",
+      "sourceMedia": "ppt/media/image175.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/167.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 167234,
+      "sha256": "76132f471b442fc51ae746c03185b01ddce5a125eb9c452c3d614e191c1eafca"
+    },
+    {
+      "number": 168,
+      "sourceSlide": 170,
+      "sourceStepLabel": "169_1x.png",
+      "sourceMedia": "ppt/media/image174.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/168.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 223020,
+      "sha256": "9e86d5a1a094be34686e695311b4c6d5de56cda2ae8a0298ea46de66d1884546"
+    },
+    {
+      "number": 169,
+      "sourceSlide": 171,
+      "sourceStepLabel": "170_1x.png",
+      "sourceMedia": "ppt/media/image167.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/169.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 184266,
+      "sha256": "a6d25618fa150ca585bec83a830d7dd3a967cabcefc4ee64d5b53e98e0484c34"
+    },
+    {
+      "number": 170,
+      "sourceSlide": 172,
+      "sourceStepLabel": "171_1x.png",
+      "sourceMedia": "ppt/media/image177.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/170.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 214932,
+      "sha256": "8658940bfafe38f24d35aab0de810ddb3da5922eecf0cbb60e933e4c67c564a9"
+    },
+    {
+      "number": 171,
+      "sourceSlide": 173,
+      "sourceStepLabel": "172_1x.png",
+      "sourceMedia": "ppt/media/image168.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/171.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 208298,
+      "sha256": "4036211cb361afd9d6f38a2be921ae94d0cb8336f59042354609c1925fcaabf8"
+    },
+    {
+      "number": 172,
+      "sourceSlide": 174,
+      "sourceStepLabel": "173_1x.png",
+      "sourceMedia": "ppt/media/image173.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/172.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 233664,
+      "sha256": "278883e81295301fc1ecf74e63d44730e37e85834afeb18613e1b1ea3195d779"
+    },
+    {
+      "number": 173,
+      "sourceSlide": 175,
+      "sourceStepLabel": "174_1x.png",
+      "sourceMedia": "ppt/media/image169.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/173.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 213248,
+      "sha256": "ca45f32dec15dc432dbd5637d2023fd7d3657ed85dd39341eb87258f43599769"
+    },
+    {
+      "number": 174,
+      "sourceSlide": 176,
+      "sourceStepLabel": "175_1x.png",
+      "sourceMedia": "ppt/media/image176.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/174.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 357480,
+      "sha256": "adcfe619987c8555b4e2c88f9626724add49019271195d60ee8cb84dd36f58c0"
+    },
+    {
+      "number": 175,
+      "sourceSlide": 177,
+      "sourceStepLabel": "176_1x.png",
+      "sourceMedia": "ppt/media/image172.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/stor-robot-arm/175.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 293288,
+      "sha256": "f3bec68ea335ccb98a9fea2d8c41420a2b38d66991efb69541a4f61c0395da23"
+    }
+  ],
+  "output": {
+    "imageCount": 175,
+    "totalBytes": 42054256,
+    "sha256": "e2455301a6987676625dfb3daab9636aa7c6802bcb2e9e1fb70379cbeb9bf2d4"
+  }
+}

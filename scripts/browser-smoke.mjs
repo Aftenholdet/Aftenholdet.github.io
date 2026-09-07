@@ -5,18 +5,25 @@ import path from 'node:path';
 import { spawn } from 'node:child_process';
 
 const siteUrl = process.env.SITE_URL || 'http://127.0.0.1:4173';
-const debugPort = 9339;
+const debugPort = Number(process.env.CHROME_DEBUG_PORT) || 9400 + (process.pid % 500);
 const chromePath = await findChrome();
 const profile = await mkdtemp(path.join(os.tmpdir(), 'lego-browser-smoke-'));
+let chromeErrors = '';
 const chrome = spawn(chromePath, [
   '--headless=new',
+  '--no-sandbox',
   '--disable-gpu',
+  '--disable-gpu-compositing',
+  '--disable-gpu-process-for-dx12-info-collection',
   '--hide-scrollbars',
   '--no-first-run',
   `--remote-debugging-port=${debugPort}`,
   `--user-data-dir=${profile}`,
   'about:blank',
-], { stdio: 'ignore', windowsHide: true });
+], { stdio: ['ignore', 'ignore', 'pipe'], windowsHide: true });
+chrome.stderr.on('data', (chunk) => {
+  chromeErrors = `${chromeErrors}${chunk}`.slice(-4000);
+});
 
 let socket;
 
@@ -25,7 +32,10 @@ try {
   socket = new WebSocket(target.webSocketDebuggerUrl);
   await new Promise((resolve, reject) => {
     socket.addEventListener('open', resolve, { once: true });
-    socket.addEventListener('error', reject, { once: true });
+    socket.addEventListener('error', () => {
+      const detail = chromeErrors.trim() ? `\n${chromeErrors.trim()}` : '';
+      reject(new Error(`Chrome DevTools WebSocket kunne ikke åbnes.${detail}`));
+    }, { once: true });
   });
 
   let requestId = 0;
@@ -38,10 +48,25 @@ try {
     if (message.error) reject(new Error(message.error.message));
     else resolve(message.result);
   });
+  socket.addEventListener('close', () => {
+    const detail = chromeErrors.trim() ? `\n${chromeErrors.trim()}` : '';
+    for (const { reject, method } of pending.values()) {
+      reject(new Error(`Chrome DevTools-forbindelsen blev lukket under ${method}.${detail}`));
+    }
+    pending.clear();
+  });
 
   const command = (method, params = {}) => new Promise((resolve, reject) => {
     const id = ++requestId;
-    pending.set(id, { resolve, reject });
+    const timeout = setTimeout(() => {
+      pending.delete(id);
+      reject(new Error(`Chrome DevTools svarede ikke på ${method}.`));
+    }, 12000);
+    pending.set(id, {
+      method,
+      resolve: (value) => { clearTimeout(timeout); resolve(value); },
+      reject: (error) => { clearTimeout(timeout); reject(error); },
+    });
     socket.send(JSON.stringify({ id, method, params }));
   });
 
@@ -105,6 +130,7 @@ try {
   assert.equal(await evaluate("localStorage.getItem('selectedPlatform')"), 'mindstorms');
   assert.equal(await evaluate("localStorage.getItem('selectedCodeMode')"), 'text');
   assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('DistanceSensor')"), true);
+  assert.equal(await evaluate("document.querySelector('pre code').textContent.includes('\\n\\n# Opret')"), true, 'Rendered code lost its PowerPoint line breaks');
 
   await evaluate("document.querySelector('[data-back-library]').click()");
   await waitFor("Boolean(document.querySelector('[data-topic=\"motor\"]'))");
@@ -113,6 +139,63 @@ try {
   assert.equal(await evaluate("document.querySelector('input[name=\"platform\"]:checked').value"), 'mindstorms');
   assert.equal(await evaluate("document.querySelector('input[name=\"code-mode\"]:checked').value"), 'text');
   assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('motorA')"), true);
+
+  await evaluate("document.querySelector('[data-back-library]').click()");
+  await waitFor("Boolean(document.querySelector('[data-topic=\"hub-spike-prime\"]'))");
+  await evaluate("document.querySelector('[data-topic=\"hub-spike-prime\"]').click()");
+  await waitFor("Boolean(document.querySelector('#guide-variant-content'))");
+  assert.equal(await evaluate("Boolean(document.querySelector('input[name=\"platform\"]'))"), false, 'SPIKE-only topic showed a platform selector');
+  assert.equal(await evaluate("Boolean(document.querySelector('input[name=\"code-mode\"]'))"), true, 'SPIKE-only topic hid its meaningful code selector');
+  assert.equal(await evaluate("localStorage.getItem('selectedPlatform')"), 'mindstorms', 'SPIKE-only topic changed the global platform preference');
+  assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('light_matrix')"), true);
+
+  await evaluate("document.querySelector('[data-back-library]').click()");
+  await waitFor("Boolean(document.querySelector('[data-topic=\"motor\"]'))");
+  await evaluate("document.querySelector('[data-topic=\"motor\"]').click()");
+  await waitFor("Boolean(document.querySelector('input[name=\"platform\"]'))");
+  assert.equal(await evaluate("document.querySelector('input[name=\"platform\"]:checked').value"), 'mindstorms', 'Ordinary topic did not restore the global platform preference');
+  assert.equal(await evaluate("document.querySelector('input[name=\"code-mode\"]:checked').value"), 'text', 'Ordinary topic did not restore the global code preference');
+
+  await evaluate("document.querySelector('[data-back-library]').click()");
+  await waitFor("Boolean(document.querySelector('[data-topic=\"mapping\"]'))");
+  await evaluate("document.querySelector('[data-topic=\"mapping\"]').click()");
+  await waitFor("Boolean(document.querySelector('#guide-variant-content'))");
+  assert.equal(await evaluate("Boolean(document.querySelector('input[name=\"platform\"]'))"), false, 'Concept topic showed a platform selector');
+  assert.equal(await evaluate("Boolean(document.querySelector('input[name=\"code-mode\"]'))"), false, 'Concept topic showed a code selector');
+  assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('Guitar-opgaven')"), true);
+
+  await evaluate("document.querySelector('[data-back-library]').click()");
+  await waitFor("Boolean(document.querySelector('[data-topic=\"gentag\"]'))");
+  await evaluate("document.querySelector('[data-topic=\"gentag\"]').click()");
+  await waitFor("Boolean(document.querySelector('input[name=\"code-mode\"]'))");
+  await evaluate(`(() => {
+    const mode = document.querySelector('input[name="code-mode"][value="blocks"]');
+    mode.checked = true;
+    mode.dispatchEvent(new Event('change', { bubbles: true }));
+  })()`);
+  await waitFor("Boolean(document.querySelector('[data-library-block-asset=\"gentag\"]'))");
+  const sharedBlockSource = await evaluate("document.querySelector('[data-library-block-asset=\"gentag\"]').src");
+  await evaluate(`(() => {
+    const platform = document.querySelector('input[name="platform"][value="spike"]');
+    platform.checked = true;
+    platform.dispatchEvent(new Event('change', { bubbles: true }));
+  })()`);
+  assert.equal(await evaluate("document.querySelector('[data-library-block-asset=\"gentag\"]').src"), sharedBlockSource, 'Shared block asset was duplicated or replaced');
+
+  await evaluate("document.querySelector('[data-back-library]').click()");
+  await waitFor("Boolean(document.querySelector('[data-topic=\"afstandssensor\"]'))");
+  await evaluate("document.querySelector('[data-topic=\"afstandssensor\"]').click()");
+  await waitFor("Boolean(document.querySelector('#guide-variant-content'))");
+  assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('Ikke klar endnu')"), true, 'Missing block variant silently fell back');
+  assert.equal(await evaluate("Boolean(document.querySelector('#guide-variant-content pre'))"), false, 'Missing block variant rendered text code');
+  assert.equal(await evaluate("Boolean(document.querySelector('[data-select-code-mode=\"text\"]'))"), true, 'Missing variant did not offer an explicit alternative');
+
+  await evaluate("document.querySelector('[data-back-library]').click()");
+  await waitFor("Boolean(document.querySelector('[data-topic=\"hub-mindstorms\"]'))");
+  await evaluate("document.querySelector('[data-topic=\"hub-mindstorms\"]').click()");
+  await waitFor("Boolean(document.querySelector('#guide-variant-content'))");
+  assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('Kommer snart')"), true);
+  assert.equal(await evaluate("Boolean(document.querySelector('input[name=\"platform\"], input[name=\"code-mode\"]'))"), false, 'Coming-soon hub topic showed irrelevant selectors');
   const drawerRect = await evaluate(`(() => {
     const rect = document.querySelector('#code-help-drawer').getBoundingClientRect();
     return { left: rect.left, right: rect.right, width: rect.width, scrollWidth: document.documentElement.scrollWidth };
@@ -141,6 +224,57 @@ try {
   assert.equal(controlsOverlap, false, 'Code help overlaps the next-step control');
   const desktopViewerShot = await screenshot('lego-viewer-desktop-smoke.png');
 
+  const guideCatalog = await evaluate(`(async () => {
+    const { projects } = await import('/src/content.js');
+    return projects.map((project) => ({
+      id: project.id,
+      status: project.buildStatus,
+      steps: project.buildSteps.length,
+      labels: project.buildSteps.map((step) => step.pageLabel),
+    }));
+  })()`);
+  assert.equal(guideCatalog.length, 20, 'Project catalog does not contain 20 projects');
+  assert.equal(guideCatalog.filter((project) => project.status === 'ready').length, 20, 'Expected 20 ready build guides');
+  assert.equal(guideCatalog.reduce((sum, project) => sum + project.steps, 0), 1132, 'Expected 1132 build steps');
+
+  for (const project of guideCatalog.filter((entry) => entry.status === 'ready')) {
+    const samples = [...new Set([1, Math.ceil(project.steps / 2), project.steps])];
+    for (const step of samples) {
+      await navigate(`${siteUrl}/#/project/${project.id}?step=${step}`, '#build-image');
+      await waitFor("document.querySelector('#build-image').complete && document.querySelector('#build-image').naturalWidth > 0", 12000);
+      assert.equal(await evaluate("document.querySelector('#step-count').textContent"), project.labels[step - 1]);
+    }
+  }
+
+  await navigate(`${siteUrl}/#/project/gaffeltruck?step=40`, '#build-image');
+  assert.equal(await evaluate("localStorage.getItem('buildStep:gaffeltruck')"), '40');
+  await navigate(`${siteUrl}/#/project/gaffeltruck`, '#build-image');
+  assert.equal(await evaluate("document.querySelector('#step-count').textContent"), 'Trin 40 af 79');
+  assert.equal(await evaluate("location.hash.endsWith('/project/gaffeltruck?step=40')"), true);
+
+  await navigate(`${siteUrl}/#/project/stor-robot-arm?step=88`, '#build-image');
+  assert.equal(await evaluate("document.querySelectorAll('#step-select option').length"), 175, 'Stor Robot Arm does not expose 175 compact step options');
+  assert.equal(await evaluate("localStorage.getItem('buildStep:stor-robot-arm')"), '88', 'Stor Robot Arm did not keep its own latest step');
+  assert.notEqual(await evaluate("localStorage.getItem('buildStep:breakdancer')"), '88', 'Project build-step state leaked between projects');
+
+  await navigate(`${siteUrl}/#/project/mecha-bot?step=6`, '#build-image');
+  assert.equal(await evaluate("document.querySelector('#step-count').textContent"), 'Materialer · 5 af 5');
+  await evaluate("document.querySelector('#next-step').click()");
+  await waitFor("location.hash.endsWith('/project/mecha-bot?step=7')");
+  assert.equal(await evaluate("document.querySelector('#step-count').textContent"), 'Trin 1 af 82');
+  assert.equal(await evaluate("localStorage.getItem('buildStep:mecha-bot')"), '7');
+
+  await navigate(`${siteUrl}/#/project/mecha-bot?step=45`, '#build-image');
+  assert.equal(await evaluate("document.querySelector('#step-count').textContent"), 'Trin 39 af 82');
+  assert.equal(await evaluate("localStorage.getItem('buildStep:mecha-bot')"), '45');
+  await navigate(`${siteUrl}/#/project/mecha-bot`, '#build-image');
+  assert.equal(await evaluate("document.querySelector('#step-count').textContent"), 'Trin 39 af 82');
+  assert.equal(await evaluate("location.hash.endsWith('/project/mecha-bot?step=45')"), true);
+
+  await navigate(`${siteUrl}/#/project/mecha-bot?step=89`, '#build-image');
+  assert.equal(await evaluate("document.querySelector('#step-count').textContent"), 'Færdig');
+  assert.equal(await evaluate("document.querySelector('#build-image').src.endsWith('/mecha-bot/089.webp')"), true);
+
   console.log('Browser-smoke-test OK');
   console.log(`- Mobil drawer: ${mobileDrawerShot}`);
   console.log(`- Desktop viewer: ${desktopViewerShot}`);
@@ -152,6 +286,8 @@ try {
 async function findChrome() {
   const candidates = [
     process.env.CHROME_PATH,
+    'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
+    'C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe',
     'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
     'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
     '/usr/bin/google-chrome',

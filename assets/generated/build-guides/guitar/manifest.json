@@ -1,0 +1,1421 @@
+{
+  "schemaVersion": 1,
+  "id": "guitar",
+  "name": "Guitar",
+  "displayName": "Guitar",
+  "level": "oevet",
+  "buildKey": "589e8326f434f054c05ca401a0b7c2008b5cb9982fab2f335b11b062b543b816",
+  "generatedAt": "2026-09-07T07:54:20.226Z",
+  "source": {
+    "type": "pptx",
+    "path": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/Guitar.pptx",
+    "bytes": 27848116,
+    "modifiedUtc": "2025-09-07T04:33:30.000Z",
+    "sha256": "fdff903ba2f74055bfa55f0e89b0d262cfcfc05faed416913fc645b897d08783",
+    "slideCount": 54,
+    "fileName": "Guitar.pptx",
+    "internalTitle": null
+  },
+  "conversion": {
+    "pipelineVersion": 2,
+    "strategy": "extract-single-slide-image",
+    "maxWidth": 1600,
+    "maxHeight": 1200,
+    "format": "webp",
+    "quality": 90,
+    "alphaQuality": 100,
+    "effort": 6,
+    "nearLossless": true
+  },
+  "excludedSlides": [
+    {
+      "slide": 1,
+      "classification": "cover",
+      "reason": "Første slide er ét rasterbillede uden separate elementer."
+    },
+    {
+      "slide": 2,
+      "classification": "title",
+      "reason": "Teknologiskolen-titelslide; de to registrerede shapes er tomme layout-placeholders."
+    },
+    {
+      "slide": 3,
+      "classification": "text",
+      "reason": "Tekst er slideindholdets primære element."
+    },
+    {
+      "slide": 54,
+      "classification": "code",
+      "reason": "Kode- eller programmeringstekst fundet."
+    }
+  ],
+  "sequenceNotes": [
+    "Webrækkefølgen følger præsentationsrækkefølgen og nummereres fra 001.",
+    "Den separate tekst-/advarselsslide er eksplicit ekskluderet.",
+    "Slide 54 er projektspecifik kodekilde og indgår ikke i byggevejledningen."
+  ],
+  "projectSpecificCodeSource": {
+    "sourcePptx": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/Guitar.pptx",
+    "slide": 54,
+    "label": "Kode Guide"
+  },
+  "slideAnalysis": [
+    {
+      "slide": 1,
+      "included": false,
+      "classification": "cover",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "51_1x.png"
+      ]
+    },
+    {
+      "slide": 2,
+      "included": false,
+      "classification": "title",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 2,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "Teknologiskolen_logo 1.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "included": false,
+      "classification": "text",
+      "text": "Bygge Guide Vær opmærksom på at guiden er semi-autogenereret og kan derfor have fejl 🙂",
+      "pictureCount": 0,
+      "backgroundImageCount": 0,
+      "shapeCount": 2,
+      "graphicFrameCount": 0,
+      "imageTitles": []
+    },
+    {
+      "slide": 4,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "1_1x.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "2_1x.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "3_1x.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "4_1x.png"
+      ]
+    },
+    {
+      "slide": 8,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "5_1x.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "6_1x.png"
+      ]
+    },
+    {
+      "slide": 10,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "7_1x.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "8_1x.png"
+      ]
+    },
+    {
+      "slide": 12,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "9_1x.png"
+      ]
+    },
+    {
+      "slide": 13,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "10_1x.png"
+      ]
+    },
+    {
+      "slide": 14,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "11_1x.png"
+      ]
+    },
+    {
+      "slide": 15,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "12_1x.png"
+      ]
+    },
+    {
+      "slide": 16,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "13_1x.png"
+      ]
+    },
+    {
+      "slide": 17,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "14_1x.png"
+      ]
+    },
+    {
+      "slide": 18,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "15_1x.png"
+      ]
+    },
+    {
+      "slide": 19,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "16_1x.png"
+      ]
+    },
+    {
+      "slide": 20,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "17_1x.png"
+      ]
+    },
+    {
+      "slide": 21,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "18_1x.png"
+      ]
+    },
+    {
+      "slide": 22,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "19_1x.png"
+      ]
+    },
+    {
+      "slide": 23,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "20_1x.png"
+      ]
+    },
+    {
+      "slide": 24,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "21_1x.png"
+      ]
+    },
+    {
+      "slide": 25,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "22_1x.png"
+      ]
+    },
+    {
+      "slide": 26,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "23_1x.png"
+      ]
+    },
+    {
+      "slide": 27,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "24_1x.png"
+      ]
+    },
+    {
+      "slide": 28,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "25_1x.png"
+      ]
+    },
+    {
+      "slide": 29,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "26_1x.png"
+      ]
+    },
+    {
+      "slide": 30,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "27_1x.png"
+      ]
+    },
+    {
+      "slide": 31,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "28_1x.png"
+      ]
+    },
+    {
+      "slide": 32,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "29_1x.png"
+      ]
+    },
+    {
+      "slide": 33,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "30_1x.png"
+      ]
+    },
+    {
+      "slide": 34,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "31_1x.png"
+      ]
+    },
+    {
+      "slide": 35,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "32_1x.png"
+      ]
+    },
+    {
+      "slide": 36,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "33_1x.png"
+      ]
+    },
+    {
+      "slide": 37,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "34_1x.png"
+      ]
+    },
+    {
+      "slide": 38,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "35_1x.png"
+      ]
+    },
+    {
+      "slide": 39,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "36_1x.png"
+      ]
+    },
+    {
+      "slide": 40,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "37_1x.png"
+      ]
+    },
+    {
+      "slide": 41,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "38_1x.png"
+      ]
+    },
+    {
+      "slide": 42,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "39_1x.png"
+      ]
+    },
+    {
+      "slide": 43,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "40_1x.png"
+      ]
+    },
+    {
+      "slide": 44,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "41_1x.png"
+      ]
+    },
+    {
+      "slide": 45,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "42_1x.png"
+      ]
+    },
+    {
+      "slide": 46,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "43_1x.png"
+      ]
+    },
+    {
+      "slide": 47,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "44_1x.png"
+      ]
+    },
+    {
+      "slide": 48,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "45_1x.png"
+      ]
+    },
+    {
+      "slide": 49,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "46_1x.png"
+      ]
+    },
+    {
+      "slide": 50,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "47_1x.png"
+      ]
+    },
+    {
+      "slide": 51,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "48_1x.png"
+      ]
+    },
+    {
+      "slide": 52,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "49_1x.png"
+      ]
+    },
+    {
+      "slide": 53,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "50_1x.png"
+      ]
+    },
+    {
+      "slide": 54,
+      "included": false,
+      "classification": "code",
+      "text": "Kode Guide",
+      "pictureCount": 0,
+      "backgroundImageCount": 0,
+      "shapeCount": 2,
+      "graphicFrameCount": 0,
+      "imageTitles": []
+    }
+  ],
+  "buildSteps": [
+    "assets/generated/build-guides/guitar/001.webp",
+    "assets/generated/build-guides/guitar/002.webp",
+    "assets/generated/build-guides/guitar/003.webp",
+    "assets/generated/build-guides/guitar/004.webp",
+    "assets/generated/build-guides/guitar/005.webp",
+    "assets/generated/build-guides/guitar/006.webp",
+    "assets/generated/build-guides/guitar/007.webp",
+    "assets/generated/build-guides/guitar/008.webp",
+    "assets/generated/build-guides/guitar/009.webp",
+    "assets/generated/build-guides/guitar/010.webp",
+    "assets/generated/build-guides/guitar/011.webp",
+    "assets/generated/build-guides/guitar/012.webp",
+    "assets/generated/build-guides/guitar/013.webp",
+    "assets/generated/build-guides/guitar/014.webp",
+    "assets/generated/build-guides/guitar/015.webp",
+    "assets/generated/build-guides/guitar/016.webp",
+    "assets/generated/build-guides/guitar/017.webp",
+    "assets/generated/build-guides/guitar/018.webp",
+    "assets/generated/build-guides/guitar/019.webp",
+    "assets/generated/build-guides/guitar/020.webp",
+    "assets/generated/build-guides/guitar/021.webp",
+    "assets/generated/build-guides/guitar/022.webp",
+    "assets/generated/build-guides/guitar/023.webp",
+    "assets/generated/build-guides/guitar/024.webp",
+    "assets/generated/build-guides/guitar/025.webp",
+    "assets/generated/build-guides/guitar/026.webp",
+    "assets/generated/build-guides/guitar/027.webp",
+    "assets/generated/build-guides/guitar/028.webp",
+    "assets/generated/build-guides/guitar/029.webp",
+    "assets/generated/build-guides/guitar/030.webp",
+    "assets/generated/build-guides/guitar/031.webp",
+    "assets/generated/build-guides/guitar/032.webp",
+    "assets/generated/build-guides/guitar/033.webp",
+    "assets/generated/build-guides/guitar/034.webp",
+    "assets/generated/build-guides/guitar/035.webp",
+    "assets/generated/build-guides/guitar/036.webp",
+    "assets/generated/build-guides/guitar/037.webp",
+    "assets/generated/build-guides/guitar/038.webp",
+    "assets/generated/build-guides/guitar/039.webp",
+    "assets/generated/build-guides/guitar/040.webp",
+    "assets/generated/build-guides/guitar/041.webp",
+    "assets/generated/build-guides/guitar/042.webp",
+    "assets/generated/build-guides/guitar/043.webp",
+    "assets/generated/build-guides/guitar/044.webp",
+    "assets/generated/build-guides/guitar/045.webp",
+    "assets/generated/build-guides/guitar/046.webp",
+    "assets/generated/build-guides/guitar/047.webp",
+    "assets/generated/build-guides/guitar/048.webp",
+    "assets/generated/build-guides/guitar/049.webp",
+    "assets/generated/build-guides/guitar/050.webp"
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "sourceSlide": 4,
+      "sourceStepLabel": "1_1x.png",
+      "sourceMedia": "ppt/media/image2.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/001.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 41230,
+      "sha256": "058c88b688aae3ab95a846df57371ce0db7e97d46614a2daa708cb93aa08c38d"
+    },
+    {
+      "number": 2,
+      "sourceSlide": 5,
+      "sourceStepLabel": "2_1x.png",
+      "sourceMedia": "ppt/media/image16.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/002.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 149052,
+      "sha256": "b1d9c6738ab0bb5621226bc1bdc8b4754a743dea94b5798bc83b861b41540e7b"
+    },
+    {
+      "number": 3,
+      "sourceSlide": 6,
+      "sourceStepLabel": "3_1x.png",
+      "sourceMedia": "ppt/media/image3.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/003.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 147412,
+      "sha256": "c919baea265efe1019fa306bfd4c9f10bb339a7fa2a1a3748bafdcad161d0950"
+    },
+    {
+      "number": 4,
+      "sourceSlide": 7,
+      "sourceStepLabel": "4_1x.png",
+      "sourceMedia": "ppt/media/image14.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/004.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 186404,
+      "sha256": "029fca94d1b917567e504d45e70c87eae035ade25dd817580e247c5bfcaafc03"
+    },
+    {
+      "number": 5,
+      "sourceSlide": 8,
+      "sourceStepLabel": "5_1x.png",
+      "sourceMedia": "ppt/media/image4.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/005.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 192108,
+      "sha256": "72c0af9183918e2ca61cf66a3ac8616f7c92458b0fee3d3848fb8d81719fa37a"
+    },
+    {
+      "number": 6,
+      "sourceSlide": 9,
+      "sourceStepLabel": "6_1x.png",
+      "sourceMedia": "ppt/media/image10.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/006.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 165044,
+      "sha256": "fb434e30fdba165067ce2311948b8915dd8653d75e686063e593894009c3e4df"
+    },
+    {
+      "number": 7,
+      "sourceSlide": 10,
+      "sourceStepLabel": "7_1x.png",
+      "sourceMedia": "ppt/media/image13.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/007.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 261366,
+      "sha256": "9af12e5bed34dbb61790a058a6e925e693ac31892b8364214dfff49fb12844c1"
+    },
+    {
+      "number": 8,
+      "sourceSlide": 11,
+      "sourceStepLabel": "8_1x.png",
+      "sourceMedia": "ppt/media/image11.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/008.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 255828,
+      "sha256": "8007fed0325d4aa1abbd8a85cba630336ca866fab2f74e80b653ae18780e8264"
+    },
+    {
+      "number": 9,
+      "sourceSlide": 12,
+      "sourceStepLabel": "9_1x.png",
+      "sourceMedia": "ppt/media/image23.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/009.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 264068,
+      "sha256": "a81719ea357b26b0e41136c39952c2c2b8ba7174f3a36c5c3e9823d14a65e223"
+    },
+    {
+      "number": 10,
+      "sourceSlide": 13,
+      "sourceStepLabel": "10_1x.png",
+      "sourceMedia": "ppt/media/image9.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/010.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 260912,
+      "sha256": "ae440ef0de1a9d4552793ed67889b9486a4cb39e71039eddab1685c3a24f199a"
+    },
+    {
+      "number": 11,
+      "sourceSlide": 14,
+      "sourceStepLabel": "11_1x.png",
+      "sourceMedia": "ppt/media/image15.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/011.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 286558,
+      "sha256": "72be5721c7df094d2f17f7cd0599c639636bf11ff053a39a2c99417c61fb25c8"
+    },
+    {
+      "number": 12,
+      "sourceSlide": 15,
+      "sourceStepLabel": "12_1x.png",
+      "sourceMedia": "ppt/media/image5.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/012.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 449036,
+      "sha256": "1a9fa1e2dac7e7861865ecda28ef3e546608a8e9920b5b41109b5a2bf4159f3e"
+    },
+    {
+      "number": 13,
+      "sourceSlide": 16,
+      "sourceStepLabel": "13_1x.png",
+      "sourceMedia": "ppt/media/image18.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/013.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 377788,
+      "sha256": "85106980acbb49ebc2ef4fe422ceeed7fdc1c9e0096af927792aa488fdcdbe48"
+    },
+    {
+      "number": 14,
+      "sourceSlide": 17,
+      "sourceStepLabel": "14_1x.png",
+      "sourceMedia": "ppt/media/image8.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/014.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 438582,
+      "sha256": "4d5f03b09ea829bec91992db828a8b532d3b35c9231a90fab85614a55f5bfb4b"
+    },
+    {
+      "number": 15,
+      "sourceSlide": 18,
+      "sourceStepLabel": "15_1x.png",
+      "sourceMedia": "ppt/media/image7.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/015.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 406130,
+      "sha256": "95db03ecc80f56e84bddaf0120329ce49b06f4fe73dab884867996aefa46abb0"
+    },
+    {
+      "number": 16,
+      "sourceSlide": 19,
+      "sourceStepLabel": "16_1x.png",
+      "sourceMedia": "ppt/media/image12.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/016.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 504240,
+      "sha256": "c370b22651de47404b52b2e370c89d2a691d435d0675ae14412924b2381dc0b0"
+    },
+    {
+      "number": 17,
+      "sourceSlide": 20,
+      "sourceStepLabel": "17_1x.png",
+      "sourceMedia": "ppt/media/image6.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/017.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 438052,
+      "sha256": "6fcea92cd7965d45a8e2c48366214ba4ce9e3057610450676592adb3cdc78740"
+    },
+    {
+      "number": 18,
+      "sourceSlide": 21,
+      "sourceStepLabel": "18_1x.png",
+      "sourceMedia": "ppt/media/image17.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/018.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 413548,
+      "sha256": "f557f0eb03c1fb3b8f4b808f6a35a9d0a053aede9c0edabab3c4bfd22737e833"
+    },
+    {
+      "number": 19,
+      "sourceSlide": 22,
+      "sourceStepLabel": "19_1x.png",
+      "sourceMedia": "ppt/media/image32.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/019.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 337136,
+      "sha256": "1f180f1709ce0fef82fda546d6f5d4ecfaadd9bf84137c9edfc57c6815ec6a1e"
+    },
+    {
+      "number": 20,
+      "sourceSlide": 23,
+      "sourceStepLabel": "20_1x.png",
+      "sourceMedia": "ppt/media/image19.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/020.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 356140,
+      "sha256": "7fdac8ed3581f31c6782be1fb0b2295c53d8831bb0cab1c2ebfba15bbf97682f"
+    },
+    {
+      "number": 21,
+      "sourceSlide": 24,
+      "sourceStepLabel": "21_1x.png",
+      "sourceMedia": "ppt/media/image21.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/021.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 424296,
+      "sha256": "03b902e58d2f21fe5d701c6311d31325a34e604a619f7f645c1b4b251cde7fb3"
+    },
+    {
+      "number": 22,
+      "sourceSlide": 25,
+      "sourceStepLabel": "22_1x.png",
+      "sourceMedia": "ppt/media/image26.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/022.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 395718,
+      "sha256": "be1f9668dcb76ca93672d27cd031b0a52db14958ce4ffb2e8f7482200ae86f0f"
+    },
+    {
+      "number": 23,
+      "sourceSlide": 26,
+      "sourceStepLabel": "23_1x.png",
+      "sourceMedia": "ppt/media/image20.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/023.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 414614,
+      "sha256": "e42bad9e38928bd18b1c31e572e16889a6741bf45eaefd43a0faa65c484aa4b0"
+    },
+    {
+      "number": 24,
+      "sourceSlide": 27,
+      "sourceStepLabel": "24_1x.png",
+      "sourceMedia": "ppt/media/image29.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/024.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 370510,
+      "sha256": "01989460f7e0fa72a15fc2238168167ff07ea9372b1b51ccb06eb254fa8a6de9"
+    },
+    {
+      "number": 25,
+      "sourceSlide": 28,
+      "sourceStepLabel": "25_1x.png",
+      "sourceMedia": "ppt/media/image27.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/025.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 410822,
+      "sha256": "ce01d089cdd97376f32a8ba476db444f53c85b04eb64b8bd36bc6b593fe552ce"
+    },
+    {
+      "number": 26,
+      "sourceSlide": 29,
+      "sourceStepLabel": "26_1x.png",
+      "sourceMedia": "ppt/media/image22.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/026.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 404620,
+      "sha256": "3a299062126501b14f52c057ec719f38bfd98f2c134a52e38e19ea24432c3000"
+    },
+    {
+      "number": 27,
+      "sourceSlide": 30,
+      "sourceStepLabel": "27_1x.png",
+      "sourceMedia": "ppt/media/image24.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/027.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 371576,
+      "sha256": "628bb14426b11557c94e859d313b260524019b8079fa509cf5fe8ea5d3927b05"
+    },
+    {
+      "number": 28,
+      "sourceSlide": 31,
+      "sourceStepLabel": "28_1x.png",
+      "sourceMedia": "ppt/media/image40.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/028.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 352438,
+      "sha256": "f2f76b3e21113d8c68b84f3ffdb970377ad214db8276a14df6d49f15e4323fc6"
+    },
+    {
+      "number": 29,
+      "sourceSlide": 32,
+      "sourceStepLabel": "29_1x.png",
+      "sourceMedia": "ppt/media/image30.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/029.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 339016,
+      "sha256": "484201a4ce17c9d644bbea363d2aeadc02cb59ec10284a8af5e3c63ad681164e"
+    },
+    {
+      "number": 30,
+      "sourceSlide": 33,
+      "sourceStepLabel": "30_1x.png",
+      "sourceMedia": "ppt/media/image38.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/030.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 385092,
+      "sha256": "fd78b3f6d24745d4b1666d4c13bc9ef5e325c370e7791cbd6bc691f1469363bc"
+    },
+    {
+      "number": 31,
+      "sourceSlide": 34,
+      "sourceStepLabel": "31_1x.png",
+      "sourceMedia": "ppt/media/image33.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/031.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 351444,
+      "sha256": "4865c0a101053bdb2467cf93dd2957a3a8cd1ebf36861a234096a178d5c7f36b"
+    },
+    {
+      "number": 32,
+      "sourceSlide": 35,
+      "sourceStepLabel": "32_1x.png",
+      "sourceMedia": "ppt/media/image28.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/032.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 370574,
+      "sha256": "ec18f30a8eda69bd66835c73c2d748f6c98ac10f1c555c80919201502be026b7"
+    },
+    {
+      "number": 33,
+      "sourceSlide": 36,
+      "sourceStepLabel": "33_1x.png",
+      "sourceMedia": "ppt/media/image41.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/033.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 306880,
+      "sha256": "a482084d4867d873f3013f1a8cfacb4f76a05588bfaee026bfcb900c60fde23c"
+    },
+    {
+      "number": 34,
+      "sourceSlide": 37,
+      "sourceStepLabel": "34_1x.png",
+      "sourceMedia": "ppt/media/image31.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/034.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 175482,
+      "sha256": "8ac2f27f57101b9d63e2717f4ea857f0c775935308cc6e3ffc3dc12616413553"
+    },
+    {
+      "number": 35,
+      "sourceSlide": 38,
+      "sourceStepLabel": "35_1x.png",
+      "sourceMedia": "ppt/media/image36.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/035.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 210536,
+      "sha256": "d491b18a683358e56a6c9a4192d63c9674df426444764e091131c05e8f34dc7e"
+    },
+    {
+      "number": 36,
+      "sourceSlide": 39,
+      "sourceStepLabel": "36_1x.png",
+      "sourceMedia": "ppt/media/image35.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/036.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 223422,
+      "sha256": "0630af5aec652238b483684c216dd5005d22dc6663ae0ef961273328d3548d50"
+    },
+    {
+      "number": 37,
+      "sourceSlide": 40,
+      "sourceStepLabel": "37_1x.png",
+      "sourceMedia": "ppt/media/image37.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/037.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 407816,
+      "sha256": "b314e15975b0ef8c485b86731fa5179492fa83c535a84402e46bafefe6bd2f5d"
+    },
+    {
+      "number": 38,
+      "sourceSlide": 41,
+      "sourceStepLabel": "38_1x.png",
+      "sourceMedia": "ppt/media/image34.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/038.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 516808,
+      "sha256": "99bcd435d4329ecb1f79413f8ade0429a002dd024cc337abe95470baba0341a5"
+    },
+    {
+      "number": 39,
+      "sourceSlide": 42,
+      "sourceStepLabel": "39_1x.png",
+      "sourceMedia": "ppt/media/image47.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/039.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 507652,
+      "sha256": "4a32c0616ab66af79bfc5e5a622657dc232994f9959f1890393985669acfcbe0"
+    },
+    {
+      "number": 40,
+      "sourceSlide": 43,
+      "sourceStepLabel": "40_1x.png",
+      "sourceMedia": "ppt/media/image48.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/040.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 498306,
+      "sha256": "045064a2b13bdff0ab83b70125b0cd2d98fd0293d26c48133e157cf5e52f0d57"
+    },
+    {
+      "number": 41,
+      "sourceSlide": 44,
+      "sourceStepLabel": "41_1x.png",
+      "sourceMedia": "ppt/media/image50.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/041.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 515940,
+      "sha256": "f577d103049bcef81a815a04af0a8e7e4a61aba8cca9218e73e705b2cd4d86c9"
+    },
+    {
+      "number": 42,
+      "sourceSlide": 45,
+      "sourceStepLabel": "42_1x.png",
+      "sourceMedia": "ppt/media/image52.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/042.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 497486,
+      "sha256": "9e4cabd945806dc8f61161cc92eae13b3ffc2e6712312e891e12fd577542d3bf"
+    },
+    {
+      "number": 43,
+      "sourceSlide": 46,
+      "sourceStepLabel": "43_1x.png",
+      "sourceMedia": "ppt/media/image39.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/043.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 526160,
+      "sha256": "00068546a4b54af3688d4209970e7535c0d5dcf3bfe079fcbcf30afd824772a2"
+    },
+    {
+      "number": 44,
+      "sourceSlide": 47,
+      "sourceStepLabel": "44_1x.png",
+      "sourceMedia": "ppt/media/image44.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/044.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 497836,
+      "sha256": "3053f0cfe40091a7e2373322f01971ada15ae8087f3c15baa3a896b98930f2b6"
+    },
+    {
+      "number": 45,
+      "sourceSlide": 48,
+      "sourceStepLabel": "45_1x.png",
+      "sourceMedia": "ppt/media/image45.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/045.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 475108,
+      "sha256": "70a31082d10b0814d7031aba80bae1a047db0c47797c6b015f683e6478d54368"
+    },
+    {
+      "number": 46,
+      "sourceSlide": 49,
+      "sourceStepLabel": "46_1x.png",
+      "sourceMedia": "ppt/media/image43.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/046.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 511988,
+      "sha256": "bfe559848db1cb859128cb9ca2ca08da6caaf47d4b15acf984f9871c954f5878"
+    },
+    {
+      "number": 47,
+      "sourceSlide": 50,
+      "sourceStepLabel": "47_1x.png",
+      "sourceMedia": "ppt/media/image42.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/047.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 416912,
+      "sha256": "685ea3d9d916da8e063bc6d01f87a8d44e0992a7216f4d5af42382fab885e4b9"
+    },
+    {
+      "number": 48,
+      "sourceSlide": 51,
+      "sourceStepLabel": "48_1x.png",
+      "sourceMedia": "ppt/media/image46.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/048.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 471804,
+      "sha256": "e41df739860ee55e19f7c414379b9deeb86f6637a9608462687453d93a9154c9"
+    },
+    {
+      "number": 49,
+      "sourceSlide": 52,
+      "sourceStepLabel": "49_1x.png",
+      "sourceMedia": "ppt/media/image49.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/049.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 456520,
+      "sha256": "92fc8a3281c27f918bb1084a2455077c1d0bb6efa60c491deb1b4f80ae41015d"
+    },
+    {
+      "number": 50,
+      "sourceSlide": 53,
+      "sourceStepLabel": "50_1x.png",
+      "sourceMedia": "ppt/media/image51.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/guitar/050.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 475436,
+      "sha256": "d8781f0d5778a282c4a43ab49b5bd577b8c9b27d5f90969e057ff19b539cd5c1"
+    }
+  ],
+  "output": {
+    "imageCount": 50,
+    "totalBytes": 18213446,
+    "sha256": "cb05e3bf91ed8332a6dca7b4790e368ca68dcf7a7036a8e4838630d06a2af079"
+  }
+}

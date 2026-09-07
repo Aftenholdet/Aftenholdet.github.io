@@ -1,0 +1,47 @@
+{
+  "sourceRoot": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek",
+  "generatedCode": "src/generated/library-slide-content.js",
+  "assetsOutput": "assets/generated/library",
+  "textSlides": [
+    { "pptx": "Afstandssensor.pptx", "slides": [4, 5, 6, 7, 9, 10, 11, 12] },
+    { "pptx": "Asynkrone Tråde.pptx", "slides": [3, 4] },
+    { "pptx": "Farvesensor.pptx", "slides": [4, 5, 6, 7] },
+    { "pptx": "Gentag.pptx", "slides": [4, 5, 7, 8, 10, 11] },
+    { "pptx": "Hub Spike Prime.pptx", "slides": [4, 6, 8, 10, 12] },
+    { "pptx": "Hvis ... Ellers.pptx", "slides": [4, 5, 7, 8] },
+    { "pptx": "Kraftsensor.pptx", "slides": [4, 5, 6, 7, 9, 10, 11, 12] },
+    { "pptx": "Mapping.pptx", "slides": [3, 4] },
+    { "pptx": "Motor.pptx", "slides": [4, 5, 6, 8, 9, 10, 12, 13, 14, 16] },
+    { "pptx": "Vent.pptx", "slides": [3, 4, 6, 7] }
+  ],
+  "blockAssets": [
+    {
+      "id": "asynkrone-traade",
+      "pptx": "Asynkrone Tråde.pptx",
+      "sourceSlide": 1,
+      "sourceMedia": "ppt/media/image1.png",
+      "output": "blocks/asynkrone-traade.webp"
+    },
+    {
+      "id": "gentag",
+      "pptx": "Gentag.pptx",
+      "sourceSlide": 1,
+      "sourceMedia": "ppt/media/image3.png",
+      "output": "blocks/gentag.webp"
+    },
+    {
+      "id": "hvis-ellers",
+      "pptx": "Hvis ... Ellers.pptx",
+      "sourceSlide": 1,
+      "sourceMedia": "ppt/media/image4.png",
+      "output": "blocks/hvis-ellers.webp"
+    },
+    {
+      "id": "vent",
+      "pptx": "Vent.pptx",
+      "sourceSlide": 1,
+      "sourceMedia": "ppt/media/image3.png",
+      "output": "blocks/vent.webp"
+    }
+  ]
+}

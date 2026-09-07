@@ -140,6 +140,12 @@ h3 {
   box-shadow: var(--shadow-red);
 }
 
+.button-secondary {
+  border-color: var(--brand-red);
+  background: var(--surface);
+  color: var(--brand-red-dark);
+}
+
 .button:hover {
   transform: translateY(-1px);
 }
@@ -973,6 +979,25 @@ h3 {
   color: var(--text-muted);
 }
 
+.section-picker {
+  margin-bottom: 20px;
+  display: grid;
+  gap: 7px;
+  font-weight: 900;
+}
+
+.section-picker select {
+  width: 100%;
+  min-height: 50px;
+  padding: 9px 42px 9px 12px;
+  border: 2px solid var(--border-strong);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-weight: 750;
+}
+
 .choice-group {
   min-width: 0;
   margin: 0 0 20px;
@@ -1073,6 +1098,27 @@ h3 {
   color: var(--text-muted);
 }
 
+.guide-image {
+  margin-inline: 0;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  display: grid;
+  place-items: center;
+  background: var(--surface-subtle);
+}
+
+.guide-image img {
+  width: auto;
+  max-width: 100%;
+  max-height: min(52vh, 580px);
+  object-fit: contain;
+}
+
+.guide-copy p {
+  color: var(--text);
+}
+
 .code-block {
   margin-top: 16px;
   border-radius: var(--radius-card);
@@ -1102,6 +1148,10 @@ h3 {
 
 .variant-status {
   background: var(--surface-warm);
+}
+
+.variant-action {
+  margin-top: 14px;
 }
 
 .status-general {

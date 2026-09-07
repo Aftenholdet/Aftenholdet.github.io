@@ -2,19 +2,22 @@
   "schemaVersion": 1,
   "id": "breakdancer",
   "name": "Breakdancer",
+  "displayName": "Breakdancer",
   "level": "nybegynder",
-  "buildKey": "600922b840f30269c3ba3b0950053f6eb9532f8bb876ed4341184292e613fe42",
-  "generatedAt": "2026-09-06T20:57:33.224Z",
+  "buildKey": "2c9598285f82a2888abd5e6631861230dd300df4d42b2632b5cd07fb264b9460",
+  "generatedAt": "2026-09-07T07:41:52.391Z",
   "source": {
     "type": "pptx",
     "path": "Old Solution (Google Drive)/Differentieret Læring/1. Nybegynder/Breakdancer.pptx",
     "bytes": 9747760,
     "modifiedUtc": "2025-09-02T02:18:16.000Z",
     "sha256": "ed8a96a7b2b9d38317a7c541aee62531ea7ee39f8fea33458749dcf5abf35830",
-    "slideCount": 36
+    "slideCount": 36,
+    "fileName": "Breakdancer.pptx",
+    "internalTitle": "Breakdancer"
   },
   "conversion": {
-    "pipelineVersion": 1,
+    "pipelineVersion": 2,
     "strategy": "extract-single-slide-image",
     "maxWidth": 1600,
     "maxHeight": 1200,
@@ -28,19 +31,18 @@
     {
       "slide": 1,
       "classification": "cover",
-      "reason": "Viser den færdige Breakdancer-robot og indeholder ikke et byggetrin."
+      "reason": "Første slide er ét rasterbillede uden separate elementer."
     },
     {
       "slide": 2,
       "classification": "title",
-      "reason": "Teknologiskolen-titelslide med teksten Breakdancer; ikke et byggetrin."
+      "reason": "Tidlig projekttitel/introslide."
     }
   ],
   "sequenceNotes": [
-    "Slide 3-21 er delmontage 1 med intern nummerering 1-19.",
-    "Slide 22-36 er delmontage 2 med intern nummerering 1-15.",
-    "Webrækkefølgen bevarer præsentationsrækkefølgen og nummereres samlet 001-034."
+    "Webrækkefølgen følger præsentationsrækkefølgen og nummereres fra 001."
   ],
+  "projectSpecificCodeSource": null,
   "slideAnalysis": [
     {
       "slide": 1,
@@ -48,6 +50,7 @@
       "classification": "cover",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": []
@@ -58,6 +61,7 @@
       "classification": "title",
       "text": "Breakdancer",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 1,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -70,6 +74,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -82,6 +87,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -94,6 +100,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -106,6 +113,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -118,6 +126,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -130,6 +139,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -142,6 +152,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -154,6 +165,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -166,6 +178,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -178,6 +191,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -190,6 +204,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -202,6 +217,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -214,6 +230,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -226,6 +243,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -238,6 +256,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -250,6 +269,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -262,6 +282,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -274,6 +295,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -286,6 +308,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -298,6 +321,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -310,6 +334,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -322,6 +347,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -334,6 +360,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -346,6 +373,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -358,6 +386,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -370,6 +399,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -382,6 +412,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -394,6 +425,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -406,6 +438,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -418,6 +451,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -430,6 +464,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -442,6 +477,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -454,6 +490,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -466,6 +503,7 @@
       "classification": "build-step",
       "text": "",
       "pictureCount": 1,
+      "backgroundImageCount": 0,
       "shapeCount": 0,
       "graphicFrameCount": 0,
       "imageTitles": [
@@ -515,6 +553,7 @@
       "sourceSlide": 3,
       "sourceStepLabel": "1.png",
       "sourceMedia": "ppt/media/image7.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/001.webp",
       "width": 1440,
       "height": 1080,
@@ -526,6 +565,7 @@
       "sourceSlide": 4,
       "sourceStepLabel": "2.png",
       "sourceMedia": "ppt/media/image18.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/002.webp",
       "width": 1440,
       "height": 1080,
@@ -537,6 +577,7 @@
       "sourceSlide": 5,
       "sourceStepLabel": "3.png",
       "sourceMedia": "ppt/media/image19.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/003.webp",
       "width": 1440,
       "height": 1080,
@@ -548,6 +589,7 @@
       "sourceSlide": 6,
       "sourceStepLabel": "4.png",
       "sourceMedia": "ppt/media/image2.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/004.webp",
       "width": 1440,
       "height": 1080,
@@ -559,6 +601,7 @@
       "sourceSlide": 7,
       "sourceStepLabel": "5.png",
       "sourceMedia": "ppt/media/image14.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/005.webp",
       "width": 1440,
       "height": 1080,
@@ -570,6 +613,7 @@
       "sourceSlide": 8,
       "sourceStepLabel": "6.png",
       "sourceMedia": "ppt/media/image5.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/006.webp",
       "width": 1440,
       "height": 1080,
@@ -581,6 +625,7 @@
       "sourceSlide": 9,
       "sourceStepLabel": "7.png",
       "sourceMedia": "ppt/media/image21.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/007.webp",
       "width": 1440,
       "height": 1080,
@@ -592,6 +637,7 @@
       "sourceSlide": 10,
       "sourceStepLabel": "8.png",
       "sourceMedia": "ppt/media/image1.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/008.webp",
       "width": 1440,
       "height": 1080,
@@ -603,6 +649,7 @@
       "sourceSlide": 11,
       "sourceStepLabel": "9.png",
       "sourceMedia": "ppt/media/image9.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/009.webp",
       "width": 1440,
       "height": 1080,
@@ -614,6 +661,7 @@
       "sourceSlide": 12,
       "sourceStepLabel": "10.png",
       "sourceMedia": "ppt/media/image8.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/010.webp",
       "width": 1440,
       "height": 1080,
@@ -625,6 +673,7 @@
       "sourceSlide": 13,
       "sourceStepLabel": "11.png",
       "sourceMedia": "ppt/media/image16.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/011.webp",
       "width": 1440,
       "height": 1080,
@@ -636,6 +685,7 @@
       "sourceSlide": 14,
       "sourceStepLabel": "12.png",
       "sourceMedia": "ppt/media/image10.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/012.webp",
       "width": 1440,
       "height": 1080,
@@ -647,6 +697,7 @@
       "sourceSlide": 15,
       "sourceStepLabel": "13.png",
       "sourceMedia": "ppt/media/image26.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/013.webp",
       "width": 1440,
       "height": 1080,
@@ -658,6 +709,7 @@
       "sourceSlide": 16,
       "sourceStepLabel": "14.png",
       "sourceMedia": "ppt/media/image23.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/014.webp",
       "width": 1440,
       "height": 1080,
@@ -669,6 +721,7 @@
       "sourceSlide": 17,
       "sourceStepLabel": "15.png",
       "sourceMedia": "ppt/media/image12.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/015.webp",
       "width": 1440,
       "height": 1080,
@@ -680,6 +733,7 @@
       "sourceSlide": 18,
       "sourceStepLabel": "16.png",
       "sourceMedia": "ppt/media/image11.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/016.webp",
       "width": 1440,
       "height": 1080,
@@ -691,6 +745,7 @@
       "sourceSlide": 19,
       "sourceStepLabel": "17.png",
       "sourceMedia": "ppt/media/image15.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/017.webp",
       "width": 1440,
       "height": 1080,
@@ -702,6 +757,7 @@
       "sourceSlide": 20,
       "sourceStepLabel": "18.png",
       "sourceMedia": "ppt/media/image6.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/018.webp",
       "width": 1440,
       "height": 1080,
@@ -713,6 +769,7 @@
       "sourceSlide": 21,
       "sourceStepLabel": "19.png",
       "sourceMedia": "ppt/media/image17.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/019.webp",
       "width": 1440,
       "height": 1080,
@@ -724,6 +781,7 @@
       "sourceSlide": 22,
       "sourceStepLabel": "1.png",
       "sourceMedia": "ppt/media/image20.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/020.webp",
       "width": 1440,
       "height": 1080,
@@ -735,6 +793,7 @@
       "sourceSlide": 23,
       "sourceStepLabel": "2.png",
       "sourceMedia": "ppt/media/image22.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/021.webp",
       "width": 1440,
       "height": 1080,
@@ -746,6 +805,7 @@
       "sourceSlide": 24,
       "sourceStepLabel": "3.png",
       "sourceMedia": "ppt/media/image13.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/022.webp",
       "width": 1440,
       "height": 1080,
@@ -757,6 +817,7 @@
       "sourceSlide": 25,
       "sourceStepLabel": "4.png",
       "sourceMedia": "ppt/media/image25.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/023.webp",
       "width": 1440,
       "height": 1080,
@@ -768,6 +829,7 @@
       "sourceSlide": 26,
       "sourceStepLabel": "5.png",
       "sourceMedia": "ppt/media/image27.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/024.webp",
       "width": 1440,
       "height": 1080,
@@ -779,6 +841,7 @@
       "sourceSlide": 27,
       "sourceStepLabel": "6.png",
       "sourceMedia": "ppt/media/image29.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/025.webp",
       "width": 1440,
       "height": 1080,
@@ -790,6 +853,7 @@
       "sourceSlide": 28,
       "sourceStepLabel": "7.png",
       "sourceMedia": "ppt/media/image28.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/026.webp",
       "width": 1440,
       "height": 1080,
@@ -801,6 +865,7 @@
       "sourceSlide": 29,
       "sourceStepLabel": "8.png",
       "sourceMedia": "ppt/media/image30.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/027.webp",
       "width": 1440,
       "height": 1080,
@@ -812,6 +877,7 @@
       "sourceSlide": 30,
       "sourceStepLabel": "9.png",
       "sourceMedia": "ppt/media/image34.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/028.webp",
       "width": 1440,
       "height": 1080,
@@ -823,6 +889,7 @@
       "sourceSlide": 31,
       "sourceStepLabel": "10.png",
       "sourceMedia": "ppt/media/image24.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/029.webp",
       "width": 1440,
       "height": 1080,
@@ -834,6 +901,7 @@
       "sourceSlide": 32,
       "sourceStepLabel": "11.png",
       "sourceMedia": "ppt/media/image31.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/030.webp",
       "width": 1440,
       "height": 1080,
@@ -845,6 +913,7 @@
       "sourceSlide": 33,
       "sourceStepLabel": "12.png",
       "sourceMedia": "ppt/media/image36.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/031.webp",
       "width": 1440,
       "height": 1080,
@@ -856,6 +925,7 @@
       "sourceSlide": 34,
       "sourceStepLabel": "13.png",
       "sourceMedia": "ppt/media/image35.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/032.webp",
       "width": 1440,
       "height": 1080,
@@ -867,6 +937,7 @@
       "sourceSlide": 35,
       "sourceStepLabel": "14.png",
       "sourceMedia": "ppt/media/image33.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/033.webp",
       "width": 1440,
       "height": 1080,
@@ -878,6 +949,7 @@
       "sourceSlide": 36,
       "sourceStepLabel": "15.png",
       "sourceMedia": "ppt/media/image32.png",
+      "sourceRepresentation": "picture",
       "path": "assets/generated/build-guides/breakdancer/034.webp",
       "width": 1440,
       "height": 1080,
@@ -887,6 +959,7 @@
   ],
   "output": {
     "imageCount": 34,
-    "totalBytes": 3878574
+    "totalBytes": 3878574,
+    "sha256": "355a422733a413ffe967283dba455ed73c69c8e4bf841ec7d0e27eaf5b4a4ca0"
   }
 }

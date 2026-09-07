@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "id": "minigolf",
+  "name": "Minigolf",
+  "displayName": "Minigolf",
+  "level": "nybegynder",
+  "buildKey": "5e88d0f3dbe839680c7c431c8e4d601332eb1854bea3011361c5cc87147a5c90",
+  "generatedAt": "2026-09-07T07:43:37.618Z",
+  "source": {
+    "type": "pptx",
+    "path": "Old Solution (Google Drive)/Differentieret Læring/1. Nybegynder/Minigolf.pptx",
+    "bytes": 8529378,
+    "modifiedUtc": "2025-09-02T02:18:24.000Z",
+    "sha256": "47017352df402477141f897f78ac13d68097cd8621a2933b1e10d070c2650360",
+    "slideCount": 27,
+    "fileName": "Minigolf.pptx",
+    "internalTitle": "Minigolf"
+  },
+  "conversion": {
+    "pipelineVersion": 2,
+    "strategy": "extract-single-slide-image",
+    "maxWidth": 1600,
+    "maxHeight": 1200,
+    "format": "webp",
+    "quality": 90,
+    "alphaQuality": 100,
+    "effort": 6,
+    "nearLossless": true
+  },
+  "excludedSlides": [
+    {
+      "slide": 1,
+      "classification": "cover",
+      "reason": "Første slide er ét rasterbillede uden separate elementer."
+    },
+    {
+      "slide": 2,
+      "classification": "title",
+      "reason": "Tidlig projekttitel/introslide."
+    }
+  ],
+  "sequenceNotes": [
+    "Webrækkefølgen følger præsentationsrækkefølgen og nummereres fra 001."
+  ],
+  "projectSpecificCodeSource": null,
+  "slideAnalysis": [
+    {
+      "slide": 1,
+      "included": false,
+      "classification": "cover",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": []
+    },
+    {
+      "slide": 2,
+      "included": false,
+      "classification": "title",
+      "text": "Minigolf",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 1,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "Teknologiskolen_logo 1.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "1.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "2.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "3.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "4.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "5.png"
+      ]
+    },
+    {
+      "slide": 8,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "6.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "7.png"
+      ]
+    },
+    {
+      "slide": 10,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "8.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "9.png"
+      ]
+    },
+    {
+      "slide": 12,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "10.png"
+      ]
+    },
+    {
+      "slide": 13,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "11.png"
+      ]
+    },
+    {
+      "slide": 14,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "12.png"
+      ]
+    },
+    {
+      "slide": 15,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "13.png"
+      ]
+    },
+    {
+      "slide": 16,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "14.png"
+      ]
+    },
+    {
+      "slide": 17,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "15.png"
+      ]
+    },
+    {
+      "slide": 18,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "16.png"
+      ]
+    },
+    {
+      "slide": 19,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "17.png"
+      ]
+    },
+    {
+      "slide": 20,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "18-2.png"
+      ]
+    },
+    {
+      "slide": 21,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "18.png"
+      ]
+    },
+    {
+      "slide": 22,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "19.png"
+      ]
+    },
+    {
+      "slide": 23,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "20.png"
+      ]
+    },
+    {
+      "slide": 24,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "21.png"
+      ]
+    },
+    {
+      "slide": 25,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "22.png"
+      ]
+    },
+    {
+      "slide": 26,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "23.png"
+      ]
+    },
+    {
+      "slide": 27,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "24.png"
+      ]
+    }
+  ],
+  "buildSteps": [
+    "assets/generated/build-guides/minigolf/001.webp",
+    "assets/generated/build-guides/minigolf/002.webp",
+    "assets/generated/build-guides/minigolf/003.webp",
+    "assets/generated/build-guides/minigolf/004.webp",
+    "assets/generated/build-guides/minigolf/005.webp",
+    "assets/generated/build-guides/minigolf/006.webp",
+    "assets/generated/build-guides/minigolf/007.webp",
+    "assets/generated/build-guides/minigolf/008.webp",
+    "assets/generated/build-guides/minigolf/009.webp",
+    "assets/generated/build-guides/minigolf/010.webp",
+    "assets/generated/build-guides/minigolf/011.webp",
+    "assets/generated/build-guides/minigolf/012.webp",
+    "assets/generated/build-guides/minigolf/013.webp",
+    "assets/generated/build-guides/minigolf/014.webp",
+    "assets/generated/build-guides/minigolf/015.webp",
+    "assets/generated/build-guides/minigolf/016.webp",
+    "assets/generated/build-guides/minigolf/017.webp",
+    "assets/generated/build-guides/minigolf/018.webp",
+    "assets/generated/build-guides/minigolf/019.webp",
+    "assets/generated/build-guides/minigolf/020.webp",
+    "assets/generated/build-guides/minigolf/021.webp",
+    "assets/generated/build-guides/minigolf/022.webp",
+    "assets/generated/build-guides/minigolf/023.webp",
+    "assets/generated/build-guides/minigolf/024.webp",
+    "assets/generated/build-guides/minigolf/025.webp"
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "sourceSlide": 3,
+      "sourceStepLabel": "1.png",
+      "sourceMedia": "ppt/media/image16.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/001.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 203804,
+      "sha256": "d4cbf80a8ee03caa44dfeebaa3e851b5da70d382947710955865ad24f50d0ae7"
+    },
+    {
+      "number": 2,
+      "sourceSlide": 4,
+      "sourceStepLabel": "2.png",
+      "sourceMedia": "ppt/media/image4.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/002.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 113218,
+      "sha256": "c8fb7d1146a1291a67ef9ea8fd46bd80f7ea9f3c85e51ae279208b3205a9aa16"
+    },
+    {
+      "number": 3,
+      "sourceSlide": 5,
+      "sourceStepLabel": "3.png",
+      "sourceMedia": "ppt/media/image8.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/003.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 156738,
+      "sha256": "ca488329ea39cdc407e751642e89d46650ccf5b495038c9ac1fa74c8f6608fcc"
+    },
+    {
+      "number": 4,
+      "sourceSlide": 6,
+      "sourceStepLabel": "4.png",
+      "sourceMedia": "ppt/media/image13.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/004.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 162198,
+      "sha256": "fe93551f449aca37c562700a1b3756beb617d0b972fee16b1893337cf14accea"
+    },
+    {
+      "number": 5,
+      "sourceSlide": 7,
+      "sourceStepLabel": "5.png",
+      "sourceMedia": "ppt/media/image15.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/005.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 248222,
+      "sha256": "f3c1246bbbbdda1a8024a2b23d13a1281aa2a256fc1e99f871a14d73b26d0f09"
+    },
+    {
+      "number": 6,
+      "sourceSlide": 8,
+      "sourceStepLabel": "6.png",
+      "sourceMedia": "ppt/media/image9.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/006.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 173268,
+      "sha256": "fd9dce97a316885d30dbba8d917eb9773b369c1eab2a7e395ef5713505c41435"
+    },
+    {
+      "number": 7,
+      "sourceSlide": 9,
+      "sourceStepLabel": "7.png",
+      "sourceMedia": "ppt/media/image2.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/007.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 45842,
+      "sha256": "41b3f6590cc29dc56f4f5f94c9f30b2635d9a96496c19d4d1a23f37ae443b2bf"
+    },
+    {
+      "number": 8,
+      "sourceSlide": 10,
+      "sourceStepLabel": "8.png",
+      "sourceMedia": "ppt/media/image3.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/008.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 45362,
+      "sha256": "a9273cb27a043b0c1c0fdcbc5720a11d68e0ef591132faf147c6c479f7e19f43"
+    },
+    {
+      "number": 9,
+      "sourceSlide": 11,
+      "sourceStepLabel": "9.png",
+      "sourceMedia": "ppt/media/image6.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/009.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 56150,
+      "sha256": "5103893e73cf4a9abdcd3fcddff232a0950c61b6733ecc9a3f6aee3c664fa82f"
+    },
+    {
+      "number": 10,
+      "sourceSlide": 12,
+      "sourceStepLabel": "10.png",
+      "sourceMedia": "ppt/media/image18.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/010.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 73672,
+      "sha256": "e572ec34915278af676fd25d398db2ff41d7cc03b3aa478439a8b8f82f2b6669"
+    },
+    {
+      "number": 11,
+      "sourceSlide": 13,
+      "sourceStepLabel": "11.png",
+      "sourceMedia": "ppt/media/image1.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/011.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 69884,
+      "sha256": "ec21716c073ac06808cf550e039c62602318531eb2ff6ffecb1e2703bb3fd3d2"
+    },
+    {
+      "number": 12,
+      "sourceSlide": 14,
+      "sourceStepLabel": "12.png",
+      "sourceMedia": "ppt/media/image20.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/012.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 186208,
+      "sha256": "91dc1291cdf4df5c510bf910bccbdfc6749e4ede7584951a53e9152e27df35de"
+    },
+    {
+      "number": 13,
+      "sourceSlide": 15,
+      "sourceStepLabel": "13.png",
+      "sourceMedia": "ppt/media/image12.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/013.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 51976,
+      "sha256": "ae357dcb792dbad9ad00f2cfc1711ac7aee218c746fffc03717f4ed3e268222f"
+    },
+    {
+      "number": 14,
+      "sourceSlide": 16,
+      "sourceStepLabel": "14.png",
+      "sourceMedia": "ppt/media/image21.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/014.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 55860,
+      "sha256": "91cd89816fb11a3d94153ea3ebdde9988edf225bc0a150d1cb633cb5f5244649"
+    },
+    {
+      "number": 15,
+      "sourceSlide": 17,
+      "sourceStepLabel": "15.png",
+      "sourceMedia": "ppt/media/image19.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/015.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 53164,
+      "sha256": "be3c5c3a75814744de6b1d112a90e74c3dfd5d263008d1686561a9d428b2d666"
+    },
+    {
+      "number": 16,
+      "sourceSlide": 18,
+      "sourceStepLabel": "16.png",
+      "sourceMedia": "ppt/media/image7.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/016.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 32538,
+      "sha256": "7ca13d015204bf860de3ffe399ca2ad0fb842758778734cfc0e1ed73f066da70"
+    },
+    {
+      "number": 17,
+      "sourceSlide": 19,
+      "sourceStepLabel": "17.png",
+      "sourceMedia": "ppt/media/image17.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/017.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 48178,
+      "sha256": "277d1b4fc6cba38d56fec33e894c2ee7b965603c794bc41eedf0cfae81b6853f"
+    },
+    {
+      "number": 18,
+      "sourceSlide": 20,
+      "sourceStepLabel": "18-2.png",
+      "sourceMedia": "ppt/media/image23.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/018.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 65860,
+      "sha256": "f5a4032246a2a142cafe3ec8764bc39f6e20bee12cd0557f44a1462c956d76bc"
+    },
+    {
+      "number": 19,
+      "sourceSlide": 21,
+      "sourceStepLabel": "18.png",
+      "sourceMedia": "ppt/media/image14.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/019.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 42470,
+      "sha256": "eb03259765da6d65bac2947410ca83dbbe0d7bf65f69eb39ae739e43fca3c8fd"
+    },
+    {
+      "number": 20,
+      "sourceSlide": 22,
+      "sourceStepLabel": "19.png",
+      "sourceMedia": "ppt/media/image11.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/020.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 35172,
+      "sha256": "427a10725d1746b27822f9afd1250f8316762f6b4147d62f218dd3413d4f7191"
+    },
+    {
+      "number": 21,
+      "sourceSlide": 23,
+      "sourceStepLabel": "20.png",
+      "sourceMedia": "ppt/media/image24.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/021.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 86812,
+      "sha256": "46365394b31ed3a5f0d8d2ed48d51bab955459c3bca54cc1644f618670707197"
+    },
+    {
+      "number": 22,
+      "sourceSlide": 24,
+      "sourceStepLabel": "21.png",
+      "sourceMedia": "ppt/media/image22.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/022.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 222950,
+      "sha256": "322f752019f063758e5e26e2bda5057058702dc7cd9427f3c3db7cf5493c8159"
+    },
+    {
+      "number": 23,
+      "sourceSlide": 25,
+      "sourceStepLabel": "22.png",
+      "sourceMedia": "ppt/media/image26.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/023.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 181450,
+      "sha256": "6ef0ab4c408c7b741b2aa17effd133d46958a12d94806ce1ec46e00f4f941aca"
+    },
+    {
+      "number": 24,
+      "sourceSlide": 26,
+      "sourceStepLabel": "23.png",
+      "sourceMedia": "ppt/media/image27.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/024.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 197450,
+      "sha256": "f41f10c02787f865a2b7f3c9a00f17d500bfd4fb20b9c134e681f6900ce03693"
+    },
+    {
+      "number": 25,
+      "sourceSlide": 27,
+      "sourceStepLabel": "24.png",
+      "sourceMedia": "ppt/media/image25.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/minigolf/025.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 172760,
+      "sha256": "0977371d61cb7ac721c4382780ac33b1aa634b04711e483b82d9632d509305c2"
+    }
+  ],
+  "output": {
+    "imageCount": 25,
+    "totalBytes": 2781206,
+    "sha256": "f2f8de09fdc35fd0e8a59c4ccee3362d9f65c964a7b9dbacd559e9f7b9efe720"
+  }
+}

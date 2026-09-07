@@ -8,10 +8,11 @@ Prototypen indeholder alle fire niveauer og alle 20 robotprojekter fra den downl
 
 - `index.html` er den eneste HTML-indgang.
 - `src/app.js` indeholder routing og UI-adfærd.
-- `src/content.js` er den centrale indholdsmodel for niveauer, projekter, byggetrin og bibliotek.
+- `src/content.js` samler projektdata og eksporterer bibliotekets model fra `src/library-content.js`.
 - `src/styles.css` indeholder Teknologiskolens visuelle tokens og responsive layout.
 - `assets/projects/` indeholder udtrukne thumbnails.
 - `assets/generated/build-guides/` indeholder pipeline-genererede byggevejledninger og metadata.
+- `assets/generated/library/` indeholder de auditerede blokkodebilleder som near-lossless WebP.
 - `Old Solution (Google Drive)/` er urørt kildemateriale og udgives ikke på hjemmesiden.
 - Navigationen bruger hash-routes, så direkte reload fungerer både på et brugersite og under et repository-subpath på GitHub Pages.
 
@@ -43,18 +44,27 @@ npm test
 npm run build
 ```
 
-`npm run build` validerer først indholdsmodellen og alle refererede filer. Derefter oprettes det statiske site i `dist/`. PowerPoint-kilderne kopieres ikke med.
+`npm run build` validerer først indholdsmodellen og alle refererede filer. Derefter oprettes det statiske site i `dist/`. PowerPoint-kilder og rå image-sequence-PNG'er kopieres ikke med.
 
 ## Generér byggevejledninger
 
-Breakdancer er content-pipelinens proof of concept. Slides analyseres og klassificeres i `content/build-guides.config.json`, før de må blive til byggetrin.
+Alle 20 byggevejledninger er deklareret i `content/build-guides.config.json`. Atten bruger legacy-PPTX som build-kilde, mens Mecha-bot og Gaffeltruck bruger autoritative PNG-sekvenser i `source-assets/build-guides/`.
 
 ```powershell
 npm run content:analyze
+npm run content:sources:validate
 npm run content:build
 ```
 
-En uændret kilde og uændrede indstillinger giver `[SKIP]` og omskriver ikke outputtet. Den tekniske metode, dependencies, metadataformat og procedure for nye projekter er dokumenteret i [docs/CONTENT_PIPELINE.md](docs/CONTENT_PIPELINE.md).
+`content:analyze` laver en fuld dry run og kræver præcis 20 guider og 1.132 byggetrin. `content:sources:validate` kontrollerer nummerering, filtype, dimensioner og hash for image-sequences. `content:build` gentager kontrollen før første output skrives. En uændret kilde og uændrede indstillinger giver `[SKIP]` og omskriver ikke outputtet. Den tekniske metode, dependencies, metadataformat og procedure for nye projekter er dokumenteret i [docs/CONTENT_PIPELINE.md](docs/CONTENT_PIPELINE.md).
+
+Bibliotekets auditerede PowerPoint-tekstlag og fire blokkodebilleder kan regenereres separat uden at berøre byggeguide-pipelinen:
+
+```powershell
+npm run library:generate
+```
+
+Kildevalget ligger i `content/library-source-map.json`. Tekstoutputtet skrives til `src/generated/library-slide-content.js`, og blokkode-assets samt metadata skrives til `assets/generated/library/`.
 
 Med udviklingsserveren kørende kan den valgfrie Chrome-smoke-test af mobilvisning, drawer, fokus og variantvalg køres i en anden terminal:
 
@@ -73,54 +83,34 @@ Workflowen kan også startes manuelt fra fanen **Actions**. Den følger GitHubs 
 ## Tilføj et robotprojekt
 
 1. Læg et weboptimeret thumbnail-billede i `assets/projects/<projekt-id>/thumbnail.webp` eller `.png`.
-2. Klassificér alle kildens slides i `content/build-guides.config.json` og kør content-pipelinen. Output navngives `001.webp`, `002.webp` osv.
-3. Tilføj projektet ét sted i `projects` i `src/content.js` med `id`, `name`, `levelId`, `thumbnail`, kildeoplysninger og de genererede `buildSteps`.
-4. Brug `buildStatus: 'ready'`, når alle trin er kontrolleret. Brug `source-only` eller `needs-review`, hvis de ikke er klar.
-5. Kør `npm run validate` og `npm test`.
+2. Vælg `sourceType: "pptx"` eller `sourceType: "image-sequence"` i `content/build-guides.config.json`. PPTX-slides klassificeres eksplicit; image-sequences placeres i `source-assets/build-guides/<projekt-id>/` og får et entydigt nummermønster.
+3. Tilføj projektet ét sted i `projects` i `src/content.js` med `id`, `name`, `levelId`, thumbnail og kildeoplysninger. `buildSteps` genereres fra manifestet i `src/generated/build-guides.js`.
+4. Bevar ældre kilder separat som `legacySource`, når en nyere build-kilde overtager.
+5. Kør `npm run content:sources:validate`, `npm run content:analyze`, `npm run validate` og `npm test`.
 
-Et byggetrin indeholder aktuelt `number`, `image`, `alt` og `sourceSlide`. `sourceSlide` bevarer forbindelsen til PowerPoint-kilden.
+Et byggetrin indeholder `number`, `image`, `alt` og `sourceType`. PPTX-trin har `sourceSlide`; image-sequence-trin har `sourceSequence`, `sourceFile`, `sourcePath` og kildehash.
 
 ## Tilføj et biblioteksemne
 
-Tilføj emnet i `libraryTopics` i `src/content.js`. Angiv:
+Biblioteket vedligeholdes i `src/library-content.js`. Et emne har `sections`, og hvert afsnit har sin egen `selection` og en liste af `variants`. Modellen understøtter:
 
-- `id`, `name`, `categoryId` og en kort beskrivelse.
-- Den oprindelige PPTX-fil og dens slideantal.
-- En eksplicit status for alle fire platform/kodetype-kombinationer.
+- `platform`: `spike`, `mindstorms`, `shared` eller `general`.
+- `codeMode`: `blocks`, `text` eller `concept`.
+- `status`: `available`, `coming-soon` eller `missing`.
+- `confidence`: `confirmed`, `likely` eller `unknown`.
+- Redaktionel `source` med PPTX, slide-numre og mediefiler.
+- `content` som rigtig kode, tekst eller et genereret billedasset.
 
-De tilladte statusser i prototypen er:
+Et `shared` blokasset kan bruges af begge platformvalg uden dublering. `general`/`concept` bruges til teori som Mapping. Selector-konfigurationen afgør eksplicit, hvilke kontroller der giver mening for afsnittet; manglende varianter må ikke falde tilbage til en anden platform automatisk.
 
-- `available`: indholdet er overført og kan vises.
-- `source-only`: variationen findes i PPTX, men er ikke overført endnu.
-- `missing`: variationen blev ikke fundet i materialet.
-- `unclear`: materialet findes, men platform eller kodetype kan ikke bekræftes.
-- `coming-soon`: kilden siger selv, at indholdet kommer senere.
-
-## Tilføj en guidevariation
-
-Variationerne ligger som to dimensioner under samme emne:
-
-```js
-variants: {
-  spike: {
-    blocks: { status: 'missing', message: '...' },
-    text: { status: 'available', sourceSlides: [4, 5], sections: [...] },
-  },
-  mindstorms: {
-    blocks: { status: 'missing', message: '...' },
-    text: { status: 'source-only', sourceSlides: [6, 7], message: '...' },
-  },
-}
-```
-
-En `available` variation kan have flere `sections`. Hver sektion kan indeholde `title`, `body` og `code`. Tilføj kun en variation som `available`, når indholdet er kontrolleret mod kilden.
+Når nye PowerPoint-tekstslides eller blokbilleder skal udtrækkes, registreres de først i `content/library-source-map.json`, hvorefter `npm run library:generate`, `npm run validate` og `npm test` køres.
 
 ## Nuværende begrænsninger
 
 - Teknologiskolens rigtige logo er endnu ikke indsat; hero og header bruger tydelige placeholders.
-- Kun Breakdancers 34 reelle byggetrin er gjort webklare via den nye content pipeline.
+- Alle 20 byggevejledninger med i alt 1.132 trin er gjort webklare via content-pipelinen.
 - Alle robot-thumbnails er originale coverbilleder udtrukket fra de eksisterende PPTX-filer.
-- Afstandssensor og Motor har fungerende tekstkodeprototyper for SPIKE og MINDSTORMS.
-- Andre biblioteksguides viser deres faktiske kilde-/mangelstatus, men deres indhold er ikke fuldt overført.
-- Der blev ikke fundet blokkodevariationer i kildematerialet.
-- Robot-thumbnails er stadig PNG. Breakdancers byggetrin er konverteret til størrelsesbegrænset, near-lossless WebP.
+- 53 auditerede biblioteksslides er udtrukket som rigtig webtekst med originale linjeskift, indrykning og kommentarer.
+- Fire visuelt bekræftede blokkodebilleder er tilgængelige; deres platformstilknytning er fortsat redaktionelt markeret som sandsynlig eller ukendt.
+- Flere emner mangler fortsat blokkode i det downloadede materiale, og Hub Mindstorms siger selv, at kode kommer snart.
+- Robot-thumbnails er stadig PNG. Alle genererede byggetrin er størrelsesbegrænset, near-lossless WebP.

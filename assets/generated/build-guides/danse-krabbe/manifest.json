@@ -1,0 +1,1530 @@
+{
+  "schemaVersion": 1,
+  "id": "danse-krabbe",
+  "name": "Danse-Krabbe",
+  "displayName": "Danse-Krabbe",
+  "level": "let-oevet",
+  "buildKey": "89cd6480df5b88d8a6c22a46689e459bfb0b9e202b69c5cff8774a6a1096b044",
+  "generatedAt": "2026-09-07T07:44:52.134Z",
+  "source": {
+    "type": "pptx",
+    "path": "Old Solution (Google Drive)/Differentieret Læring/2. Let Øvet/Danse-Krabbe.pptx",
+    "bytes": 33409973,
+    "modifiedUtc": "2025-09-07T04:33:52.000Z",
+    "sha256": "c1b417c78439f3c6ee27fa5bf7d79cfc297f36b6342568af7f057bbaa5a53061",
+    "slideCount": 58,
+    "fileName": "Danse-Krabbe.pptx",
+    "internalTitle": "Danse-Krabbe"
+  },
+  "conversion": {
+    "pipelineVersion": 2,
+    "strategy": "extract-single-slide-image",
+    "maxWidth": 1600,
+    "maxHeight": 1200,
+    "format": "webp",
+    "quality": 90,
+    "alphaQuality": 100,
+    "effort": 6,
+    "nearLossless": true
+  },
+  "excludedSlides": [
+    {
+      "slide": 1,
+      "classification": "cover",
+      "reason": "Første slide er ét rasterbillede uden separate elementer."
+    },
+    {
+      "slide": 2,
+      "classification": "title",
+      "reason": "Tidlig projekttitel/introslide."
+    },
+    {
+      "slide": 3,
+      "classification": "text",
+      "reason": "Tekst er slideindholdets primære element."
+    }
+  ],
+  "sequenceNotes": [
+    "Webrækkefølgen følger præsentationsrækkefølgen og nummereres fra 001.",
+    "Den separate tekst-/advarselsslide er eksplicit ekskluderet."
+  ],
+  "projectSpecificCodeSource": null,
+  "slideAnalysis": [
+    {
+      "slide": 1,
+      "included": false,
+      "classification": "cover",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "Cover.png"
+      ]
+    },
+    {
+      "slide": 2,
+      "included": false,
+      "classification": "title",
+      "text": "Danse-Krabbe",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 1,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "Teknologiskolen_logo 1.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "included": false,
+      "classification": "text",
+      "text": "Bygge Guide Vær opmærksom på at guiden er semi-autogenereret og kan derfor have fejl 🙂",
+      "pictureCount": 0,
+      "backgroundImageCount": 0,
+      "shapeCount": 2,
+      "graphicFrameCount": 0,
+      "imageTitles": []
+    },
+    {
+      "slide": 4,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "1_1x.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "2_1x.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "3_1x.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "4_1x.png"
+      ]
+    },
+    {
+      "slide": 8,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "5_1x.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "6_1x.png"
+      ]
+    },
+    {
+      "slide": 10,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "7_1x.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "8_1x.png"
+      ]
+    },
+    {
+      "slide": 12,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "9_1x.png"
+      ]
+    },
+    {
+      "slide": 13,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "10_1x.png"
+      ]
+    },
+    {
+      "slide": 14,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "11_1x.png"
+      ]
+    },
+    {
+      "slide": 15,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "12_1x.png"
+      ]
+    },
+    {
+      "slide": 16,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "13_1x.png"
+      ]
+    },
+    {
+      "slide": 17,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "14_1x.png"
+      ]
+    },
+    {
+      "slide": 18,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "15_1x.png"
+      ]
+    },
+    {
+      "slide": 19,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "16_1x.png"
+      ]
+    },
+    {
+      "slide": 20,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "17_1x.png"
+      ]
+    },
+    {
+      "slide": 21,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "18_1x.png"
+      ]
+    },
+    {
+      "slide": 22,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "19_1x.png"
+      ]
+    },
+    {
+      "slide": 23,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "20_1x.png"
+      ]
+    },
+    {
+      "slide": 24,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "21_1x.png"
+      ]
+    },
+    {
+      "slide": 25,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "22_1x.png"
+      ]
+    },
+    {
+      "slide": 26,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "23_1x.png"
+      ]
+    },
+    {
+      "slide": 27,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "24_1x.png"
+      ]
+    },
+    {
+      "slide": 28,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "25_1x.png"
+      ]
+    },
+    {
+      "slide": 29,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "26_1x.png"
+      ]
+    },
+    {
+      "slide": 30,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "27_1x.png"
+      ]
+    },
+    {
+      "slide": 31,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "28_1x.png"
+      ]
+    },
+    {
+      "slide": 32,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "29_1x.png"
+      ]
+    },
+    {
+      "slide": 33,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "30_1x.png"
+      ]
+    },
+    {
+      "slide": 34,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "31_1x.png"
+      ]
+    },
+    {
+      "slide": 35,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "32_1x.png"
+      ]
+    },
+    {
+      "slide": 36,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "33_1x.png"
+      ]
+    },
+    {
+      "slide": 37,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "34_1x.png"
+      ]
+    },
+    {
+      "slide": 38,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "35_1x.png"
+      ]
+    },
+    {
+      "slide": 39,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "36_1x.png"
+      ]
+    },
+    {
+      "slide": 40,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "37_1x.png"
+      ]
+    },
+    {
+      "slide": 41,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "38_1x.png"
+      ]
+    },
+    {
+      "slide": 42,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "39_1x.png"
+      ]
+    },
+    {
+      "slide": 43,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "40_1x.png"
+      ]
+    },
+    {
+      "slide": 44,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "41_1x.png"
+      ]
+    },
+    {
+      "slide": 45,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "42_1x.png"
+      ]
+    },
+    {
+      "slide": 46,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "43_1x.png"
+      ]
+    },
+    {
+      "slide": 47,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "44_1x.png"
+      ]
+    },
+    {
+      "slide": 48,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "45_1x.png"
+      ]
+    },
+    {
+      "slide": 49,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "46_1x.png"
+      ]
+    },
+    {
+      "slide": 50,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "47_1x.png"
+      ]
+    },
+    {
+      "slide": 51,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "48_1x.png"
+      ]
+    },
+    {
+      "slide": 52,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "49_1x.png"
+      ]
+    },
+    {
+      "slide": 53,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "50_1x.png"
+      ]
+    },
+    {
+      "slide": 54,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "51_1x.png"
+      ]
+    },
+    {
+      "slide": 55,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "52_1x.png"
+      ]
+    },
+    {
+      "slide": 56,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "53_1x.png"
+      ]
+    },
+    {
+      "slide": 57,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "54_1x.png"
+      ]
+    },
+    {
+      "slide": 58,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "55_1x.png"
+      ]
+    }
+  ],
+  "buildSteps": [
+    "assets/generated/build-guides/danse-krabbe/001.webp",
+    "assets/generated/build-guides/danse-krabbe/002.webp",
+    "assets/generated/build-guides/danse-krabbe/003.webp",
+    "assets/generated/build-guides/danse-krabbe/004.webp",
+    "assets/generated/build-guides/danse-krabbe/005.webp",
+    "assets/generated/build-guides/danse-krabbe/006.webp",
+    "assets/generated/build-guides/danse-krabbe/007.webp",
+    "assets/generated/build-guides/danse-krabbe/008.webp",
+    "assets/generated/build-guides/danse-krabbe/009.webp",
+    "assets/generated/build-guides/danse-krabbe/010.webp",
+    "assets/generated/build-guides/danse-krabbe/011.webp",
+    "assets/generated/build-guides/danse-krabbe/012.webp",
+    "assets/generated/build-guides/danse-krabbe/013.webp",
+    "assets/generated/build-guides/danse-krabbe/014.webp",
+    "assets/generated/build-guides/danse-krabbe/015.webp",
+    "assets/generated/build-guides/danse-krabbe/016.webp",
+    "assets/generated/build-guides/danse-krabbe/017.webp",
+    "assets/generated/build-guides/danse-krabbe/018.webp",
+    "assets/generated/build-guides/danse-krabbe/019.webp",
+    "assets/generated/build-guides/danse-krabbe/020.webp",
+    "assets/generated/build-guides/danse-krabbe/021.webp",
+    "assets/generated/build-guides/danse-krabbe/022.webp",
+    "assets/generated/build-guides/danse-krabbe/023.webp",
+    "assets/generated/build-guides/danse-krabbe/024.webp",
+    "assets/generated/build-guides/danse-krabbe/025.webp",
+    "assets/generated/build-guides/danse-krabbe/026.webp",
+    "assets/generated/build-guides/danse-krabbe/027.webp",
+    "assets/generated/build-guides/danse-krabbe/028.webp",
+    "assets/generated/build-guides/danse-krabbe/029.webp",
+    "assets/generated/build-guides/danse-krabbe/030.webp",
+    "assets/generated/build-guides/danse-krabbe/031.webp",
+    "assets/generated/build-guides/danse-krabbe/032.webp",
+    "assets/generated/build-guides/danse-krabbe/033.webp",
+    "assets/generated/build-guides/danse-krabbe/034.webp",
+    "assets/generated/build-guides/danse-krabbe/035.webp",
+    "assets/generated/build-guides/danse-krabbe/036.webp",
+    "assets/generated/build-guides/danse-krabbe/037.webp",
+    "assets/generated/build-guides/danse-krabbe/038.webp",
+    "assets/generated/build-guides/danse-krabbe/039.webp",
+    "assets/generated/build-guides/danse-krabbe/040.webp",
+    "assets/generated/build-guides/danse-krabbe/041.webp",
+    "assets/generated/build-guides/danse-krabbe/042.webp",
+    "assets/generated/build-guides/danse-krabbe/043.webp",
+    "assets/generated/build-guides/danse-krabbe/044.webp",
+    "assets/generated/build-guides/danse-krabbe/045.webp",
+    "assets/generated/build-guides/danse-krabbe/046.webp",
+    "assets/generated/build-guides/danse-krabbe/047.webp",
+    "assets/generated/build-guides/danse-krabbe/048.webp",
+    "assets/generated/build-guides/danse-krabbe/049.webp",
+    "assets/generated/build-guides/danse-krabbe/050.webp",
+    "assets/generated/build-guides/danse-krabbe/051.webp",
+    "assets/generated/build-guides/danse-krabbe/052.webp",
+    "assets/generated/build-guides/danse-krabbe/053.webp",
+    "assets/generated/build-guides/danse-krabbe/054.webp",
+    "assets/generated/build-guides/danse-krabbe/055.webp"
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "sourceSlide": 4,
+      "sourceStepLabel": "1_1x.png",
+      "sourceMedia": "ppt/media/image2.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/001.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 23354,
+      "sha256": "3f89b0320ebfc2233ca271b7f64f98f56f56e5bd7ed42c608a5ff4cd9237c35f"
+    },
+    {
+      "number": 2,
+      "sourceSlide": 5,
+      "sourceStepLabel": "2_1x.png",
+      "sourceMedia": "ppt/media/image7.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/002.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 32054,
+      "sha256": "944300fc0f8a1ea7de92b1212091368c73859cbf008bd7edd5729c1766539d4a"
+    },
+    {
+      "number": 3,
+      "sourceSlide": 6,
+      "sourceStepLabel": "3_1x.png",
+      "sourceMedia": "ppt/media/image6.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/003.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 128804,
+      "sha256": "723e85e20f717cb98e62dfc225f108fe3d41ad927cec75d8f9f5e464fca8b4fd"
+    },
+    {
+      "number": 4,
+      "sourceSlide": 7,
+      "sourceStepLabel": "4_1x.png",
+      "sourceMedia": "ppt/media/image8.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/004.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 86336,
+      "sha256": "21418da6bd9067374178377dd7d0526ba492e34ebd23a53f98b4f9ffac5b4105"
+    },
+    {
+      "number": 5,
+      "sourceSlide": 8,
+      "sourceStepLabel": "5_1x.png",
+      "sourceMedia": "ppt/media/image4.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/005.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 133528,
+      "sha256": "3c4d6fba57e1a4c112056b7389b0fd7406661ae134eae52eb8ffd2032a4ee24a"
+    },
+    {
+      "number": 6,
+      "sourceSlide": 9,
+      "sourceStepLabel": "6_1x.png",
+      "sourceMedia": "ppt/media/image3.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/006.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 119764,
+      "sha256": "5937f6f756245ba4e9895415dab795278a47ae35e47007c7015eb2fd66f32518"
+    },
+    {
+      "number": 7,
+      "sourceSlide": 10,
+      "sourceStepLabel": "7_1x.png",
+      "sourceMedia": "ppt/media/image5.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/007.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 121976,
+      "sha256": "14d24b9ec6893643cf0f56aa11a51011ba60e02b5e63cc0f5bc26f895969cd99"
+    },
+    {
+      "number": 8,
+      "sourceSlide": 11,
+      "sourceStepLabel": "8_1x.png",
+      "sourceMedia": "ppt/media/image10.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/008.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 281652,
+      "sha256": "077bc1471f88bd9282a006e71adb894ce9d927f2a818f5634906a1303a433dc3"
+    },
+    {
+      "number": 9,
+      "sourceSlide": 12,
+      "sourceStepLabel": "9_1x.png",
+      "sourceMedia": "ppt/media/image12.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/009.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 233654,
+      "sha256": "26c61b9fc261a93d7dea864bcf0fdd0734ab0f6d90c24b2a0d9a88579e2ba65c"
+    },
+    {
+      "number": 10,
+      "sourceSlide": 13,
+      "sourceStepLabel": "10_1x.png",
+      "sourceMedia": "ppt/media/image11.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/010.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 263748,
+      "sha256": "3a1bf8da5ce8963071e27469350da126359f93d5ca271b44df469c1ea2a4dd02"
+    },
+    {
+      "number": 11,
+      "sourceSlide": 14,
+      "sourceStepLabel": "11_1x.png",
+      "sourceMedia": "ppt/media/image15.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/011.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 260088,
+      "sha256": "afb63fa5ba61320ab5915205efb3116c20ce5360034a5062e70b696489872dcb"
+    },
+    {
+      "number": 12,
+      "sourceSlide": 15,
+      "sourceStepLabel": "12_1x.png",
+      "sourceMedia": "ppt/media/image17.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/012.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 381322,
+      "sha256": "9343d40a8593dcbb67686a30ddbf7ff0281539c9d9a76574f53cee9d855ad71b"
+    },
+    {
+      "number": 13,
+      "sourceSlide": 16,
+      "sourceStepLabel": "13_1x.png",
+      "sourceMedia": "ppt/media/image24.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/013.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 371570,
+      "sha256": "9e589db51e5eb31192d30425ed202289609ff80383b12a89478c5eef470d3b36"
+    },
+    {
+      "number": 14,
+      "sourceSlide": 17,
+      "sourceStepLabel": "14_1x.png",
+      "sourceMedia": "ppt/media/image16.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/014.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 354100,
+      "sha256": "5bba89880db9fbb879ede90270895809c3b606312f68dd27d21849db569f92aa"
+    },
+    {
+      "number": 15,
+      "sourceSlide": 18,
+      "sourceStepLabel": "15_1x.png",
+      "sourceMedia": "ppt/media/image14.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/015.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 366762,
+      "sha256": "1cdad10c670f377bcbc160b2e5bdd730eda42ac9bbf8f642037cca86184c51c2"
+    },
+    {
+      "number": 16,
+      "sourceSlide": 19,
+      "sourceStepLabel": "16_1x.png",
+      "sourceMedia": "ppt/media/image19.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/016.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 333420,
+      "sha256": "4e0820f06e1105c5e2572bb2e6e3e99991d0274cf7fa2d211485375787462332"
+    },
+    {
+      "number": 17,
+      "sourceSlide": 20,
+      "sourceStepLabel": "17_1x.png",
+      "sourceMedia": "ppt/media/image13.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/017.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 355134,
+      "sha256": "0c0509ec3259af8ee01527d4d9cb3280760d42cfc376ab9d994b0433f53ecb57"
+    },
+    {
+      "number": 18,
+      "sourceSlide": 21,
+      "sourceStepLabel": "18_1x.png",
+      "sourceMedia": "ppt/media/image18.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/018.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 419520,
+      "sha256": "58d31e75c0c0424dc54cc0e2a621278185032f6f1dd881f67c30d274114fcff4"
+    },
+    {
+      "number": 19,
+      "sourceSlide": 22,
+      "sourceStepLabel": "19_1x.png",
+      "sourceMedia": "ppt/media/image20.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/019.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 312342,
+      "sha256": "d8f2e437f1241e8a8c691c0928c73a18f537f8b1f977ff74d1411b728a28a7a0"
+    },
+    {
+      "number": 20,
+      "sourceSlide": 23,
+      "sourceStepLabel": "20_1x.png",
+      "sourceMedia": "ppt/media/image28.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/020.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 373146,
+      "sha256": "922e0aa9e0e3724ae09777b43d0cd815b00824fc7806f7f807df9c8974ebb876"
+    },
+    {
+      "number": 21,
+      "sourceSlide": 24,
+      "sourceStepLabel": "21_1x.png",
+      "sourceMedia": "ppt/media/image21.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/021.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 354038,
+      "sha256": "dbe37605e630c92866e4e481c581eed1cfad58f79270bec97420a7ee118baa8d"
+    },
+    {
+      "number": 22,
+      "sourceSlide": 25,
+      "sourceStepLabel": "22_1x.png",
+      "sourceMedia": "ppt/media/image22.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/022.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 371306,
+      "sha256": "958145dde358ee8dc6e63c26a659c61bd1e4427f4c80db965fef36e77f6085bc"
+    },
+    {
+      "number": 23,
+      "sourceSlide": 26,
+      "sourceStepLabel": "23_1x.png",
+      "sourceMedia": "ppt/media/image23.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/023.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 385640,
+      "sha256": "efe63e4fcb73c9447e271b4e3059f188faf28b15f108d4083d434fafd2920b2a"
+    },
+    {
+      "number": 24,
+      "sourceSlide": 27,
+      "sourceStepLabel": "24_1x.png",
+      "sourceMedia": "ppt/media/image25.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/024.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 384042,
+      "sha256": "7615a704fdba02ff0a05f197eee182a940c298857b0f83910daff4b625cb29ef"
+    },
+    {
+      "number": 25,
+      "sourceSlide": 28,
+      "sourceStepLabel": "25_1x.png",
+      "sourceMedia": "ppt/media/image27.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/025.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 426510,
+      "sha256": "8520cc31285f5a264e0d684a61e70407c829b8aa2b6fbf2da913c16ae0b1a5e5"
+    },
+    {
+      "number": 26,
+      "sourceSlide": 29,
+      "sourceStepLabel": "26_1x.png",
+      "sourceMedia": "ppt/media/image26.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/026.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 427164,
+      "sha256": "7a3d1b81b8b0ab315215200fa23b6f1c24766c3419811033e4adacc2cd411167"
+    },
+    {
+      "number": 27,
+      "sourceSlide": 30,
+      "sourceStepLabel": "27_1x.png",
+      "sourceMedia": "ppt/media/image29.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/027.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 377382,
+      "sha256": "d336c90f152c875123f2bd42f4973d6f5265f48112fa0a909baeb7cb514e4d57"
+    },
+    {
+      "number": 28,
+      "sourceSlide": 31,
+      "sourceStepLabel": "28_1x.png",
+      "sourceMedia": "ppt/media/image33.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/028.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 384094,
+      "sha256": "4a920f649b961a23ce329e03aed38da59cfb38ce7225d3d5e2b5bda033fcb1d9"
+    },
+    {
+      "number": 29,
+      "sourceSlide": 32,
+      "sourceStepLabel": "29_1x.png",
+      "sourceMedia": "ppt/media/image35.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/029.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 403006,
+      "sha256": "32d8a1de0ccabb34c74a2ef5625d74a589f9fd39952fa7d56c4cd1c3330bf67d"
+    },
+    {
+      "number": 30,
+      "sourceSlide": 33,
+      "sourceStepLabel": "30_1x.png",
+      "sourceMedia": "ppt/media/image30.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/030.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 394454,
+      "sha256": "09da904aaaab6d14e0669f9a7473e4f9635ee289143169c5995c8976191d4d58"
+    },
+    {
+      "number": 31,
+      "sourceSlide": 34,
+      "sourceStepLabel": "31_1x.png",
+      "sourceMedia": "ppt/media/image32.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/031.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 367828,
+      "sha256": "b170874ebf9042031f2c2608df91fb1035051a3b7b6e47306b179c013d5da4a4"
+    },
+    {
+      "number": 32,
+      "sourceSlide": 35,
+      "sourceStepLabel": "32_1x.png",
+      "sourceMedia": "ppt/media/image40.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/032.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 367256,
+      "sha256": "9ea9eecd847a5a563d056c5ea3e19f668e9ef02e48f1ce185c1a7608fc117e0f"
+    },
+    {
+      "number": 33,
+      "sourceSlide": 36,
+      "sourceStepLabel": "33_1x.png",
+      "sourceMedia": "ppt/media/image31.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/033.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 420090,
+      "sha256": "4abd8270a44f9c473f4980d9e1b6414a254aa359079c3837849ca980f0a50e91"
+    },
+    {
+      "number": 34,
+      "sourceSlide": 37,
+      "sourceStepLabel": "34_1x.png",
+      "sourceMedia": "ppt/media/image37.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/034.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 324366,
+      "sha256": "43c700f80e58c6c8d577ba35c619f86a0488668651397f069473174354a393fa"
+    },
+    {
+      "number": 35,
+      "sourceSlide": 38,
+      "sourceStepLabel": "35_1x.png",
+      "sourceMedia": "ppt/media/image38.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/035.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 370698,
+      "sha256": "03444fa1bc259d579a224a8a615ec8eef739c1a5d475d2ac210e7a6ed878ecc8"
+    },
+    {
+      "number": 36,
+      "sourceSlide": 39,
+      "sourceStepLabel": "36_1x.png",
+      "sourceMedia": "ppt/media/image34.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/036.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 374550,
+      "sha256": "c83bf6bc5c663f6ea61d77089381568ed71371438bf7ea468ffdf07b87f5d984"
+    },
+    {
+      "number": 37,
+      "sourceSlide": 40,
+      "sourceStepLabel": "37_1x.png",
+      "sourceMedia": "ppt/media/image51.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/037.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 359558,
+      "sha256": "86c5354f48494674dca0a195617755b45355ae4d7cc3fedb77e306cf7501fd11"
+    },
+    {
+      "number": 38,
+      "sourceSlide": 41,
+      "sourceStepLabel": "38_1x.png",
+      "sourceMedia": "ppt/media/image41.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/038.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 301530,
+      "sha256": "0926353a840401a4cb253a12f7769d7ee866673790e3e30245c198eddae5cae5"
+    },
+    {
+      "number": 39,
+      "sourceSlide": 42,
+      "sourceStepLabel": "39_1x.png",
+      "sourceMedia": "ppt/media/image39.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/039.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 435874,
+      "sha256": "805dbe01eef8eddb1f5435fccac5c17c2aa5ac81f2fce545e7c0dc2fdc1e1b11"
+    },
+    {
+      "number": 40,
+      "sourceSlide": 43,
+      "sourceStepLabel": "40_1x.png",
+      "sourceMedia": "ppt/media/image36.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/040.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 452820,
+      "sha256": "8199bb54b2e7a14df6cf3a827a4732f67abcd9ca1774facf515f3fa66dcdb86f"
+    },
+    {
+      "number": 41,
+      "sourceSlide": 44,
+      "sourceStepLabel": "41_1x.png",
+      "sourceMedia": "ppt/media/image43.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/041.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 412020,
+      "sha256": "52fff497b8080c1f462178f414dd48956826c76da4819520927d3538969a91b6"
+    },
+    {
+      "number": 42,
+      "sourceSlide": 45,
+      "sourceStepLabel": "42_1x.png",
+      "sourceMedia": "ppt/media/image48.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/042.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 345730,
+      "sha256": "935fe6fb9b5626d8f4203a6db34c55ee1273960b23079f0022822ca4e8c8ad18"
+    },
+    {
+      "number": 43,
+      "sourceSlide": 46,
+      "sourceStepLabel": "43_1x.png",
+      "sourceMedia": "ppt/media/image47.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/043.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 397268,
+      "sha256": "5ed9494812ba238ae8165455f5244dbdd8737ff792c1ff5f5aa317ae92ddd53d"
+    },
+    {
+      "number": 44,
+      "sourceSlide": 47,
+      "sourceStepLabel": "44_1x.png",
+      "sourceMedia": "ppt/media/image49.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/044.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 409610,
+      "sha256": "31df3c09bd8e65c5c49fe76e8168440a419fbd15cdb7f849bc24b109cc3c0686"
+    },
+    {
+      "number": 45,
+      "sourceSlide": 48,
+      "sourceStepLabel": "45_1x.png",
+      "sourceMedia": "ppt/media/image44.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/045.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 487196,
+      "sha256": "1e92382fb266fb88c92d06c79aea80f346c503d0693ed6d4b1c24b5132f6e520"
+    },
+    {
+      "number": 46,
+      "sourceSlide": 49,
+      "sourceStepLabel": "46_1x.png",
+      "sourceMedia": "ppt/media/image50.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/046.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 461732,
+      "sha256": "19ac2be530b0ddffbf3b2fd96ed4dc893f5b3db6c9be63d4c8b8f6f2c1e37abc"
+    },
+    {
+      "number": 47,
+      "sourceSlide": 50,
+      "sourceStepLabel": "47_1x.png",
+      "sourceMedia": "ppt/media/image45.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/047.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 481672,
+      "sha256": "aa7c6cd9fc6a2e135cc3cf5bb727e0141989d18a930989922a2cc5eb361bc482"
+    },
+    {
+      "number": 48,
+      "sourceSlide": 51,
+      "sourceStepLabel": "48_1x.png",
+      "sourceMedia": "ppt/media/image56.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/048.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 487394,
+      "sha256": "c5a560f21d62c87ee4bdb83ae38a8370375b9138014c419333f433d5f603c0c3"
+    },
+    {
+      "number": 49,
+      "sourceSlide": 52,
+      "sourceStepLabel": "49_1x.png",
+      "sourceMedia": "ppt/media/image42.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/049.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 469032,
+      "sha256": "17255723598ac56565a70cb07865c77a7f63bdaf743cc202cfa89a58f18e66a4"
+    },
+    {
+      "number": 50,
+      "sourceSlide": 53,
+      "sourceStepLabel": "50_1x.png",
+      "sourceMedia": "ppt/media/image52.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/050.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 468540,
+      "sha256": "f4aa766c557a7df50422d2d2b8491a003f1e6f4c439e9ffc683a7cc3232deef1"
+    },
+    {
+      "number": 51,
+      "sourceSlide": 54,
+      "sourceStepLabel": "51_1x.png",
+      "sourceMedia": "ppt/media/image46.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/051.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 501842,
+      "sha256": "d9c0ec001efbc66f29f76be089b6c5ec3870078aab462925bac246ccf5b48cae"
+    },
+    {
+      "number": 52,
+      "sourceSlide": 55,
+      "sourceStepLabel": "52_1x.png",
+      "sourceMedia": "ppt/media/image57.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/052.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 522360,
+      "sha256": "238842714c4d92f798af363d4ab232590b94c3a12bbc08315a504eef6052726f"
+    },
+    {
+      "number": 53,
+      "sourceSlide": 56,
+      "sourceStepLabel": "53_1x.png",
+      "sourceMedia": "ppt/media/image54.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/053.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 499184,
+      "sha256": "f3b64a00bfc71cc990084735d1e2a6322b80a3ca2e567ccd0e584b64a244c490"
+    },
+    {
+      "number": 54,
+      "sourceSlide": 57,
+      "sourceStepLabel": "54_1x.png",
+      "sourceMedia": "ppt/media/image55.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/054.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 553976,
+      "sha256": "8c9c4cde6a22ed86befd4063344b4d3a011569fa1dd65cfc8353ac95da1acd8f"
+    },
+    {
+      "number": 55,
+      "sourceSlide": 58,
+      "sourceStepLabel": "55_1x.png",
+      "sourceMedia": "ppt/media/image53.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/danse-krabbe/055.webp",
+      "width": 1600,
+      "height": 1133,
+      "bytes": 531968,
+      "sha256": "12972b388556fbf29aad36dedfad405cbddd57c97cd9dc36567012b0758a9abe"
+    }
+  ],
+  "output": {
+    "imageCount": 55,
+    "totalBytes": 19664004,
+    "sha256": "8c3037ed43891e81369bb51ae99ce006414e1f6f9e926bbae7201a1a26daf111"
+  }
+}

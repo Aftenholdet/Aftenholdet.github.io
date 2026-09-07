@@ -1,14 +1,19 @@
 import {
   codeModeOptions,
+  findAvailableAlternative,
   getLevel,
+  getLibrarySection,
   getLibraryTopic,
   getProject,
   getProjectsForLevel,
+  getSectionSelection,
   levels,
+  libraryAssets,
   libraryCategories,
   libraryTopics,
   platformOptions,
   projects,
+  resolveLibraryVariant,
 } from './content.js';
 
 const app = document.querySelector('#app');
@@ -23,6 +28,7 @@ const state = {
   drawerOpen: false,
   libraryView: 'index',
   libraryTopicId: null,
+  librarySectionId: null,
   librarySearch: '',
   libraryCategoryId: 'all',
   selectedPlatform: readChoice('selectedPlatform', ['spike', 'mindstorms'], 'spike'),
@@ -147,11 +153,11 @@ function renderLevel(level) {
 
 function projectCard(projectEntry) {
   const ready = projectEntry.buildStatus === 'ready';
-  const needsReview = projectEntry.buildStatus === 'needs-review';
+  const incomplete = projectEntry.buildStatus === 'incomplete';
   const status = ready
-    ? `${projectEntry.buildSteps.length} trin klar`
-    : needsReview
-      ? 'Kilden skal kontrolleres'
+    ? `${projectEntry.buildSteps.length} ${projectEntry.hasNonBuildPages ? 'sider' : 'trin'} klar`
+    : incomplete
+      ? 'Byggevejledningen kommer senere'
       : `${projectEntry.source.slideCount} slides registreret`;
 
   return `
@@ -177,8 +183,9 @@ function renderProject(projectEntry) {
 
   const level = getLevel(projectEntry.levelId);
   document.title = `${projectEntry.name} | ${level.name}`;
-  const warning = projectEntry.buildStatus === 'needs-review'
-    ? 'Denne kilde skal kontrolleres, før den kan blive til en byggevejledning.'
+  const incomplete = projectEntry.buildStatus === 'incomplete';
+  const warning = incomplete
+    ? 'Byggevejledningen kommer senere.'
     : 'Byggevejledningen findes som PowerPoint, men dens slides er endnu ikke konverteret til webformat.';
 
   app.innerHTML = `
@@ -194,12 +201,12 @@ function renderProject(projectEntry) {
           <div class="content-status" role="status">
             <span class="status-icon" aria-hidden="true">!</span>
             <div>
-              <h2>Ikke webklar endnu</h2>
+              <h2>${incomplete ? 'Kommer senere' : 'Ikke webklar endnu'}</h2>
               <p>${escapeHtml(warning)}</p>
             </div>
           </div>
-          <p class="source-note"><strong>Kilde:</strong> ${escapeHtml(projectEntry.source.slideCount)} PowerPoint-slides er registreret.</p>
-          ${projectEntry.issues.map((issue) => `<p class="source-warning"><strong>Skal kontrolleres:</strong> ${escapeHtml(issue)}</p>`).join('')}
+          ${incomplete ? '' : `<p class="source-note"><strong>Kilde:</strong> ${escapeHtml(projectEntry.source.slideCount)} PowerPoint-slides er registreret.</p>`}
+          ${incomplete ? '' : projectEntry.issues.map((issue) => `<p class="source-warning"><strong>Skal kontrolleres:</strong> ${escapeHtml(issue)}</p>`).join('')}
           <a class="button button-primary" href="#/level/${level.id}"><span aria-hidden="true">←</span> Tilbage til robotterne</a>
         </div>
       </main>
@@ -219,7 +226,8 @@ function renderBuildViewer(projectEntry) {
       ? storedStep
       : 1;
   state.buildStep = clamp(initialStep, 1, projectEntry.buildSteps.length);
-  document.title = `${projectEntry.name}, trin ${state.buildStep} | Teknologiskolen`;
+  const initialPage = projectEntry.buildSteps[state.buildStep - 1];
+  document.title = `${projectEntry.name}, ${initialPage.pageLabel} | Teknologiskolen`;
 
   app.innerHTML = `
     <div class="viewer-page">
@@ -231,7 +239,7 @@ function renderBuildViewer(projectEntry) {
             <h1 id="viewer-title">${escapeHtml(projectEntry.name)}</h1>
           </div>
           <div class="viewer-toolbar-actions">
-            <span id="step-count" class="step-count">Trin ${state.buildStep} af ${projectEntry.buildSteps.length}</span>
+            <span id="step-count" class="step-count">${escapeHtml(initialPage.pageLabel)}</span>
             <button id="fullscreen-button" class="icon-button" type="button" aria-label="Vis byggevejledningen i fuld skærm" aria-pressed="false" title="Fuld skærm">
               <span aria-hidden="true">⛶</span>
             </button>
@@ -253,10 +261,10 @@ function renderBuildViewer(projectEntry) {
         </div>
 
         <div class="step-controls">
-          <label for="step-slider">Vælg trin</label>
+          <label for="step-slider">${escapeHtml(projectEntry.navigationLabel)}</label>
           <input id="step-slider" type="range" min="1" max="${projectEntry.buildSteps.length}" value="${state.buildStep}" />
-          <select id="step-select" aria-label="Spring til et bestemt trin">
-            ${projectEntry.buildSteps.map((step) => `<option value="${step.number}">Trin ${step.number}</option>`).join('')}
+          <select id="step-select" aria-label="Spring til en bestemt side">
+            ${projectEntry.buildSteps.map((step) => `<option value="${step.number}">${escapeHtml(step.pageLabel)}</option>`).join('')}
           </select>
         </div>
       </main>
@@ -309,12 +317,12 @@ function setBuildStep(nextStep, options = {}) {
   if (!image) return;
   image.src = assetUrl(stepData.image);
   image.alt = stepData.alt;
-  document.querySelector('#step-count').textContent = `Trin ${step} af ${total}`;
+  document.querySelector('#step-count').textContent = stepData.pageLabel;
   document.querySelector('#previous-step').disabled = step === 1;
   document.querySelector('#next-step').disabled = step === total;
   document.querySelector('#step-slider').value = String(step);
   document.querySelector('#step-select').value = String(step);
-  document.title = `${projectEntry.name}, trin ${step} | Teknologiskolen`;
+  document.title = `${projectEntry.name}, ${stepData.pageLabel} | Teknologiskolen`;
 
   writeStorage(`buildStep:${projectEntry.id}`, String(step));
   if (options.updateUrl !== false) {
@@ -322,7 +330,7 @@ function setBuildStep(nextStep, options = {}) {
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}${nextHash}`);
     state.route = parseRoute();
   }
-  if (options.announce !== false) announce(`Trin ${step} af ${total}`);
+  if (options.announce !== false) announce(stepData.pageLabel);
 
   [projectEntry.buildSteps[step], projectEntry.buildSteps[step - 2]].filter(Boolean).forEach((neighbor) => {
     const preload = new Image();
@@ -461,6 +469,10 @@ function libraryGuideHtml(topic) {
     return libraryIndexHtml();
   }
 
+  const section = getLibrarySection(topic, state.librarySectionId);
+  state.librarySectionId = section.id;
+  const selection = getSectionSelection(section);
+
   return `
     <div class="drawer-header guide-header">
       <button class="drawer-back" type="button" data-back-library><span aria-hidden="true">←</span><span>Alle emner</span></button>
@@ -473,13 +485,26 @@ function libraryGuideHtml(topic) {
         <p>${escapeHtml(topic.description)}</p>
       </div>
 
-      ${choiceGroup('platform', 'Platform', platformOptions, state.selectedPlatform)}
-      ${choiceGroup('code-mode', 'Kode', codeModeOptions, state.selectedCodeMode)}
+      ${sectionPicker(topic, section)}
+      ${selection.platforms.length > 1 ? choiceGroup('platform', 'Platform', platformOptions.filter((option) => selection.platforms.includes(option.id)), state.selectedPlatform) : ''}
+      ${selection.codeModes.length > 1 ? choiceGroup('code-mode', 'Kode', codeModeOptions.filter((option) => selection.codeModes.includes(option.id)), state.selectedCodeMode) : ''}
 
-      <div id="guide-variant-content" class="guide-variant-content">
-        ${guideVariantHtml(topic)}
+      <div id="guide-variant-content" class="guide-variant-content" tabindex="-1">
+        ${guideVariantHtml(topic, section)}
       </div>
     </div>
+  `;
+}
+
+function sectionPicker(topic, selectedSection) {
+  if (topic.sections.length < 2) return '';
+  return `
+    <label class="section-picker" for="library-section">
+      <span>Vælg hjælp</span>
+      <select id="library-section">
+        ${topic.sections.map((section) => `<option value="${section.id}" ${section.id === selectedSection.id ? 'selected' : ''}>${escapeHtml(section.name)}</option>`).join('')}
+      </select>
+    </label>
   `;
 }
 
@@ -502,56 +527,84 @@ function choiceGroup(name, legend, options, selected) {
   `;
 }
 
-function guideVariantHtml(topic) {
-  if (topic.generalContent) {
+function guideVariantHtml(topic, section) {
+  const resolved = resolveLibraryVariant(section, state.selectedPlatform, state.selectedCodeMode);
+  const variant = resolved.variant;
+
+  if (variant?.status === 'available') {
+    const selectionLabel = resolved.match === 'general'
+      ? ''
+      : resolved.match === 'shared'
+        ? optionLabel(codeModeOptions, resolved.codeMode)
+        : [
+            getSectionSelection(section).platforms.length > 1 ? optionLabel(platformOptions, resolved.platform) : '',
+            getSectionSelection(section).codeModes.length ? optionLabel(codeModeOptions, resolved.codeMode) : '',
+          ].filter(Boolean).join(' · ');
     return `
-      <div class="variant-status status-general">
-        <span class="status-icon" aria-hidden="true">i</span>
-        <div><h3>Fælles for alle valg</h3><p>${escapeHtml(topic.generalContent)}</p></div>
-      </div>
-      ${sourceReference(topic)}
+      ${selectionLabel ? `<p class="variant-label"><span aria-hidden="true">✓</span> ${escapeHtml(selectionLabel)}</p>` : ''}
+      ${variant.content.map(guideContentHtml).join('')}
     `;
   }
 
-  const variant = topic.variants[state.selectedPlatform][state.selectedCodeMode];
-  const selectionLabel = `${optionLabel(platformOptions, state.selectedPlatform)} + ${optionLabel(codeModeOptions, state.selectedCodeMode)}`;
-
-  if (variant.status === 'available') {
-    return `
-      <p class="variant-label"><span aria-hidden="true">✓</span> Viser ${escapeHtml(selectionLabel)}</p>
-      ${variant.sections.map((section) => `
-        <section class="guide-section">
-          <h3>${escapeHtml(section.title)}</h3>
-          ${section.body ? `<p>${escapeHtml(section.body)}</p>` : ''}
-          ${section.code ? `<div class="code-block"><div class="code-block-label">Tekstkode</div><pre tabindex="0"><code>${escapeHtml(section.code)}</code></pre></div>` : ''}
-        </section>
-      `).join('')}
-      ${sourceReference(topic, variant.sourceSlides)}
-    `;
-  }
-
-  const statusContent = {
-    missing: ['Ikke fundet i materialet', variant.message],
-    'source-only': ['Findes, men er ikke webklar', variant.message],
-    unclear: ['Platformen er ikke bekræftet', variant.message],
-    'coming-soon': ['Kode kommer snart', variant.message],
-  }[variant.status] ?? ['Ikke tilgængelig', 'Denne variation kan ikke vises endnu.'];
-
+  const status = variant?.status === 'coming-soon'
+    ? ['Kommer snart', 'Denne hjælp er på vej.']
+    : ['Ikke klar endnu', 'Den version er ikke klar endnu.'];
+  const alternative = findAvailableAlternative(section, state.selectedPlatform, state.selectedCodeMode);
   return `
-    <div class="variant-status status-${variant.status}" role="status">
-      <span class="status-icon" aria-hidden="true">${variant.status === 'missing' ? '×' : '!'}</span>
+    <div class="variant-status status-${variant?.status || 'missing'}" role="status">
+      <span class="status-icon" aria-hidden="true">${variant?.status === 'coming-soon' ? '…' : '!'}</span>
       <div>
-        <h3>${escapeHtml(statusContent[0])}</h3>
-        <p><strong>${escapeHtml(selectionLabel)}:</strong> ${escapeHtml(statusContent[1])}</p>
+        <h3>${status[0]}</h3>
+        <p>${status[1]}</p>
+        ${alternative ? alternativeButton(alternative, resolved) : ''}
       </div>
     </div>
-    ${sourceReference(topic, variant.sourceSlides)}
   `;
 }
 
-function sourceReference(topic, slides = []) {
-  const slideText = slides?.length ? `, slides ${slides.join(', ')}` : '';
-  return `<p class="guide-source">Kilde: ${escapeHtml(topic.source.path.split('/').at(-1))}${slideText}. Kildestatus er registreret i prototypen.</p>`;
+function guideContentHtml(content) {
+  if (content.type === 'code') {
+    return `
+      <section class="guide-section">
+        <h3>${escapeHtml(content.title)}</h3>
+        <div class="code-block">
+          <div class="code-block-label">Tekstkode</div>
+          <pre tabindex="0"><code>${escapeHtml(content.text)}</code></pre>
+        </div>
+      </section>
+    `;
+  }
+
+  if (content.type === 'image') {
+    const asset = libraryAssets[content.assetId];
+    return `
+      <figure class="guide-section guide-image">
+        <img src="${assetUrl(asset.src)}" alt="${escapeAttribute(asset.alt)}" data-library-block-asset="${escapeAttribute(content.assetId)}" />
+      </figure>
+    `;
+  }
+
+  if (content.type === 'text') {
+    return `
+      <section class="guide-section guide-copy">
+        <h3>${escapeHtml(content.heading)}</h3>
+        ${content.text.split(/\n+/).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+      </section>
+    `;
+  }
+
+  return '';
+}
+
+function alternativeButton(alternative, current) {
+  const platformChanged = alternative.platform !== current.platform;
+  const codeModeChanged = alternative.codeMode !== current.codeMode;
+  const label = platformChanged && codeModeChanged
+    ? `Vis ${optionLabel(platformOptions, alternative.platform)} med ${optionLabel(codeModeOptions, alternative.codeMode).toLocaleLowerCase('da')}`
+    : platformChanged
+      ? `Vis ${optionLabel(platformOptions, alternative.platform)}-versionen`
+      : alternative.codeMode === 'text' ? 'Vis tekstversionen' : 'Vis blokkene';
+  return `<button class="variant-action button button-secondary" type="button" data-select-platform="${alternative.platform}" data-select-code-mode="${alternative.codeMode}">${escapeHtml(label)}</button>`;
 }
 
 function bindDrawerContent() {
@@ -575,7 +628,13 @@ function bindDrawerContent() {
   bindTopicButtons();
   drawerRoot.querySelector('[data-back-library]')?.addEventListener('click', () => {
     state.libraryView = 'index';
+    state.librarySectionId = null;
     renderDrawer();
+  });
+
+  drawerRoot.querySelector('#library-section')?.addEventListener('change', (event) => {
+    state.librarySectionId = event.target.value;
+    renderDrawer({ focusSelector: '#library-section' });
   });
 
   drawerRoot.querySelectorAll('input[name="platform"]').forEach((input) => {
@@ -593,12 +652,15 @@ function bindDrawerContent() {
       updateGuideVariant();
     });
   });
+
+  bindVariantAction();
 }
 
 function bindTopicButtons() {
   drawerRoot.querySelectorAll('[data-topic]').forEach((button) => {
     button.addEventListener('click', () => {
       state.libraryTopicId = button.dataset.topic;
+      state.librarySectionId = null;
       state.libraryView = 'topic';
       renderDrawer();
     });
@@ -607,8 +669,32 @@ function bindTopicButtons() {
 
 function updateGuideVariant() {
   const topic = getLibraryTopic(state.libraryTopicId);
+  const section = getLibrarySection(topic, state.librarySectionId);
   const content = drawerRoot.querySelector('#guide-variant-content');
-  if (topic && content) content.innerHTML = guideVariantHtml(topic);
+  if (topic && section && content) {
+    content.innerHTML = guideVariantHtml(topic, section);
+    bindVariantAction();
+  }
+}
+
+function bindVariantAction() {
+  drawerRoot.querySelector('[data-select-platform][data-select-code-mode]')?.addEventListener('click', (event) => {
+    const { selectPlatform, selectCodeMode } = event.currentTarget.dataset;
+    if (selectPlatform !== state.selectedPlatform) {
+      state.selectedPlatform = selectPlatform;
+      writeStorage('selectedPlatform', selectPlatform);
+      const platformInput = drawerRoot.querySelector(`input[name="platform"][value="${selectPlatform}"]`);
+      if (platformInput) platformInput.checked = true;
+    }
+    if (selectCodeMode !== state.selectedCodeMode) {
+      state.selectedCodeMode = selectCodeMode;
+      writeStorage('selectedCodeMode', selectCodeMode);
+      const codeModeInput = drawerRoot.querySelector(`input[name="code-mode"][value="${selectCodeMode}"]`);
+      if (codeModeInput) codeModeInput.checked = true;
+    }
+    updateGuideVariant();
+    drawerRoot.querySelector('#guide-variant-content')?.focus();
+  });
 }
 
 function handleGlobalKeydown(event) {

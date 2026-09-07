@@ -1,0 +1,1693 @@
+{
+  "schemaVersion": 1,
+  "id": "cnc-tegnemaskine",
+  "name": "CNC-Tegnemaskine",
+  "displayName": "CNC-Tegnemaskine",
+  "level": "oevet",
+  "buildKey": "9843487e4f345173bea4d89f3f0d0e249eacaeeaf143c69000fae20d11fdf9b3",
+  "generatedAt": "2026-09-07T07:50:09.079Z",
+  "source": {
+    "type": "pptx",
+    "path": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/CNC-Tegnemaskine.pptx",
+    "bytes": 30661650,
+    "modifiedUtc": "2025-09-02T02:17:40.000Z",
+    "sha256": "e704b4d1070f838b78c2205e570604baf0257912dcd783db219b2dbc85801dec",
+    "slideCount": 64,
+    "fileName": "CNC-Tegnemaskine.pptx",
+    "internalTitle": "CNC-Tegnemaskine"
+  },
+  "conversion": {
+    "pipelineVersion": 2,
+    "strategy": "extract-single-slide-image",
+    "maxWidth": 1600,
+    "maxHeight": 1200,
+    "format": "webp",
+    "quality": 90,
+    "alphaQuality": 100,
+    "effort": 6,
+    "nearLossless": true
+  },
+  "excludedSlides": [
+    {
+      "slide": 1,
+      "classification": "cover",
+      "reason": "Første slide er ét rasterbillede uden separate elementer."
+    },
+    {
+      "slide": 2,
+      "classification": "title",
+      "reason": "Tidlig projekttitel/introslide."
+    }
+  ],
+  "sequenceNotes": [
+    "Webrækkefølgen følger præsentationsrækkefølgen og nummereres fra 001."
+  ],
+  "projectSpecificCodeSource": null,
+  "slideAnalysis": [
+    {
+      "slide": 1,
+      "included": false,
+      "classification": "cover",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": []
+    },
+    {
+      "slide": 2,
+      "included": false,
+      "classification": "title",
+      "text": "CNC-Tegnemaskine",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 1,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "Teknologiskolen_logo 1.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "1.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "2.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "3.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "4.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "5.png"
+      ]
+    },
+    {
+      "slide": 8,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "6.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "7.png"
+      ]
+    },
+    {
+      "slide": 10,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "8.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "9.png"
+      ]
+    },
+    {
+      "slide": 12,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "10.png"
+      ]
+    },
+    {
+      "slide": 13,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "11.png"
+      ]
+    },
+    {
+      "slide": 14,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "12.png"
+      ]
+    },
+    {
+      "slide": 15,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "13.png"
+      ]
+    },
+    {
+      "slide": 16,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "14.png"
+      ]
+    },
+    {
+      "slide": 17,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "15.png"
+      ]
+    },
+    {
+      "slide": 18,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "16.png"
+      ]
+    },
+    {
+      "slide": 19,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "17.png"
+      ]
+    },
+    {
+      "slide": 20,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "18.png"
+      ]
+    },
+    {
+      "slide": 21,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "19.png"
+      ]
+    },
+    {
+      "slide": 22,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "20.png"
+      ]
+    },
+    {
+      "slide": 23,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "21.png"
+      ]
+    },
+    {
+      "slide": 24,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "22.png"
+      ]
+    },
+    {
+      "slide": 25,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "23.png"
+      ]
+    },
+    {
+      "slide": 26,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "24.png"
+      ]
+    },
+    {
+      "slide": 27,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "25.png"
+      ]
+    },
+    {
+      "slide": 28,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "26.png"
+      ]
+    },
+    {
+      "slide": 29,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "27.png"
+      ]
+    },
+    {
+      "slide": 30,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "1.png"
+      ]
+    },
+    {
+      "slide": 31,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "2.png"
+      ]
+    },
+    {
+      "slide": 32,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "3.png"
+      ]
+    },
+    {
+      "slide": 33,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "4.png"
+      ]
+    },
+    {
+      "slide": 34,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "5.png"
+      ]
+    },
+    {
+      "slide": 35,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "6.png"
+      ]
+    },
+    {
+      "slide": 36,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "7.png"
+      ]
+    },
+    {
+      "slide": 37,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "8.png"
+      ]
+    },
+    {
+      "slide": 38,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "9.png"
+      ]
+    },
+    {
+      "slide": 39,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "10.png"
+      ]
+    },
+    {
+      "slide": 40,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "11.png"
+      ]
+    },
+    {
+      "slide": 41,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "12.png"
+      ]
+    },
+    {
+      "slide": 42,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "13.png"
+      ]
+    },
+    {
+      "slide": 43,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "14.png"
+      ]
+    },
+    {
+      "slide": 44,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "15.png"
+      ]
+    },
+    {
+      "slide": 45,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "16.png"
+      ]
+    },
+    {
+      "slide": 46,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "17.png"
+      ]
+    },
+    {
+      "slide": 47,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "18.png"
+      ]
+    },
+    {
+      "slide": 48,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "19.png"
+      ]
+    },
+    {
+      "slide": 49,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "20.png"
+      ]
+    },
+    {
+      "slide": 50,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "21.png"
+      ]
+    },
+    {
+      "slide": 51,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "22.png"
+      ]
+    },
+    {
+      "slide": 52,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "23.png"
+      ]
+    },
+    {
+      "slide": 53,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "24.png"
+      ]
+    },
+    {
+      "slide": 54,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "25.png"
+      ]
+    },
+    {
+      "slide": 55,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "26.png"
+      ]
+    },
+    {
+      "slide": 56,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "27.png"
+      ]
+    },
+    {
+      "slide": 57,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "28.png"
+      ]
+    },
+    {
+      "slide": 58,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "29.png"
+      ]
+    },
+    {
+      "slide": 59,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "30.png"
+      ]
+    },
+    {
+      "slide": 60,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "31.png"
+      ]
+    },
+    {
+      "slide": 61,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "32.png"
+      ]
+    },
+    {
+      "slide": 62,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "33.png"
+      ]
+    },
+    {
+      "slide": 63,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "34.png"
+      ]
+    },
+    {
+      "slide": 64,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "35.png"
+      ]
+    }
+  ],
+  "buildSteps": [
+    "assets/generated/build-guides/cnc-tegnemaskine/001.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/002.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/003.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/004.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/005.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/006.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/007.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/008.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/009.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/010.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/011.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/012.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/013.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/014.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/015.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/016.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/017.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/018.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/019.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/020.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/021.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/022.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/023.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/024.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/025.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/026.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/027.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/028.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/029.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/030.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/031.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/032.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/033.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/034.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/035.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/036.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/037.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/038.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/039.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/040.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/041.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/042.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/043.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/044.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/045.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/046.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/047.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/048.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/049.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/050.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/051.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/052.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/053.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/054.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/055.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/056.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/057.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/058.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/059.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/060.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/061.webp",
+    "assets/generated/build-guides/cnc-tegnemaskine/062.webp"
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "sourceSlide": 3,
+      "sourceStepLabel": "1.png",
+      "sourceMedia": "ppt/media/image12.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/001.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 32322,
+      "sha256": "5747e8e4b28f058cc1512d7ad9953be8dea21efdc7bf89bf1a6904fa1c16e73c"
+    },
+    {
+      "number": 2,
+      "sourceSlide": 4,
+      "sourceStepLabel": "2.png",
+      "sourceMedia": "ppt/media/image14.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/002.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 12354,
+      "sha256": "8bcc3602b35a87f92e99144aa1709479a050042609327f8a86100ff80bcf2925"
+    },
+    {
+      "number": 3,
+      "sourceSlide": 5,
+      "sourceStepLabel": "3.png",
+      "sourceMedia": "ppt/media/image10.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/003.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 26260,
+      "sha256": "734cbe20e045ddf0f0a6f6257906b1182758fdfeed4ced50ef3bade60e092e8d"
+    },
+    {
+      "number": 4,
+      "sourceSlide": 6,
+      "sourceStepLabel": "4.png",
+      "sourceMedia": "ppt/media/image27.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/004.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 26388,
+      "sha256": "8ed43e7b519d91c7ec5b8a615560ee325dd5457d82f34eb61b09cba04a5375e5"
+    },
+    {
+      "number": 5,
+      "sourceSlide": 7,
+      "sourceStepLabel": "5.png",
+      "sourceMedia": "ppt/media/image3.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/005.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 45832,
+      "sha256": "ccd230d04a1f064eb54037d88c3b9ad961d1574a1f5432279b93a4c65d809bd3"
+    },
+    {
+      "number": 6,
+      "sourceSlide": 8,
+      "sourceStepLabel": "6.png",
+      "sourceMedia": "ppt/media/image22.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/006.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 45074,
+      "sha256": "b00ac9b1f3a8539932fa04074bfa6ed467db50aee2233d33b198b533c640a214"
+    },
+    {
+      "number": 7,
+      "sourceSlide": 9,
+      "sourceStepLabel": "7.png",
+      "sourceMedia": "ppt/media/image16.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/007.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 55034,
+      "sha256": "a94ceb9fdbd76c32de9a900d18c77b4bbd2225498538a53715b30ef27b34a1be"
+    },
+    {
+      "number": 8,
+      "sourceSlide": 10,
+      "sourceStepLabel": "8.png",
+      "sourceMedia": "ppt/media/image4.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/008.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 39558,
+      "sha256": "cee5c1d592cdbeac841943ff25274c9aa4ae77d022121dcd155853b74d3d1905"
+    },
+    {
+      "number": 9,
+      "sourceSlide": 11,
+      "sourceStepLabel": "9.png",
+      "sourceMedia": "ppt/media/image5.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/009.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 28722,
+      "sha256": "b015479bbdc87f9fd2045ba386e2776cb90fb99c88c2871e7e5894ba416b3a01"
+    },
+    {
+      "number": 10,
+      "sourceSlide": 12,
+      "sourceStepLabel": "10.png",
+      "sourceMedia": "ppt/media/image2.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/010.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 38926,
+      "sha256": "55d7cacfc5705c2bb477b6840add7c6d93ed50d6ff32cce56f4aadc46453a7bb"
+    },
+    {
+      "number": 11,
+      "sourceSlide": 13,
+      "sourceStepLabel": "11.png",
+      "sourceMedia": "ppt/media/image15.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/011.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 60334,
+      "sha256": "bda57a745ee3a6ccc1bd1956cc5e9d581ea8e063d2da88963f4b31ceb4889ccc"
+    },
+    {
+      "number": 12,
+      "sourceSlide": 14,
+      "sourceStepLabel": "12.png",
+      "sourceMedia": "ppt/media/image8.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/012.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 75206,
+      "sha256": "90c58f353c49ec6f5c6e57a38347519b8627a71d45af126ea0ad67b3344e97d5"
+    },
+    {
+      "number": 13,
+      "sourceSlide": 15,
+      "sourceStepLabel": "13.png",
+      "sourceMedia": "ppt/media/image9.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/013.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 61350,
+      "sha256": "de02022e377e8398f3778d78e7c226155339f065b1e61e1fb44fe1df2dc8cda0"
+    },
+    {
+      "number": 14,
+      "sourceSlide": 16,
+      "sourceStepLabel": "14.png",
+      "sourceMedia": "ppt/media/image13.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/014.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 33056,
+      "sha256": "9f79c126d8c6e690cac5b5fda2987e782ee4a55039000cc60405153ab9dadf66"
+    },
+    {
+      "number": 15,
+      "sourceSlide": 17,
+      "sourceStepLabel": "15.png",
+      "sourceMedia": "ppt/media/image11.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/015.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 45488,
+      "sha256": "53f3bd78493b23dbf979268ef56165b9d7ae2bae69f9d572338b0801b03d76fe"
+    },
+    {
+      "number": 16,
+      "sourceSlide": 18,
+      "sourceStepLabel": "16.png",
+      "sourceMedia": "ppt/media/image6.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/016.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 42500,
+      "sha256": "6e78345ff2ef159714472ef6c0481fe49b17bce2cbd54fbdd7d147bd9cdccb7a"
+    },
+    {
+      "number": 17,
+      "sourceSlide": 19,
+      "sourceStepLabel": "17.png",
+      "sourceMedia": "ppt/media/image7.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/017.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 89898,
+      "sha256": "18d14550a21b73eb4fa16545f8cef9750d93d68da49fce86cbc5589b84e28570"
+    },
+    {
+      "number": 18,
+      "sourceSlide": 20,
+      "sourceStepLabel": "18.png",
+      "sourceMedia": "ppt/media/image24.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/018.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 53374,
+      "sha256": "9f13441b128155b0ca3e293e67188242540e1b1700786c2fbda7c1d6601e5438"
+    },
+    {
+      "number": 19,
+      "sourceSlide": 21,
+      "sourceStepLabel": "19.png",
+      "sourceMedia": "ppt/media/image28.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/019.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 516474,
+      "sha256": "72ddb95309c955ded219b0ef480c5ba16cc255b4f9604784dd1bd6191d3e37dc"
+    },
+    {
+      "number": 20,
+      "sourceSlide": 22,
+      "sourceStepLabel": "20.png",
+      "sourceMedia": "ppt/media/image18.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/020.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 406954,
+      "sha256": "8032786b3fadc66c75a205e29fed1b59cd83b0d54f959a73e1ddfcd7788eace2"
+    },
+    {
+      "number": 21,
+      "sourceSlide": 23,
+      "sourceStepLabel": "21.png",
+      "sourceMedia": "ppt/media/image26.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/021.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 454782,
+      "sha256": "a10d7f42c67c98f9961d8219f562f93ba8a61d176db7fd400e869c2b2386b9e5"
+    },
+    {
+      "number": 22,
+      "sourceSlide": 24,
+      "sourceStepLabel": "22.png",
+      "sourceMedia": "ppt/media/image40.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/022.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 429580,
+      "sha256": "5d3f47d97166f44a08e3f5450b2653164f8d7537e580acaf6e14891257c11a2b"
+    },
+    {
+      "number": 23,
+      "sourceSlide": 25,
+      "sourceStepLabel": "23.png",
+      "sourceMedia": "ppt/media/image60.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/023.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 517710,
+      "sha256": "bb820879cc4242508309bfe1afdd8eff0c1359743524677f0089e1e4b0c50bde"
+    },
+    {
+      "number": 24,
+      "sourceSlide": 26,
+      "sourceStepLabel": "24.png",
+      "sourceMedia": "ppt/media/image25.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/024.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 485488,
+      "sha256": "8d8b1d7514c73a322ecd6117c76fa537dd1c04865487fb51fd1ae690b11671d0"
+    },
+    {
+      "number": 25,
+      "sourceSlide": 27,
+      "sourceStepLabel": "25.png",
+      "sourceMedia": "ppt/media/image19.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/025.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 487266,
+      "sha256": "14dcdefccf632c4186dc664842bb01eae6add8613c3e62d8b7026ac45e2085f5"
+    },
+    {
+      "number": 26,
+      "sourceSlide": 28,
+      "sourceStepLabel": "26.png",
+      "sourceMedia": "ppt/media/image29.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/026.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 485770,
+      "sha256": "3d2fda9b441fd765920618ba3e46e9033f30039c7d7abdb1c6b131c94e24d1d8"
+    },
+    {
+      "number": 27,
+      "sourceSlide": 29,
+      "sourceStepLabel": "27.png",
+      "sourceMedia": "ppt/media/image23.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/027.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 531992,
+      "sha256": "b53f193053bb0b509b6e6b8011c8e6df910cd8298c270bd7bacec5124cce7e87"
+    },
+    {
+      "number": 28,
+      "sourceSlide": 30,
+      "sourceStepLabel": "1.png",
+      "sourceMedia": "ppt/media/image34.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/028.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 294258,
+      "sha256": "dd21a62e855d77061f97918eaaf5c6be13626eaf12e89d8142dff2a0d5493e38"
+    },
+    {
+      "number": 29,
+      "sourceSlide": 31,
+      "sourceStepLabel": "2.png",
+      "sourceMedia": "ppt/media/image21.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/029.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 177218,
+      "sha256": "373ce1eab2beaddea3555a9aa9b56e77718881ba65d44da47a05e0b9f6859add"
+    },
+    {
+      "number": 30,
+      "sourceSlide": 32,
+      "sourceStepLabel": "3.png",
+      "sourceMedia": "ppt/media/image20.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/030.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 38616,
+      "sha256": "a3343bfbbe0e2e07245da2522fd3829e5157403ddd8206a64985818b975d4dc1"
+    },
+    {
+      "number": 31,
+      "sourceSlide": 33,
+      "sourceStepLabel": "4.png",
+      "sourceMedia": "ppt/media/image36.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/031.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 198874,
+      "sha256": "95da2984514dabd0fadb8e6155440ba429e7d6658949d361ffe1241b4406862d"
+    },
+    {
+      "number": 32,
+      "sourceSlide": 34,
+      "sourceStepLabel": "5.png",
+      "sourceMedia": "ppt/media/image30.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/032.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 209640,
+      "sha256": "93c46e5bed5efe03a8067a9ffd3ac678f0ed2e7a16430519113fa56b2ab677ce"
+    },
+    {
+      "number": 33,
+      "sourceSlide": 35,
+      "sourceStepLabel": "6.png",
+      "sourceMedia": "ppt/media/image33.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/033.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 201942,
+      "sha256": "028c00cbb0ba5befce188d8b7206cb431bf9cbffc0c2289fbdc095d5ad5b541c"
+    },
+    {
+      "number": 34,
+      "sourceSlide": 36,
+      "sourceStepLabel": "7.png",
+      "sourceMedia": "ppt/media/image32.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/034.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 193892,
+      "sha256": "325bdb036077950b854388b8dad7dadd6c84c0fd5f317070dc9a3e6df989f4a0"
+    },
+    {
+      "number": 35,
+      "sourceSlide": 37,
+      "sourceStepLabel": "8.png",
+      "sourceMedia": "ppt/media/image37.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/035.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 158092,
+      "sha256": "ad20acb422f7f8e28456dde1811a7fcea9dbb6b02fea108e2f76b473c82f6556"
+    },
+    {
+      "number": 36,
+      "sourceSlide": 38,
+      "sourceStepLabel": "9.png",
+      "sourceMedia": "ppt/media/image39.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/036.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 100888,
+      "sha256": "c27af37b17e8441155eb73edc4c4e20d3cb17a93d97088b70284d8e08a6edc0e"
+    },
+    {
+      "number": 37,
+      "sourceSlide": 39,
+      "sourceStepLabel": "10.png",
+      "sourceMedia": "ppt/media/image41.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/037.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 237084,
+      "sha256": "7db7f88bd463b4196d1e9ab64f313a6a62c0d6392e23a7775c2620bdf0e3d36a"
+    },
+    {
+      "number": 38,
+      "sourceSlide": 40,
+      "sourceStepLabel": "11.png",
+      "sourceMedia": "ppt/media/image31.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/038.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 33248,
+      "sha256": "387df6a9542ce49e3824a8f9c8dee202951e9f422c68d7747e5e57333dc43629"
+    },
+    {
+      "number": 39,
+      "sourceSlide": 41,
+      "sourceStepLabel": "12.png",
+      "sourceMedia": "ppt/media/image46.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/039.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 245606,
+      "sha256": "a05e55e73b1fad5b9d2a97c31a9ff596ccc63e24be7ca3f8b937ec85fdab85e9"
+    },
+    {
+      "number": 40,
+      "sourceSlide": 42,
+      "sourceStepLabel": "13.png",
+      "sourceMedia": "ppt/media/image44.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/040.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 74588,
+      "sha256": "99a866ebe97f614f99ea95ddf6e48694ce6dcd548af864ee99ad8adde7ff5657"
+    },
+    {
+      "number": 41,
+      "sourceSlide": 43,
+      "sourceStepLabel": "14.png",
+      "sourceMedia": "ppt/media/image42.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/041.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 43448,
+      "sha256": "05f5458ecc6ada3191b64a3629fa53ebbaac64b65911ecb39d05ee1b2b59ebb6"
+    },
+    {
+      "number": 42,
+      "sourceSlide": 44,
+      "sourceStepLabel": "15.png",
+      "sourceMedia": "ppt/media/image35.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/042.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 60168,
+      "sha256": "af5636d9345f085e2ab09e999cd3046d1912f58555eb40d6bbb3cfa969a77de1"
+    },
+    {
+      "number": 43,
+      "sourceSlide": 45,
+      "sourceStepLabel": "16.png",
+      "sourceMedia": "ppt/media/image38.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/043.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 59464,
+      "sha256": "79d899f3979cb0b3e014e08eb580dda7d041404c03711eb9bc8471f230e894d1"
+    },
+    {
+      "number": 44,
+      "sourceSlide": 46,
+      "sourceStepLabel": "17.png",
+      "sourceMedia": "ppt/media/image48.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/044.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 57876,
+      "sha256": "0fa501bb2dff5992472161e0df157fc859e813e3a75c1713c32becde60fa507d"
+    },
+    {
+      "number": 45,
+      "sourceSlide": 47,
+      "sourceStepLabel": "18.png",
+      "sourceMedia": "ppt/media/image51.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/045.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 265204,
+      "sha256": "3acde3c1a86f2015fdbb85ff5d6de4b585e5a13507fabbd327ee4e0d063e3834"
+    },
+    {
+      "number": 46,
+      "sourceSlide": 48,
+      "sourceStepLabel": "19.png",
+      "sourceMedia": "ppt/media/image43.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/046.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 43894,
+      "sha256": "f44d785b05a22c17a7f02ed8d6c38c45ccd22dcf9f6a0caf0450de7f6b7e30ab"
+    },
+    {
+      "number": 47,
+      "sourceSlide": 49,
+      "sourceStepLabel": "20.png",
+      "sourceMedia": "ppt/media/image47.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/047.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 272746,
+      "sha256": "dba5a012c26f339f6d208bbc5cec3d3ada70dabb3044fdea7de0721c186c0f85"
+    },
+    {
+      "number": 48,
+      "sourceSlide": 50,
+      "sourceStepLabel": "21.png",
+      "sourceMedia": "ppt/media/image45.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/048.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 289412,
+      "sha256": "d9f5522fb747aab2c7222433d0abad6be609241dc8dc783889a4723eebc1289a"
+    },
+    {
+      "number": 49,
+      "sourceSlide": 51,
+      "sourceStepLabel": "22.png",
+      "sourceMedia": "ppt/media/image50.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/049.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 31780,
+      "sha256": "7092377fe9b424a84b802f394ab4032a59835de81558a4ae41c4a8eb172256e4"
+    },
+    {
+      "number": 50,
+      "sourceSlide": 52,
+      "sourceStepLabel": "23.png",
+      "sourceMedia": "ppt/media/image55.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/050.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 266408,
+      "sha256": "06b6b2c2304c7d817e3744fdbdbbfb6a3125b54a6ae3dc3ae7d19bff1f541a17"
+    },
+    {
+      "number": 51,
+      "sourceSlide": 53,
+      "sourceStepLabel": "24.png",
+      "sourceMedia": "ppt/media/image52.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/051.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 176322,
+      "sha256": "f03d97cea41f086f2320ccefbf4d3588e8883302bad6190a717e46f3edae73ba"
+    },
+    {
+      "number": 52,
+      "sourceSlide": 54,
+      "sourceStepLabel": "25.png",
+      "sourceMedia": "ppt/media/image49.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/052.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 98942,
+      "sha256": "cd65a8c3633207a16d67f34cfb2cf5bab0dc562fd82a5c6af90d25edc62eea97"
+    },
+    {
+      "number": 53,
+      "sourceSlide": 55,
+      "sourceStepLabel": "26.png",
+      "sourceMedia": "ppt/media/image56.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/053.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 93268,
+      "sha256": "956583e251a92b2bb71c7ad02cbc06018131946cbca8cc01706fe4cc0798c05c"
+    },
+    {
+      "number": 54,
+      "sourceSlide": 56,
+      "sourceStepLabel": "27.png",
+      "sourceMedia": "ppt/media/image58.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/054.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 315338,
+      "sha256": "35e37632da4471725547650420f5a59ac7afa4d1c9eca66153f7860a5528acf4"
+    },
+    {
+      "number": 55,
+      "sourceSlide": 57,
+      "sourceStepLabel": "28.png",
+      "sourceMedia": "ppt/media/image54.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/055.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 47054,
+      "sha256": "4e47d2daf49b65e5c026c9cfe56aac8faf1258ca87f784053f875f65bc34da63"
+    },
+    {
+      "number": 56,
+      "sourceSlide": 58,
+      "sourceStepLabel": "29.png",
+      "sourceMedia": "ppt/media/image64.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/056.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 319024,
+      "sha256": "8217c944ec5de7944376fa24ae8614e8a084b33a35cdfcee1a4d1f20cb47bd25"
+    },
+    {
+      "number": 57,
+      "sourceSlide": 59,
+      "sourceStepLabel": "30.png",
+      "sourceMedia": "ppt/media/image53.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/057.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 71816,
+      "sha256": "358d6187e6b07e69ab31d5816d6a253146c622f583f201f4753c4ce893cecc24"
+    },
+    {
+      "number": 58,
+      "sourceSlide": 60,
+      "sourceStepLabel": "31.png",
+      "sourceMedia": "ppt/media/image61.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/058.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 418558,
+      "sha256": "6b075b68b76d889f13c7ff7dbb4749a711479ec276522a11a3358f9f0dfe31a4"
+    },
+    {
+      "number": 59,
+      "sourceSlide": 61,
+      "sourceStepLabel": "32.png",
+      "sourceMedia": "ppt/media/image63.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/059.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 411106,
+      "sha256": "7114dff59fa2b6c32ce88e8710a0278f6688f29a97743ca13695ac70e9696074"
+    },
+    {
+      "number": 60,
+      "sourceSlide": 62,
+      "sourceStepLabel": "33.png",
+      "sourceMedia": "ppt/media/image57.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/060.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 656764,
+      "sha256": "d992dd652dc7e1f0ad617b26b2025a8d3f6661a7b44c4e41895ea2c619d4bceb"
+    },
+    {
+      "number": 61,
+      "sourceSlide": 63,
+      "sourceStepLabel": "34.png",
+      "sourceMedia": "ppt/media/image62.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/061.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 683438,
+      "sha256": "0a3e32edd6b8b4deda3f1e1bf610698c2bdf374c37660ad99b44782cf282c1f5"
+    },
+    {
+      "number": 62,
+      "sourceSlide": 64,
+      "sourceStepLabel": "35.png",
+      "sourceMedia": "ppt/media/image59.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/cnc-tegnemaskine/062.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 539534,
+      "sha256": "7cd3729069cd7020ae19a451add7c26eba963e1d064a3577a5dd7ef04cfb4e63"
+    }
+  ],
+  "output": {
+    "imageCount": 62,
+    "totalBytes": 12513202,
+    "sha256": "08c3105f9fd9a8b40c8393bef043881551861f166b1eb0cffef253fb078ec8e0"
+  }
+}

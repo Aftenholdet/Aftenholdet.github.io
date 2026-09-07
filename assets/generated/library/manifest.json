@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-07T09:29:16.087Z",
+  "assets": [
+    {
+      "id": "asynkrone-traade",
+      "sourcePptx": "Asynkrone Tråde.pptx",
+      "sourceSlide": 1,
+      "sourceMedia": "ppt/media/image1.png",
+      "sourceSha256": "d347b9fe4517c1fba240076ce49add1e6b21d373a5a34f218d9635c63ce0840d",
+      "output": "assets/generated/library/blocks/asynkrone-traade.webp",
+      "outputSha256": "e4aabc62c896c9182644186abb2dc5a85dbe6e13047d21ed580373da9d350177",
+      "width": 901,
+      "height": 411,
+      "bytes": 11766
+    },
+    {
+      "id": "gentag",
+      "sourcePptx": "Gentag.pptx",
+      "sourceSlide": 1,
+      "sourceMedia": "ppt/media/image3.png",
+      "sourceSha256": "3d0e31e9f1a8720523f93b93bd63c85be5dd73cb1f7461913f8b3ac8a1a89fd0",
+      "output": "assets/generated/library/blocks/gentag.webp",
+      "outputSha256": "5a90efd4f78d3a9c72d7670f12557185466e4c11f7f7ebf0e1c92ac4a8b4d63c",
+      "width": 304,
+      "height": 542,
+      "bytes": 10526
+    },
+    {
+      "id": "hvis-ellers",
+      "sourcePptx": "Hvis ... Ellers.pptx",
+      "sourceSlide": 1,
+      "sourceMedia": "ppt/media/image4.png",
+      "sourceSha256": "85a958c285db3974a6258030fc42162a98b66e7a885b6705eab32ef504f0999a",
+      "output": "assets/generated/library/blocks/hvis-ellers.webp",
+      "outputSha256": "e5ebdbe743bd617a48306562ff2c5dc24dd9836bc9367eaf1344394a02aac569",
+      "width": 273,
+      "height": 279,
+      "bytes": 5022
+    },
+    {
+      "id": "vent",
+      "sourcePptx": "Vent.pptx",
+      "sourceSlide": 1,
+      "sourceMedia": "ppt/media/image3.png",
+      "sourceSha256": "8b11fd06c5372047be2243812fed5b0aa77993ded7ea57850d695ffc286be4d2",
+      "output": "assets/generated/library/blocks/vent.webp",
+      "outputSha256": "6f0734d987cfcf97f900ad160ada7fcc630bcd2ad439b830ef7e75ef4133cfa2",
+      "width": 305,
+      "height": 202,
+      "bytes": 5950
+    }
+  ]
+}

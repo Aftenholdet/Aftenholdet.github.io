@@ -1,0 +1,1043 @@
+{
+  "schemaVersion": 1,
+  "id": "farvesorteringsmaskine-let",
+  "name": "Farvesorteringsmaskine",
+  "displayName": "Farvesorteringsmaskine",
+  "level": "let-oevet",
+  "buildKey": "47bed11c06209e0b435e2beae543dda983beb054332ad1575ac7fe11be159cf0",
+  "generatedAt": "2026-09-07T07:45:45.996Z",
+  "source": {
+    "type": "pptx",
+    "path": "Old Solution (Google Drive)/Differentieret Læring/2. Let Øvet/Farvesorteringsmaskine.pptx",
+    "bytes": 78033541,
+    "modifiedUtc": "2025-09-09T03:16:14.000Z",
+    "sha256": "e8457784548162e07ac9e67a8062ff8316012d661ceda791978e0b9d42ce6762",
+    "slideCount": 39,
+    "fileName": "Farvesorteringsmaskine.pptx",
+    "internalTitle": "Kortdeler"
+  },
+  "conversion": {
+    "pipelineVersion": 2,
+    "strategy": "extract-single-slide-image",
+    "maxWidth": 1600,
+    "maxHeight": 1200,
+    "format": "webp",
+    "quality": 90,
+    "alphaQuality": 100,
+    "effort": 6,
+    "nearLossless": true
+  },
+  "excludedSlides": [
+    {
+      "slide": 1,
+      "classification": "cover",
+      "reason": "Første slide er ét rasterbillede uden separate elementer."
+    },
+    {
+      "slide": 2,
+      "classification": "title",
+      "reason": "Tidlig projekttitel/introslide."
+    }
+  ],
+  "sequenceNotes": [
+    "Webrækkefølgen følger præsentationsrækkefølgen og nummereres fra 001."
+  ],
+  "projectSpecificCodeSource": null,
+  "slideAnalysis": [
+    {
+      "slide": 1,
+      "included": false,
+      "classification": "cover",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": []
+    },
+    {
+      "slide": 2,
+      "included": false,
+      "classification": "title",
+      "text": "Kortdeler",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 1,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "Teknologiskolen_logo 1.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-02.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-03.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-04.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-05.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-06.png"
+      ]
+    },
+    {
+      "slide": 8,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-07.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-08.png"
+      ]
+    },
+    {
+      "slide": 10,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-09.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-10.png"
+      ]
+    },
+    {
+      "slide": 12,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-11.png"
+      ]
+    },
+    {
+      "slide": 13,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-12.png"
+      ]
+    },
+    {
+      "slide": 14,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-13.png"
+      ]
+    },
+    {
+      "slide": 15,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-14.png"
+      ]
+    },
+    {
+      "slide": 16,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-15.png"
+      ]
+    },
+    {
+      "slide": 17,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-16.png"
+      ]
+    },
+    {
+      "slide": 18,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-17.png"
+      ]
+    },
+    {
+      "slide": 19,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-18.png"
+      ]
+    },
+    {
+      "slide": 20,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-19.png"
+      ]
+    },
+    {
+      "slide": 21,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-20.png"
+      ]
+    },
+    {
+      "slide": 22,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-21.png"
+      ]
+    },
+    {
+      "slide": 23,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-22.png"
+      ]
+    },
+    {
+      "slide": 24,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-23.png"
+      ]
+    },
+    {
+      "slide": 25,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-24.png"
+      ]
+    },
+    {
+      "slide": 26,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-25.png"
+      ]
+    },
+    {
+      "slide": 27,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-26.png"
+      ]
+    },
+    {
+      "slide": 28,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-27.png"
+      ]
+    },
+    {
+      "slide": 29,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-28.png"
+      ]
+    },
+    {
+      "slide": 30,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-29.png"
+      ]
+    },
+    {
+      "slide": 31,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-30.png"
+      ]
+    },
+    {
+      "slide": 32,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-31.png"
+      ]
+    },
+    {
+      "slide": 33,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-32.png"
+      ]
+    },
+    {
+      "slide": 34,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-33.png"
+      ]
+    },
+    {
+      "slide": 35,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-34.png"
+      ]
+    },
+    {
+      "slide": 36,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-35.png"
+      ]
+    },
+    {
+      "slide": 37,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-36.png"
+      ]
+    },
+    {
+      "slide": 38,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-37.png"
+      ]
+    },
+    {
+      "slide": 39,
+      "included": true,
+      "classification": "build-step",
+      "text": "",
+      "pictureCount": 1,
+      "backgroundImageCount": 0,
+      "shapeCount": 0,
+      "graphicFrameCount": 0,
+      "imageTitles": [
+        "SPIKE-P_Color_Sorter_-38.png"
+      ]
+    }
+  ],
+  "buildSteps": [
+    "assets/generated/build-guides/farvesorteringsmaskine-let/001.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/002.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/003.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/004.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/005.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/006.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/007.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/008.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/009.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/010.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/011.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/012.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/013.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/014.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/015.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/016.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/017.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/018.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/019.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/020.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/021.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/022.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/023.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/024.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/025.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/026.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/027.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/028.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/029.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/030.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/031.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/032.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/033.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/034.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/035.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/036.webp",
+    "assets/generated/build-guides/farvesorteringsmaskine-let/037.webp"
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "sourceSlide": 3,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-02.png",
+      "sourceMedia": "ppt/media/image5.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/001.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 911464,
+      "sha256": "65cee5afb4c56dce4310ae7192454e7fc5812af4849cf7d9d3dc740cddae8f65"
+    },
+    {
+      "number": 2,
+      "sourceSlide": 4,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-03.png",
+      "sourceMedia": "ppt/media/image3.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/002.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 989648,
+      "sha256": "76ad13c22ee40a822191c50dae78d1cbe9e92fe1289b92a68775921a9fa3f3fd"
+    },
+    {
+      "number": 3,
+      "sourceSlide": 5,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-04.png",
+      "sourceMedia": "ppt/media/image17.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/003.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 932356,
+      "sha256": "6b4dcf8d991729e8f3b16211cc271851fea03f3532feef8b9c82ce28bae5322c"
+    },
+    {
+      "number": 4,
+      "sourceSlide": 6,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-05.png",
+      "sourceMedia": "ppt/media/image11.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/004.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 961696,
+      "sha256": "71750d62733e4c70275e9211484193725e7f27660e49272b10c80418e3cf6e37"
+    },
+    {
+      "number": 5,
+      "sourceSlide": 7,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-06.png",
+      "sourceMedia": "ppt/media/image2.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/005.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 878964,
+      "sha256": "93864c930ff14da878e758d40081f1f48c17f0dc3afe3de9237fcca6d3ec1696"
+    },
+    {
+      "number": 6,
+      "sourceSlide": 8,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-07.png",
+      "sourceMedia": "ppt/media/image13.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/006.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 920050,
+      "sha256": "598205dd2985012258789471843f24ee0f028ef16e4b0b3e8f0dd1b533d15c34"
+    },
+    {
+      "number": 7,
+      "sourceSlide": 9,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-08.png",
+      "sourceMedia": "ppt/media/image9.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/007.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 1249030,
+      "sha256": "7f19fa3e0152e0affc49fb88104fd7919b2d49e551afb7781d267561db9d357e"
+    },
+    {
+      "number": 8,
+      "sourceSlide": 10,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-09.png",
+      "sourceMedia": "ppt/media/image22.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/008.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 1313538,
+      "sha256": "bbb03c0fdf139554837608a6a5fb4372b0166d754d071d72074135ac8b173fc2"
+    },
+    {
+      "number": 9,
+      "sourceSlide": 11,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-10.png",
+      "sourceMedia": "ppt/media/image16.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/009.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 1230508,
+      "sha256": "2a02ddf35e9d196a8fd27937a746c779a8021c9bef1c34a4642efd7b140eae15"
+    },
+    {
+      "number": 10,
+      "sourceSlide": 12,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-11.png",
+      "sourceMedia": "ppt/media/image21.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/010.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 1265648,
+      "sha256": "a7d051486439404586e7d175b5556b2e40c709a82fe7673cab9e39b6daf00d4a"
+    },
+    {
+      "number": 11,
+      "sourceSlide": 13,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-12.png",
+      "sourceMedia": "ppt/media/image7.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/011.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 1277734,
+      "sha256": "6e3d31fa71c34c4b9a3515053f42d2c4f9122fb56899806c36a5d0c758a7ea3f"
+    },
+    {
+      "number": 12,
+      "sourceSlide": 14,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-13.png",
+      "sourceMedia": "ppt/media/image4.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/012.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 1292440,
+      "sha256": "b190a953bb177b05b56d95ae0dbe317435ad3e26822de0006e189c81f9c6a2a7"
+    },
+    {
+      "number": 13,
+      "sourceSlide": 15,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-14.png",
+      "sourceMedia": "ppt/media/image23.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/013.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 1343926,
+      "sha256": "9020ef1148dfdfe8a9a18dfe209037a558a9eda65c9df8d2b4ebe6c794d013d1"
+    },
+    {
+      "number": 14,
+      "sourceSlide": 16,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-15.png",
+      "sourceMedia": "ppt/media/image15.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/014.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 1176462,
+      "sha256": "c5c185d417e9a2c177f7d0b1bdf8fcb3f21d6806b49e203e7d0e71426a5d4822"
+    },
+    {
+      "number": 15,
+      "sourceSlide": 17,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-16.png",
+      "sourceMedia": "ppt/media/image27.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/015.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 1224472,
+      "sha256": "7bc29b762ed2ad3609cbf32abac2b821be2f195fae2d416e3d2b8343058b16dd"
+    },
+    {
+      "number": 16,
+      "sourceSlide": 18,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-17.png",
+      "sourceMedia": "ppt/media/image12.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/016.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 1183866,
+      "sha256": "458240d2ca429d655dbd9fbded9c1147d409dbcfa258c8737fb912eac3fc63af"
+    },
+    {
+      "number": 17,
+      "sourceSlide": 19,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-18.png",
+      "sourceMedia": "ppt/media/image8.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/017.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 122418,
+      "sha256": "f9102090c5cfd9d8618c3c3056909fdd82e6a8d8319221b954b78f5bd0ac8195"
+    },
+    {
+      "number": 18,
+      "sourceSlide": 20,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-19.png",
+      "sourceMedia": "ppt/media/image10.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/018.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 194394,
+      "sha256": "3909a718d7684c3fa33647669c1e30f967c171e1d5f24b49d65819322aa3c5d8"
+    },
+    {
+      "number": 19,
+      "sourceSlide": 21,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-20.png",
+      "sourceMedia": "ppt/media/image14.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/019.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 201958,
+      "sha256": "ba648bb67af66b4978baa6ab51eb52774933725c67fbc90788c4766143a60e47"
+    },
+    {
+      "number": 20,
+      "sourceSlide": 22,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-21.png",
+      "sourceMedia": "ppt/media/image18.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/020.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 272896,
+      "sha256": "0f8a6b837594f17b7b0d9b0bb405cb4ced1b82da4f114ee156caf5071d0daff0"
+    },
+    {
+      "number": 21,
+      "sourceSlide": 23,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-22.png",
+      "sourceMedia": "ppt/media/image30.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/021.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 280164,
+      "sha256": "8e6bfd1cd54929f5bde0a338a28a186458dfc6807f0212ad2fe7d2c6cfa7c980"
+    },
+    {
+      "number": 22,
+      "sourceSlide": 24,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-23.png",
+      "sourceMedia": "ppt/media/image19.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/022.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 309886,
+      "sha256": "5253f41cace4bfa921d33f4af940219113016f9980f4e931bce4935a9504689c"
+    },
+    {
+      "number": 23,
+      "sourceSlide": 25,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-24.png",
+      "sourceMedia": "ppt/media/image32.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/023.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 184628,
+      "sha256": "62b22f300e22814462af309fa79274d69d785a01052630b7b8d2f6387f92d83a"
+    },
+    {
+      "number": 24,
+      "sourceSlide": 26,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-25.png",
+      "sourceMedia": "ppt/media/image20.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/024.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 104454,
+      "sha256": "25b9457c232e702bee54eae7386c2bf8e00a9b2ecd120349d05269a78519ed6b"
+    },
+    {
+      "number": 25,
+      "sourceSlide": 27,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-26.png",
+      "sourceMedia": "ppt/media/image26.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/025.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 195166,
+      "sha256": "1e45039482e2cf3b8be5674cb9afa0dda3d040adeb53661c267eaefe0913bfdb"
+    },
+    {
+      "number": 26,
+      "sourceSlide": 28,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-27.png",
+      "sourceMedia": "ppt/media/image31.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/026.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 214648,
+      "sha256": "e214d97052da007689ce6d4f248d304ffe9b49cf35c205d45066e87a6c13a031"
+    },
+    {
+      "number": 27,
+      "sourceSlide": 29,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-28.png",
+      "sourceMedia": "ppt/media/image35.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/027.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 177624,
+      "sha256": "0a06b16ef955f1b2a04e5919f6d4f5bc5528483bee046c648029aef6b16cf8b2"
+    },
+    {
+      "number": 28,
+      "sourceSlide": 30,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-29.png",
+      "sourceMedia": "ppt/media/image29.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/028.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 323240,
+      "sha256": "a89c26344605cda4f6bf77cea657c0f358834e9655c9eaf1023edc0fce518f24"
+    },
+    {
+      "number": 29,
+      "sourceSlide": 31,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-30.png",
+      "sourceMedia": "ppt/media/image24.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/029.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 378726,
+      "sha256": "028edf89f96484f7d5bf988059ff645d5537917fae357fad37acc8218c6eba9e"
+    },
+    {
+      "number": 30,
+      "sourceSlide": 32,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-31.png",
+      "sourceMedia": "ppt/media/image25.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/030.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 399058,
+      "sha256": "e6bec3ca47b39a979a2f35ae8052fbdaa76b16f4ab5dfbf04391be31d1030e11"
+    },
+    {
+      "number": 31,
+      "sourceSlide": 33,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-32.png",
+      "sourceMedia": "ppt/media/image28.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/031.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 359188,
+      "sha256": "39f653e091a17da0fdfd1dc644cf0b2b949dfa2565bf103ef3254d1d8f551c26"
+    },
+    {
+      "number": 32,
+      "sourceSlide": 34,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-33.png",
+      "sourceMedia": "ppt/media/image36.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/032.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 417534,
+      "sha256": "15261abe4deb00afb96790653391cf370799517ea87ddbcc9e194f9898c7a364"
+    },
+    {
+      "number": 33,
+      "sourceSlide": 35,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-34.png",
+      "sourceMedia": "ppt/media/image34.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/033.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 387296,
+      "sha256": "bae41c1c3dd47d6709be8e211724f6af735b7d736fb35dbb4bf25de4da4d7d81"
+    },
+    {
+      "number": 34,
+      "sourceSlide": 36,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-35.png",
+      "sourceMedia": "ppt/media/image33.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/034.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 421348,
+      "sha256": "c068eb286e82c4b31cceaae3bdf3afddded8807f316bb54ccdd247cbfd2e7048"
+    },
+    {
+      "number": 35,
+      "sourceSlide": 37,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-36.png",
+      "sourceMedia": "ppt/media/image37.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/035.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 491466,
+      "sha256": "2ed225e9a642d400af6f49f2e90a03f608da5d159756d394596215734ec4c0a5"
+    },
+    {
+      "number": 36,
+      "sourceSlide": 38,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-37.png",
+      "sourceMedia": "ppt/media/image39.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/036.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 791940,
+      "sha256": "e4f55f0d45231284f7f8069b1a0a931060a6283dd822efc4c71da8426aea59e2"
+    },
+    {
+      "number": 37,
+      "sourceSlide": 39,
+      "sourceStepLabel": "SPIKE-P_Color_Sorter_-38.png",
+      "sourceMedia": "ppt/media/image38.png",
+      "sourceRepresentation": "picture",
+      "path": "assets/generated/build-guides/farvesorteringsmaskine-let/037.webp",
+      "width": 1600,
+      "height": 1130,
+      "bytes": 765180,
+      "sha256": "2b8657293be5974c4f74281cb79129ea14d79e87fb20523acc39b603cea0a227"
+    }
+  ],
+  "output": {
+    "imageCount": 37,
+    "totalBytes": 25145014,
+    "sha256": "5cbd9c810406cd830af3f3816e9f853a88ca3d54fb8c4b9662a2eb635e8c2248"
+  }
+}
