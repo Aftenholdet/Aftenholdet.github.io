@@ -1,4 +1,7 @@
+node_modules/
 dist/
+content/analysis/
+Old Solution (Google Drive)/
+source-assets/
 .DS_Store
 Thumbs.db
-

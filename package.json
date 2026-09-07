@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "node scripts/dev-server.mjs",
     "validate": "node scripts/validate-content.mjs",
-    "lint": "node --check src/content.js && node --check src/library-content.js && node --check src/generated/build-guides.js && node --check src/generated/library-slide-content.js && node --check src/app.js && node --check scripts/dev-server.mjs && node --check scripts/validate-content.mjs && node --check scripts/validate-build-sources.mjs && node --check scripts/build.mjs && node --check scripts/browser-smoke.mjs && node --check scripts/convert-build-guides.mjs && node --check scripts/generate-library-content.mjs",
+    "validate:sources": "node scripts/validate-content.mjs --sources && node scripts/validate-build-sources.mjs && node scripts/convert-build-guides.mjs --analyze-only",
+    "lint": "node --check src/content.js && node --check src/library-content.js && node --check src/generated/build-guides.js && node --check src/generated/library-slide-content.js && node --check src/app.js && node --check scripts/dev-server.mjs && node --check scripts/validate-content.mjs && node --check scripts/validate-build-sources.mjs && node --check scripts/build.mjs && node --check scripts/browser-smoke.mjs && node --check scripts/convert-build-guides.mjs && node --check scripts/generate-library-content.mjs && node --check scripts/generate-source-archive-manifest.mjs",
     "test": "node --test",
     "test:browser": "node scripts/browser-smoke.mjs",
     "content:analyze": "node scripts/convert-build-guides.mjs --analyze-only",
     "content:sources:validate": "node scripts/validate-build-sources.mjs",
+    "sources:manifest": "node scripts/generate-source-archive-manifest.mjs",
     "content:build": "node scripts/convert-build-guides.mjs",
     "library:generate": "node scripts/generate-library-content.mjs",
     "build": "npm run validate && node scripts/build.mjs"

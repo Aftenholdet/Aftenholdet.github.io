@@ -1,0 +1,1436 @@
+{
+  "schemaVersion": 1,
+  "hashAlgorithm": "sha256",
+  "deploymentRequired": false,
+  "legacyArchive": {
+    "root": "Old Solution (Google Drive)",
+    "role": "legacy-and-master-source-archive",
+    "fileCount": 32,
+    "totalBytes": 551272395,
+    "combinedSha256": "dc7efac43a2a835fa62d608ba63e28c1e44e75b61b19ee4536b937049545994b",
+    "files": [
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/1. Nybegynder/Breakdancer.pptx",
+        "fileName": "Breakdancer.pptx",
+        "bytes": 9747760,
+        "sha256": "ed8a96a7b2b9d38317a7c541aee62531ea7ee39f8fea33458749dcf5abf35830"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/1. Nybegynder/Fodboldspiller.pptx",
+        "fileName": "Fodboldspiller.pptx",
+        "bytes": 13109552,
+        "sha256": "255d28c953927f0ff5a03b75f7cd4fedd2d4030b7920664c45ca8d3320476c92"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/1. Nybegynder/Græshoppe.pptx",
+        "fileName": "Græshoppe.pptx",
+        "bytes": 2862871,
+        "sha256": "ab3c98f34a30fe71fcc0642696d8483bf4abb77ee2e6135a4def01e72066d513"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/1. Nybegynder/Gå-bot.pptx",
+        "fileName": "Gå-bot.pptx",
+        "bytes": 5014837,
+        "sha256": "5547df64764fe4f66671faa805f87aed14eb566caac7fbf4a8a8faf276601aea"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/1. Nybegynder/Minigolf.pptx",
+        "fileName": "Minigolf.pptx",
+        "bytes": 8529378,
+        "sha256": "47017352df402477141f897f78ac13d68097cd8621a2933b1e10d070c2650360"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/2. Let Øvet/Danse-Krabbe.pptx",
+        "fileName": "Danse-Krabbe.pptx",
+        "bytes": 33409973,
+        "sha256": "c1b417c78439f3c6ee27fa5bf7d79cfc297f36b6342568af7f057bbaa5a53061"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/2. Let Øvet/Farvesorteringsmaskine.pptx",
+        "fileName": "Farvesorteringsmaskine.pptx",
+        "bytes": 78033541,
+        "sha256": "e8457784548162e07ac9e67a8062ff8316012d661ceda791978e0b9d42ce6762"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/2. Let Øvet/Gribearme.pptx",
+        "fileName": "Gribearme.pptx",
+        "bytes": 18732673,
+        "sha256": "1f5c35f90c16d80bb4ed134df0b1545d2574856bf30a37e05f3d25d60002117f"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/2. Let Øvet/Grundmodel 1.pptx",
+        "fileName": "Grundmodel 1.pptx",
+        "bytes": 17973438,
+        "sha256": "a2a8d02bb1d5885bbf009add0ad9a6b40188bf803daef47950ef4f5ed79605d5"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/2. Let Øvet/Kortdeler.pptx",
+        "fileName": "Kortdeler.pptx",
+        "bytes": 28970924,
+        "sha256": "db40da58347558af5b4163d20a512cdd92b028471549930fa34719998042bdc3"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/2. Let Øvet/Næsehorn.pptx",
+        "fileName": "Næsehorn.pptx",
+        "bytes": 11056887,
+        "sha256": "d4bcb56b565f702b156344aff5bed3c4f3254bddb07b5500eeb7a4d0fffc2a90"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/2. Let Øvet/Robot Arm.pptx",
+        "fileName": "Robot Arm.pptx",
+        "bytes": 69519099,
+        "sha256": "fba3bdf749a546543b1e8a33511fcc88a4bde319f1c0113f38210d3456e40e6c"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/CNC-Tegnemaskine.pptx",
+        "fileName": "CNC-Tegnemaskine.pptx",
+        "bytes": 30661650,
+        "sha256": "e704b4d1070f838b78c2205e570604baf0257912dcd783db219b2dbc85801dec"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/Farvesorteringsmaskine.pptx",
+        "fileName": "Farvesorteringsmaskine.pptx",
+        "bytes": 31073536,
+        "sha256": "683bac3c139cb23c9bef5dc7306103bba583661f06bd8e58f4f53b9532d695e0"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/Gaffeltruck.pptx",
+        "fileName": "Gaffeltruck.pptx",
+        "bytes": 26565055,
+        "sha256": "9fdac97b62127e520e76be10cd0a8e511250584d5af06933e75ee41323e955d6"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/Grundmodel 2.pptx",
+        "fileName": "Grundmodel 2.pptx",
+        "bytes": 28800887,
+        "sha256": "8c95100e6c588f764748873df3db1df643da2cd18647349377b7b626a41dfb17"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/Guitar.pptx",
+        "fileName": "Guitar.pptx",
+        "bytes": 27848116,
+        "sha256": "fdff903ba2f74055bfa55f0e89b0d262cfcfc05faed416913fc645b897d08783"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/Mecha-bot.pptx",
+        "fileName": "Mecha-bot.pptx",
+        "bytes": 836313,
+        "sha256": "67a34995257a2befbf964ddefdde06b96e0424bc28d6f1a1e07222aab280914a"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/Rul-Bot.pptx",
+        "fileName": "Rul-Bot.pptx",
+        "bytes": 27535287,
+        "sha256": "b3a9c2dbd6de5773b45827e4f54bf7d2aa32ca490ebb17eb5ae50ae22753667c"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/4. Avanceret/Stor Robot Arm.pptx",
+        "fileName": "Stor Robot Arm.pptx",
+        "bytes": 70474336,
+        "sha256": "990b786ef8965dc1ac6b3a11f3b631642739c9a3798700f19204e34568ee5abe"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek/Afstandssensor.pptx",
+        "fileName": "Afstandssensor.pptx",
+        "bytes": 1539758,
+        "sha256": "4e6128ded7f0e3db13a4608c7f8c07e093decaaf21021e9267e2013d6503ac32"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek/Asynkrone Tråde.pptx",
+        "fileName": "Asynkrone Tråde.pptx",
+        "bytes": 418568,
+        "sha256": "5c9deca9f61d88e93c3a5f72dc3eb30d862850590986b2bf521e189f6a040c18"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek/Farvesensor.pptx",
+        "fileName": "Farvesensor.pptx",
+        "bytes": 1676798,
+        "sha256": "acf7c886773e7c243f125d0dcaaedff444f24fb2397af4ddee857f00d8bc59d7"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek/Gentag.pptx",
+        "fileName": "Gentag.pptx",
+        "bytes": 729803,
+        "sha256": "7c99aa5f570b3992bc0207b940be13f0ec31ec68879c076b3dc4b5edfaacaf9a"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek/Hub Mindstorm.pptx",
+        "fileName": "Hub Mindstorm.pptx",
+        "bytes": 759663,
+        "sha256": "2be4437bb8eafe1b4095d80794fedcd3132a25590484be69324c113a5840d778"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek/Hub Spike Prime.pptx",
+        "fileName": "Hub Spike Prime.pptx",
+        "bytes": 583677,
+        "sha256": "f9cdf614302ea4ae820f55ff0acc89941d8e6f186727610f42d7b67c537ad15e"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek/Hvis ... Ellers.pptx",
+        "fileName": "Hvis ... Ellers.pptx",
+        "bytes": 704287,
+        "sha256": "959952722240d5b2f1ee5571a5a8fd984f0d7c5c6a89279a39ef14068c032180"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek/Kraftsensor.pptx",
+        "fileName": "Kraftsensor.pptx",
+        "bytes": 1570963,
+        "sha256": "10436bfd338ee043648862c49341a4bc3d421b27dd66f7969760da2cc27a2b11"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek/Mapping.pptx",
+        "fileName": "Mapping.pptx",
+        "bytes": 379959,
+        "sha256": "ec99cdcdda22aa2df819f17d1590591a5016558ef50f131ed604fcd02d5b6330"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek/Motor.pptx",
+        "fileName": "Motor.pptx",
+        "bytes": 880140,
+        "sha256": "6989acad33d42168e646dbddc8c7668f218ed0fc8cf0433319c1ecc9766635c1"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Bibliotek/Vent.pptx",
+        "fileName": "Vent.pptx",
+        "bytes": 606910,
+        "sha256": "78617290e710b7ea6df765526d538f81b0c7fb821a4e59e5e0bb90a94ae715f2"
+      },
+      {
+        "path": "Old Solution (Google Drive)/Differentieret Læring/Introduktion.pptx",
+        "fileName": "Introduktion.pptx",
+        "bytes": 665756,
+        "sha256": "ad7ade05f2a2fe3ab16f490e540ec6006be32317ce3eb605b6d075eab3ee2480"
+      }
+    ]
+  },
+  "imageSequences": [
+    {
+      "projectId": "gaffeltruck",
+      "displayName": "Gaffeltruck",
+      "role": "authoritative-build-source",
+      "sourceDir": "source-assets/build-guides/gaffeltruck",
+      "fileCount": 79,
+      "fileNamePattern": "^(\\d+)_1x\\.png$",
+      "ordering": "numeric-filename",
+      "totalBytes": 24344553,
+      "combinedSha256": "3774d9446b36e9298975d4ec8f0e7e97f02950fce025bd4e889f43c7160671aa",
+      "legacySource": {
+        "type": "pptx",
+        "path": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/Gaffeltruck.pptx",
+        "fileName": "Gaffeltruck.pptx",
+        "internalTitle": "Gaffeltruck",
+        "slideCount": 82,
+        "status": "legacy",
+        "note": "Legacy-PPTX bevares som historisk kilde."
+      },
+      "buildSourceNote": "Nyere autoritativ kilde med højere renderingskvalitet end legacy-PPTX.",
+      "files": [
+        {
+          "sequence": 1,
+          "fileName": "1_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/1_1x.png",
+          "bytes": 322328,
+          "sha256": "6c8d3b9141359c93521ac4a900a4697b16b3b9f2bf9f8064a9a94fe0b8c6b881"
+        },
+        {
+          "sequence": 2,
+          "fileName": "2_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/2_1x.png",
+          "bytes": 207451,
+          "sha256": "4c3955a0d1ef20132241b74fcfd20ea25f9cf7097eae474e734743dcf46fc260"
+        },
+        {
+          "sequence": 3,
+          "fileName": "3_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/3_1x.png",
+          "bytes": 269930,
+          "sha256": "76cfca18514a652f23406a9ad0fbb4c743f2bd6db0071f948451c326231dbe7d"
+        },
+        {
+          "sequence": 4,
+          "fileName": "4_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/4_1x.png",
+          "bytes": 225716,
+          "sha256": "06d8baeabd26bc555a2aa7f3a099194a329f3a5ef51376afdffe0318f7d5be08"
+        },
+        {
+          "sequence": 5,
+          "fileName": "5_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/5_1x.png",
+          "bytes": 304432,
+          "sha256": "08fc8283921051f2394a16e8904706bb5e26a52ed86a66d534612c913f1a58dc"
+        },
+        {
+          "sequence": 6,
+          "fileName": "6_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/6_1x.png",
+          "bytes": 266196,
+          "sha256": "66627ac0fcdfc3531ef112dfbe2f0e2831b45580cd0f30d9b619efaa375e168c"
+        },
+        {
+          "sequence": 7,
+          "fileName": "7_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/7_1x.png",
+          "bytes": 280967,
+          "sha256": "71a960f64078151c45015ecb2618f34cd485620601441ac89b3dc9821d12d79d"
+        },
+        {
+          "sequence": 8,
+          "fileName": "8_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/8_1x.png",
+          "bytes": 404462,
+          "sha256": "a8e52a806e8629e752439a9c00d22c38690d78271a84d848898b89abdb0cedb8"
+        },
+        {
+          "sequence": 9,
+          "fileName": "9_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/9_1x.png",
+          "bytes": 417441,
+          "sha256": "a1e572d80f8adb4487e99bfce650d9e5dc1bf1635506c825c7138eba375cbdab"
+        },
+        {
+          "sequence": 10,
+          "fileName": "10_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/10_1x.png",
+          "bytes": 380920,
+          "sha256": "c3dcffaa694854fd9ad9963882183e343085b0b60349ad8c44aac047492fa7e8"
+        },
+        {
+          "sequence": 11,
+          "fileName": "11_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/11_1x.png",
+          "bytes": 549305,
+          "sha256": "4d9bab19fc06d259d534656f928414e4bcd2ce1525789ee9a66855b91eca6d1d"
+        },
+        {
+          "sequence": 12,
+          "fileName": "12_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/12_1x.png",
+          "bytes": 479397,
+          "sha256": "794ea0191c64a6f6dfdb14f0fe5c5212689528a04ac7b9b2403fd3a0af7fe5fe"
+        },
+        {
+          "sequence": 13,
+          "fileName": "13_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/13_1x.png",
+          "bytes": 509315,
+          "sha256": "23ac4631ce6d427b8cd143e3f923a5746474e5764990084409d1b1c328ea1725"
+        },
+        {
+          "sequence": 14,
+          "fileName": "14_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/14_1x.png",
+          "bytes": 513375,
+          "sha256": "3db89ed697a76c0242dc120a4aaf2e515787b7a376927d0d2b858ecab7546039"
+        },
+        {
+          "sequence": 15,
+          "fileName": "15_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/15_1x.png",
+          "bytes": 570383,
+          "sha256": "e8be04db6ea0ba65098b0fc03b1be045284007dbc70569fd550774e09940f55c"
+        },
+        {
+          "sequence": 16,
+          "fileName": "16_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/16_1x.png",
+          "bytes": 556073,
+          "sha256": "fc6c1e2ef5dc0d8e293c01d8b8011a24bdf0b0119b5fecedadb5ce2afecabe53"
+        },
+        {
+          "sequence": 17,
+          "fileName": "17_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/17_1x.png",
+          "bytes": 593050,
+          "sha256": "c176ff0e8aa3dc3f13d6e1790ea5b1c18a2e28253673b07b786bc7797b1ef3f1"
+        },
+        {
+          "sequence": 18,
+          "fileName": "18_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/18_1x.png",
+          "bytes": 573999,
+          "sha256": "ad7821b167af1eedc31bc006d03181ed318444c9deca151fc43f30bcc6402ac1"
+        },
+        {
+          "sequence": 19,
+          "fileName": "19_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/19_1x.png",
+          "bytes": 619518,
+          "sha256": "3d704c6f9f994ef80b7ca5d8d39f590b4ee67ab82e0771929c078f01627f14c9"
+        },
+        {
+          "sequence": 20,
+          "fileName": "20_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/20_1x.png",
+          "bytes": 606785,
+          "sha256": "85234f3fc2570baee4acb4c5cc1409acfe066dd1c8f9e95725e3c5c9a0703eba"
+        },
+        {
+          "sequence": 21,
+          "fileName": "21_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/21_1x.png",
+          "bytes": 445775,
+          "sha256": "63d43f4b23f7fe326b96acdabef0ec236f042325148b2464edc3aabf05d895a0"
+        },
+        {
+          "sequence": 22,
+          "fileName": "22_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/22_1x.png",
+          "bytes": 165795,
+          "sha256": "e1bd7e4bc5569f5dcd6607e0ad4e0eaf82a20f7f8d7ffae3f54d29bf806e4040"
+        },
+        {
+          "sequence": 23,
+          "fileName": "23_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/23_1x.png",
+          "bytes": 119576,
+          "sha256": "e3b3f1f201a75b492fe59b08f8f1c9fabb7f91399448d0f901112cbb895cfb24"
+        },
+        {
+          "sequence": 24,
+          "fileName": "24_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/24_1x.png",
+          "bytes": 117828,
+          "sha256": "1d4d223c8dacc2c2eb509ef07dba1ba8451bc716221e898f1a3268a840aa5609"
+        },
+        {
+          "sequence": 25,
+          "fileName": "25_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/25_1x.png",
+          "bytes": 282388,
+          "sha256": "7b7700c6642b088b5338a8d0ee17c18e8789495fca3ed01e761c00e3880a517f"
+        },
+        {
+          "sequence": 26,
+          "fileName": "26_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/26_1x.png",
+          "bytes": 146538,
+          "sha256": "f03f97e00005ee57ebf1f1d1ac2f5741cc10ecf48eab0c7bc3d10a7c03ee98dc"
+        },
+        {
+          "sequence": 27,
+          "fileName": "27_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/27_1x.png",
+          "bytes": 142973,
+          "sha256": "86ced5991d18515dee4a50725ce87aa07030e3b09417dfcc724fa6ae358c8ca3"
+        },
+        {
+          "sequence": 28,
+          "fileName": "28_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/28_1x.png",
+          "bytes": 442981,
+          "sha256": "1573084f1dadade71f200e726d1f7e644b93f97b2d91fb21fc43d961564bbb0d"
+        },
+        {
+          "sequence": 29,
+          "fileName": "29_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/29_1x.png",
+          "bytes": 416169,
+          "sha256": "28166b8ea3505cde2512cd3da26b609e86955cd4f5089294ba8c192b552f1ed3"
+        },
+        {
+          "sequence": 30,
+          "fileName": "30_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/30_1x.png",
+          "bytes": 398653,
+          "sha256": "302f02c5c743c1b363cffb0e23c43e0ab30e6536d03992c3f44c1acce11ddea7"
+        },
+        {
+          "sequence": 31,
+          "fileName": "31_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/31_1x.png",
+          "bytes": 520016,
+          "sha256": "4bf23e3d1dbf8774d0a27150df761d4b0087f2e3989ecf2224e10dd449f4504e"
+        },
+        {
+          "sequence": 32,
+          "fileName": "32_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/32_1x.png",
+          "bytes": 487717,
+          "sha256": "30f64051c6c4b77d3e817b70bdf874403292634cda573340c890406617990b69"
+        },
+        {
+          "sequence": 33,
+          "fileName": "33_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/33_1x.png",
+          "bytes": 525308,
+          "sha256": "8c10e0dfc16fff3d34caf2facdd3f9a7456c678c3066625b15d2203e79158a0c"
+        },
+        {
+          "sequence": 34,
+          "fileName": "34_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/34_1x.png",
+          "bytes": 472325,
+          "sha256": "b2415a3b490b49e38c508df990309aeda96da24f7263098477ddd08c115295ca"
+        },
+        {
+          "sequence": 35,
+          "fileName": "35_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/35_1x.png",
+          "bytes": 469921,
+          "sha256": "fd03225ee3f4f6c8ea5f2e9250800c095527949f911d848b95c10d68d55d7b74"
+        },
+        {
+          "sequence": 36,
+          "fileName": "36_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/36_1x.png",
+          "bytes": 481726,
+          "sha256": "687c380c2a052f9ad25f48c996e346393e780aca43e00edc4a79319adb4f5c1d"
+        },
+        {
+          "sequence": 37,
+          "fileName": "37_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/37_1x.png",
+          "bytes": 488786,
+          "sha256": "26a90a46b8856dd1978f2f11096d937b38b2391523d7c7315dde1f28dbe3dfb9"
+        },
+        {
+          "sequence": 38,
+          "fileName": "38_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/38_1x.png",
+          "bytes": 531364,
+          "sha256": "ea641c32a3da957964adf7a8984263f68f4f55a60b88ca7ad512b0f9c6d453b7"
+        },
+        {
+          "sequence": 39,
+          "fileName": "39_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/39_1x.png",
+          "bytes": 108363,
+          "sha256": "f9aa1eeebe8b78f0a93a80784c17a0263fab59e8f12ca13c61d6dc7c93f94acc"
+        },
+        {
+          "sequence": 40,
+          "fileName": "40_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/40_1x.png",
+          "bytes": 72182,
+          "sha256": "0b0db81fac51e88f5aa0415bfb722e99b8aa3f0546bc6489c6161d78e1a61ecc"
+        },
+        {
+          "sequence": 41,
+          "fileName": "41_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/41_1x.png",
+          "bytes": 90493,
+          "sha256": "7ddac26b80dc2be8b6e3b48e14eb516580079fb89a319836743cc99afdb231ea"
+        },
+        {
+          "sequence": 42,
+          "fileName": "42_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/42_1x.png",
+          "bytes": 86286,
+          "sha256": "bd9db6df4932e28ea4064f6d327453d17fcf3f782db1b5c28b1c103a602c3e8b"
+        },
+        {
+          "sequence": 43,
+          "fileName": "43_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/43_1x.png",
+          "bytes": 126436,
+          "sha256": "9d77cd2c30bd7c7fde08eb1d130603c807ee66b956a52878e6cc5bbdb4ad02c5"
+        },
+        {
+          "sequence": 44,
+          "fileName": "44_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/44_1x.png",
+          "bytes": 133470,
+          "sha256": "23f001430080010ab08989a2038e5fcfbe8a4f08023313006de708a020333e02"
+        },
+        {
+          "sequence": 45,
+          "fileName": "45_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/45_1x.png",
+          "bytes": 167590,
+          "sha256": "b07a0ab0740775507fbe65d3c76299700e778ec02f88d2ca39f2c3db7e11b91a"
+        },
+        {
+          "sequence": 46,
+          "fileName": "46_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/46_1x.png",
+          "bytes": 171719,
+          "sha256": "77d5e00ff7d1e117fb042e6be1afa8fd764f15053660cac8e2f2de5b37117141"
+        },
+        {
+          "sequence": 47,
+          "fileName": "47_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/47_1x.png",
+          "bytes": 149733,
+          "sha256": "b64101e579c595e9aaf13b2fc1494e3fdd7ce29a2391b6ac21cc76705ac7deed"
+        },
+        {
+          "sequence": 48,
+          "fileName": "48_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/48_1x.png",
+          "bytes": 193929,
+          "sha256": "30e3a51a44c4bd6caa45121e8a9b5b38a4663f54f3e944ccfb08686129911967"
+        },
+        {
+          "sequence": 49,
+          "fileName": "49_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/49_1x.png",
+          "bytes": 190240,
+          "sha256": "a269e53dbaa1c2f434ba8cd8209f80870cfa8f0f1cb697a8eb6ecddb42d41e8b"
+        },
+        {
+          "sequence": 50,
+          "fileName": "50_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/50_1x.png",
+          "bytes": 213020,
+          "sha256": "5384cd5c4f989b781ade50e274cd90219eee0fb915ffd285b6213b9e4be520ec"
+        },
+        {
+          "sequence": 51,
+          "fileName": "51_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/51_1x.png",
+          "bytes": 185826,
+          "sha256": "68022fb5c83ee9b01c8d816715cf9a6b301e7914242de00c4f1dee8a3a3d3893"
+        },
+        {
+          "sequence": 52,
+          "fileName": "52_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/52_1x.png",
+          "bytes": 187320,
+          "sha256": "b89b6c1d7beb752e6cb2128be7d58c252bae9395526df87ab9b05162c05eafcd"
+        },
+        {
+          "sequence": 53,
+          "fileName": "53_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/53_1x.png",
+          "bytes": 317156,
+          "sha256": "5ef5fbd098c566a0f0413c97cdf7b80a607a3797fe95ab107cb3cdc561ed6def"
+        },
+        {
+          "sequence": 54,
+          "fileName": "54_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/54_1x.png",
+          "bytes": 247977,
+          "sha256": "1f1d329659c7543cbb183176ceca78ff3978ffda3d14ec40ea7bdffd64b56ab0"
+        },
+        {
+          "sequence": 55,
+          "fileName": "55_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/55_1x.png",
+          "bytes": 250608,
+          "sha256": "9fdaed7a9ff62782ce323fb304c54f6ad4512ccf0df7871303325a07b3223632"
+        },
+        {
+          "sequence": 56,
+          "fileName": "56_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/56_1x.png",
+          "bytes": 233653,
+          "sha256": "482b82acd0268bfa8f46320b5a7c72e2614e129d9ca2e26de7e5771b0c7348a8"
+        },
+        {
+          "sequence": 57,
+          "fileName": "57_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/57_1x.png",
+          "bytes": 232289,
+          "sha256": "ca68f4a54cd427eb28a8b3ea367ae2307c161749578f7ce2fba996891f306adf"
+        },
+        {
+          "sequence": 58,
+          "fileName": "58_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/58_1x.png",
+          "bytes": 238656,
+          "sha256": "e620d122bf009708dbfa1aa8b8afc554d56c8428815cc8e599602662981cb743"
+        },
+        {
+          "sequence": 59,
+          "fileName": "59_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/59_1x.png",
+          "bytes": 279184,
+          "sha256": "217cd258a9162ea10ed18bc3aa89e0172dcc912c1d84271f8fe1f1d0ba954a3e"
+        },
+        {
+          "sequence": 60,
+          "fileName": "60_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/60_1x.png",
+          "bytes": 308772,
+          "sha256": "72181f16bffd8a45bb0997cff2faeabd5ecc945dd58d13ee94bb4893e143c8ed"
+        },
+        {
+          "sequence": 61,
+          "fileName": "61_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/61_1x.png",
+          "bytes": 298267,
+          "sha256": "437e9d4d8e43856d3606a787fd3c904d6bec92b79a83c23edf6f308409cdc8a3"
+        },
+        {
+          "sequence": 62,
+          "fileName": "62_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/62_1x.png",
+          "bytes": 291731,
+          "sha256": "b0e9834d2439a8e22e8ea8bb8a6824df961ed5bc891c5bb802ade5b0ae0702f9"
+        },
+        {
+          "sequence": 63,
+          "fileName": "63_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/63_1x.png",
+          "bytes": 290986,
+          "sha256": "5214376340f3bac9b5dea3a4967ce139ddfee1186d33c24fd1c12ea808068893"
+        },
+        {
+          "sequence": 64,
+          "fileName": "64_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/64_1x.png",
+          "bytes": 306724,
+          "sha256": "fff6f08a81da47970ba633d0c50d68415b9e01d66cb2e662a63b7476da57dd73"
+        },
+        {
+          "sequence": 65,
+          "fileName": "65_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/65_1x.png",
+          "bytes": 624133,
+          "sha256": "927266f0f58372b3f93f14431fcfbe5b1911533268e6515aae2d13c4bec3b7e6"
+        },
+        {
+          "sequence": 66,
+          "fileName": "66_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/66_1x.png",
+          "bytes": 215672,
+          "sha256": "e4db6fe25495f92c43655db020dbda3f556a73326f4d7c263b86674537295d84"
+        },
+        {
+          "sequence": 67,
+          "fileName": "67_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/67_1x.png",
+          "bytes": 93507,
+          "sha256": "3da93b0cc4a65fabe2bc156c411d47d27e8d9d242b3ed83ce0c1293d32fe4c49"
+        },
+        {
+          "sequence": 68,
+          "fileName": "68_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/68_1x.png",
+          "bytes": 111213,
+          "sha256": "16531212eac4febcfe22f2216c7728c2b2ec06e008e56e08dbfb4ab967c2b682"
+        },
+        {
+          "sequence": 69,
+          "fileName": "69_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/69_1x.png",
+          "bytes": 145856,
+          "sha256": "1ea321b98ae5f6064fc14ee3a644d87838909d31dda9c1d28f95053686ca6b8c"
+        },
+        {
+          "sequence": 70,
+          "fileName": "70_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/70_1x.png",
+          "bytes": 122281,
+          "sha256": "808f9e77ec2166de01c30393f8cad56176cce85c3fa3873018f5b0b4dbb8c29f"
+        },
+        {
+          "sequence": 71,
+          "fileName": "71_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/71_1x.png",
+          "bytes": 218936,
+          "sha256": "14ed17b7b78b7b3f3a2830d0733507b4148c8d9cba630a5059993eaa02a1b7c9"
+        },
+        {
+          "sequence": 72,
+          "fileName": "72_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/72_1x.png",
+          "bytes": 143747,
+          "sha256": "63d458a4d62f9dc61429922d061004141f043cfd9eaaea4a2ace0832d9993e93"
+        },
+        {
+          "sequence": 73,
+          "fileName": "73_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/73_1x.png",
+          "bytes": 144530,
+          "sha256": "16510787d8b8b3fa4a8a631af3478d0a15c9b9ca807175e419901bf1fbc4ef07"
+        },
+        {
+          "sequence": 74,
+          "fileName": "74_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/74_1x.png",
+          "bytes": 154384,
+          "sha256": "599c7f085780d7bef279016b6b6c9b9dc13267ad04d22815918cee838f041364"
+        },
+        {
+          "sequence": 75,
+          "fileName": "75_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/75_1x.png",
+          "bytes": 161864,
+          "sha256": "559daca649f2dba43da6072563d56e18a2fa386b685c2702670dff003b779221"
+        },
+        {
+          "sequence": 76,
+          "fileName": "76_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/76_1x.png",
+          "bytes": 194695,
+          "sha256": "8d6d4ec1c8fd04ea4ea9b0647ccb49378229668c82fc637955b36da4950aa069"
+        },
+        {
+          "sequence": 77,
+          "fileName": "77_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/77_1x.png",
+          "bytes": 157214,
+          "sha256": "27a408def40dc8d1b615cba8aa20ee134d72ca31f9164584e4073c0f0fcc6dfb"
+        },
+        {
+          "sequence": 78,
+          "fileName": "78_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/78_1x.png",
+          "bytes": 582272,
+          "sha256": "dcb98c11d0e8586cd26029e39c64bce7af511e4a8d5468a2b4bc994a18a913eb"
+        },
+        {
+          "sequence": 79,
+          "fileName": "79_1x.png",
+          "path": "source-assets/build-guides/gaffeltruck/79_1x.png",
+          "bytes": 594757,
+          "sha256": "490f8791207ec88047ee9452c430f105bd6fce0a7a700789cc9d8245da30acef"
+        }
+      ]
+    },
+    {
+      "projectId": "mecha-bot",
+      "displayName": "Mecha-bot",
+      "role": "authoritative-build-source",
+      "sourceDir": "source-assets/build-guides/mecha-bot",
+      "fileCount": 89,
+      "fileNamePattern": "^(\\d+)_1x\\.png$",
+      "ordering": "numeric-filename",
+      "totalBytes": 29578648,
+      "combinedSha256": "b9d7bc93d10432341d2175704d5476aa192555a7f51dd84dbeecb2401bee869a",
+      "legacySource": {
+        "type": "pptx",
+        "path": "Old Solution (Google Drive)/Differentieret Læring/3. Øvet/Mecha-bot.pptx",
+        "fileName": "Mecha-bot.pptx",
+        "internalTitle": "Mecha-bot",
+        "slideCount": 2,
+        "status": "incomplete",
+        "note": "Legacy-PPTX indeholder kun cover og titel og er ufuldstændig."
+      },
+      "buildSourceNote": "Autoritativ komplet image-sequence leveret af underviseren.",
+      "files": [
+        {
+          "sequence": 1,
+          "fileName": "1_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/1_1x.png",
+          "bytes": 724709,
+          "sha256": "63b95ec0a96459c5bb3da6046c3074d69a04fc60950a837cb47998307e542e2e"
+        },
+        {
+          "sequence": 2,
+          "fileName": "2_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/2_1x.png",
+          "bytes": 502360,
+          "sha256": "6a7f61568ad97e4f9acbd50ae9f14f18ba80ef80b562a55d1a0ebb0b685c901d"
+        },
+        {
+          "sequence": 3,
+          "fileName": "3_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/3_1x.png",
+          "bytes": 441309,
+          "sha256": "42c0bdfcc75183d753211705c8ac975f316ad43e761dd41ebca22324b856d08d"
+        },
+        {
+          "sequence": 4,
+          "fileName": "4_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/4_1x.png",
+          "bytes": 153540,
+          "sha256": "b4f3f26f941c899494ebd8c00b2f139e8d86af4ad73e52de2a070209ef51daca"
+        },
+        {
+          "sequence": 5,
+          "fileName": "5_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/5_1x.png",
+          "bytes": 444506,
+          "sha256": "c8da9dbf764ef2ce926821fbd293c67b56eb6608f07b6df22cf7c5d15a2761e3"
+        },
+        {
+          "sequence": 6,
+          "fileName": "6_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/6_1x.png",
+          "bytes": 576531,
+          "sha256": "5ea894c0b77dfb428a42f0a04d128806cea1cb02cd06d2eb4e2b8227462ac4fe"
+        },
+        {
+          "sequence": 7,
+          "fileName": "7_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/7_1x.png",
+          "bytes": 269586,
+          "sha256": "a568409b9950656c2f0bd0e5ffa2f6d05eb9292673eae02a294633196a83c2f3"
+        },
+        {
+          "sequence": 8,
+          "fileName": "8_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/8_1x.png",
+          "bytes": 251195,
+          "sha256": "409b9b7a491c84649930aa2e7b77271f9b5a8994ee3aeca216e406faa7156211"
+        },
+        {
+          "sequence": 9,
+          "fileName": "9_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/9_1x.png",
+          "bytes": 263545,
+          "sha256": "b69ab74b582d380253aaf8d2b89295fc970fea651aa3409a9db017f1e5a72618"
+        },
+        {
+          "sequence": 10,
+          "fileName": "10_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/10_1x.png",
+          "bytes": 267283,
+          "sha256": "7e696e33264a31d84b7495de6417675390d11d684ffe7f278ecf5d93c057664f"
+        },
+        {
+          "sequence": 11,
+          "fileName": "11_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/11_1x.png",
+          "bytes": 295868,
+          "sha256": "696902cf0a60e0989d425e1f3df4e8526e063862974096ee4a7f015934dc8b79"
+        },
+        {
+          "sequence": 12,
+          "fileName": "12_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/12_1x.png",
+          "bytes": 308990,
+          "sha256": "d2867eb394fb92cb9bf8f16c95cf16235b0c0877a69063740778cbb17a7eeae5"
+        },
+        {
+          "sequence": 13,
+          "fileName": "13_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/13_1x.png",
+          "bytes": 211841,
+          "sha256": "c7eaa46f6ce0a6e915ff2ce9c109e09dae59b2030d823d54f013cb4ac103191f"
+        },
+        {
+          "sequence": 14,
+          "fileName": "14_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/14_1x.png",
+          "bytes": 299521,
+          "sha256": "0412e15c109138924bb7ecfb8d55f293b638108a85143334ddf0494f34e46f4a"
+        },
+        {
+          "sequence": 15,
+          "fileName": "15_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/15_1x.png",
+          "bytes": 254884,
+          "sha256": "245755bb72c1e8db62177624ca5b5eb51bc3198ed9d8caa7fb34cf3e18d2ce43"
+        },
+        {
+          "sequence": 16,
+          "fileName": "16_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/16_1x.png",
+          "bytes": 244131,
+          "sha256": "025fafa80407a332f105bee606c91ccd67255ecc9f061eb179a76a2b5ee206bb"
+        },
+        {
+          "sequence": 17,
+          "fileName": "17_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/17_1x.png",
+          "bytes": 398521,
+          "sha256": "f9c078e86babac511be9f096ba157469b515212131480bdaa3d96090d7c3b660"
+        },
+        {
+          "sequence": 18,
+          "fileName": "18_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/18_1x.png",
+          "bytes": 371884,
+          "sha256": "0356ac87f493c86a56272fad72e9117276c51a0103641087739d083df31a07e0"
+        },
+        {
+          "sequence": 19,
+          "fileName": "19_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/19_1x.png",
+          "bytes": 337098,
+          "sha256": "0eaf7e636abd084a034e360884823e925fc01cdbb0f5ff405120f3fe87dd2a5f"
+        },
+        {
+          "sequence": 20,
+          "fileName": "20_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/20_1x.png",
+          "bytes": 280216,
+          "sha256": "a8ea9954bd7cdaf76897ffff2b49e94ca759d7f1d9d249b7d554398b7a877729"
+        },
+        {
+          "sequence": 21,
+          "fileName": "21_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/21_1x.png",
+          "bytes": 253469,
+          "sha256": "61b47a2d27591a71cc5ed8a4d73648bbe8c938b11c39463b1c39e0cacaf8f6d0"
+        },
+        {
+          "sequence": 22,
+          "fileName": "22_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/22_1x.png",
+          "bytes": 305346,
+          "sha256": "687823e5c68738674654c42a7730bddf1877d7c81f3a84aa2d2498fb0e0e5161"
+        },
+        {
+          "sequence": 23,
+          "fileName": "23_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/23_1x.png",
+          "bytes": 272481,
+          "sha256": "3357c35a6b014f9c48eb857192e971a55926f1b7ed78817dc1d43c6c9b7ca2c7"
+        },
+        {
+          "sequence": 24,
+          "fileName": "24_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/24_1x.png",
+          "bytes": 302124,
+          "sha256": "7880c44475be1eba5eda1d7541eb7f603ac8af6acab0ea0d81ae482619e62ed4"
+        },
+        {
+          "sequence": 25,
+          "fileName": "25_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/25_1x.png",
+          "bytes": 308242,
+          "sha256": "42a676bc66fbcbf148a2a06d936cdd4eb8e2a55e9a0dae6ef1907124fa2bb71b"
+        },
+        {
+          "sequence": 26,
+          "fileName": "26_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/26_1x.png",
+          "bytes": 212180,
+          "sha256": "ec35bc5e9dd3de86247a7dfbbdce1fe8e79e9b8a53fbf7feee2dddda2f223d17"
+        },
+        {
+          "sequence": 27,
+          "fileName": "27_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/27_1x.png",
+          "bytes": 295978,
+          "sha256": "1280331d35927594794f132ff3c3a362a464a97cf11d7631073d617576f923fe"
+        },
+        {
+          "sequence": 28,
+          "fileName": "28_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/28_1x.png",
+          "bytes": 254382,
+          "sha256": "9b5e2d0e55f185df7ecaadb46060ddc4094611048ed5bdcb6b2e054ea92c5bc0"
+        },
+        {
+          "sequence": 29,
+          "fileName": "29_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/29_1x.png",
+          "bytes": 254131,
+          "sha256": "dea7ea1692a5912a0a6ef0b32acfbc0698f10371f8278f02e2e7e95b00c990ab"
+        },
+        {
+          "sequence": 30,
+          "fileName": "30_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/30_1x.png",
+          "bytes": 415415,
+          "sha256": "55ec14414c086eda36c41c452f46cfafb604a27a401279f202d9a302906c77e3"
+        },
+        {
+          "sequence": 31,
+          "fileName": "31_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/31_1x.png",
+          "bytes": 448905,
+          "sha256": "d1f999d6b79cfdb9d619aec0029ee9304e7f11dd7fac39b13cb1781a5c02d2d7"
+        },
+        {
+          "sequence": 32,
+          "fileName": "32_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/32_1x.png",
+          "bytes": 560112,
+          "sha256": "e8237c43dafea7442e40ca4e94bc0778c6eda6a3b0819bdf8c8f1809c1ca57f6"
+        },
+        {
+          "sequence": 33,
+          "fileName": "33_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/33_1x.png",
+          "bytes": 364762,
+          "sha256": "62ca5cbb5e71df48eadbe6e6046e73466e31e8835ac2cdda021f44b50e6e6bd0"
+        },
+        {
+          "sequence": 34,
+          "fileName": "34_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/34_1x.png",
+          "bytes": 441473,
+          "sha256": "ef63d902a33b66c171c805aaec80c75a3a9aecad1c88925c8ab83cd6106df04a"
+        },
+        {
+          "sequence": 35,
+          "fileName": "35_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/35_1x.png",
+          "bytes": 465482,
+          "sha256": "9a9313188f4dc5446b5e22166f7ab1221d938534f456b29a7fc92c5840a37e58"
+        },
+        {
+          "sequence": 36,
+          "fileName": "36_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/36_1x.png",
+          "bytes": 399934,
+          "sha256": "16ff9529219e6880a97a5a486c874a16bc64783edae7112f8238c5027490bcc5"
+        },
+        {
+          "sequence": 37,
+          "fileName": "37_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/37_1x.png",
+          "bytes": 383252,
+          "sha256": "663f7930505f6ca2011148341652afda67e0e2dc9fd5b09001241b44f10261c4"
+        },
+        {
+          "sequence": 38,
+          "fileName": "38_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/38_1x.png",
+          "bytes": 241421,
+          "sha256": "48d46810f3388611939ab014cbd771b5eb1bcc09a1df6c39e805b5549ef9ea70"
+        },
+        {
+          "sequence": 39,
+          "fileName": "39_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/39_1x.png",
+          "bytes": 466426,
+          "sha256": "ebc93c4b65788f1971a87dc2014a63162049d9d51671b4b627f925ef505282f6"
+        },
+        {
+          "sequence": 40,
+          "fileName": "40_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/40_1x.png",
+          "bytes": 497060,
+          "sha256": "eca84f0b2340b4e9f361fb0da5b0a593b4985fc864616eef4a8a0750de1ef923"
+        },
+        {
+          "sequence": 41,
+          "fileName": "41_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/41_1x.png",
+          "bytes": 621728,
+          "sha256": "1752011e1d36672d6faef2e9cf63ab52df7581acb0522b05f88a357476877512"
+        },
+        {
+          "sequence": 42,
+          "fileName": "42_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/42_1x.png",
+          "bytes": 156905,
+          "sha256": "c033c18388bf19e6ae8687289caffb3bbad4bdcf6892fd83582cad8ba7e56ae2"
+        },
+        {
+          "sequence": 43,
+          "fileName": "43_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/43_1x.png",
+          "bytes": 117129,
+          "sha256": "6fab68c794f852c83376338caee8b8b1bdf395738a05da80e91ae861dc36c18a"
+        },
+        {
+          "sequence": 44,
+          "fileName": "44_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/44_1x.png",
+          "bytes": 143404,
+          "sha256": "451b76b9635ffca1b5b1db2caf29ad5378c6396db6bfee14bba4c50b27a3885b"
+        },
+        {
+          "sequence": 45,
+          "fileName": "45_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/45_1x.png",
+          "bytes": 612480,
+          "sha256": "83611f7566c1b8b068254f22fced6663917dbe45b3633d6220a758ecae8474bb"
+        },
+        {
+          "sequence": 46,
+          "fileName": "46_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/46_1x.png",
+          "bytes": 219803,
+          "sha256": "77b24739eaf695995d7b12854431f2feee607dcd6186db69beba604f777933f1"
+        },
+        {
+          "sequence": 47,
+          "fileName": "47_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/47_1x.png",
+          "bytes": 178131,
+          "sha256": "cef4322b722c63ef64db392cd13762176285e77477fb5c231fb1a9df1cb3a939"
+        },
+        {
+          "sequence": 48,
+          "fileName": "48_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/48_1x.png",
+          "bytes": 159795,
+          "sha256": "977dc115afdd3d37f25d9c68304cd09434a020717eeaafa1af6634efa5f3a245"
+        },
+        {
+          "sequence": 49,
+          "fileName": "49_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/49_1x.png",
+          "bytes": 212408,
+          "sha256": "c179fa6caa778699c48e64ecf2748d37586382df5e2f2911b239f24ec1bfcce8"
+        },
+        {
+          "sequence": 50,
+          "fileName": "50_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/50_1x.png",
+          "bytes": 242607,
+          "sha256": "5bd5c41c725488460df4be34f746e350ebf959539f75cf936c3c654196cd190c"
+        },
+        {
+          "sequence": 51,
+          "fileName": "51_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/51_1x.png",
+          "bytes": 165049,
+          "sha256": "82f844b7effc3c65a4496eede8ea1a3ffd8d32518974e11b554f6f07384ffd81"
+        },
+        {
+          "sequence": 52,
+          "fileName": "52_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/52_1x.png",
+          "bytes": 113169,
+          "sha256": "b015ee2bd779a905e6d7fb00378a408fc33e692a66272d964c88c0a30fabc6c3"
+        },
+        {
+          "sequence": 53,
+          "fileName": "53_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/53_1x.png",
+          "bytes": 222949,
+          "sha256": "380154828c369ef76e8b7278cee1d1218ef264c5a03bd6fb0065a614a735ee3b"
+        },
+        {
+          "sequence": 54,
+          "fileName": "54_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/54_1x.png",
+          "bytes": 630175,
+          "sha256": "594817f274aee4f3b40540342d92243baba2ef86b09617adac9adad4ee6403c5"
+        },
+        {
+          "sequence": 55,
+          "fileName": "55_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/55_1x.png",
+          "bytes": 526784,
+          "sha256": "1566e271b3b246f05a7ba49f195ee5385b78799db75fc796404ddaba9114a248"
+        },
+        {
+          "sequence": 56,
+          "fileName": "56_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/56_1x.png",
+          "bytes": 169731,
+          "sha256": "2a77569ee6444d206312c20ce5848203f9e0ff844dca13e2f356f1ca7aef4927"
+        },
+        {
+          "sequence": 57,
+          "fileName": "57_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/57_1x.png",
+          "bytes": 202556,
+          "sha256": "9f207c6fe3e37317be7703238f3f234d39e4b12952fa30726b68b34ccb8b3107"
+        },
+        {
+          "sequence": 58,
+          "fileName": "58_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/58_1x.png",
+          "bytes": 164258,
+          "sha256": "77ba2d720867f0879f11e6f4624a5fd0fac20b991db25ab86308fabaa442f5fd"
+        },
+        {
+          "sequence": 59,
+          "fileName": "59_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/59_1x.png",
+          "bytes": 167707,
+          "sha256": "a5202b7ea5407c5e7b4a735a7263f71654706d1db9c32c6c99e96ee43f126fc4"
+        },
+        {
+          "sequence": 60,
+          "fileName": "60_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/60_1x.png",
+          "bytes": 178928,
+          "sha256": "d802c934cda3c07e49ad8293f45f3fe831664cb9de41f4270ac7c3751f5e0686"
+        },
+        {
+          "sequence": 61,
+          "fileName": "61_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/61_1x.png",
+          "bytes": 308154,
+          "sha256": "612f17b8c664ef60db996f9f55a8ff45be29b17d28bad36df5fd263dd7370df7"
+        },
+        {
+          "sequence": 62,
+          "fileName": "62_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/62_1x.png",
+          "bytes": 262518,
+          "sha256": "bb0c7a0e227276170e8a2802bd6a3cb6c98b95ec958d7864173d66b893d10864"
+        },
+        {
+          "sequence": 63,
+          "fileName": "63_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/63_1x.png",
+          "bytes": 314141,
+          "sha256": "5d2102450ada5855da9ecd0e14f944896d893de3f030781d30a296df7314911b"
+        },
+        {
+          "sequence": 64,
+          "fileName": "64_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/64_1x.png",
+          "bytes": 331077,
+          "sha256": "e98e44752648feea55b5a727e3d70bb695a243455199287ca81c075dcfb7571b"
+        },
+        {
+          "sequence": 65,
+          "fileName": "65_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/65_1x.png",
+          "bytes": 261259,
+          "sha256": "54f58e7f26fee6ce98fdd88b49672d6908e1ef868646744cb7a02f08fb4d2151"
+        },
+        {
+          "sequence": 66,
+          "fileName": "66_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/66_1x.png",
+          "bytes": 259529,
+          "sha256": "25832f12c7fc1e615d40ddf0f7e56ff911d5fb46fbecf56da56117372fa8cb8d"
+        },
+        {
+          "sequence": 67,
+          "fileName": "67_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/67_1x.png",
+          "bytes": 244792,
+          "sha256": "62ba0e1b16b9f327a9598167f0ffa8561744922cd8c35576e5f4f01701dfa281"
+        },
+        {
+          "sequence": 68,
+          "fileName": "68_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/68_1x.png",
+          "bytes": 261592,
+          "sha256": "2d410df0eaf6b09eed415fe12c26c57a83b4e2ca3a7984e25ef05e69e166fd36"
+        },
+        {
+          "sequence": 69,
+          "fileName": "69_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/69_1x.png",
+          "bytes": 391763,
+          "sha256": "d1a3a4804044a4350690f501cfe74a7231d4fbda98adb140d1ea8191d3edd6de"
+        },
+        {
+          "sequence": 70,
+          "fileName": "70_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/70_1x.png",
+          "bytes": 404311,
+          "sha256": "fd53f6d9157a7a0895850b134957834a9ebbd8a3d6f703f574d9096e8b86de1e"
+        },
+        {
+          "sequence": 71,
+          "fileName": "71_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/71_1x.png",
+          "bytes": 786689,
+          "sha256": "680aaa8d9a9e444a6173a5f3468fe1cda03ca62fd89817963d103cf57981bc51"
+        },
+        {
+          "sequence": 72,
+          "fileName": "72_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/72_1x.png",
+          "bytes": 166153,
+          "sha256": "013dd5846d03d9bfff7497c9d41cf018bbbf23ae8f0ba3accd50a17a1e2c6bac"
+        },
+        {
+          "sequence": 73,
+          "fileName": "73_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/73_1x.png",
+          "bytes": 189509,
+          "sha256": "f41f8e8adb8ea329eacb167ca0ea4f8951b5b8dbf7a3630bf2980118342e35a9"
+        },
+        {
+          "sequence": 74,
+          "fileName": "74_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/74_1x.png",
+          "bytes": 162100,
+          "sha256": "4e21a95651b079b1083ba484ff851fb370cb9473c6799a95303d2f26197a9dd8"
+        },
+        {
+          "sequence": 75,
+          "fileName": "75_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/75_1x.png",
+          "bytes": 167232,
+          "sha256": "da74ee16536157250198c02f8410622ce0bfe5aa82378d2853d6384bdacad021"
+        },
+        {
+          "sequence": 76,
+          "fileName": "76_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/76_1x.png",
+          "bytes": 225944,
+          "sha256": "0267449be9fc4f8b2022b4bd006c1874295ad75836151d0a7447190143c051ed"
+        },
+        {
+          "sequence": 77,
+          "fileName": "77_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/77_1x.png",
+          "bytes": 315084,
+          "sha256": "2f2b83a9e14a7beda8f753df97c7cdb6238519b11e0a2f80ebc372d3cdbd2791"
+        },
+        {
+          "sequence": 78,
+          "fileName": "78_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/78_1x.png",
+          "bytes": 268777,
+          "sha256": "7ef3dd400d49a9e98c9d619ce70ebd468f288b7c6d482702d9eb044efe30bb37"
+        },
+        {
+          "sequence": 79,
+          "fileName": "79_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/79_1x.png",
+          "bytes": 324925,
+          "sha256": "ecd9c67c9e4917afbc02df5d7f7b406cc4a987d77adda5a9a5c878d3a945f738"
+        },
+        {
+          "sequence": 80,
+          "fileName": "80_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/80_1x.png",
+          "bytes": 320434,
+          "sha256": "e3dab7c0ac11bae00773cb0be7ed123910809e2f288ee1d1d24af57a1dbf2d75"
+        },
+        {
+          "sequence": 81,
+          "fileName": "81_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/81_1x.png",
+          "bytes": 358566,
+          "sha256": "4065bb460dda7b6dd8cd294b9b979b7edb1350ea2e1a5ba0820a1ed5961b1413"
+        },
+        {
+          "sequence": 82,
+          "fileName": "82_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/82_1x.png",
+          "bytes": 341049,
+          "sha256": "6fb77928437cf1a7c781505668332153bbc1b84fd9d9efcc299962f23e6c556a"
+        },
+        {
+          "sequence": 83,
+          "fileName": "83_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/83_1x.png",
+          "bytes": 322917,
+          "sha256": "0b810a97ecc2fac056f4e883d3dbdbcedf9b106e844f8a4491aa07405cfa34cc"
+        },
+        {
+          "sequence": 84,
+          "fileName": "84_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/84_1x.png",
+          "bytes": 349585,
+          "sha256": "1afaa85e9190ed857ad9dc3549e6f5d29ab0d6c0e9b1e62b493de9c71322a349"
+        },
+        {
+          "sequence": 85,
+          "fileName": "85_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/85_1x.png",
+          "bytes": 439709,
+          "sha256": "43afc3aec67e7d7c9527ac2df452eac93a647cd6657045264a6b21d83e74a941"
+        },
+        {
+          "sequence": 86,
+          "fileName": "86_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/86_1x.png",
+          "bytes": 456429,
+          "sha256": "5ddfce38d7d9ae7ba135c0aa2ec73ec588e90c78c2d315a7a7d8ff011b791de7"
+        },
+        {
+          "sequence": 87,
+          "fileName": "87_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/87_1x.png",
+          "bytes": 666023,
+          "sha256": "9c56e2c23fe9ec4dffc7b1464196d98ef3df668a607f2ee00db9d24498c314fc"
+        },
+        {
+          "sequence": 88,
+          "fileName": "88_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/88_1x.png",
+          "bytes": 744244,
+          "sha256": "22266c9df3b687da88b7ba41bfe525f30ef1e26385df25441cab05aa93a0497b"
+        },
+        {
+          "sequence": 89,
+          "fileName": "89_1x.png",
+          "path": "source-assets/build-guides/mecha-bot/89_1x.png",
+          "bytes": 688354,
+          "sha256": "454e2ff66d16a240cf1da9fc2d784732802f6156d0b0754dba3aa4870dec42f1"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "legacyFiles": 32,
+    "imageSequenceFiles": 168,
+    "totalSourceFiles": 200,
+    "complete": true
+  }
+}

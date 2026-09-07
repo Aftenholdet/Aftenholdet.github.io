@@ -111,11 +111,18 @@ test('missing image relationship is rejected', () => {
   );
 });
 
-test('Breakdancer regression remains 34 ordered single-picture steps', async () => {
+test('Breakdancer regression remains 34 ordered single-picture steps', async (context) => {
   const root = new URL('../', import.meta.url);
   const config = JSON.parse(await readFile(new URL('content/build-guides.config.json', root), 'utf8'));
   const project = config.projects.find((entry) => entry.id === 'breakdancer');
-  const source = await readFile(new URL(project.source.replaceAll(' ', '%20'), root));
+  const sourceUrl = new URL(project.source.replaceAll(' ', '%20'), root);
+  try {
+    await access(sourceUrl);
+  } catch {
+    context.skip('Source-arkivet er ikke tilgængeligt i dette produktions-checkout.');
+    return;
+  }
+  const source = await readFile(sourceUrl);
   const presentation = analyzePresentation(unzipSync(new Uint8Array(source)));
 
   assert.equal(presentation.slides.length, 36);

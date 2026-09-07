@@ -53,10 +53,15 @@ Alle 20 byggevejledninger er deklareret i `content/build-guides.config.json`. At
 ```powershell
 npm run content:analyze
 npm run content:sources:validate
+npm run sources:manifest
 npm run content:build
 ```
 
 `content:analyze` laver en fuld dry run og kræver præcis 20 guider og 1.132 byggetrin. `content:sources:validate` kontrollerer nummerering, filtype, dimensioner og hash for image-sequences. `content:build` gentager kontrollen før første output skrives. En uændret kilde og uændrede indstillinger giver `[SKIP]` og omskriver ikke outputtet. Den tekniske metode, dependencies, metadataformat og procedure for nye projekter er dokumenteret i [docs/CONTENT_PIPELINE.md](docs/CONTENT_PIPELINE.md).
+
+`npm run validate` kontrollerer kun det runtime-indhold, som et produktionsbuild behøver. Brug `npm run validate:sources` ved arbejde med source-arkivet; den ekstra kontrol kræver både legacy-PPTX-filerne og de rå image-sequences og udfører den fulde pipeline-dry-run. Source-afhængige regressionstests springes eksplicit over i et produktions-checkout uden source-arkiv.
+
+`npm run sources:manifest` opdaterer `docs/source-archive-manifest.json` med størrelser og SHA-256 for samtlige arkiverede PPTX- og PNG-kilder. Manifestet er provenance-dokumentation og indgår ikke i det statiske site.
 
 Bibliotekets auditerede PowerPoint-tekstlag og fire blokkodebilleder kan regenereres separat uden at berøre byggeguide-pipelinen:
 

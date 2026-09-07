@@ -14,6 +14,7 @@ import {
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const errors = [];
+const validateSources = process.argv.includes('--sources');
 
 function check(condition, message) {
   if (!condition) errors.push(message);
@@ -53,8 +54,10 @@ for (const project of projects) {
   check(['ready', 'source-only', 'needs-review', 'incomplete'].includes(project.buildStatus), `${project.name} har ukendt buildStatus.`);
   await fileExists(project.thumbnail, `${project.name} thumbnail`);
   check(['pptx', 'image-sequence'].includes(project.buildSource?.type), `${project.name} har ukendt buildSource.`);
-  await fileExists(project.buildSource?.path, `${project.name} build-kilde`);
-  if (project.legacySource) await fileExists(project.legacySource.path, `${project.name} legacy-kilde`);
+  if (validateSources) {
+    await fileExists(project.buildSource?.path, `${project.name} build-kilde`);
+    if (project.legacySource) await fileExists(project.legacySource.path, `${project.name} legacy-kilde`);
+  }
   if (project.buildStatus === 'incomplete') {
     check(project.buildSteps.length === 0, `${project.name} er incomplete, men har byggetrin.`);
     check(project.buildGuideManifest === null, `${project.name} er incomplete, men har et manifest.`);
@@ -85,7 +88,7 @@ for (const project of projects) {
       check(Boolean(step.sourceFile && step.sourcePath), `${project.name} trin ${step.number} mangler source-fil.`);
       sourceSequences.push(step.sourceSequence);
       sourceFiles.push(step.sourceFile);
-      await fileExists(step.sourcePath, `${project.name} source image ${step.sourceFile}`);
+      if (validateSources) await fileExists(step.sourcePath, `${project.name} source image ${step.sourceFile}`);
     }
     check(step.image.endsWith(`/${String(index + 1).padStart(3, '0')}.webp`), `${project.name} trin ${step.number} har forkert filnavn.`);
     imagePaths.push(step.image);
@@ -130,7 +133,7 @@ for (const project of projects) {
         check(file.size === step.bytes, `${project.name} trin ${step.number}: filstørrelsen stemmer ikke med manifestet.`);
         const outputHash = createHash('sha256').update(await readFile(path.join(root, step.path))).digest('hex');
         check(outputHash === step.sha256, `${project.name} trin ${step.number}: output-hash stemmer ikke.`);
-        if (step.sourceType === 'image-sequence') {
+        if (validateSources && step.sourceType === 'image-sequence') {
           const sourceHash = createHash('sha256').update(await readFile(path.join(root, step.sourcePath))).digest('hex');
           check(sourceHash === step.sourceSha256, `${project.name} trin ${step.number}: source-hash stemmer ikke.`);
         }
@@ -143,7 +146,7 @@ for (const project of projects) {
 
 for (const topic of libraryTopics) {
   check(categoryIds.has(topic.categoryId), `${topic.name} peger på en ukendt kategori.`);
-  await fileExists(topic.source.path, `${topic.name} kilde`);
+  if (validateSources) await fileExists(topic.source.path, `${topic.name} kilde`);
   check(Array.isArray(topic.sections) && topic.sections.length > 0, `${topic.name} mangler afsnit.`);
   uniqueIds(topic.sections, `${topic.name} afsnit`);
   for (const section of topic.sections) {
@@ -176,5 +179,6 @@ if (errors.length) {
   errors.forEach((error) => console.error(`- ${error}`));
   process.exitCode = 1;
 } else {
-  console.log(`Indhold OK: ${levels.length} niveauer, ${projects.length} projekter, ${libraryTopics.length} biblioteksemner.`);
+  const scope = validateSources ? 'Runtime- og source-indhold' : 'Runtime-indhold';
+  console.log(`${scope} OK: ${levels.length} niveauer, ${projects.length} projekter, ${libraryTopics.length} biblioteksemner.`);
 }

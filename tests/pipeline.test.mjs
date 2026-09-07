@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { execFile } from 'node:child_process';
-import { readFile, stat } from 'node:fs/promises';
+import { access, readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { promisify } from 'node:util';
@@ -26,7 +26,14 @@ test('generated build-guide images are bounded WebP files', async () => {
   }
 });
 
-test('unchanged source and settings do not rewrite generated output', async () => {
+test('unchanged source and settings do not rewrite generated output', async (context) => {
+  const manifest = JSON.parse(await readFile(path.join(outputDir, 'manifest.json'), 'utf8'));
+  try {
+    await access(path.join(root, manifest.source.path));
+  } catch {
+    context.skip('Source-arkivet er ikke tilgængeligt i dette produktions-checkout.');
+    return;
+  }
   const firstImage = path.join(outputDir, '001.webp');
   const before = await stat(firstImage);
   const { stdout } = await execFileAsync(process.execPath, [
@@ -39,4 +46,3 @@ test('unchanged source and settings do not rewrite generated output', async () =
   assert.match(stdout, /\[SKIP\].*up-to-date/);
   assert.equal(after.mtimeMs, before.mtimeMs);
 });
-
