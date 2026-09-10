@@ -108,9 +108,66 @@ try {
   await navigate(`${siteUrl}/#/`, '.level-grid');
   assert.equal(await evaluate('window.innerWidth'), 390, 'Chrome did not create a 390px CSS viewport');
   assert.equal(await evaluate('document.documentElement.scrollWidth <= window.innerWidth'), true, 'Landing page has horizontal overflow');
+  assert.equal(await evaluate("Boolean(document.querySelector('.level-number, .level-card [aria-hidden]'))"), false, 'Level cards still contain numbering or arrows');
+  await waitFor("[...document.querySelectorAll('.brand-logo')].every(image => image.complete && image.naturalWidth > 0)");
+  const mobileLandingShot = await screenshot('lego-landing-mobile.png');
+  await evaluate("document.querySelector('.landing-code-help').click()");
+  await waitFor("Boolean(document.querySelector('.library-page'))");
+  assert.equal(await evaluate("Boolean(document.querySelector('[role=dialog]'))"), false, 'Landing help should be a full page');
+  assert.equal(await evaluate("document.querySelector('#site-content').inert"), false);
+  assert.equal(await evaluate("new Set([...document.querySelectorAll('.library-topic-card')].map(card => getComputedStyle(card).getPropertyValue('--category-color'))).size"), 4, 'Categories do not have distinct colors');
+  await evaluate("document.querySelector('[data-category=\"motor\"]').click()");
+  assert.equal(await evaluate("document.querySelectorAll('.library-topic-card').length"), 1);
+  assert.equal(await evaluate("document.querySelector('[data-category=\"motor\"]').getAttribute('aria-pressed')"), 'true');
+  await evaluate("document.querySelector('[data-category=\"all\"]').click()");
+  await evaluate("document.querySelectorAll('.library-page img').forEach(image => image.loading = 'eager')");
+  await waitFor("[...document.querySelectorAll('.library-page img')].every(image => image.complete && image.naturalWidth > 0)");
+  const categoriesShot = await screenshot('lego-categories-mobile.png');
+  await evaluate(`(() => {
+    const input = document.querySelector('#library-search'); input.value = 'zzzz';
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+  })()`);
+  assert.equal(await evaluate("Boolean(document.querySelector('.library-empty'))"), true);
+  await evaluate("document.querySelector('[data-clear-library]').click()");
+  assert.equal(await evaluate("document.querySelector('#library-search').value"), '');
+  await evaluate("document.querySelector('input[name=library-platform][value=mindstorms]').click()");
+  assert.equal(await evaluate("Boolean(document.querySelector('a[href*=\"/hub-spike-prime\"]'))"), false);
+  assert.equal(await evaluate("Boolean(document.querySelector('a[href*=\"/hub-mindstorms\"]'))"), true);
+  await evaluate("document.querySelector('input[name=library-platform][value=spike]').click()");
+  await evaluate("document.querySelector('a.library-topic-card[href*=\"/motor?\"]').click()");
+  await waitFor("Boolean(document.querySelector('.library-guide-content .code-block'))");
+  assert.equal(await evaluate("document.querySelector('.code-block').dataset.codePlatform"), 'spike');
+  await evaluate("document.querySelector('[data-library-section=koer-grader]').click()");
+  assert.equal(await evaluate("document.querySelector('[data-library-section=koer-grader]').getAttribute('aria-current')"), 'true');
+  assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('180')"), true);
+  await evaluate("document.querySelector('input[name=platform][value=mindstorms]').click()");
+  assert.equal(await evaluate("document.querySelector('.code-block').dataset.codePlatform"), 'mindstorms');
+  await evaluate("document.querySelector('.back-link').click()");
+  await waitFor("Boolean(document.querySelector('.library-card-grid'))");
+  await navigate(`${siteUrl}/#/library/mapping`, '.library-guide-content');
+  assert.equal(await evaluate("Boolean(document.querySelector('input[name=platform], input[name=code-mode]'))"), false);
+  await navigate(`${siteUrl}/#/library`, '.library-card-grid');
+
+  for (const width of [320, 720, 1440]) {
+    await command('Emulation.setDeviceMetricsOverride', { width, height: 1000, deviceScaleFactor: 1, mobile: false });
+    await navigate(`${siteUrl}/#/library`, '.library-card-grid');
+    assert.equal(await evaluate('document.documentElement.scrollWidth <= window.innerWidth'), true, `Library overflows at ${width}px`);
+    if (width === 1440) {
+      await evaluate("document.querySelectorAll('.library-page img').forEach(image => image.loading = 'eager')");
+      await waitFor("[...document.querySelectorAll('.library-page img')].every(image => image.complete && image.naturalWidth > 0)");
+      await screenshot('lego-library-desktop.png');
+    }
+    await navigate(`${siteUrl}/#/library/afstandssensor?mode=text`, '.library-guide-content');
+    assert.equal(await evaluate('document.documentElement.scrollWidth <= window.innerWidth'), true, `Full guide overflows at ${width}px`);
+    if (width === 1440) await screenshot('lego-library-guide-desktop.png');
+  }
+  await navigate(`${siteUrl}/#/library`, '.library-card-grid');
+  await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
 
   await navigate(`${siteUrl}/#/project/breakdancer?step=3`, '#build-image');
   assert.equal(await evaluate('document.documentElement.scrollWidth <= window.innerWidth'), true, 'Mobile viewer has horizontal overflow');
+  assert.equal(await evaluate("getComputedStyle(document.querySelector('.code-help-label')).display"), 'none', 'Mobile help label is still visible');
+  assert.equal(await evaluate("document.querySelector('#code-help-trigger').getAttribute('aria-label')"), 'Kodehjælp');
   const originalStep = await evaluate("document.querySelector('#build-image').src");
 
   await evaluate("document.querySelector('#code-help-trigger').click()");
@@ -131,6 +188,9 @@ try {
   assert.equal(await evaluate("localStorage.getItem('selectedCodeMode')"), 'text');
   assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('DistanceSensor')"), true);
   assert.equal(await evaluate("document.querySelector('pre code').textContent.includes('\\n\\n# Opret')"), true, 'Rendered code lost its PowerPoint line breaks');
+  assert.equal(await evaluate("getComputedStyle(document.querySelector('.code-block')).backgroundColor"), 'rgb(30, 30, 30)', 'MINDSTORMS should use a dark editor');
+  assert.notEqual(await evaluate("getComputedStyle(document.querySelector('.syntax-keyword')).color"), await evaluate("getComputedStyle(document.querySelector('pre code')).color"), 'Python keywords lack highlighting');
+  const mindstormsShot = await screenshot('lego-mindstorms-mobile.png');
 
   await evaluate("document.querySelector('[data-back-library]').click()");
   await waitFor("Boolean(document.querySelector('[data-topic=\"motor\"]'))");
@@ -148,6 +208,8 @@ try {
   assert.equal(await evaluate("Boolean(document.querySelector('input[name=\"code-mode\"]'))"), true, 'SPIKE-only topic hid its meaningful code selector');
   assert.equal(await evaluate("localStorage.getItem('selectedPlatform')"), 'mindstorms', 'SPIKE-only topic changed the global platform preference');
   assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('light_matrix')"), true);
+  assert.equal(await evaluate("getComputedStyle(document.querySelector('.code-block')).backgroundColor"), 'rgb(243, 244, 245)', 'SPIKE-only topic should use a light gray editor despite the global MINDSTORMS preference');
+  const spikeShot = await screenshot('lego-spike-mobile.png');
 
   await evaluate("document.querySelector('[data-back-library]').click()");
   await waitFor("Boolean(document.querySelector('[data-topic=\"motor\"]'))");
@@ -257,6 +319,28 @@ try {
   assert.equal(await evaluate("localStorage.getItem('buildStep:stor-robot-arm')"), '88', 'Stor Robot Arm did not keep its own latest step');
   assert.notEqual(await evaluate("localStorage.getItem('buildStep:breakdancer')"), '88', 'Project build-step state leaked between projects');
 
+  for (const width of [320, 520, 600, 720, 1000, 1440]) {
+    await command('Emulation.setDeviceMetricsOverride', { width, height: 900, deviceScaleFactor: 1, mobile: false });
+    await navigate(`${siteUrl}/#/`, '.level-grid');
+    assert.equal(await evaluate("document.querySelector('.hero-copy h1').scrollWidth <= document.querySelector('.hero-copy h1').clientWidth"), true, `Landing heading clips at ${width}px`);
+    for (const project of ['stor-robot-arm', 'mecha-bot']) {
+      await navigate(`${siteUrl}/#/project/${project}`, '#step-select');
+      assert.equal(await evaluate('document.documentElement.scrollWidth <= window.innerWidth'), true, `Viewer overflows at ${width}px`);
+      const labelsFit = await evaluate(`(() => {
+        const select = document.querySelector('#step-select');
+        const style = getComputedStyle(select);
+        const context = document.createElement('canvas').getContext('2d');
+        context.font = style.font;
+        const available = select.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight) - 24;
+        return [...select.options].every(option => !option.text.startsWith('Trin ') && context.measureText(option.text).width <= available);
+      })()`);
+      assert.equal(labelsFit, true, `${project} step labels truncate at ${width}px`);
+    }
+  }
+
+  await navigate(`${siteUrl}/#/`, '.level-grid');
+  const desktopLandingShot = await screenshot('lego-landing-desktop.png');
+
   await navigate(`${siteUrl}/#/project/mecha-bot?step=6`, '#build-image');
   assert.equal(await evaluate("document.querySelector('#step-count').textContent"), 'Materialer · 5 af 5');
   await evaluate("document.querySelector('#next-step').click()");
@@ -278,6 +362,7 @@ try {
   console.log('Browser-smoke-test OK');
   console.log(`- Mobil drawer: ${mobileDrawerShot}`);
   console.log(`- Desktop viewer: ${desktopViewerShot}`);
+  for (const shot of [mobileLandingShot, desktopLandingShot, categoriesShot, mindstormsShot, spikeShot]) console.log(`- Feedback: ${shot}`);
 } finally {
   if (socket?.readyState === WebSocket.OPEN) socket.close();
   chrome.kill();

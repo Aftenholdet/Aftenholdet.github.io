@@ -16,6 +16,9 @@ import {
   resolveLibraryVariant,
 } from './content.js';
 
+import { highlightPython } from './highlight-python.js';
+import { topicVisuals, categorySymbols } from './library-visuals.js';
+
 const app = document.querySelector('#app');
 const drawerRoot = document.querySelector('#drawer-root');
 const siteContent = document.querySelector('#site-content');
@@ -44,6 +47,10 @@ window.addEventListener('hashchange', () => {
 
 document.addEventListener('keydown', handleGlobalKeydown);
 document.addEventListener('fullscreenchange', updateFullscreenButton);
+app.addEventListener('click', (event) => {
+  const trigger = event.target.closest('[data-open-code-help]');
+  if (trigger) openDrawer({ currentTarget: trigger });
+});
 
 renderRoute();
 
@@ -72,6 +79,22 @@ function renderRoute() {
     if (projectEntry) return renderProject(projectEntry);
   }
 
+  if (state.route.page === 'library') {
+    const topic = getLibraryTopic(state.route.id);
+    if (state.route.id && !topic) return renderNotFound();
+    state.libraryTopicId = topic?.id ?? null;
+    state.librarySectionId = null;
+    state.libraryView = topic ? 'topic' : 'index';
+    const mode = state.route.query.get('mode');
+    if (codeModeOptions.some(option => option.id === mode)) {
+      state.selectedCodeMode = mode;
+      writeStorage('selectedCodeMode', mode);
+    }
+    renderLibraryPage(topic);
+    requestAnimationFrame(() => app.querySelector('h1')?.focus({ preventScroll: true }));
+    return;
+  }
+
   if (state.route.page !== 'home') return renderNotFound();
   renderLanding();
 }
@@ -85,13 +108,17 @@ function renderLanding() {
       <header class="hero">
         <div class="hero-inner">
           <div class="brand-lockup">
-            ${logoPlaceholder()}
+            ${brandLogo('white')}
             <span>Teknologiskolen</span>
           </div>
           <div class="hero-copy">
             <p class="eyebrow">Byg. Kod. Få idéer.</p>
             <h1>Lego, Robotter og Programmering</h1>
             <p>Vælg dit niveau, find en robot og byg den trin for trin. Kodehjælpen følger med hele vejen.</p>
+            <a class="button landing-code-help" href="#/library">
+              <span class="code-help-icon" aria-hidden="true">&lt;/&gt;</span>
+              <span>Åbn kodehjælp</span>
+            </a>
           </div>
           <img class="hero-robot" src="${assetUrl(heroProject.thumbnail)}" alt="Den færdige Breakdancer-robot" />
         </div>
@@ -118,15 +145,121 @@ function levelCard(level) {
     <a class="level-card" href="#/level/${level.id}">
       <div class="level-card-image">
         <img src="${assetUrl(featuredProject.thumbnail)}" alt="Eksempelrobot på niveauet ${escapeHtml(level.name)}" loading="lazy" />
-        <span class="level-number" aria-hidden="true">${level.order}</span>
       </div>
       <div class="level-card-body">
         <h3>${escapeHtml(level.name)}</h3>
         <p>${escapeHtml(level.description)}</p>
-        <span class="card-action">Se ${count} ${count === 1 ? 'robot' : 'robotter'} <span aria-hidden="true">→</span></span>
+        <span class="card-action">Se ${count} ${count === 1 ? 'robot' : 'robotter'}</span>
       </div>
     </a>
   `;
+}
+
+function renderLibraryPage(topic = getLibraryTopic(state.libraryTopicId), { focusSelector } = {}) {
+  document.title = `${topic ? `${topic.name} | ` : ''}Kodehjælp | Teknologiskolen`;
+  app.innerHTML = `
+    <div class="page library-page">
+      ${pageHeader({ backHref: topic ? '#/library' : '#/', backLabel: topic ? 'Alle emner' : 'Forside' })}
+      <main id="main-content" class="page-section library-main">
+        ${topic ? `
+          <div class="library-guide-layout">
+            <aside class="library-guide-nav" aria-label="Emnets vejledninger" data-category-color="${topic.categoryId}">
+              ${topicPicture(topic)}
+              <p class="eyebrow">${escapeHtml(topic.name)}</p>
+              <nav aria-label="Vælg hjælp">
+                ${topic.sections.map(section => `<button type="button" data-library-section="${section.id}" aria-current="${getLibrarySection(topic, state.librarySectionId).id === section.id ? 'true' : 'false'}">${escapeHtml(section.name)}</button>`).join('')}
+              </nav>
+              <a class="library-all-link" href="#/library">Se alle kodeemner</a>
+            </aside>
+            <article class="library-guide-content">${libraryGuideHtml(topic, true)}</article>
+          </div>
+        ` : `
+          <header class="library-welcome">
+            <div class="library-intro">
+              <p class="eyebrow">Kodehjælp</p>
+              <h1 tabindex="-1">Hvad vil du kode?</h1>
+              <p>Få din robot til at bevæge sig, lyse og reagere.</p>
+            </div>
+            <fieldset class="library-platforms">
+              <legend>Vælg den app, du bruger</legend>
+              ${platformOptions.map(platform => `
+                <label class="library-platform" data-platform="${platform.id}">
+                  <input type="radio" name="library-platform" value="${platform.id}" ${state.selectedPlatform === platform.id ? 'checked' : ''} />
+                  <span class="library-platform-body">
+                    <img class="platform-app-icon" src="${assetUrl(`assets/library/${platform.id}-app.webp`)}" alt="" width="56" height="56" />
+                    <span><strong>${platform.label}</strong><small>${platform.id === 'spike' ? 'LEGO Education' : 'Robot Inventor'}</small></span>
+                    <img class="platform-hub" src="${assetUrl(`assets/library/${platform.id}-hub.webp`)}" alt="" />
+                  </span>
+                </label>
+              `).join('')}
+            </fieldset>
+          </header>
+          <section class="library-explorer" aria-label="Find kodehjælp">
+            <div class="library-discovery">
+              <label class="search-field" for="library-search">
+                <span class="sr-only">Søg i kodehjælpen</span>
+                <span class="search-input-wrap"><span aria-hidden="true">⌕</span><input id="library-search" type="search" value="${escapeAttribute(state.librarySearch)}" placeholder="Find fx motor, farve eller gentag" autocomplete="off" /></span>
+              </label>
+              <p>Find en del. Vælg en idé. Prøv koden.</p>
+            </div>
+            <nav class="library-category-nav" aria-label="Filtrér efter kategori">
+              ${[{ id: 'all', name: 'Alle emner' }, ...libraryCategories].map(category => `<button class="filter-button" type="button" data-category="${category.id}" data-category-color="${category.id}" aria-pressed="${state.libraryCategoryId === category.id}"><span aria-hidden="true">${categorySymbols[category.id]}</span>${escapeHtml(category.name)}</button>`).join('')}
+            </nav>
+            <div id="library-topic-list">${libraryCardsHtml()}</div>
+          </section>
+        `}
+      </main>
+      ${siteFooter()}
+    </div>`;
+  bindHelpContent();
+  app.querySelectorAll('input[name="library-platform"]').forEach(input => input.addEventListener('change', () => {
+    state.selectedPlatform = input.value;
+    writeStorage('selectedPlatform', input.value);
+    renderLibraryPage(null, { focusSelector: `input[name="library-platform"][value="${input.value}"]` });
+  }));
+  app.querySelectorAll('[data-library-section]').forEach(button => button.addEventListener('click', () => {
+    state.librarySectionId = button.dataset.librarySection;
+    renderLibraryPage(topic, { focusSelector: `[data-library-section="${button.dataset.librarySection}"]` });
+  }));
+  if (focusSelector) requestAnimationFrame(() => app.querySelector(focusSelector)?.focus({ preventScroll: true }));
+}
+
+function topicPicture(topic) {
+  const visual = topicVisuals[topic.id];
+  return `<div class="library-topic-picture ${topic.categoryId === 'programlogik' ? 'is-code-picture' : ''}" aria-hidden="true">
+    ${visual.image ? `<img src="${assetUrl(visual.image)}" alt="" loading="lazy" />` : '<span class="mapping-picture"><span>0 … 100</span><span>↕</span><span>0 … 10</span></span>'}
+  </div>`;
+}
+
+function libraryCardsHtml() {
+  const query = state.librarySearch.trim().toLocaleLowerCase('da');
+  const topics = libraryTopics.filter(topic =>
+    topic.sections.some(section => !section.selection.platforms.length || section.selection.platforms.includes(state.selectedPlatform)) &&
+    (state.libraryCategoryId === 'all' || topic.categoryId === state.libraryCategoryId) &&
+    (!query || `${topic.name} ${topic.description} ${topicVisuals[topic.id].hint}`.toLocaleLowerCase('da').includes(query)));
+  const category = libraryCategories.find(category => category.id === state.libraryCategoryId);
+  return `
+    <div class="library-results-heading"><h2>${query ? 'Søgeresultater' : escapeHtml(category?.name ?? 'Gå på opdagelse')}</h2><p role="status">${topics.length} ${topics.length === 1 ? 'emne' : 'emner'}</p></div>
+    ${topics.length ? `<div class="library-card-grid">${topics.map(topic => {
+      const modes = codeModeOptions.filter(mode => resolveLibraryVariant(topic.sections[0], state.selectedPlatform, mode.id).variant?.status === 'available');
+      const concept = !topic.sections[0].selection.codeModes.length && topic.sections[0].variants.some(variant => variant.status === 'available');
+      const mode = concept ? null : modes.find(mode => mode.id === state.selectedCodeMode)?.id ?? modes[0]?.id;
+      const label = concept ? 'Se forklaringen' : modes.length === 2 ? 'Blokke og tekst' : modes.length ? `Se ${modes[0].id === 'text' ? 'tekstkode' : 'blokkode'}` : 'Kommer snart';
+      return `<a class="library-topic-card" href="#/library/${topic.id}${mode ? `?mode=${mode}` : ''}" data-category-color="${topic.categoryId}">
+        <span class="library-card-category">${escapeHtml(libraryCategories.find(category => category.id === topic.categoryId).name)}</span>
+        ${topicPicture(topic)}
+        <div class="library-card-copy"><h3>${escapeHtml(topic.name)}</h3><p>${escapeHtml(topicVisuals[topic.id].hint)}</p><span class="library-card-mode ${!modes.length && !concept ? 'is-coming' : ''}">${concept ? '' : '<span aria-hidden="true">&lt;/&gt;</span> '}${label}</span></div>
+      </a>`;
+    }).join('')}</div>` : '<div class="library-empty"><h3>Ingen emner fundet</h3><p>Prøv et andet ord, eller vælg Alle emner.</p><button class="button button-secondary" type="button" data-clear-library>Vis alle emner</button></div>'}`;
+}
+
+function renderHelp(options) {
+  if (state.drawerOpen) renderDrawer(options);
+  else renderLibraryPage(undefined, options);
+}
+
+function helpRoot() {
+  return state.drawerOpen ? drawerRoot : app;
 }
 
 function renderLevel(level) {
@@ -168,7 +301,7 @@ function projectCard(projectEntry) {
       <div class="project-card-body">
         <h2>${escapeHtml(projectEntry.name)}</h2>
         <span class="project-status ${ready ? 'is-ready' : ''}">
-          <span aria-hidden="true">${ready ? '✓' : '○'}</span> ${escapeHtml(status)}
+          ${escapeHtml(status)}
         </span>
       </div>
     </a>
@@ -264,14 +397,14 @@ function renderBuildViewer(projectEntry) {
           <label for="step-slider">${escapeHtml(projectEntry.navigationLabel)}</label>
           <input id="step-slider" type="range" min="1" max="${projectEntry.buildSteps.length}" value="${state.buildStep}" />
           <select id="step-select" aria-label="Spring til en bestemt side">
-            ${projectEntry.buildSteps.map((step) => `<option value="${step.number}">${escapeHtml(step.pageLabel)}</option>`).join('')}
+            ${projectEntry.buildSteps.map((step) => `<option value="${step.number}">${escapeHtml(step.pageLabel.replace(/^Trin /, ''))}</option>`).join('')}
           </select>
         </div>
       </main>
 
-      <button id="code-help-trigger" class="code-help-trigger" type="button" aria-haspopup="dialog" aria-controls="code-help-drawer">
+      <button id="code-help-trigger" class="code-help-trigger" type="button" data-open-code-help aria-label="Kodehjælp" title="Kodehjælp" aria-haspopup="dialog" aria-controls="code-help-drawer">
         <span class="code-help-icon" aria-hidden="true">&lt;/&gt;</span>
-        <span>Kodehjælp</span>
+        <span class="code-help-label">Kodehjælp</span>
       </button>
     </div>
   `;
@@ -286,7 +419,6 @@ function bindViewer() {
   document.querySelector('#step-slider').addEventListener('input', (event) => setBuildStep(Number(event.target.value)));
   document.querySelector('#step-select').addEventListener('change', (event) => setBuildStep(Number(event.target.value)));
   document.querySelector('#fullscreen-button').addEventListener('click', toggleFullscreen);
-  document.querySelector('#code-help-trigger').addEventListener('click', openDrawer);
 
   const stage = document.querySelector('#build-stage');
   let pointerStart = null;
@@ -387,7 +519,7 @@ function renderDrawer({ focusSelector, animate = false } = {}) {
   `;
 
   drawerRoot.querySelectorAll('[data-close-drawer]').forEach((button) => button.addEventListener('click', () => closeDrawer()));
-  bindDrawerContent();
+  bindHelpContent();
 
   requestAnimationFrame(() => {
     const requested = focusSelector ? drawerRoot.querySelector(focusSelector) : null;
@@ -400,7 +532,7 @@ function libraryIndexHtml() {
   return `
     <div class="drawer-header">
       <div>
-        <p class="drawer-kicker">Bliv på dit byggetrin</p>
+        <p class="drawer-kicker">${state.currentProject ? 'Bliv på dit byggetrin' : 'Find hjælp til din kode'}</p>
         <h2 id="drawer-title">Kodehjælp</h2>
       </div>
       ${closeButton()}
@@ -426,7 +558,7 @@ function libraryIndexHtml() {
 
 function categoryButton(id, label) {
   const selected = state.libraryCategoryId === id;
-  return `<button class="filter-button" type="button" data-category="${id}" aria-pressed="${selected}"><span class="filter-check" aria-hidden="true">${selected ? '✓' : ''}</span>${escapeHtml(label)}</button>`;
+  return `<button class="filter-button" type="button" data-category="${id}" data-category-color="${id}" aria-pressed="${selected}">${escapeHtml(label)}</button>`;
 }
 
 function libraryTopicListHtml() {
@@ -445,7 +577,7 @@ function libraryTopicListHtml() {
     const topics = filtered.filter((topic) => topic.categoryId === category.id);
     if (!topics.length) return '';
     return `
-      <section class="topic-group" aria-labelledby="category-${category.id}">
+      <section class="topic-group" data-category-color="${category.id}" aria-labelledby="category-${category.id}">
         <h3 id="category-${category.id}">${escapeHtml(category.name)}</h3>
         <div class="topic-buttons">
           ${topics.map((topic) => `
@@ -463,7 +595,7 @@ function libraryTopicListHtml() {
   }).join('');
 }
 
-function libraryGuideHtml(topic) {
+function libraryGuideHtml(topic, fullPage = false) {
   if (!topic) {
     state.libraryView = 'index';
     return libraryIndexHtml();
@@ -474,20 +606,22 @@ function libraryGuideHtml(topic) {
   const selection = getSectionSelection(section);
 
   return `
-    <div class="drawer-header guide-header">
+    ${fullPage ? '' : `<div class="drawer-header guide-header">
       <button class="drawer-back" type="button" data-back-library><span aria-hidden="true">←</span><span>Alle emner</span></button>
       ${closeButton()}
-    </div>
-    <div class="drawer-body guide-body">
-      <div class="guide-title">
-        <p class="drawer-kicker">Kodehjælp</p>
-        <h2 id="drawer-title">${escapeHtml(topic.name)}</h2>
+    </div>`}
+    <div class="${fullPage ? '' : 'drawer-body'} guide-body">
+      <div class="guide-title" data-category-color="${topic.categoryId}">
+        <p class="drawer-kicker">${escapeHtml(libraryCategories.find((category) => category.id === topic.categoryId).name)}</p>
+        ${fullPage ? `<h1 tabindex="-1">${escapeHtml(topic.name)}</h1>` : `<h2 id="drawer-title">${escapeHtml(topic.name)}</h2>`}
         <p>${escapeHtml(topic.description)}</p>
       </div>
 
-      ${sectionPicker(topic, section)}
+      ${fullPage ? '' : sectionPicker(topic, section)}
+      <div class="guide-options">
       ${selection.platforms.length > 1 ? choiceGroup('platform', 'Platform', platformOptions.filter((option) => selection.platforms.includes(option.id)), state.selectedPlatform) : ''}
       ${selection.codeModes.length > 1 ? choiceGroup('code-mode', 'Kode', codeModeOptions.filter((option) => selection.codeModes.includes(option.id)), state.selectedCodeMode) : ''}
+      </div>
 
       <div id="guide-variant-content" class="guide-variant-content" tabindex="-1">
         ${guideVariantHtml(topic, section)}
@@ -517,7 +651,6 @@ function choiceGroup(name, legend, options, selected) {
           <label>
             <input type="radio" name="${name}" value="${option.id}" ${selected === option.id ? 'checked' : ''} />
             <span class="segment-body">
-              <span class="segment-check" aria-hidden="true">✓</span>
               <span>${escapeHtml(option.label)}</span>
             </span>
           </label>
@@ -541,8 +674,8 @@ function guideVariantHtml(topic, section) {
             getSectionSelection(section).codeModes.length ? optionLabel(codeModeOptions, resolved.codeMode) : '',
           ].filter(Boolean).join(' · ');
     return `
-      ${selectionLabel ? `<p class="variant-label"><span aria-hidden="true">✓</span> ${escapeHtml(selectionLabel)}</p>` : ''}
-      ${variant.content.map(guideContentHtml).join('')}
+      ${selectionLabel ? `<p class="variant-label">${escapeHtml(selectionLabel)}</p>` : ''}
+      ${variant.content.map((content) => guideContentHtml(content, resolved.platform)).join('')}
     `;
   }
 
@@ -562,14 +695,14 @@ function guideVariantHtml(topic, section) {
   `;
 }
 
-function guideContentHtml(content) {
+function guideContentHtml(content, platform) {
   if (content.type === 'code') {
     return `
       <section class="guide-section">
         <h3>${escapeHtml(content.title)}</h3>
-        <div class="code-block">
-          <div class="code-block-label">Tekstkode</div>
-          <pre tabindex="0"><code>${escapeHtml(content.text)}</code></pre>
+        <div class="code-block" data-code-platform="${escapeAttribute(platform)}">
+          <div class="code-block-label">${escapeHtml(optionLabel(platformOptions, platform))} · Python</div>
+          <pre tabindex="0" aria-label="${escapeAttribute(content.title)}"><code>${highlightPython(content.text)}</code></pre>
         </div>
       </section>
     `;
@@ -607,37 +740,39 @@ function alternativeButton(alternative, current) {
   return `<button class="variant-action button button-secondary" type="button" data-select-platform="${alternative.platform}" data-select-code-mode="${alternative.codeMode}">${escapeHtml(label)}</button>`;
 }
 
-function bindDrawerContent() {
-  const search = drawerRoot.querySelector('#library-search');
+function bindHelpContent() {
+  const root = helpRoot();
+  const search = root.querySelector('#library-search');
   search?.addEventListener('input', (event) => {
     state.librarySearch = event.target.value;
-    const list = drawerRoot.querySelector('#library-topic-list');
+    const list = root.querySelector('#library-topic-list');
     if (list) {
-      list.innerHTML = libraryTopicListHtml();
+      list.innerHTML = state.drawerOpen ? libraryTopicListHtml() : libraryCardsHtml();
       bindTopicButtons();
+      bindClearLibrary();
     }
   });
 
-  drawerRoot.querySelectorAll('[data-category]').forEach((button) => {
+  root.querySelectorAll('[data-category]').forEach((button) => {
     button.addEventListener('click', () => {
       state.libraryCategoryId = button.dataset.category;
-      renderDrawer({ focusSelector: `[data-category="${button.dataset.category}"]` });
+      renderHelp({ focusSelector: `[data-category="${button.dataset.category}"]` });
     });
   });
 
   bindTopicButtons();
-  drawerRoot.querySelector('[data-back-library]')?.addEventListener('click', () => {
+  root.querySelector('[data-back-library]')?.addEventListener('click', () => {
     state.libraryView = 'index';
     state.librarySectionId = null;
-    renderDrawer();
+    renderHelp();
   });
 
-  drawerRoot.querySelector('#library-section')?.addEventListener('change', (event) => {
+  root.querySelector('#library-section')?.addEventListener('change', (event) => {
     state.librarySectionId = event.target.value;
-    renderDrawer({ focusSelector: '#library-section' });
+    renderHelp({ focusSelector: '#library-section' });
   });
 
-  drawerRoot.querySelectorAll('input[name="platform"]').forEach((input) => {
+  root.querySelectorAll('input[name="platform"]').forEach((input) => {
     input.addEventListener('change', () => {
       state.selectedPlatform = input.value;
       writeStorage('selectedPlatform', input.value);
@@ -645,7 +780,7 @@ function bindDrawerContent() {
     });
   });
 
-  drawerRoot.querySelectorAll('input[name="code-mode"]').forEach((input) => {
+  root.querySelectorAll('input[name="code-mode"]').forEach((input) => {
     input.addEventListener('change', () => {
       state.selectedCodeMode = input.value;
       writeStorage('selectedCodeMode', input.value);
@@ -654,6 +789,15 @@ function bindDrawerContent() {
   });
 
   bindVariantAction();
+  bindClearLibrary();
+}
+
+function bindClearLibrary() {
+  helpRoot().querySelector('[data-clear-library]')?.addEventListener('click', () => {
+    state.librarySearch = '';
+    state.libraryCategoryId = 'all';
+    renderLibraryPage(null, { focusSelector: '#library-search' });
+  });
 }
 
 function bindTopicButtons() {
@@ -670,7 +814,7 @@ function bindTopicButtons() {
 function updateGuideVariant() {
   const topic = getLibraryTopic(state.libraryTopicId);
   const section = getLibrarySection(topic, state.librarySectionId);
-  const content = drawerRoot.querySelector('#guide-variant-content');
+  const content = helpRoot().querySelector('#guide-variant-content');
   if (topic && section && content) {
     content.innerHTML = guideVariantHtml(topic, section);
     bindVariantAction();
@@ -678,22 +822,23 @@ function updateGuideVariant() {
 }
 
 function bindVariantAction() {
-  drawerRoot.querySelector('[data-select-platform][data-select-code-mode]')?.addEventListener('click', (event) => {
+  const root = helpRoot();
+  root.querySelector('[data-select-platform][data-select-code-mode]')?.addEventListener('click', (event) => {
     const { selectPlatform, selectCodeMode } = event.currentTarget.dataset;
     if (selectPlatform !== state.selectedPlatform) {
       state.selectedPlatform = selectPlatform;
       writeStorage('selectedPlatform', selectPlatform);
-      const platformInput = drawerRoot.querySelector(`input[name="platform"][value="${selectPlatform}"]`);
+      const platformInput = root.querySelector(`input[name="platform"][value="${selectPlatform}"]`);
       if (platformInput) platformInput.checked = true;
     }
     if (selectCodeMode !== state.selectedCodeMode) {
       state.selectedCodeMode = selectCodeMode;
       writeStorage('selectedCodeMode', selectCodeMode);
-      const codeModeInput = drawerRoot.querySelector(`input[name="code-mode"][value="${selectCodeMode}"]`);
+      const codeModeInput = root.querySelector(`input[name="code-mode"][value="${selectCodeMode}"]`);
       if (codeModeInput) codeModeInput.checked = true;
     }
     updateGuideVariant();
-    drawerRoot.querySelector('#guide-variant-content')?.focus();
+    root.querySelector('#guide-variant-content')?.focus();
   });
 }
 
@@ -762,7 +907,7 @@ function pageHeader({ backHref, backLabel, compact = false }) {
       <div class="site-header-inner">
         <a class="back-link" href="${backHref}" aria-label="Tilbage til ${escapeAttribute(backLabel)}"><span aria-hidden="true">←</span><span>${escapeHtml(backLabel)}</span></a>
         <a class="header-brand" href="#/" aria-label="Teknologiskolen, gå til forsiden">
-          <span class="mini-logo" aria-hidden="true">T</span>
+          ${brandLogo('white')}
           <span>Teknologiskolen</span>
         </a>
       </div>
@@ -770,17 +915,13 @@ function pageHeader({ backHref, backLabel, compact = false }) {
   `;
 }
 
-function logoPlaceholder() {
-  return `
-    <span class="logo-placeholder" role="img" aria-label="Pladsholder for Teknologiskolens logo">
-      <strong>T</strong>
-      <small>Logo placeholder</small>
-    </span>
-  `;
+function brandLogo(variant = 'color') {
+  const file = variant === 'white' ? 'logo_white_teknologiskolen.png' : 'logo_teknologiskolen.png';
+  return `<img class="brand-logo" src="${assetUrl(`assets/brand/${file}`)}" alt="" width="203" height="267" />`;
 }
 
 function siteFooter() {
-  return '<footer class="site-footer"><span>Teknologiskolen</span><span>Prototype: Lego, Robotter og Programmering</span></footer>';
+  return `<footer class="site-footer"><span class="footer-brand">${brandLogo()}Teknologiskolen</span><span>Lego, Robotter og Programmering</span></footer>`;
 }
 
 function closeButton() {

@@ -11,6 +11,7 @@ import {
   platformOptions,
   projects,
 } from '../src/content.js';
+import { topicVisuals } from '../src/library-visuals.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const errors = [];
@@ -40,6 +41,16 @@ uniqueIds(levels, 'Niveauer');
 uniqueIds(projects, 'Projekter');
 uniqueIds(libraryCategories, 'Bibliotekskategorier');
 uniqueIds(libraryTopics, 'Biblioteksemner');
+
+for (const topic of libraryTopics) {
+  const visual = topicVisuals[topic.id];
+  check(Boolean(visual?.hint), `${topic.name} mangler en kort forklaring til bibliotekskortet.`);
+  if (visual?.image) await fileExists(visual.image, `${topic.name} biblioteksbillede`);
+}
+for (const platform of platformOptions) {
+  await fileExists(`assets/library/${platform.id}-app.webp`, `${platform.label} appikon`);
+  await fileExists(`assets/library/${platform.id}-hub.webp`, `${platform.label} hubbillede`);
+}
 
 const levelIds = new Set(levels.map((level) => level.id));
 const categoryIds = new Set(libraryCategories.map((category) => category.id));

@@ -2,7 +2,7 @@
 
 En statisk prototype til Teknologiskolens LEGO-byggevejledninger og programmeringsbibliotek. Sitet er lavet til GitHub Pages uden backend, login eller database.
 
-Prototypen indeholder alle fire niveauer og alle 20 robotprojekter fra den downloadede `Differentieret Læring`-mappe. Kun Breakdancer er konverteret til en komplet web-byggevejledning i denne version. De øvrige projektkort viser tydeligt, at PowerPoint-kilden er registreret, men ikke webklar.
+Sitet indeholder alle fire niveauer og alle 20 robotprojekter fra den downloadede `Differentieret Læring`-mappe med komplette web-byggevejledninger. Forsidens kodehjælp åbner et fuldt bibliotek på `#/library` med platformvalg, billedkort, kategorier og søgning. Emner har egne sider på `#/library/<emne-id>`. Under en byggevejledning åbnes hjælpen fortsat i et sidepanel.
 
 ## Teknisk opbygning
 
@@ -10,6 +10,10 @@ Prototypen indeholder alle fire niveauer og alle 20 robotprojekter fra den downl
 - `src/app.js` indeholder routing og UI-adfærd.
 - `src/content.js` samler projektdata og eksporterer bibliotekets model fra `src/library-content.js`.
 - `src/styles.css` indeholder Teknologiskolens visuelle tokens og responsive layout.
+- `src/library-page.css` indeholder layoutet til det fulde bibliotek og emnesiderne.
+- `src/library-visuals.js` samler billedreferencer og korte elevtekster til bibliotekskortene.
+- `src/highlight-python.js` farvelægger Python-eksempler uden at ændre kodens tekst. SPIKE bruger et lyst tema, og MINDSTORMS bruger et mørkt tema.
+- `assets/brand/` indeholder Teknologiskolens originale logoer og banner. Det hvide logo bruges i headeren, farvelogoet i footeren og som favicon, og banneret til linkforhåndsvisninger på GitHub Pages.
 - `assets/projects/` indeholder udtrukne thumbnails.
 - `assets/generated/build-guides/` indeholder pipeline-genererede byggevejledninger og metadata.
 - `assets/generated/library/` indeholder de auditerede blokkodebilleder som near-lossless WebP.
@@ -112,7 +116,6 @@ Når nye PowerPoint-tekstslides eller blokbilleder skal udtrækkes, registreres 
 
 ## Nuværende begrænsninger
 
-- Teknologiskolens rigtige logo er endnu ikke indsat; hero og header bruger tydelige placeholders.
 - Alle 20 byggevejledninger med i alt 1.132 trin er gjort webklare via content-pipelinen.
 - Alle robot-thumbnails er originale coverbilleder udtrukket fra de eksisterende PPTX-filer.
 - 53 auditerede biblioteksslides er udtrukket som rigtig webtekst med originale linjeskift, indrykning og kommentarer.
