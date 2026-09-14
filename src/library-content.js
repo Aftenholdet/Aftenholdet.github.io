@@ -1,10 +1,10 @@
 import { librarySlideContent } from './generated/library-slide-content.js';
 
 export const libraryCategories = [
-  { id: 'sensorer', name: 'Sensorer' },
-  { id: 'motor', name: 'Motor og bevægelse' },
-  { id: 'programlogik', name: 'Programlogik' },
   { id: 'hub', name: 'Hub og styring' },
+  { id: 'motor', name: 'Motor og bevægelse' },
+  { id: 'sensorer', name: 'Sensorer' },
+  { id: 'programlogik', name: 'Programlogik' },
 ];
 
 export const platformOptions = [
@@ -45,6 +45,38 @@ export const libraryAssets = {
     'Vent.pptx',
     1,
     'ppt/media/image3.png',
+  ),
+  'mindstorms-motor-koer-retning': blockAsset(
+    'assets/library/mindstorms/blocks/motor-koer-retning.webp',
+    'MINDSTORMS-blokke, der sætter motor A til 75 procent og starter motoren med uret',
+    'Motor.pptx',
+    null,
+    'Blocks Mindstorms Motors - Run motor in direction.png',
+    'dark',
+  ),
+  'mindstorms-motor-koer-grader': blockAsset(
+    'assets/library/mindstorms/blocks/motor-koer-grader.webp',
+    'MINDSTORMS-blokke, der kører motor A 360 grader med 75 procent hastighed',
+    'Motor.pptx',
+    null,
+    'Blocks Mindstorms Motors - Run motor x degrees in direction.png',
+    'dark',
+  ),
+  'mindstorms-motor-koer-position': blockAsset(
+    'assets/library/mindstorms/blocks/motor-koer-position.webp',
+    'MINDSTORMS-blokke, der kører motor A korteste vej til position 180',
+    'Motor.pptx',
+    null,
+    'Blocks Mindstorms Motors - Run motor to position in direction.png',
+    'dark',
+  ),
+  'mindstorms-motor-to-motorer': blockAsset(
+    'assets/library/mindstorms/blocks/motor-to-motorer.webp',
+    'To MINDSTORMS-programmer, der kører motor A og B 180 grader samtidig i hver sin retning',
+    'Motor.pptx',
+    null,
+    'Blocks Mindstorms Motors - Run to motors at the same time to position in direction.png',
+    'dark',
   ),
 };
 
@@ -92,13 +124,13 @@ export const libraryTopics = [
   ]),
 
   topic('motor', 'Motor', 'motor', 'Kør en motor med hastighed, grader eller position.', 'Motor.pptx', 17, [
-    motorSection('koer-retning', 'Kør motor i retning', [4, 5], [6]),
-    motorSection('koer-grader', 'Kør motor X grader i retning', [8, 9], [10]),
-    motorSection('koer-position', 'Kør motor til position i retning', [12, 13], [14]),
+    motorSection('koer-retning', 'Kør motor i retning', [4, 5], [6], 'mindstorms-motor-koer-retning'),
+    motorSection('koer-grader', 'Kør motor X grader i retning', [8, 9], [10], 'mindstorms-motor-koer-grader'),
+    motorSection('koer-position', 'Kør motor til position i retning', [12, 13], [14], 'mindstorms-motor-koer-position'),
     section('to-motorer', 'Kør to motorer samtidig', standardSelection(), [
       missingVariant('spike', 'blocks', 'Motor.pptx'),
       textVariant('spike', 'Motor.pptx', [16]),
-      missingVariant('mindstorms', 'blocks', 'Motor.pptx'),
+      platformBlockVariant('mindstorms-motor-to-motorer', 'mindstorms', 'Motor.pptx'),
       missingVariant('mindstorms', 'text', 'Motor.pptx', [17]),
     ]),
   ]),
@@ -267,6 +299,18 @@ function sharedBlockVariant(assetId, pptx, confidence = 'likely') {
   });
 }
 
+function platformBlockVariant(assetId, platform, pptx) {
+  const asset = libraryAssets[assetId];
+  return variant({
+    platform,
+    codeMode: 'blocks',
+    status: 'available',
+    confidence: 'confirmed',
+    source: variantSource(pptx, [], [asset.source.sourceMedia]),
+    content: [{ type: 'image', assetId }],
+  });
+}
+
 function conceptVariant(pptx, slideNumbers) {
   return variant({
     platform: 'general',
@@ -308,11 +352,11 @@ function variant(entry) {
   return entry;
 }
 
-function motorSection(id, name, spikeSlides, mindstormsSlides) {
+function motorSection(id, name, spikeSlides, mindstormsSlides, mindstormsBlockAssetId) {
   return section(id, name, standardSelection(), [
     missingVariant('spike', 'blocks', 'Motor.pptx'),
     textVariant('spike', 'Motor.pptx', spikeSlides),
-    missingVariant('mindstorms', 'blocks', 'Motor.pptx'),
+    platformBlockVariant(mindstormsBlockAssetId, 'mindstorms', 'Motor.pptx'),
     textVariant('mindstorms', 'Motor.pptx', mindstormsSlides),
   ]);
 }
@@ -341,8 +385,8 @@ function comingSoonSection(id, name, slideNumber) {
   );
 }
 
-function blockAsset(src, alt, sourcePptx, sourceSlide, sourceMedia) {
-  return { src, alt, source: { sourcePptx, sourceSlide, sourceMedia } };
+function blockAsset(src, alt, sourcePptx, sourceSlide, sourceMedia, surface = 'light') {
+  return { src, alt, surface, source: { sourcePptx, sourceSlide, sourceMedia } };
 }
 
 function variantSource(pptx, slideNumbers = [], mediaFiles = []) {

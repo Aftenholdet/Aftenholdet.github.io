@@ -155,7 +155,7 @@ function levelCard(level) {
 function renderLibraryPage(topic = getLibraryTopic(state.libraryTopicId), { focusSelector } = {}) {
   document.title = `${topic ? `${topic.name} | ` : ''}Kodehjælp | Teknologiskolen`;
   app.innerHTML = `
-    <div class="page library-page">
+    <div class="page library-page" data-library-platform="${libraryThemePlatform(topic)}">
       ${pageHeader({ backHref: topic ? '#/library' : '#/', backLabel: topic ? 'Alle emner' : 'Forside' })}
       <main id="main-content" class="page-section library-main">
         ${topic ? `
@@ -176,7 +176,7 @@ function renderLibraryPage(topic = getLibraryTopic(state.libraryTopicId), { focu
                   <input type="radio" name="library-platform" value="${platform.id}" ${state.selectedPlatform === platform.id ? 'checked' : ''} />
                   <span class="library-platform-body">
                     <img class="platform-app-icon" src="${assetUrl(`assets/library/${platform.id}-app.webp`)}" alt="" width="56" height="56" />
-                    <span><strong>${platform.label}</strong><small>${platform.id === 'spike' ? 'LEGO Education' : 'Robot Inventor'}</small></span>
+                    <span><strong>${platform.label}</strong><small>${platform.id === 'spike' ? 'LEGO Education' : 'Robot Inventor'}${state.selectedPlatform === platform.id ? '<span class="platform-selected-label" aria-hidden="true"> · Valgt</span>' : ''}</small></span>
                     <img class="platform-hub" src="${assetUrl(`assets/library/${platform.id}-hub.webp`)}" alt="" />
                   </span>
                 </label>
@@ -209,19 +209,28 @@ function renderLibraryPage(topic = getLibraryTopic(state.libraryTopicId), { focu
   if (focusSelector) requestAnimationFrame(() => app.querySelector(focusSelector)?.focus({ preventScroll: true }));
 }
 
+function libraryThemePlatform(topic) {
+  const topicPlatforms = topic
+    ? [...new Set(topic.sections.flatMap(section => getSectionSelection(section).platforms))]
+    : [];
+  return topicPlatforms.length === 1 ? topicPlatforms[0] : state.selectedPlatform;
+}
+
 function topicPicture(topic) {
   const visual = topicVisuals[topic.id];
-  return `<div class="library-topic-picture ${topic.categoryId === 'programlogik' ? 'is-code-picture' : ''}" aria-hidden="true">
-    ${visual.image ? `<img src="${assetUrl(visual.image)}" alt="" loading="lazy" />` : '<span class="mapping-picture"><span>0 … 100</span><span>↕</span><span>0 … 10</span></span>'}
+  const platformImage = visual.platformImages?.[libraryThemePlatform(topic)];
+  const image = platformImage ?? (visual.image ? { src: visual.image, surface: 'light' } : null);
+  return `<div class="library-topic-picture ${topic.categoryId === 'programlogik' ? 'is-code-picture' : ''} ${image?.surface === 'dark' ? 'has-dark-surface' : ''}" aria-hidden="true">
+    ${image ? `<img src="${assetUrl(image.src)}" alt="" loading="lazy" />` : '<span class="mapping-picture"><span>0 … 100</span><span>↕</span><span>0 … 10</span></span>'}
   </div>`;
 }
 
 function libraryCardsHtml() {
   const query = state.librarySearch.trim().toLocaleLowerCase('da');
-  const topics = libraryTopics.filter(topic =>
+  const topics = orderLibraryTopics(libraryTopics.filter(topic =>
     topic.sections.some(section => !section.selection.platforms.length || section.selection.platforms.includes(state.selectedPlatform)) &&
     (state.libraryCategoryId === 'all' || topic.categoryId === state.libraryCategoryId) &&
-    (!query || `${topic.name} ${topic.description} ${topicVisuals[topic.id].hint}`.toLocaleLowerCase('da').includes(query)));
+    (!query || `${topic.name} ${topic.description} ${topicVisuals[topic.id].hint}`.toLocaleLowerCase('da').includes(query))), state.selectedPlatform);
   const category = libraryCategories.find(category => category.id === state.libraryCategoryId);
   return `
     <div class="library-results-heading"><h2>${query ? 'Søgeresultater' : escapeHtml(category?.name ?? 'Gå på opdagelse')}</h2><p role="status">${topics.length} ${topics.length === 1 ? 'emne' : 'emner'}</p></div>
@@ -236,6 +245,22 @@ function libraryCardsHtml() {
         <div class="library-card-copy"><h3>${escapeHtml(topic.name)}</h3><p>${escapeHtml(topicVisuals[topic.id].hint)}</p><span class="library-card-mode ${!modes.length && !concept ? 'is-coming' : ''}">${concept ? '' : '<span aria-hidden="true">&lt;/&gt;</span> '}${label}</span></div>
       </a>`;
     }).join('')}</div>` : '<div class="library-empty"><h3>Ingen emner fundet</h3><p>Prøv et andet ord, eller vælg Alle emner.</p><button class="button button-secondary" type="button" data-clear-library>Vis alle emner</button></div>'}`;
+}
+
+function orderLibraryTopics(topics, platform) {
+  const selectedHubId = platform === 'mindstorms' ? 'hub-mindstorms' : 'hub-spike-prime';
+  const categoryOrder = new Map(libraryCategories.map((category, index) => [category.id, index]));
+  return [...topics].sort((first, second) => {
+    const categoryDifference = categoryOrder.get(first.categoryId) - categoryOrder.get(second.categoryId);
+    if (categoryDifference) return categoryDifference;
+    if (first.categoryId === 'hub') {
+      return Number(second.id === selectedHubId) - Number(first.id === selectedHubId);
+    }
+    if (first.categoryId === 'programlogik') {
+      return Number(first.id === 'mapping') - Number(second.id === 'mapping');
+    }
+    return 0;
+  });
 }
 
 function renderHelp(options) {
@@ -548,11 +573,11 @@ function categoryButton(id, label) {
 
 function libraryTopicListHtml() {
   const query = state.librarySearch.trim().toLocaleLowerCase('da');
-  const filtered = libraryTopics.filter((topic) => {
+  const filtered = orderLibraryTopics(libraryTopics.filter((topic) => {
     const matchesCategory = state.libraryCategoryId === 'all' || topic.categoryId === state.libraryCategoryId;
     const matchesSearch = !query || `${topic.name} ${topic.description}`.toLocaleLowerCase('da').includes(query);
     return matchesCategory && matchesSearch;
-  });
+  }), state.selectedPlatform);
 
   if (!filtered.length) {
     return '<p class="empty-result" role="status">Ingen emner matcher din søgning.</p>';
@@ -718,7 +743,7 @@ function guideContentHtml(content, platform, heading) {
   if (content.type === 'image') {
     const asset = libraryAssets[content.assetId];
     return `
-      <figure class="guide-section guide-image">
+      <figure class="guide-section guide-image ${asset.surface === 'dark' ? 'has-dark-surface' : ''}">
         <img src="${assetUrl(asset.src)}" alt="${escapeAttribute(asset.alt)}" data-library-block-asset="${escapeAttribute(content.assetId)}" />
       </figure>
     `;
@@ -864,6 +889,8 @@ function updateGuideVariant() {
   const topic = getLibraryTopic(state.libraryTopicId);
   const content = helpRoot().querySelector('#guide-variant-content');
   if (topic && content) {
+    const libraryPage = app.querySelector('.library-page');
+    if (libraryPage) libraryPage.dataset.libraryPlatform = libraryThemePlatform(topic);
     content.innerHTML = guideChaptersHtml(topic, !state.drawerOpen);
     bindVariantAction();
     bindCodeCopyButtons();

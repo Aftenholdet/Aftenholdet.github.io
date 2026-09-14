@@ -130,9 +130,25 @@ try {
   assert.equal(await evaluate("Boolean(document.querySelector('.library-empty'))"), true);
   await evaluate("document.querySelector('[data-clear-library]').click()");
   assert.equal(await evaluate("document.querySelector('#library-search').value"), '');
+  assert.equal(await evaluate("document.querySelector('.library-topic-card').getAttribute('href').includes('/hub-spike-prime')"), true, 'SPIKE Hub should be the first library card');
+  assert.deepEqual(await evaluate("[...document.querySelectorAll('.library-category-nav [data-category]')].map(button => button.dataset.category)"), ['all', 'hub', 'motor', 'sensorer', 'programlogik'], 'Library categories are not in the intended teaching order');
+  assert.deepEqual(await evaluate("[...document.querySelectorAll('.library-topic-card')].map(card => card.getAttribute('data-category-color'))"), ['hub', 'motor', 'sensorer', 'sensorer', 'sensorer', 'programlogik', 'programlogik', 'programlogik', 'programlogik', 'programlogik'], 'Library cards are not grouped in category order');
+  await evaluate("document.querySelector('[data-category=\"programlogik\"]').click()");
+  assert.equal(await evaluate("document.querySelector('.library-topic-card:last-child').getAttribute('href').includes('/mapping')"), true, 'Mapping should be the last Programlogik card');
+  await evaluate("document.querySelector('[data-category=\"all\"]').click()");
   await evaluate("document.querySelector('input[name=library-platform][value=mindstorms]').click()");
   assert.equal(await evaluate("Boolean(document.querySelector('a[href*=\"/hub-spike-prime\"]'))"), false);
   assert.equal(await evaluate("Boolean(document.querySelector('a[href*=\"/hub-mindstorms\"]'))"), true);
+  assert.equal(await evaluate("document.querySelector('.library-topic-card').getAttribute('href').includes('/hub-mindstorms')"), true, 'MINDSTORMS Hub should be the first library card');
+  assert.equal(await evaluate("document.querySelector('.library-page').dataset.libraryPlatform"), 'mindstorms');
+  assert.equal(await evaluate("getComputedStyle(document.querySelector('.library-page')).backgroundColor"), 'rgb(23, 32, 39)', 'MINDSTORMS library should use the dark platform theme');
+  assert.equal(await evaluate("getComputedStyle(document.querySelector('.library-topic-picture')).backgroundColor"), 'rgb(255, 255, 255)', 'Library image wells should remain white on the dark theme');
+  await evaluate("document.querySelector('[data-category=\"programlogik\"]').click()");
+  assert.equal(await evaluate("[...document.querySelectorAll('.library-topic-picture img')].length"), 4, 'Expected four supplied MINDSTORMS program-logic card images');
+  assert.equal(await evaluate("[...document.querySelectorAll('.library-topic-picture img')].every(image => image.src.includes('/assets/library/mindstorms/cards/'))"), true, 'Program-logic cards did not adopt the MINDSTORMS visuals');
+  assert.equal(await evaluate("[...document.querySelectorAll('.library-topic-picture:has(img)')].every(picture => getComputedStyle(picture).backgroundColor === 'rgb(18, 18, 18)')"), true, 'MINDSTORMS card images should use their native dark surface');
+  await evaluate("document.querySelector('[data-category=\"all\"]').click()");
+  const mindstormsLibraryMobileShot = await screenshot('lego-library-mindstorms-mobile.png');
   await evaluate("document.querySelector('input[name=library-platform][value=spike]').click()");
   await evaluate("document.querySelector('a.library-topic-card[href*=\"/motor?\"]').click()");
   await waitFor("Boolean(document.querySelector('.library-guide-content .code-block'))");
@@ -158,9 +174,20 @@ try {
   assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('180')"), true);
   await evaluate("document.querySelector('input[name=platform][value=mindstorms]').click()");
   assert.equal(await evaluate("document.querySelector('.code-block').dataset.codePlatform"), 'mindstorms');
+  assert.equal(await evaluate("document.querySelector('.library-page').dataset.libraryPlatform"), 'mindstorms', 'Full-page guide did not adopt the selected platform theme');
   assert.equal(await evaluate("[...document.querySelectorAll('.code-block')].every(block => block.dataset.codePlatform === 'mindstorms')"), true, 'Platform selection should update every chapter');
-  await evaluate("document.querySelector('[data-chapter=to-motorer] [data-select-platform=spike]').click()");
+  await evaluate("document.querySelector('input[name=code-mode][value=blocks]').click()");
+  assert.equal(await evaluate("document.querySelectorAll('[data-library-block-asset^=\"mindstorms-motor-\"]').length"), 4, 'Every Motor chapter should expose its supplied MINDSTORMS block example');
+  assert.equal(await evaluate("[...document.querySelectorAll('.guide-image')].every(figure => getComputedStyle(figure).backgroundColor === 'rgb(18, 18, 18)')"), true, 'MINDSTORMS Motor blocks should retain their dark image surface');
+  await evaluate("window.scrollTo({ top: document.querySelector('.guide-image').offsetTop - 120, behavior: 'instant' })");
+  const mindstormsMotorBlocksShot = await screenshot('lego-mindstorms-motor-blocks-mobile.png');
+  await evaluate("document.querySelector('input[name=code-mode][value=text]').click()");
+  assert.equal(await evaluate("document.querySelector('[data-chapter=to-motorer] .variant-action').dataset.selectCodeMode"), 'blocks', 'Missing MINDSTORMS text should offer the available MINDSTORMS blocks');
+  await evaluate("document.querySelector('[data-chapter=to-motorer] .variant-action').click()");
   assert.equal(await evaluate("document.activeElement.id"), 'chapter-to-motorer', 'Alternative action should retain the chapter being read');
+  assert.equal(await evaluate("document.querySelectorAll('[data-library-block-asset^=\"mindstorms-motor-\"]').length"), 4, 'Alternative action did not select the MINDSTORMS blocks');
+  await evaluate("document.querySelector('input[name=platform][value=spike]').click()");
+  await evaluate("document.querySelector('input[name=code-mode][value=text]').click()");
   assert.equal(await evaluate("[...document.querySelectorAll('.code-block')].every(block => block.dataset.codePlatform === 'spike')"), true, 'Alternative action in the last chapter should update every chapter');
   await evaluate("document.querySelector('.back-link').click()");
   await waitFor("Boolean(document.querySelector('.library-card-grid'))");
@@ -168,6 +195,7 @@ try {
   assert.equal(await evaluate("Boolean(document.querySelector('input[name=platform], input[name=code-mode]'))"), false);
   await navigate(`${siteUrl}/#/library`, '.library-card-grid');
 
+  let mindstormsLibraryDesktopShot;
   for (const width of [320, 720, 1440]) {
     await command('Emulation.setDeviceMetricsOverride', { width, height: 1000, deviceScaleFactor: 1, mobile: false });
     await navigate(`${siteUrl}/#/library`, '.library-card-grid');
@@ -176,6 +204,9 @@ try {
       await evaluate("document.querySelectorAll('.library-page img').forEach(image => image.loading = 'eager')");
       await waitFor("[...document.querySelectorAll('.library-page img')].every(image => image.complete && image.naturalWidth > 0)");
       await screenshot('lego-library-desktop.png');
+      await evaluate("document.querySelector('input[name=library-platform][value=mindstorms]').click()");
+      mindstormsLibraryDesktopShot = await screenshot('lego-library-mindstorms-desktop.png');
+      await evaluate("document.querySelector('input[name=library-platform][value=spike]').click()");
     }
     await navigate(`${siteUrl}/#/library/afstandssensor?mode=text`, '.library-guide-content');
     assert.equal(await evaluate('document.documentElement.scrollWidth <= window.innerWidth'), true, `Full guide overflows at ${width}px`);
@@ -417,7 +448,7 @@ try {
   console.log('Browser-smoke-test OK');
   console.log(`- Mobil drawer: ${mobileDrawerShot}`);
   console.log(`- Desktop viewer: ${desktopViewerShot}`);
-  for (const shot of [mobileLandingShot, desktopLandingShot, categoriesShot, mindstormsShot, spikeShot]) console.log(`- Feedback: ${shot}`);
+  for (const shot of [mobileLandingShot, desktopLandingShot, categoriesShot, mindstormsLibraryMobileShot, mindstormsLibraryDesktopShot, mindstormsMotorBlocksShot, mindstormsShot, spikeShot]) console.log(`- Feedback: ${shot}`);
 } finally {
   if (socket?.readyState === WebSocket.OPEN) socket.close();
   chrome.kill();

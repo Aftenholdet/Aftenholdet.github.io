@@ -190,8 +190,29 @@ test('coming-soon variant is represented directly from the source', () => {
 });
 
 test('all four audited block assets are loadable WebP files', async () => {
-  assert.equal(Object.keys(libraryAssets).length, 4);
-  for (const asset of Object.values(libraryAssets)) {
+  const generatedAssets = Object.values(libraryAssets).filter((asset) => asset.src.startsWith('assets/generated/library/blocks/'));
+  assert.equal(generatedAssets.length, 4);
+  for (const asset of generatedAssets) {
+    const image = await readFile(new URL(`../${asset.src}`, import.meta.url));
+    assert.equal(image.subarray(0, 4).toString('ascii'), 'RIFF');
+    assert.equal(image.subarray(8, 12).toString('ascii'), 'WEBP');
+  }
+});
+
+test('all four Motor chapters expose supplied MINDSTORMS block code', async () => {
+  const topic = libraryTopics.find((entry) => entry.id === 'motor');
+  const expectedAssets = [
+    'mindstorms-motor-koer-retning',
+    'mindstorms-motor-koer-grader',
+    'mindstorms-motor-koer-position',
+    'mindstorms-motor-to-motorer',
+  ];
+  for (const [index, section] of topic.sections.entries()) {
+    const resolved = resolveLibraryVariant(section, 'mindstorms', 'blocks');
+    assert.equal(resolved.variant.status, 'available');
+    assert.equal(resolved.variant.content[0].assetId, expectedAssets[index]);
+    const asset = libraryAssets[expectedAssets[index]];
+    assert.equal(asset.surface, 'dark');
     const image = await readFile(new URL(`../${asset.src}`, import.meta.url));
     assert.equal(image.subarray(0, 4).toString('ascii'), 'RIFF');
     assert.equal(image.subarray(8, 12).toString('ascii'), 'WEBP');

@@ -46,6 +46,11 @@ for (const topic of libraryTopics) {
   const visual = topicVisuals[topic.id];
   check(Boolean(visual?.hint), `${topic.name} mangler en kort forklaring til bibliotekskortet.`);
   if (visual?.image) await fileExists(visual.image, `${topic.name} biblioteksbillede`);
+  for (const [platform, platformImage] of Object.entries(visual?.platformImages || {})) {
+    check(platformOptions.some((option) => option.id === platform), `${topic.name} har biblioteksbillede til ukendt platform ${platform}.`);
+    check(['light', 'dark'].includes(platformImage.surface), `${topic.name} har ugyldig billedflade til ${platform}.`);
+    await fileExists(platformImage.src, `${topic.name} ${platform}-biblioteksbillede`);
+  }
 }
 for (const platform of platformOptions) {
   await fileExists(`assets/library/${platform.id}-app.webp`, `${platform.label} appikon`);
