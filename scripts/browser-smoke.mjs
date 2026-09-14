@@ -136,12 +136,22 @@ try {
   await evaluate("document.querySelector('input[name=library-platform][value=spike]').click()");
   await evaluate("document.querySelector('a.library-topic-card[href*=\"/motor?\"]').click()");
   await waitFor("Boolean(document.querySelector('.library-guide-content .code-block'))");
+  await waitFor("document.activeElement.tagName === 'H1'");
   assert.equal(await evaluate("document.querySelector('.code-block').dataset.codePlatform"), 'spike');
-  await evaluate("document.querySelector('[data-library-section=koer-grader]').click()");
-  assert.equal(await evaluate("document.querySelector('[data-library-section=koer-grader]').getAttribute('aria-current')"), 'true');
+  assert.equal(await evaluate("document.querySelectorAll('.guide-chapter').length"), 4, 'Motor chapters must all be present without selecting one');
+  assert.deepEqual(await evaluate("[...document.querySelectorAll('.chapter-title')].map(heading => heading.textContent)"), [
+    'Kør motor i retning', 'Kør motor X grader i retning', 'Kør motor til position i retning', 'Kør to motorer samtidig',
+  ]);
+  await evaluate("document.querySelector('[data-chapter-jump=koer-grader]').click()");
+  assert.equal(await evaluate("document.activeElement.id"), 'chapter-koer-grader');
+  assert.equal(await evaluate("document.querySelectorAll('.guide-chapter').length"), 4, 'Jumping to a chapter must not hide the others');
   assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('180')"), true);
   await evaluate("document.querySelector('input[name=platform][value=mindstorms]').click()");
   assert.equal(await evaluate("document.querySelector('.code-block').dataset.codePlatform"), 'mindstorms');
+  assert.equal(await evaluate("[...document.querySelectorAll('.code-block')].every(block => block.dataset.codePlatform === 'mindstorms')"), true, 'Platform selection should update every chapter');
+  await evaluate("document.querySelector('[data-chapter=to-motorer] [data-select-platform=spike]').click()");
+  assert.equal(await evaluate("document.activeElement.id"), 'chapter-to-motorer', 'Alternative action should retain the chapter being read');
+  assert.equal(await evaluate("[...document.querySelectorAll('.code-block')].every(block => block.dataset.codePlatform === 'spike')"), true, 'Alternative action in the last chapter should update every chapter');
   await evaluate("document.querySelector('.back-link').click()");
   await waitFor("Boolean(document.querySelector('.library-card-grid'))");
   await navigate(`${siteUrl}/#/library/mapping`, '.library-guide-content');
@@ -160,6 +170,16 @@ try {
     await navigate(`${siteUrl}/#/library/afstandssensor?mode=text`, '.library-guide-content');
     assert.equal(await evaluate('document.documentElement.scrollWidth <= window.innerWidth'), true, `Full guide overflows at ${width}px`);
     if (width === 1440) await screenshot('lego-library-guide-desktop.png');
+    await navigate(`${siteUrl}/#/library/motor?mode=text`, '.library-guide-content');
+    assert.equal(await evaluate("document.querySelectorAll('.guide-chapter').length"), 4);
+    assert.equal(await evaluate(`(() => {
+      const overview = document.querySelector('.chapter-overview');
+      const chapters = [...document.querySelectorAll('.guide-chapter')];
+      return overview.scrollWidth <= overview.clientWidth &&
+        overview.getBoundingClientRect().top >= document.querySelector('.guide-options').getBoundingClientRect().bottom &&
+        chapters.every((chapter, index) => !index || chapter.getBoundingClientRect().top >= chapters[index - 1].getBoundingClientRect().bottom);
+    })()`), true, `Chapters should form a continuous guide with a visible overview at ${width}px`);
+    await screenshot(`lego-motor-chapters-${width}.png`);
   }
   await navigate(`${siteUrl}/#/library`, '.library-card-grid');
   await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
@@ -199,6 +219,11 @@ try {
   assert.equal(await evaluate("document.querySelector('input[name=\"platform\"]:checked').value"), 'mindstorms');
   assert.equal(await evaluate("document.querySelector('input[name=\"code-mode\"]:checked').value"), 'text');
   assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('motorA')"), true);
+  assert.equal(await evaluate("document.querySelectorAll('.guide-chapter').length"), 4, 'The building drawer must also show every motor chapter');
+  assert.equal(await evaluate("Boolean(document.querySelector('#library-section'))"), false, 'The hidden chapter dropdown should be removed');
+  await waitFor("document.activeElement.matches('[data-back-library]')");
+  await evaluate("document.querySelector('[data-chapter-jump=to-motorer]').click()");
+  assert.equal(await evaluate("document.activeElement.id"), 'chapter-to-motorer');
 
   await evaluate("document.querySelector('[data-back-library]').click()");
   await waitFor("Boolean(document.querySelector('[data-topic=\"hub-spike-prime\"]'))");
@@ -358,6 +383,21 @@ try {
   await navigate(`${siteUrl}/#/project/mecha-bot?step=89`, '#build-image');
   assert.equal(await evaluate("document.querySelector('#step-count').textContent"), 'Færdig');
   assert.equal(await evaluate("document.querySelector('#build-image').src.endsWith('/mecha-bot/089.webp')"), true);
+
+  for (const [width, height] of [[390, 844], [1920, 900], [1920, 1440]]) {
+    await command('Emulation.setDeviceMetricsOverride', { width, height, deviceScaleFactor: 1, mobile: width < 720 });
+    await navigate(`${siteUrl}/#/`, '.site-footer');
+    await evaluate("window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'instant' })");
+    assert.equal(await evaluate("Math.abs(document.querySelector('.site-footer').getBoundingClientRect().bottom - innerHeight) < 1"), true, `Landing footer floats at ${width} x ${height}`);
+    assert.equal(await evaluate("document.querySelector('.site-footer').getBoundingClientRect().top >= document.querySelector('main').getBoundingClientRect().bottom - 1"), true, 'Footer overlaps the level cards');
+  }
+  await command('Runtime.evaluate', { expression: 'document.documentElement.requestFullscreen()', awaitPromise: true, userGesture: true });
+  await waitFor('Boolean(document.fullscreenElement)');
+  await evaluate("window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'instant' })");
+  assert.equal(await evaluate("Math.abs(document.querySelector('.site-footer').getBoundingClientRect().bottom - innerHeight) < 1"), true, 'Landing footer floats in fullscreen');
+  await screenshot('lego-landing-fullscreen-footer.png');
+  await evaluate('document.exitFullscreen()');
+  await waitFor('!document.fullscreenElement');
 
   console.log('Browser-smoke-test OK');
   console.log(`- Mobil drawer: ${mobileDrawerShot}`);

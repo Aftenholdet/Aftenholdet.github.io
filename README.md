@@ -4,6 +4,8 @@ En statisk prototype til Teknologiskolens LEGO-byggevejledninger og programmerin
 
 Sitet indeholder alle fire niveauer og alle 20 robotprojekter fra den downloadede `Differentieret Læring`-mappe med komplette web-byggevejledninger. Forsidens kodehjælp åbner et fuldt bibliotek på `#/library` med platformvalg, billedkort, kategorier og søgning. Emner har egne sider på `#/library/<emne-id>`. Under en byggevejledning åbnes hjælpen fortsat i et sidepanel.
 
+Alle kapitler i et kodeemne vises efter hinanden, både på emnesiden og i sidepanelet. Oversigten under platform- og kodevalget springer til et kapitel uden at skjule de øvrige. Platform- og kodevalg opdaterer hele guiden.
+
 ## Teknisk opbygning
 
 - `index.html` er den eneste HTML-indgang.

@@ -2,7 +2,6 @@ import {
   codeModeOptions,
   findAvailableAlternative,
   getLevel,
-  getLibrarySection,
   getLibraryTopic,
   getProject,
   getProjectsForLevel,
@@ -31,7 +30,6 @@ const state = {
   drawerOpen: false,
   libraryView: 'index',
   libraryTopicId: null,
-  librarySectionId: null,
   librarySearch: '',
   libraryCategoryId: 'all',
   selectedPlatform: readChoice('selectedPlatform', ['spike', 'mindstorms'], 'spike'),
@@ -83,7 +81,6 @@ function renderRoute() {
     const topic = getLibraryTopic(state.route.id);
     if (state.route.id && !topic) return renderNotFound();
     state.libraryTopicId = topic?.id ?? null;
-    state.librarySectionId = null;
     state.libraryView = topic ? 'topic' : 'index';
     const mode = state.route.query.get('mode');
     if (codeModeOptions.some(option => option.id === mode)) {
@@ -163,14 +160,6 @@ function renderLibraryPage(topic = getLibraryTopic(state.libraryTopicId), { focu
       <main id="main-content" class="page-section library-main">
         ${topic ? `
           <div class="library-guide-layout">
-            <aside class="library-guide-nav" aria-label="Emnets vejledninger" data-category-color="${topic.categoryId}">
-              ${topicPicture(topic)}
-              <p class="eyebrow">${escapeHtml(topic.name)}</p>
-              <nav aria-label="Vælg hjælp">
-                ${topic.sections.map(section => `<button type="button" data-library-section="${section.id}" aria-current="${getLibrarySection(topic, state.librarySectionId).id === section.id ? 'true' : 'false'}">${escapeHtml(section.name)}</button>`).join('')}
-              </nav>
-              <a class="library-all-link" href="#/library">Se alle kodeemner</a>
-            </aside>
             <article class="library-guide-content">${libraryGuideHtml(topic, true)}</article>
           </div>
         ` : `
@@ -216,10 +205,6 @@ function renderLibraryPage(topic = getLibraryTopic(state.libraryTopicId), { focu
     state.selectedPlatform = input.value;
     writeStorage('selectedPlatform', input.value);
     renderLibraryPage(null, { focusSelector: `input[name="library-platform"][value="${input.value}"]` });
-  }));
-  app.querySelectorAll('[data-library-section]').forEach(button => button.addEventListener('click', () => {
-    state.librarySectionId = button.dataset.librarySection;
-    renderLibraryPage(topic, { focusSelector: `[data-library-section="${button.dataset.librarySection}"]` });
   }));
   if (focusSelector) requestAnimationFrame(() => app.querySelector(focusSelector)?.focus({ preventScroll: true }));
 }
@@ -601,9 +586,10 @@ function libraryGuideHtml(topic, fullPage = false) {
     return libraryIndexHtml();
   }
 
-  const section = getLibrarySection(topic, state.librarySectionId);
-  state.librarySectionId = section.id;
-  const selection = getSectionSelection(section);
+  const selection = {
+    platforms: [...new Set(topic.sections.flatMap(section => getSectionSelection(section).platforms))],
+    codeModes: [...new Set(topic.sections.flatMap(section => getSectionSelection(section).codeModes))],
+  };
 
   return `
     ${fullPage ? '' : `<div class="drawer-header guide-header">
@@ -617,29 +603,44 @@ function libraryGuideHtml(topic, fullPage = false) {
         <p>${escapeHtml(topic.description)}</p>
       </div>
 
-      ${fullPage ? '' : sectionPicker(topic, section)}
+      <div class="guide-intro-picture" data-category-color="${topic.categoryId}">
+        ${topicPicture(topic)}
+      </div>
+
       <div class="guide-options">
       ${selection.platforms.length > 1 ? choiceGroup('platform', 'Platform', platformOptions.filter((option) => selection.platforms.includes(option.id)), state.selectedPlatform) : ''}
       ${selection.codeModes.length > 1 ? choiceGroup('code-mode', 'Kode', codeModeOptions.filter((option) => selection.codeModes.includes(option.id)), state.selectedCodeMode) : ''}
       </div>
 
+      ${chapterOverviewHtml(topic, fullPage)}
+
       <div id="guide-variant-content" class="guide-variant-content" tabindex="-1">
-        ${guideVariantHtml(topic, section)}
+        ${guideChaptersHtml(topic, fullPage)}
       </div>
     </div>
   `;
 }
 
-function sectionPicker(topic, selectedSection) {
+function chapterOverviewHtml(topic, fullPage) {
   if (topic.sections.length < 2) return '';
+  const heading = fullPage ? 'h2' : 'h3';
   return `
-    <label class="section-picker" for="library-section">
-      <span>Vælg hjælp</span>
-      <select id="library-section">
-        ${topic.sections.map((section) => `<option value="${section.id}" ${section.id === selectedSection.id ? 'selected' : ''}>${escapeHtml(section.name)}</option>`).join('')}
-      </select>
-    </label>
+    <nav class="chapter-overview" aria-labelledby="chapter-overview-title" data-category-color="${topic.categoryId}">
+      <${heading} id="chapter-overview-title">I denne guide</${heading}>
+      <p>Vælg det kapitel, du vil se.</p>
+      <ul role="list">${topic.sections.map(section => `<li><button type="button" data-chapter-jump="${section.id}">${escapeHtml(section.name)}</button></li>`).join('')}</ul>
+    </nav>
   `;
+}
+
+function guideChaptersHtml(topic, fullPage) {
+  const heading = fullPage ? 'h2' : 'h3';
+  return topic.sections.map(section => `
+    <section class="guide-chapter" data-chapter="${section.id}" data-category-color="${topic.categoryId}" aria-labelledby="chapter-${section.id}">
+      <${heading} id="chapter-${section.id}" class="chapter-title" tabindex="-1">${escapeHtml(section.name)}</${heading}>
+      ${guideVariantHtml(topic, section, fullPage ? 'h3' : 'h4')}
+    </section>
+  `).join('');
 }
 
 function choiceGroup(name, legend, options, selected) {
@@ -660,7 +661,7 @@ function choiceGroup(name, legend, options, selected) {
   `;
 }
 
-function guideVariantHtml(topic, section) {
+function guideVariantHtml(topic, section, heading) {
   const resolved = resolveLibraryVariant(section, state.selectedPlatform, state.selectedCodeMode);
   const variant = resolved.variant;
 
@@ -675,7 +676,7 @@ function guideVariantHtml(topic, section) {
           ].filter(Boolean).join(' · ');
     return `
       ${selectionLabel ? `<p class="variant-label">${escapeHtml(selectionLabel)}</p>` : ''}
-      ${variant.content.map((content) => guideContentHtml(content, resolved.platform)).join('')}
+      ${variant.content.map((content) => guideContentHtml(content, resolved.platform, heading)).join('')}
     `;
   }
 
@@ -687,7 +688,7 @@ function guideVariantHtml(topic, section) {
     <div class="variant-status status-${variant?.status || 'missing'}" role="status">
       <span class="status-icon" aria-hidden="true">${variant?.status === 'coming-soon' ? '…' : '!'}</span>
       <div>
-        <h3>${status[0]}</h3>
+        <${heading}>${status[0]}</${heading}>
         <p>${status[1]}</p>
         ${alternative ? alternativeButton(alternative, resolved) : ''}
       </div>
@@ -695,11 +696,11 @@ function guideVariantHtml(topic, section) {
   `;
 }
 
-function guideContentHtml(content, platform) {
+function guideContentHtml(content, platform, heading) {
   if (content.type === 'code') {
     return `
       <section class="guide-section">
-        <h3>${escapeHtml(content.title)}</h3>
+        <${heading}>${escapeHtml(content.title)}</${heading}>
         <div class="code-block" data-code-platform="${escapeAttribute(platform)}">
           <div class="code-block-label">${escapeHtml(optionLabel(platformOptions, platform))} · Python</div>
           <pre tabindex="0" aria-label="${escapeAttribute(content.title)}"><code>${highlightPython(content.text)}</code></pre>
@@ -720,7 +721,7 @@ function guideContentHtml(content, platform) {
   if (content.type === 'text') {
     return `
       <section class="guide-section guide-copy">
-        <h3>${escapeHtml(content.heading)}</h3>
+        <${heading}>${escapeHtml(content.heading)}</${heading}>
         ${content.text.split(/\n+/).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
       </section>
     `;
@@ -763,14 +764,14 @@ function bindHelpContent() {
   bindTopicButtons();
   root.querySelector('[data-back-library]')?.addEventListener('click', () => {
     state.libraryView = 'index';
-    state.librarySectionId = null;
     renderHelp();
   });
 
-  root.querySelector('#library-section')?.addEventListener('change', (event) => {
-    state.librarySectionId = event.target.value;
-    renderHelp({ focusSelector: '#library-section' });
-  });
+  root.querySelectorAll('[data-chapter-jump]').forEach(button => button.addEventListener('click', () => {
+    const heading = root.querySelector(`#chapter-${button.dataset.chapterJump}`);
+    heading?.focus({ preventScroll: true });
+    heading?.scrollIntoView({ block: 'start' });
+  }));
 
   root.querySelectorAll('input[name="platform"]').forEach((input) => {
     input.addEventListener('change', () => {
@@ -804,7 +805,6 @@ function bindTopicButtons() {
   drawerRoot.querySelectorAll('[data-topic]').forEach((button) => {
     button.addEventListener('click', () => {
       state.libraryTopicId = button.dataset.topic;
-      state.librarySectionId = null;
       state.libraryView = 'topic';
       renderDrawer();
     });
@@ -813,17 +813,17 @@ function bindTopicButtons() {
 
 function updateGuideVariant() {
   const topic = getLibraryTopic(state.libraryTopicId);
-  const section = getLibrarySection(topic, state.librarySectionId);
   const content = helpRoot().querySelector('#guide-variant-content');
-  if (topic && section && content) {
-    content.innerHTML = guideVariantHtml(topic, section);
+  if (topic && content) {
+    content.innerHTML = guideChaptersHtml(topic, !state.drawerOpen);
     bindVariantAction();
   }
 }
 
 function bindVariantAction() {
   const root = helpRoot();
-  root.querySelector('[data-select-platform][data-select-code-mode]')?.addEventListener('click', (event) => {
+  root.querySelectorAll('[data-select-platform][data-select-code-mode]').forEach(button => button.addEventListener('click', (event) => {
+    const chapterId = event.currentTarget.closest('[data-chapter]').dataset.chapter;
     const { selectPlatform, selectCodeMode } = event.currentTarget.dataset;
     if (selectPlatform !== state.selectedPlatform) {
       state.selectedPlatform = selectPlatform;
@@ -838,8 +838,8 @@ function bindVariantAction() {
       if (codeModeInput) codeModeInput.checked = true;
     }
     updateGuideVariant();
-    root.querySelector('#guide-variant-content')?.focus();
-  });
+    root.querySelector(`#chapter-${chapterId}`)?.focus();
+  }));
 }
 
 function handleGlobalKeydown(event) {
