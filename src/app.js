@@ -702,7 +702,13 @@ function guideContentHtml(content, platform, heading) {
       <section class="guide-section">
         <${heading}>${escapeHtml(content.title)}</${heading}>
         <div class="code-block" data-code-platform="${escapeAttribute(platform)}">
-          <div class="code-block-label">${escapeHtml(optionLabel(platformOptions, platform))} · Python</div>
+          <div class="code-block-label">
+            <span>${escapeHtml(optionLabel(platformOptions, platform))} · Python</span>
+            <button class="code-copy-button" type="button" data-copy-code aria-label="Kopiér ${escapeAttribute(content.title)}">
+              <span class="copy-icon" aria-hidden="true"></span>
+              <span data-copy-label>Kopiér</span>
+            </button>
+          </div>
           <pre tabindex="0" aria-label="${escapeAttribute(content.title)}"><code>${highlightPython(content.text)}</code></pre>
         </div>
       </section>
@@ -790,7 +796,50 @@ function bindHelpContent() {
   });
 
   bindVariantAction();
+  bindCodeCopyButtons();
   bindClearLibrary();
+}
+
+function bindCodeCopyButtons() {
+  helpRoot().querySelectorAll('[data-copy-code]').forEach(button => {
+    button.addEventListener('click', async () => {
+      const code = button.closest('.code-block')?.querySelector('code')?.textContent;
+      if (typeof code !== 'string') return;
+
+      try {
+        await copyText(code);
+        const label = button.querySelector('[data-copy-label]');
+        button.classList.add('is-copied');
+        if (label) label.textContent = 'Kopieret';
+        announce('Koden er kopieret.');
+        window.setTimeout(() => {
+          if (!button.isConnected) return;
+          button.classList.remove('is-copied');
+          if (label) label.textContent = 'Kopiér';
+        }, 1800);
+      } catch {
+        announce('Koden kunne ikke kopieres. Markér koden og kopiér den manuelt.');
+      }
+    });
+  });
+}
+
+async function copyText(text) {
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.setAttribute('readonly', '');
+  textarea.style.position = 'fixed';
+  textarea.style.opacity = '0';
+  document.body.append(textarea);
+  textarea.select();
+  const copied = document.execCommand('copy');
+  textarea.remove();
+  if (!copied) throw new Error('Copy command failed');
 }
 
 function bindClearLibrary() {
@@ -817,6 +866,7 @@ function updateGuideVariant() {
   if (topic && content) {
     content.innerHTML = guideChaptersHtml(topic, !state.drawerOpen);
     bindVariantAction();
+    bindCodeCopyButtons();
   }
 }
 

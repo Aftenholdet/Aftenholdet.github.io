@@ -138,6 +138,16 @@ try {
   await waitFor("Boolean(document.querySelector('.library-guide-content .code-block'))");
   await waitFor("document.activeElement.tagName === 'H1'");
   assert.equal(await evaluate("document.querySelector('.code-block').dataset.codePlatform"), 'spike');
+  assert.equal(await evaluate("document.querySelectorAll('[data-copy-code]').length === document.querySelectorAll('.code-block').length"), true, 'Every text-code window needs a copy button');
+  await evaluate(`Object.defineProperty(navigator, 'clipboard', {
+    configurable: true,
+    value: { writeText: async (text) => { window.__copiedCode = text; } },
+  })`);
+  const fullPageCode = await evaluate("document.querySelector('.code-block code').textContent");
+  await evaluate("document.querySelector('[data-copy-code]').click()");
+  await waitFor("document.querySelector('[data-copy-code]').classList.contains('is-copied')");
+  assert.equal(await evaluate("window.__copiedCode"), fullPageCode, 'Full-page copy changed the code text');
+  assert.equal(await evaluate("document.querySelector('[data-copy-label]').textContent"), 'Kopieret');
   assert.equal(await evaluate("document.querySelectorAll('.guide-chapter').length"), 4, 'Motor chapters must all be present without selecting one');
   assert.deepEqual(await evaluate("[...document.querySelectorAll('.chapter-title')].map(heading => heading.textContent)"), [
     'Kør motor i retning', 'Kør motor X grader i retning', 'Kør motor til position i retning', 'Kør to motorer samtidig',
@@ -207,6 +217,11 @@ try {
   assert.equal(await evaluate("localStorage.getItem('selectedPlatform')"), 'mindstorms');
   assert.equal(await evaluate("localStorage.getItem('selectedCodeMode')"), 'text');
   assert.equal(await evaluate("document.querySelector('#guide-variant-content').textContent.includes('DistanceSensor')"), true);
+  assert.equal(await evaluate("document.querySelectorAll('[data-copy-code]').length === document.querySelectorAll('.code-block').length"), true, 'Drawer code windows need copy buttons');
+  const drawerCode = await evaluate("document.querySelector('.code-block code').textContent");
+  await evaluate("document.querySelector('[data-copy-code]').click()");
+  await waitFor("document.querySelector('[data-copy-code]').classList.contains('is-copied')");
+  assert.equal(await evaluate("window.__copiedCode"), drawerCode, 'Drawer copy changed the code text');
   assert.equal(await evaluate("document.querySelector('pre code').textContent.includes('\\n\\n# Opret')"), true, 'Rendered code lost its PowerPoint line breaks');
   assert.equal(await evaluate("getComputedStyle(document.querySelector('.code-block')).backgroundColor"), 'rgb(30, 30, 30)', 'MINDSTORMS should use a dark editor');
   assert.notEqual(await evaluate("getComputedStyle(document.querySelector('.syntax-keyword')).color"), await evaluate("getComputedStyle(document.querySelector('pre code')).color"), 'Python keywords lack highlighting');
