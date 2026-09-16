@@ -201,6 +201,12 @@ try {
     await navigate(`${siteUrl}/#/library`, '.library-card-grid');
     assert.equal(await evaluate('document.documentElement.scrollWidth <= window.innerWidth'), true, `Library overflows at ${width}px`);
     if (width === 1440) {
+      assert.equal(await evaluate(`(() => {
+        const intro = document.querySelector('.library-intro').getBoundingClientRect();
+        const platforms = document.querySelector('.library-platforms').getBoundingClientRect();
+        const discovery = document.querySelector('.library-discovery').getBoundingClientRect();
+        return platforms.top >= intro.bottom && discovery.top >= platforms.bottom;
+      })()`), true, 'Platform selector should sit between the library introduction and discovery controls');
       await evaluate("document.querySelectorAll('.library-page img').forEach(image => image.loading = 'eager')");
       await waitFor("[...document.querySelectorAll('.library-page img')].every(image => image.complete && image.naturalWidth > 0)");
       await screenshot('lego-library-desktop.png');

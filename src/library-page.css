@@ -12,11 +12,11 @@
 }
 .library-main { flex: 1; padding-block: 48px 72px; }
 .library-page[data-library-platform='mindstorms'] .library-main { color: var(--library-page-text); }
-.library-welcome { display: grid; grid-template-columns: 0.9fr 1.4fr; align-items: center; gap: 36px; margin-bottom: 36px; }
+.library-welcome { display: grid; grid-template-columns: 1fr; gap: 28px; margin-bottom: 36px; }
 .library-intro h1 { margin-bottom: 14px; font-size: clamp(2rem, 3.3vw, 3rem); letter-spacing: -0.04em; }
 .library-intro > p:last-child { max-width: 350px; margin: 0; color: var(--library-page-muted); font-size: 1.08rem; }
 .library-page[data-library-platform='mindstorms'] .library-intro .eyebrow { color: #63d2ce; }
-.library-platforms { min-width: 0; padding: 0; margin: 0; border: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.library-platforms { width: min(100%, 820px); min-width: 0; padding: 0; margin: 0; border: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .library-platforms legend { margin-bottom: 12px; font-size: 0.94rem; font-weight: 800; }
 .library-platform { position: relative; min-width: 0; cursor: pointer; }
 .library-platform input { position: absolute; width: 1px; height: 1px; opacity: 0; }

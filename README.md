@@ -15,7 +15,7 @@ Alle kapitler i et kodeemne vises efter hinanden, både på emnesiden og i sidep
 - `src/library-page.css` indeholder layoutet til det fulde bibliotek og emnesiderne.
 - `src/library-visuals.js` samler billedreferencer og korte elevtekster til bibliotekskortene.
 - `src/highlight-python.js` farvelægger Python-eksempler uden at ændre kodens tekst. SPIKE bruger et lyst tema, og MINDSTORMS bruger et mørkt tema.
-- `assets/brand/` indeholder Teknologiskolens originale logoer og banner. Det hvide logo bruges i headeren, farvelogoet i footeren og som favicon, og banneret til linkforhåndsvisninger på GitHub Pages.
+- `assets/brand/` indeholder Teknologiskolens originale logoer og banner samt LEGO-klodsens favicon. Det hvide logo bruges i headeren, farvelogoet i footeren, LEGO-klodsen som favicon og banneret til linkforhåndsvisninger på GitHub Pages.
 - `assets/projects/` indeholder udtrukne thumbnails.
 - `assets/generated/build-guides/` indeholder pipeline-genererede byggevejledninger og metadata.
 - `assets/generated/library/` indeholder de auditerede blokkodebilleder som near-lossless WebP.
